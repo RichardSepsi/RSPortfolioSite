@@ -1,3 +1,3 @@
 # RSPortfolioSite
 
-Code for my personal portfolio page
+Code for my personal portfolio website
