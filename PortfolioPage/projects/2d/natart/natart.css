@@ -1,0 +1,70 @@
+.natart-project-slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+.natart-slide-buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+.natart-svg-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc((100vw - 480px) / 100 * 52.95);
+    justify-content: space-between;
+    max-width: 1305px;
+    max-height: 691px;
+}
+.natart-svg-top{
+    height: 40.52%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.natart-svg-bottom{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.natart-svg{
+    transition-duration: 200ms;
+    cursor: crosshair;
+    border-radius: 2px;
+    outline: 4px solid transparent;
+    height: 100%;
+    width: auto;
+}
+.natart-svg:hover{
+    transition-duration: 200ms;
+    outline: 4px solid #969696;
+    background-color: #969696;
+}
+.natart-svg-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.natart-svg-wrapper:hover .natart-label{
+    opacity: 1;
+    transition-duration: 200ms;
+}
+.natart-label{
+    position: absolute;
+    background-color: #373737;
+    padding: 9px 14px;
+    user-select: none;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-bottom: -20px;
+    opacity: 0;
+    transition-duration: 200ms;
+    pointer-events: none;
+}

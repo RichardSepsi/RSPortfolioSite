@@ -1,0 +1,305 @@
+.unageo-nav {
+    height: 190px;
+    padding-top: 80px;
+    backdrop-filter: blur(30px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    z-index: 20;
+    transition-duration: 300ms;
+}
+.unageo-nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+.unageo-nav-left{
+    display: flex;
+    flex-direction: row;
+}
+.unageo-github{
+    cursor: pointer;
+    filter: brightness(70%);
+    transition-duration: 200ms;
+}
+.unageo-github:hover{
+    filter: brightness(90%);
+    transition-duration: 200ms;
+}
+.unageo-github:active{
+    filter: brightness(100%);
+    transition-duration: 200ms;
+}
+.unageo-rows{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 200px;
+    max-width: 1200px;
+}
+.unageo-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.unageo-intro-title{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    font-family: Unageo-vf !important;
+}
+.unageo-intro-text{
+    width: calc(100% - 310px);
+    padding: 22px 0 20px 40px;
+    font-family: Unageo-vf;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 400;
+}
+.unageo-intro-waterfall{
+    width: 426px;
+    overflow: hidden;
+    padding: 20px 0 20px 10px;
+    font-family: Unageo-vf;
+    text-wrap: nowrap;
+}
+.unageo-intro-letters{
+    overflow: hidden;
+    padding: 20px 10px 20px 10px;
+    font-family: Unageo-vf;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 85%;
+}
+.unageo-intro-num{
+    width: 250px;
+    overflow: hidden;
+    padding: 20px 0 20px 10px;
+    font-family: Unageo-vf;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 70%;
+}
+.unageo-var-container{
+    width: 99%;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 26px;
+    margin-top: 30px;
+    font-family: Unageo-vf;
+    padding: 26px;
+}
+.unageo-var-controls-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 94px;
+}
+.unageo-var-control{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 12px;
+}
+.unageo-var-slider-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.unageo-var-num{
+    height: 42px;
+    width: 72px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #cccccc;
+    border: 0;
+    padding-left: 12px;
+    padding-right: 6px;
+    border-radius: 14px 8px 8px 14px;
+    font-family: Unageo-vf;
+}
+.unageo-var-numselector-wrapper{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+.unageo-var-num {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+.unageo-var-num::-webkit-inner-spin-button, 
+.unageo-var-num::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+.unageo-var-numselector-button-container{
+    position: absolute;
+}
+.unageo-var-numselector-button{
+    width: 17px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.12);;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    font-family: Unageo-vf;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.unageo-var-numselector-button:hover{
+    background-color: rgba(255, 255, 255, 0.18);;
+}
+.unageo-var-numselector-button:active{
+    background-color: rgba(255, 255, 255, 0.24);;
+}
+.unageo-var-varslider-wrapper{
+    margin-left: 3px;
+    width: 230px;
+    height: 42px;
+    border-radius: 8px 14px 14px 8px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unageo-var-varslider {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 6px;
+    border-radius: 5px;  
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+.unageo-var-varslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 20px;
+    border-radius: 20px; 
+    background: #0068ff;
+    cursor: pointer;
+}
+.unageo-var-varslider.two::-webkit-slider-thumb {
+    background: #007eff;
+}
+.unageo-var-varslider.three::-webkit-slider-thumb {
+    background: #0095ff;
+}
+.unageo-var-varslider.four::-webkit-slider-thumb {
+    background: #00acff;
+}
+.unageo-var-varslider::-moz-range-thumb {
+    width: 30px;
+    height: 20px;
+    border-radius: 20px; 
+    background: #969696;
+    cursor: pointer;
+}
+.Unageo-fonttestfield{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 0;
+    padding: 24px;
+    outline: none;
+    font-family: Unageo-vf;
+    resize: vertical;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    max-height: 240px;
+    min-height: 120px;
+    color: #e6e6e6;
+    margin-bottom: -5px;
+
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.unageo-scripts-left{
+    padding: 40px 30px 40px 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.unageo-scripts-right{
+    padding: 40px 10px 40px 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.unageo-scripts-title{
+    font-family: Unageo-vf;
+    font-size: 28px;
+    font-weight: 500;
+}
+.unageo-scripts-subtitle{
+    font-family: Unageo-vf;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 40%;
+    margin-left: 10px;
+}
+.unageo-scripts-desc{
+    font-family: Unageo-vf;
+    font-weight: 450;
+    opacity: 60%;
+}
+.unageo-scripts-descb{
+    font-family: Unageo-vf;
+    font-weight: 500;
+    opacity: 90%;
+}
+.unageo-scripts-pangram{
+    margin-top: 16px;
+    font-family: Unageo-vf;
+    font-size: 22px;
+    font-weight: 400;
+    opacity: 90%;
+    line-height: 28px;
+}
+.unageo-scripts-chars{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 446px;
+    opacity: 80%;
+    font-family: Unageo-vf;
+}
+.unageo-row-title{
+    margin-left: 8px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-size: 28px;
+    font-family: Unageo-vf;
+    font-weight: 500;
+}
+.unageo-story-textcolumn{
+    width: 400px;
+    flex-direction: column;
+}
+.unageo-story-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.unageo-story-text{
+    padding: 12px 10px;
+    font-family: Unageo-vf;
+    font-weight: 450;
+    color: #cccccc;
+    line-height: 1.46;
+}
+.unageo-story-images{
+    margin-left: auto;
+}
