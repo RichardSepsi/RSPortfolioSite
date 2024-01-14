@@ -5,10 +5,6 @@
     font-weight: 100 1000;
 }
 @font-face {
-    font-family: Unageo;
-    src: url(../assets/Unageo-semibold.ttf);
-}
-@font-face {
     font-family: Unageo-vf;
     src: url(../projects/2d/unageo/Unageo[wght\,ital].ttf);
     font-weight: 300 900;

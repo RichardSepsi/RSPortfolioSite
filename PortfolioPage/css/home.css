@@ -104,6 +104,7 @@
     justify-content: space-between;
     width: 164px;
     margin-left: 6px;
+    user-select: none;
 }
 .title-text{
     color: #cccccc;
