@@ -239,6 +239,13 @@ body {
     align-items: center;
     user-select: none;
 }
+.footer-social-container{
+    display: flex;
+    justify-content: space-between;
+    width: 164px;
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
 .footer-center{
     margin-left: 80px;
     margin-right: 80px;

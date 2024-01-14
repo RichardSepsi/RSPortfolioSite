@@ -58,6 +58,7 @@
     opacity: 1;
     width: 100%;
     height: auto;
+    user-select: none;
 }
 .home-svg-wrapper, .home-svg, .home-svg-2{
     transition: none;
@@ -100,13 +101,9 @@
 .title-social-container{
     display: flex;
     margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 184px;
+    justify-content: space-between;
+    width: 164px;
     margin-left: 6px;
-}
-.title-social{
-    margin-right: 20px;
 }
 .title-text{
     color: #cccccc;
