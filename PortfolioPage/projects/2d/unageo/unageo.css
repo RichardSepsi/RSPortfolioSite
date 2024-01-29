@@ -286,14 +286,16 @@
     font-family: Unageo-vf;
     font-weight: 500;
 }
-.unageo-story-textcolumn{
-    width: 400px;
-    flex-direction: column;
-}
-.unageo-story-row{
+.unageo-story-textsection{
+    width: 100%px;
     display: flex;
-    width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.unageo-story-par{
+    display: flex;
+    flex-direction: column;
 }
 .unageo-story-text{
     padding: 12px 10px;
@@ -301,9 +303,6 @@
     font-weight: 450;
     color: #cccccc;
     line-height: 1.46;
-}
-.unageo-story-images{
-    margin-left: auto;
 }
 .unageo-github-text{
     width: 560px;
@@ -320,7 +319,7 @@
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    margin-bottom: 100px;
+    justify-content: center;
 }
 .unageo-bottom-links-download{
     display: flex;
@@ -345,4 +344,21 @@
 }
 .unageo-smallbutton:active{
     background-color: #2d2d2d;
+}
+.unageo-bottom-sources{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url('/projects/2d/unageo/unageo_art-bg.svg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+.unageo-row-bottom{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-direction: column;
+    max-width: 1200px;
 }
