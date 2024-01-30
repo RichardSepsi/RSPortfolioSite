@@ -35,7 +35,6 @@
 }
 .natart-svg{
     transition-duration: 200ms;
-    cursor: crosshair;
     border-radius: 2px;
     outline: 4px solid transparent;
     height: 100%;
