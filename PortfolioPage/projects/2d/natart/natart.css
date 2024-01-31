@@ -2,33 +2,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    flex-direction: column;
-}
-.natart-slide-buttons{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    padding-top: 80px;
     flex-direction: row;
+    width: 100%;
 }
 .natart-svg-container{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc((100vw - 480px) / 100 * 52.95);
+    height: calc(-315px + 52.95vw);
     justify-content: space-between;
     max-width: 1305px;
-    max-height: 691px;
+    max-height: 692px;
 }
 .natart-svg-top{
-    height: 40.52%;
+    height: 40.5%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 .natart-svg-bottom{
-    height: 55%;
+    height: 54.6%;
     width: 100%;
     display: flex;
     justify-content: space-between;

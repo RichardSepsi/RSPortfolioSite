@@ -13,6 +13,24 @@
     width: calc(100% - 480px);
     max-height: 100vh;
     overflow: scroll;
+    display: flex;
+    flex-direction: row;
+}
+.project-slide-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+.project-image-content{
+    background-color: #101010;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 
@@ -157,7 +175,7 @@
 }
 .project-link-button-label{
     font-weight: 500;
-    padding: 0 20px;
+    padding: 0 14px 0px 20px;
     pointer-events: none;
 }
 .project-link-button-ext{
@@ -169,8 +187,9 @@
     background-color: #373737;
     height: 44px;
     width: 44px;
-    border-radius: 14px;
+    border-radius: 12px;
     margin-right: 6px;
+    margin-left: 6px;
     transition-duration: 200ms;
     z-index: 1;
 }
@@ -227,7 +246,7 @@
 }
 .project-fullscreen-menu{
     width: 270px;
-    height: 85px;
+    height: 83px;
     background-color: #212121;
     border-radius: 22px;
     position: absolute;
