@@ -187,7 +187,7 @@ function aboutanifunct() {
             anime({
                 targets: '.aboutme-anime-svg',
                 opacity: 1,
-                duration: 500,
+                duration: 800,
                 delay: 350,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
@@ -201,14 +201,14 @@ function aboutanifunct() {
             anime({
                 targets: '.aboutme-anime-2',
                 opacity: 1,
-                duration: 600,
+                duration: 800,
                 delay: 550,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.aboutme-anime-2',
                 translateX: 0,
-                duration: 900,
+                duration: 800,
                 delay: 550,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
