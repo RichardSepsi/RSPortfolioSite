@@ -40,6 +40,7 @@
     height: 100vh;
     padding: 40px;
     padding-top: 100px;
+    padding-bottom: 0px;
     max-height: 100vh;
     overflow: scroll;
 }

@@ -126,13 +126,12 @@ anime({
 
 
 
-
 // function to hide scroll down tip after scrolling and show the small d home link after scrolling a certain distance
 
 // set the visibility of small d to 0 by default and show it after scrolling far enough
 var smalldvisibility = 0;
 sessionStorage.setItem("smalldkey", smalldvisibility);
-window.onscroll = function() {
+function smalldanifunct() {
     if(smalldvisibility == 0){
         if(window.pageYOffset >= 400){
             anime({
@@ -169,4 +168,57 @@ window.onscroll = function() {
     }
 
     header.style.opacity = (1 - ((scroll - start) / length)).toString();
+}
+
+let aboutscrolled = 0
+function aboutanifunct() {
+    if(aboutscrolled == 0){
+        if(window.pageYOffset >= 100){
+            anime({
+                targets: '.aboutme-anime-1',
+                width: '100%',
+                duration: 700,
+                delay: 100,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+        }
+        if(window.pageYOffset >= 220){
+            aboutscrolled = 1
+            anime({
+                targets: '.aboutme-anime-svg',
+                opacity: 1,
+                duration: 500,
+                delay: 350,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-svg',
+                translateY: 0,
+                duration: 800,
+                delay: 350,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-2',
+                opacity: 1,
+                duration: 600,
+                delay: 550,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-2',
+                translateX: 0,
+                duration: 900,
+                delay: 550,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+        }
+    }
+}
+
+
+
+window.onscroll = function() {
+    smalldanifunct();
+    aboutanifunct();
 }

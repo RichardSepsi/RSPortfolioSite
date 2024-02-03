@@ -140,13 +140,14 @@
         </div>
         <div class="home-content-container">
             <div class="about-me-container">
-                <svg width="151px" height="39px" style="margin-top: 25px; margin-right: 90px;">
+                <div style="position: absolute; top: 0; left: 0; height: 100%; width: 0%; background-color: #1C1C1C;" class="aboutme-anime-1"></div>
+                <svg width="151px" height="39px" style="margin-top: 25px; margin-right: 90px; opacity: 0; transform: translateY(-20px);" class="aboutme-anime-svg">
                     <text x="50%" y="70%" text-anchor="middle" fill="#4D4D4D" font-weight="600" font-size="32px" stroke="#4D4D4D" stroke-width="1.8">About me</text>
                     <text x="50%" y="70%" text-anchor="middle" fill="url(#paint0_linear_217_2)" font-weight="600" font-size="32px">About me</text>
                     <defs><linearGradient id="paint0_linear_217_2" x1="77.5" y1="40" x2="89" y2="-25" gradientUnits="userSpaceOnUse">
                     <stop stop-color="#0CC5F7"/><stop offset="1" stop-color="#035AE1"/></linearGradient></defs>
                 </svg>
-                <div class="section-content-wrapper">
+                <div class="section-content-wrapper aboutme-anime-2" style="opacity: 0; transform: translateX(-30px);">
                     <div class="about-me-text">
                         I first got into what I do when I was about 10. I used to play games on my phone, and I thought that it would be fun to make my own, so I signed up for a local game programming course. We made various simple games in basic programming languages, but we also had to work on the game's visuals and design the interface, which was a surprisingly big part of it. 
                     </div>
@@ -163,7 +164,7 @@
                 <div style="width: 120px;"></div>
             </div>
             <div class="skills-container">
-                <svg width="141px" height="78px" style="margin-top: 25px; margin-right: 100px;">
+                <svg width="141px" height="78px" style="margin-right: 100px;">
                     <text x="0%" y="32" text-anchor="right" fill="#4D4D4D" font-weight="600" font-size="32px" stroke="#4D4D4D" stroke-width="1.8">Skills</text>
                     <text x="90" y="32" text-anchor="right" fill="#373737" font-weight="600" font-size="32px" stroke="#373737" stroke-width="1.8">&</text>
                     <text x="90" y="32" text-anchor="right" fill="#4D4D4D" font-weight="600" font-size="32px">&</text>
@@ -257,11 +258,18 @@
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/darktable.svg" draggable="false">
                         <div class="software-tooltip-window"><span class="software-tooltip-title">Darktable</span><span class="software-tooltip-text">Used in 0 projects</span></div></div>
                     </div>
-                    <div class="software-category-container last">
-                        <div class="software-tooltip-container"><img class="software-icon" src="assets/software/figma.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Figma</span><span class="software-tooltip-text">Used in 1 project</span></div></div>
-                        <div class="software-tooltip-container"><img class="software-icon" src="assets/software/inkscape.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Inkscape</span><span class="software-tooltip-text">Used in 0 projects</span></div></div>
+                    <div style="display: flex; flex-direction: column;">
+                        <div class="software-category-container last">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/figma.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Figma</span><span class="software-tooltip-text">Used in 1 project</span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/inkscape.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Inkscape</span><span class="software-tooltip-text">Used in 0 projects</span></div></div>
+                        </div>
+                        <div style="height: 31px;"></div>
+                        <div class="software-category-container last">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/fontforge.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">FontForge</span><span class="software-tooltip-text">Used in 1 project</span></div></div>
+                        </div>
                     </div>
                 </div>
             </div>
