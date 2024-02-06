@@ -235,6 +235,11 @@ body {
     align-items: center;
     user-select: none;
 }
+.footer-name{
+    color: #969696;
+    font-weight: 700;
+    font-size: 17px;
+}
 .footer-social-container{
     display: flex;
     justify-content: space-between;
