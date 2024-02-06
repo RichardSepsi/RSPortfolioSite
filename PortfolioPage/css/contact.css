@@ -1,0 +1,71 @@
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 600px);
+}
+.contact-title{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    background: rgb(3,92,226);
+    background: linear-gradient(206deg, rgba(3,92,226,1) 0%, rgba(13,197,248,1) 100%);
+    -webkit-background-clip: text;
+    Background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.contact-desc-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #969696;
+    margin-left: 104px;
+    margin-top: 6px;
+}
+.contact-desc-email{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 50px;
+    color: #cccccc;
+    margin-left: 102px;
+    margin-bottom: 14px;
+}
+.contact-social-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 104px;
+    margin-top: 12px;
+}
+.contact-tag{
+    background-color: #252525;
+    padding: 12px;
+    border-radius: 12px;
+    padding-right: 18px;
+}
+.contact-s-title{
+    font-size: 32px;
+    color: #b3b3b3;
+    margin-left: 103px;
+    margin-top: 64px;
+    font-weight: 600;
+}
+.contact-github{
+    display: flex;
+    flex-direction: column;
+    margin-left: 104px;
+    background-color: #252525;
+    padding: 24px;
+    width: fit-content;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    border-radius: 20px;
+}
+
+.contact-right{
+    display: flex;
+    width: 600px;
+    height: 100vh;
+    background-color: #121212;
+    position: fixed;
+    right: 0;
+}
