@@ -1,7 +1,7 @@
 .contact-left{
     display: flex;
     flex-direction: column;
-    width: calc(100vw - 600px);
+    width: calc(100vw - 740px);
 }
 .contact-title{
     font-size: 75px;
@@ -13,13 +13,13 @@
     Background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 140px;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 .contact-desc-title{
     font-weight: 600;
     font-size: 18px;
     color: #969696;
-    margin-left: 104px;
+    margin-left: 124px;
     margin-top: 6px;
 }
 .contact-desc-email{
@@ -27,45 +27,139 @@
     font-size: 44px;
     line-height: 50px;
     color: #cccccc;
-    margin-left: 102px;
+    margin-left: 122px;
     margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition-duration: 200ms;
+    width: fit-content;
+}
+.contact-desc-email:hover{
+    color: #969696;
+}
+.contact-desc-email:active{
+    color: #b3b3b3;
 }
 .contact-social-container{
     display: flex;
     flex-direction: row;
-    margin-left: 104px;
+    margin-left: 124px;
     margin-top: 12px;
-}
-.contact-tag{
-    background-color: #252525;
-    padding: 12px;
-    border-radius: 12px;
-    padding-right: 18px;
 }
 .contact-s-title{
     font-size: 32px;
     color: #b3b3b3;
-    margin-left: 103px;
+    margin-left: 123px;
     margin-top: 64px;
     font-weight: 600;
+    margin-bottom: 8px;
 }
 .contact-github{
     display: flex;
-    flex-direction: column;
-    margin-left: 104px;
+    flex-direction: row;
+    margin-left: 124px;
     background-color: #252525;
     padding: 24px;
     width: fit-content;
-    margin-top: 16px;
-    margin-bottom: 48px;
+    margin-top: 26px;
+    margin-bottom: 80px;
     border-radius: 20px;
 }
 
 .contact-right{
     display: flex;
-    width: 600px;
+    width: 740px;
     height: 100vh;
-    background-color: #121212;
+    background-color: #101010;
     position: fixed;
+    justify-content: center;
+    align-items: center;
     right: 0;
+    overflow: hidden;
+}
+
+
+
+.project-link-button{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background-color: #252525;
+    border-radius: 16px;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 200ms;
+    margin-right: 10px;
+}
+.project-link-button:hover{
+    background-color: #303030;
+    transition-duration: 200ms;
+}
+.project-link-button:hover .project-link-button-ext::before{
+    opacity: 1;
+    transition-duration: 200ms;
+}
+.project-link-button:hover .project-link-button-svg{
+    fill: #373737;
+    transition-duration: 200ms;
+}
+.project-link-button-label{
+    font-weight: 500;
+    padding: 0 14px 0px 20px;
+    pointer-events: none;
+}
+.project-link-button-ext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    background-color: #373737;
+    height: 44px;
+    width: 44px;
+    border-radius: 12px;
+    margin-right: 6px;
+    margin-left: 6px;
+    transition-duration: 200ms;
+    z-index: 1;
+}
+.project-link-button-ext::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #969696;
+    z-index: -1;
+    opacity: 0;
+    transition-duration: 200ms;
+    border-radius: 14px;
+}
+.project-link-button-svg{
+    transition-duration: 200ms;
+}
+
+
+
+.unageo-smallbutton{
+    padding: 8px 10.5px;
+    background-color: #343434;
+    border-radius: 12px;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    transition-duration: 200ms;
+    color: #cccccc;
+}
+.unageo-smallbutton:hover{
+    background-color: #3c3c3c;
+}
+.unageo-smallbutton:active{
+    background-color: #2d2d2d;
 }
