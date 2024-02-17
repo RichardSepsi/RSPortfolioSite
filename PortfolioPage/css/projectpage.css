@@ -110,7 +110,6 @@
 }
 .software-icon:hover{
     transition-duration: 200ms;
-    cursor: pointer;
 }
 .software-tooltip-container{
     position: relative;
