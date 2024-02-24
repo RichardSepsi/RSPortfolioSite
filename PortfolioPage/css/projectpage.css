@@ -49,16 +49,16 @@
     width: 26px;
     height: 26px;
     border-radius: 20px;
-    border: 6px solid #252525;
-    background-color: #252525;
+    border: 6px solid #303030;
+    background-color: #303030;
     margin-bottom: 12px;
     user-select: none;
     cursor: pointer;
     transition-duration: 250ms;
 }
 .project-slide-switcher-button.selected{
-    border: 6px solid #404040;
-    background-color: #404040;
+    border: 6px solid #505050;
+    background-color: #505050;
     height: 40px;
     transition-duration: 250ms;
 }

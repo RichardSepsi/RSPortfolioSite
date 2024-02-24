@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="512"
+   width="652"
    height="512"
-   viewBox="0 0 512 512"
+   viewBox="0 0 652 512"
    fill="none"
    version="1.1"
    id="svg117"
@@ -23,8 +23,8 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="0.80761719"
-     inkscape:cx="139.29867"
-     inkscape:cy="236.49819"
+     inkscape:cx="-51.385731"
+     inkscape:cy="237.7364"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -34,7 +34,7 @@
   <g
      clip-path="url(#clip0_419_13)"
      id="g42"
-     transform="matrix(1.0477038,0,0,1.0477038,-8.7538562,-27.787424)">
+     transform="matrix(1.3341853,0,0,1.3341853,-11.147493,-105.38554)">
     <path
        fill-rule="evenodd"
        clip-rule="evenodd"
@@ -208,10 +208,10 @@
     </radialGradient>
     <linearGradient
        id="paint1_linear_419_13"
-       x1="304.145"
+       x1="304.14499"
        y1="303.246"
        x2="185.351"
-       y2="326.816"
+       y2="326.81601"
        gradientUnits="userSpaceOnUse">
       <stop
          id="stop49" />
@@ -222,7 +222,7 @@
     </linearGradient>
     <linearGradient
        id="paint2_linear_419_13"
-       x1="159.667"
+       x1="159.66701"
        y1="203.847"
        x2="421.595"
        y2="501.181"
@@ -270,7 +270,7 @@
        id="paint5_linear_419_13"
        x1="40.2934"
        y1="237.302"
-       x2="90.0399"
+       x2="90.039902"
        y2="309.423"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -300,8 +300,8 @@
     <linearGradient
        id="paint7_linear_419_13"
        x1="366.021"
-       y1="341.516"
-       x2="345.252"
+       y1="341.51599"
+       x2="345.25201"
        y2="389.746"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -322,10 +322,10 @@
     </linearGradient>
     <linearGradient
        id="paint8_linear_419_13"
-       x1="414.235"
+       x1="414.23499"
        y1="394.293"
-       x2="423.415"
-       y2="374.683"
+       x2="423.41501"
+       y2="374.68301"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#BDBDBD"
@@ -361,8 +361,8 @@
        id="paint10_linear_419_13"
        x1="468.733"
        y1="395.634"
-       x2="481.761"
-       y2="418.308"
+       x2="481.76099"
+       y2="418.30801"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="white"
@@ -375,8 +375,8 @@
     </linearGradient>
     <linearGradient
        id="paint11_linear_419_13"
-       x1="279.071"
-       y1="325.795"
+       x1="279.07101"
+       y1="325.79501"
        x2="259.508"
        y2="330.509"
        gradientUnits="userSpaceOnUse">
@@ -392,8 +392,10 @@
       <rect
          width="512"
          height="512"
-         fill="white"
-         id="rect112" />
+         fill="#ffffff"
+         id="rect112"
+         x="0"
+         y="0" />
     </clipPath>
   </defs>
 </svg>
