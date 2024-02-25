@@ -1,140 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="60.0px"
-   height="60.0px"
-   viewBox="0 0 60.0 60.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="sk.svg"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview22690"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="5.8938833"
-     inkscape:cx="-8.3137038"
-     inkscape:cy="30.200802"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="115"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid22813" />
-  </sodipodi:namedview>
-  <defs
-     id="defs22685">
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect27602"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1"
-       unit="px"
-       method="auto"
-       mode="F"
-       radius="8"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <clipPath
-       id="c">
-      <path
-         id="s"
-         d="m 4678,1746 c 0,0 56,561 56,1683 -8,1146 -865,1726 -1494,2031 -629,-305 -1486,-885 -1494,-2031 0,-1122 56,-1683 56,-1683 z" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60">
+  <defs>
+    <clipPath id="c">
+      <path id="b" d="M4678 1746s56 561 56 1683c-8 1146-865 1726-1494 2031-629-305-1486-885-1494-2031 0-1122 56-1683 56-1683z"/>
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath27619">
-      <path
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect27621"
-         width="60"
-         height="60"
-         x="0"
-         y="0"
-         d="m 8,0 h 44 a 8,8 45 0 1 8,8 v 44 a 8,8 135 0 1 -8,8 H 8 A 8,8 45 0 1 0,52 V 8 A 8,8 135 0 1 8,0 Z"
-         inkscape:path-effect="#path-effect27602"
-         sodipodi:type="rect" />
+    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+      <path d="M8 0h44a8 8 45 0 1 8 8v44a8 8 135 0 1-8 8H8a8 8 45 0 1-8-8V8a8 8 135 0 1 8-8Z" style="fill:#000;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"/>
     </clipPath>
   </defs>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <g
-       id="g27612"
-       clip-path="url(#clipPath27619)">
-      <rect
-         style="fill:#dddddd;stroke-width:2.64567;stroke-linecap:round;fill-opacity:1"
-         id="rect22872"
-         width="60"
-         height="20"
-         x="0"
-         y="0" />
-      <rect
-         style="fill:#2a6bcd;stroke-width:2.64567;stroke-linecap:round;fill-opacity:1"
-         id="rect22874"
-         width="60"
-         height="20"
-         x="0"
-         y="20" />
-      <rect
-         style="fill:#da2c2c;stroke-width:2.64567;stroke-linecap:round;fill-opacity:1"
-         id="rect22876"
-         width="60"
-         height="20"
-         x="0"
-         y="40" />
-      <g
-         id="g27078"
-         transform="translate(-0.5323242,-1.3454302)">
-        <use
-           xlink:href="#s"
-           id="use25804"
-           transform="matrix(0.01006096,0,0,0.01006096,-2.0651862,-4.9459693)"
-           style="fill:#da2c2c;fill-opacity:1" />
-        <path
-           fill="#ffffff"
-           d="M 29.254602,43.346664 V 29.231125 c -4.778957,0 -6.137184,0.422564 -7.56585,0.855186 a 23.371622,23.371622 0 0 0 0,-4.336273 c 1.428666,0.432622 2.786893,0.855176 7.56585,0.855176 v -3.923775 c -1.509145,0 -3.591765,0.06032 -5.986279,0.87531 a 23.371622,23.371622 0 0 0 0,-4.34634 c 2.394514,0.804872 4.477134,0.865244 5.986279,0.865244 0,-1.136893 -0.352134,-3.581707 -0.794816,-5.603957 a 23.371622,23.371622 0 0 0 4.145117,0 c -0.442682,2.02225 -0.794816,4.467064 -0.794816,5.603957 1.509145,0 3.591765,-0.06032 5.986274,-0.865244 a 23.371622,23.371622 0 0 0 0,4.34634 c -2.394509,-0.814938 -4.477129,-0.87531 -5.986274,-0.87531 v 3.923775 c 4.778959,0 6.137188,-0.422554 7.565845,-0.855176 a 23.371622,23.371622 0 0 0 0,4.336273 c -1.428657,-0.432622 -2.786886,-0.855186 -7.565845,-0.855186 v 14.115539 z"
-           id="path25806"
-           style="stroke-width:0.0100609" />
-        <path
-           clip-path="url(#c)"
-           fill="#0b4ea2"
-           d="m 2463,5903 a 507,867 0 1 1 319,-1541 584,1084 0 0 1 916,0 507,867 0 1 1 319,1541 z"
-           id="path25808"
-           transform="matrix(0.01006096,0,0,0.01006096,-2.0651862,-4.9459693)"
-           style="fill:#2a6bcd;fill-opacity:1" />
-        <use
-           xlink:href="#s"
-           fill="none"
-           stroke="#ffffff"
-           stroke-width="108"
-           id="use25810"
-           transform="matrix(0.01006096,0,0,0.01006096,-2.0651862,-4.9459693)"
-           style="stroke:#dddddd;stroke-width:149.091;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
+  <g clip-path="url(#a)">
+    <path d="M0 0h60v20H0z" style="fill:#ddd;stroke-width:2.64567;stroke-linecap:round;fill-opacity:1"/>
+    <path d="M0 20h60v20H0z" style="fill:#2a6bcd;stroke-width:2.64567;stroke-linecap:round;fill-opacity:1"/>
+    <path d="M0 40h60v20H0z" style="fill:#da2c2c;stroke-width:2.64567;stroke-linecap:round;fill-opacity:1"/>
+    <g transform="translate(-.5323242 -1.3454302)">
+      <use xlink:href="#b" style="fill:#da2c2c;fill-opacity:1" transform="translate(-2.0651862 -4.9459693) scale(.01006)"/>
+      <path fill="#fff" d="M29.254602 43.346664V29.231125c-4.778957 0-6.137184.422564-7.56585.855186a23.371622 23.371622 0 0 0 0-4.336273c1.428666.432622 2.786893.855176 7.56585.855176v-3.923775c-1.509145 0-3.591765.06032-5.986279.87531a23.371622 23.371622 0 0 0 0-4.34634c2.394514.804872 4.477134.865244 5.986279.865244 0-1.136893-.352134-3.581707-.794816-5.603957a23.371622 23.371622 0 0 0 4.145117 0c-.442682 2.02225-.794816 4.467064-.794816 5.603957 1.509145 0 3.591765-.06032 5.986274-.865244a23.371622 23.371622 0 0 0 0 4.34634c-2.394509-.814938-4.477129-.87531-5.986274-.87531v3.923775c4.778959 0 6.137188-.422554 7.565845-.855176a23.371622 23.371622 0 0 0 0 4.336273c-1.428657-.432622-2.786886-.855186-7.565845-.855186v14.115539z" style="stroke-width:.0100609"/>
+      <path fill="#0b4ea2" d="M2463 5903a507 867 0 1 1 319-1541 584 1084 0 0 1 916 0 507 867 0 1 1 319 1541z" clip-path="url(#c)" style="fill:#2a6bcd;fill-opacity:1" transform="translate(-2.0651862 -4.9459693) scale(.01006)"/>
+      <use xlink:href="#b" fill="none" stroke="#fff" stroke-width="108" style="stroke:#ddd;stroke-width:149.091;stroke-dasharray:none;stroke-opacity:1" transform="translate(-2.0651862 -4.9459693) scale(.01006)"/>
     </g>
   </g>
 </svg>
