@@ -25,7 +25,7 @@ function selectimage(imgid) {
 
 var scrollingDirection = 0;
 var lastScroll = 9999;
-var scrollIdleTime = 200;
+var scrollIdleTime = 230;
 
 window.onwheel = function(event){
     var timeNow = performance.now();

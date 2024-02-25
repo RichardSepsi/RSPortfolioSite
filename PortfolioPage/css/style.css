@@ -271,6 +271,13 @@ body {
     transition-duration: 100ms;
 }
 
+.social-button-hover{
+    transition-duration: 100ms;
+}
+.social-button-hover:hover{
+    filter: brightness(150%);
+    transition-duration: 100ms;
+}
 
 
 /*   Scrollbar   */

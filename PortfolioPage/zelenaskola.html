@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/projectpage.css">
-    <link rel="stylesheet" href="projects/3d/metrostation/metrostation.css">
+    <link rel="stylesheet" href="projects/2d/zelenaskola/zelenaskola.css">
     <link rel="stylesheet" href="css/overlayscrollbars.css">
     <script defer src="libraries/anime.min.js"></script>
     <script defer src="libraries/overlayscrollbars.js"></script>
@@ -19,8 +19,7 @@
     <script defer src="js/languageselector.js"></script>
     <script defer src="js/imageviewer.js"></script>
     <script defer src="js/fullscreen.js"></script>
-    <script defer src="js/projects.js"></script>
-    <title>Metro station • Richard Sepši - Portfolio</title>
+    <title>Projekty a blog zelenej školy • Richard Sepši - Portfolio</title>
 </head>
 <body id="body">
     <div class="navbar-container">
@@ -111,7 +110,7 @@
         <div class="project-sides-container">
             <div class="project-left-side">
                 <div class="project-slide-buttons">
-                    <div class="project-link-button" style="margin: 00px 10px 20px 10px" id="fullscreen-button" onclick="fullscreen('projects/3d/metrostation/r1.jpg')">
+                    <div class="project-link-button" style="margin: 00px 10px 20px 10px" id="projects/2d/zelenaskola/zelenaskola.svg" onclick="fullscreen(this.id)">
                         <div class="project-link-button-ext">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="project-link-button-svg" d="M15 3H21V9" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -122,7 +121,7 @@
                         </div>
                     </div>
                     <div class="project-link-button" style="margin: 00px 10px 20px 10px">
-                        <a href="projects/3d/metrostation/r1.jpg" id="img-download-button" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
+                        <a href="projects/2d/zelenaskola/zelenaskola.svg" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
                         <div class="project-link-button-ext">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="project-link-button-svg" d="M12 5V19" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -130,17 +129,10 @@
                             </svg>                                    
                         </div></a>
                     </div>
-                    <div class="project-slide-switcher">
-                        <div class="project-slide-switcher-button selected" id="sw-img1" onclick="selectimage(this.id);changeimgdef(this.id);"></div>
-                        <div class="project-slide-switcher-button" id="sw-img2" onclick="selectimage(this.id);changeimgdef(this.id);"></div>
-                        <div class="project-slide-switcher-button" id="sw-img3" onclick="selectimage(this.id);changeimgdef(this.id);"></div>
-                    </div>
                 </div>
-                <div class="project-image-content" style="align-items: flex-start;">
-                    <div class="metro-project-slide1" id="metro-project-slide1">
-                        <div class="metro-project-image-wrapper"><img src="projects/3d/metrostation/r1.jpg" draggable="false" class="metro-project-image" id="sw-current-image"></div>
-                        <div class="metro-project-image-wrapper"><img src="projects/3d/metrostation/r2.jpg" draggable="false" class="metro-project-image"></div>
-                        <div class="metro-project-image-wrapper"><img src="projects/3d/metrostation/r3.jpg" draggable="false" class="metro-project-image"></div>
+                <div class="project-image-content">
+                    <div class="pbzsk-project-slide1">
+                        <img src="projects/2d/zelenaskola/zelenaskola.svg" width="100%" draggable="false">
                     </div>
                 </div>
                 
@@ -148,34 +140,30 @@
             <div class="project-right-side">
                 <div class="project-element-container">
                     <div class="project-element-title-top" style="flex-direction: column; align-items: flex-start;">
-                        <span class="project-element-title">Metro station</span>
-                        <span class="project-element-subtext" style="margin-left: 4.5px;">From February to June 2022</span>
+                        <span class="project-element-title">Projekty a blog zelenej školy</span>
+                        <span class="project-element-subtext" style="margin-left: 4.5px;">From November to December 2023</span>
                     </div>
-                    <span class="project-element-header">Category:<span class="project-element-subtext" style="margin-left: 10px;">3D Project</span></span>
-                    <span class="project-element-header">Date added:<span class="project-element-subtext" style="margin-left: 10px;">1.11.2023</span></span>
+                    <span class="project-element-header">Category:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span></span>
+                    <span class="project-element-header">Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.12.2023</span></span>
                 </div>
                 <div class="project-element-container">
                     <span class="project-element-header">About the project</span>
                     <span class="project-element-text">
-                        This project is one of the first 3D projects that I managed to finish. It's supposed to be a newly built metro station in a hypothetical metro in Bratislava
-                        in an archviz style.
+                        "Projekty a blog zelenej školy" or "Projects and blog of the green school" is a website of a team made up of students from the high school that I attended.
+                        Their goal is to make the school more green through various projects.
                         <div style="height: 12px;"></div>
-                        Everything was modeled in Cinema 4D and texured/rendered in Blender. All of the materials are my own except the floor one, which comes from ambientCG.
-                        <div style="height: 12px;"></div>
-                        In the future I would like to rework this project a bit to give it a new look.
+                        This website is made to present these projects and highlight their goals, as well as to host their blog.
+                    </span>
+                    <span class="project-element-header" style="margin-top: 20px;">My work on the project</span>
+                    <span class="project-element-text">
+                        The website is very simple and so is the design that I worked on. It's just two pages. The bottom right variant was not used, it's the old version of the blog page.
                     </span>
                 </div>
                 <div class="project-element-container">
                     <span class="project-element-header">Software used</span>
                     <div class="project-element-software">
                         <div class="project-software-tag">
-                            <div style="width: 7px;"></div><img class="software-icon" src="assets/software/c4d.png" draggable="false" height="28px" style="width: fit-content;"><div style="width: 11px;"></div>Cinema4D
-                        </div>
-                        <div class="project-software-tag"><div style="width: 4px;"></div>
-                            <img class="software-icon" src="assets/software/blender.svg" draggable="false" height="28px"><div style="width: 12px;"></div>Blender
-                        </div>
-                        <div class="project-software-tag"><div style="width: 4px;"></div>
-                            <img class="software-icon" src="assets/software/gimp.svg" draggable="false" height="28px"><div style="width: 12px;"></div>GIMP
+                            <img class="software-icon" src="assets/software/figma.svg" draggable="false" height="28px"><div style="width: 12px;"></div>Figma
                         </div>
                         <div class="project-software-tag"><div style="width: 4px;"></div>
                             <img class="software-icon" src="assets/software/inkscape.svg" draggable="false" height="28px"><div style="width: 12px;"></div>Inkscape

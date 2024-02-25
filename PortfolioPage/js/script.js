@@ -40,3 +40,10 @@ function scrolltothetop(){
 }
 
 
+
+//copy mail function
+function mailcopy() {
+    let mail = "appsepsi@gmail.com";
+    navigator.clipboard.writeText(mail);
+}
+
