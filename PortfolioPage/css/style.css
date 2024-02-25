@@ -252,7 +252,7 @@ body {
     margin-right: 80px;
     display: flex;
     flex-direction: column;
-    margin-top: 12px;
+    margin-top: 11px;
 }
 .footer-action-line{
     font-weight: 500;
@@ -265,6 +265,8 @@ body {
     text-decoration: none;
     transition-duration: 100ms;
     display: flex;
+    text-decoration: none;
+    color: #b3b3b3;
 }
 .footer-action-link:hover{
     color: #e6e6e6;

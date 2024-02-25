@@ -351,7 +351,6 @@
     justify-content: center;
     width: 100%;
     background-color: hsl(220deg 9.68% 5.0%);
-    /*background-image: url('/projects/2d/unageo/unageo_art-bg-1.svg');*/
     background-repeat: repeat;
     background-size: cover;
 }
