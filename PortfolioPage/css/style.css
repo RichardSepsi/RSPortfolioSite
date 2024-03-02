@@ -324,7 +324,7 @@ body {
     background-color: #212121;
     color: #e6e6e6;
     border: none;
-    border-radius: 14px;
+    border-radius: 12px;
     font-size: 20px;
     font-weight: 500;
     padding-left: 64px;
@@ -341,6 +341,13 @@ body {
     margin-top: calc(45px - 14px);
     margin-left: 32px;
     align-self: flex-start;
+}
+#search-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .search-placeholder{
     color: #696969;
@@ -381,6 +388,14 @@ body {
     margin-right: 22px;
     color: #969696;
     font-weight: 500;
+}
+.search-result-container{
+    width: 438px;
+    height: 100px;
+    background-color: #252525;
+    margin: 19px 0;
+    border-radius: 10px;
+    outline: 4px solid #252525;
 }
 
 
