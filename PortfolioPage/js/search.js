@@ -82,19 +82,26 @@ function searchfunction() {
                 }, 10);
             }
         };
+        
     }
 }
 
-
+function searchuniquit(){
+    document.getElementById("search-maincontainer").style.opacity = "0";
+    document.getElementById("search-maincontainer").style.pointerEvents = "none";
+    enableScroll()
+    setTimeout(() => {
+        document.getElementById("search-maincontainer").innerHTML = ""
+        issearchopen = 0
+    }, 200);
+}
 
 
 function search() {
     let squery = document.getElementById("searchquery").value
     squery = squery.toLowerCase()
     let soutput = document.getElementById("search-content")
-    console.log(squery)
     if(squery.length < 2) {
-        console.log("o")
         soutput.innerHTML = `<span class="search-placeholder">Enter at least 2 characters to get results</span>`
     }
     else{
@@ -105,7 +112,6 @@ function search() {
             let currentitem = Object.keys(searchinfo)[i]
             let currenttags = searchinfo[currentitem].tags;
 
-            console.log(currenttags)
             if(currenttags.includes(squery) == true) {
                 searchsuccess = 1
                 filtereditems.push(currentitem)

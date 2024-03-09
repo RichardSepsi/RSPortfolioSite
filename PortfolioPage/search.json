@@ -2,15 +2,39 @@
     "natart" : {
         "resultname" : "natart",
         "tags" : "natart nat art national",
-        "code" : "<div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">NatArt</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / Web Design</span></div><img src=\"projects/2d/natart/natart_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div>",
+        "code" : "<a id=\"natart.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">NatArt</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / Web Design</span></div><img src=\"projects/2d/natart/natart_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
+        "releasedate" : "22/04/2023",
+        "order" : "1"
+    },
+
+    "unageo" : {
+        "resultname" : "unageo",
+        "tags" : "unageo typeface font",
+        "code" : "<a id=\"unageo.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">Unageo</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / Typeface</span></div><img src=\"projects/2d/unageo/unageo_art-1s.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
         "releasedate" : "22/04/2023",
         "order" : "1"
     },
 
     "realizmusnaorave" : {
         "resultname" : "realizmusnaorave",
-        "tags" : "realizmus na orave orava",
-        "code" : "<div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">Realizmus na Orave</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / UI Design</span></div><img src=\"projects/2d/realizmusnaorave/realizmusnaorave_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div>",
+        "tags" : "realizmus na orave orava realism",
+        "code" : "<a id=\"realizmusnaorave.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">Realizmus na Orave</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / UI Design</span></div><img src=\"projects/2d/realizmusnaorave/realizmusnaorave_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
+        "releasedate" : "22/04/2023",
+        "order" : "1"
+    },
+
+    "metrostation" : {
+        "resultname" : "metrostation",
+        "tags" : "metro station",
+        "code" : "<a id=\"metrostation.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">Metro station</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">3D Projects</span></div><img src=\"projects/3d/metrostation/r1.jpg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
+        "releasedate" : "22/04/2023",
+        "order" : "1"
+    },
+
+    "zelenaskola" : {
+        "resultname" : "zelenaskola",
+        "tags" : "zelena skola zelená škola blog zelenej skoly školy",
+        "code" : "<a id=\"zelenaskola.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">Zelena skola</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / Web Design</span></div><img src=\"projects/2d/zelenaskola/zelenaskola_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
         "releasedate" : "22/04/2023",
         "order" : "1"
     }
