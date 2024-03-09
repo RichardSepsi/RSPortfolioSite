@@ -91,3 +91,19 @@ function enableScroll() {
     window.removeEventListener('touchmove', preventDefault, wheelOpt);
     window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
 }
+
+var searchinfo;
+fetch ("../search.json")
+    .then(response => response.json())
+    .then(srchinf => searchinfo = srchinf)
+    .then(data => {
+        window.onload = function() {
+            let currentUrl = window.location.href;
+            if (currentUrl.indexOf("?id=") !== -1) {
+                let div = document.getElementById(currentUrl.split("?id=")[1]);
+                let event = new Event("click");
+                div.dispatchEvent(event);
+            }
+        };
+
+    })

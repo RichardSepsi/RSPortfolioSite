@@ -15,10 +15,9 @@ function searchfunction() {
         <div style="height: 10px;"></div>
         <div class="search-element" style="width: 474px;">
             <div id="search-content">
-                <div class="search-result-container">
 
-                </div>
-                <!--<span class="search-placeholder">Enter at least 2 characters to get results</span>-->
+                
+                <span class="search-placeholder">Enter at least 2 characters to get results</span>
             </div>
             <div class="search-divider"></div>
             <div class="search-keybinds">
@@ -38,6 +37,7 @@ function searchfunction() {
             document.getElementById("search-maincontainer").style.pointerEvents = "all";
         }, 10);
         document.getElementById("searchquery").focus()
+        document.getElementById("searchquery").addEventListener('input', (event) => {search()});
 
             
 
@@ -78,9 +78,50 @@ function searchfunction() {
             if (en.key === '-') {
                 setTimeout(function() {
                     document.getElementById("searchquery").value = ""
+                    search()
                 }, 10);
             }
         };
     }
 }
 
+
+
+
+function search() {
+    let squery = document.getElementById("searchquery").value
+    squery = squery.toLowerCase()
+    let soutput = document.getElementById("search-content")
+    console.log(squery)
+    if(squery.length < 2) {
+        console.log("o")
+        soutput.innerHTML = `<span class="search-placeholder">Enter at least 2 characters to get results</span>`
+    }
+    else{
+        filtereditems = [];
+        let searchsuccess = 2
+
+        for(let i = 0; i < Object.keys(searchinfo).length; i++){
+            let currentitem = Object.keys(searchinfo)[i]
+            let currenttags = searchinfo[currentitem].tags;
+
+            console.log(currenttags)
+            if(currenttags.includes(squery) == true) {
+                searchsuccess = 1
+                filtereditems.push(currentitem)
+            }
+            else {
+                searchsuccess = 2
+            }
+        }
+        if(filtereditems.length > 0) {
+            soutput.innerHTML = ""
+            filtereditems.forEach((element) => {
+                soutput.innerHTML += searchinfo[element].code
+            });
+        }
+        else {
+            soutput.innerHTML = `<span class="search-placeholder">There are no results for "`+squery+`"</span>`
+        }
+    }
+}
