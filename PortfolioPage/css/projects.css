@@ -27,6 +27,7 @@
     cursor: pointer;
     user-select: none;
     position: relative;
+    opacity: 0;
 }
 .project-thumb-container:hover{
     outline: 4px solid #696969;

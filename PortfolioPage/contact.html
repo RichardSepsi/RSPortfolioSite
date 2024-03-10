@@ -13,7 +13,7 @@
     <script defer src="libraries/anime.min.js"></script>
     <script defer src="libraries/overlayscrollbars.js"></script>
     <script defer src="js/animations.js"></script>
-    <script defer src="js/animations_designprojects.js"></script>
+    <script defer src="js/animations_contact.js"></script>
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
     <script defer src="js/search.js"></script>
@@ -104,13 +104,13 @@
     <div class="content-container" id="content-container" style="display: flex; flex-direction: row;">
         <div class="contact-left">
             <span class="contact-title">Contact me</span>
-            <span class="contact-desc-title">through e-mail</span>
-            <span class="contact-desc-email" onclick="mailcopy()">appsepsi@gmail.com
+            <span class="contact-desc-title" id="cdt1">through e-mail</span>
+            <span class="contact-desc-email" id="cdt1" onclick="mailcopy()">appsepsi@gmail.com
                 <span style="color: #696969; font-weight: 600; font-size: 20px; margin-left: 7px; margin-top: 5px; user-select: none;">Click to copy</span>
             </span>
-            <span class="contact-desc-title">or social media</span>
+            <span class="contact-desc-title" id="cdt2">or social media</span>
             <div class="contact-social-container">
-                <div class="project-link-button">
+                <div class="project-link-button" id="plb1">
                     <a href="https://www.linkedin.com/in/richard-sep%C5%A1i-43b247144/" style="text-decoration: none; color: inherit; display: flex; align-items: center;" draggable="false">
                     <span class="project-link-button-label">Linkedin</span>
                     <div class="project-link-button-ext">
@@ -121,7 +121,7 @@
                         </svg>
                     </div></a>
                 </div>
-                <div class="project-link-button">
+                <div class="project-link-button" id="plb2">
                     <a href="https://www.artstation.com/richardsepsi" style="text-decoration: none; color: inherit; display: flex; align-items: center;" draggable="false">
                     <span class="project-link-button-label">Artstation</span>
                     <div class="project-link-button-ext">
@@ -130,7 +130,7 @@
                         </svg>
                     </div></a>
                 </div>
-                <div class="project-link-button">
+                <div class="project-link-button" id="plb3">
                     <a href="https://dribbble.com/RichardSepsi/" style="text-decoration: none; color: inherit; display: flex; align-items: center;" draggable="false">
                     <span class="project-link-button-label">Dribbble</span>
                     <div class="project-link-button-ext">
@@ -139,7 +139,7 @@
                         </svg>
                     </div></a>
                 </div>
-                <div class="project-link-button">
+                <div class="project-link-button" id="plb4">
                     <a href="https://github.com/RichardSepsi" style="text-decoration: none; color: inherit; display: flex; align-items: center;" draggable="false">
                     <span class="project-link-button-label">GitHub</span>
                     <div class="project-link-button-ext">
@@ -149,13 +149,13 @@
                     </div></a>
                 </div>
             </div>
-            <span class="contact-s-title">Website help</span>
-            <span class="contact-desc-title" style="font-size: 18px;">This website is open source and developed on GitHub.</span>
-            <span class="contact-desc-title" style="font-size: 18px; margin-top: 0px;">If you have found a bug/error or you have an improvement suggestion, don't hesitate to <br>submit a new issue on GitHub.</span>
+            <span class="contact-s-title" id="wst1">Website help</span>
+            <span class="contact-desc-title" id="wst2" style="font-size: 18px;">This website is open source and developed on GitHub.</span>
+            <span class="contact-desc-title" id="wst3" style="font-size: 18px; margin-top: 0px;">If you have found a bug/error or you have an improvement suggestion, don't hesitate to <br>submit a new issue on GitHub.</span>
             <div class="contact-github">
-                <img src="assets/social/github.svg" height="72px" width="72px" draggable="false">
+                <img src="assets/social/github.svg" height="72px" width="72px" draggable="false" id="cge1">
                 <div style="width: 22px;"></div>
-                <div style="display: flex; flex-direction: column;">
+                <div style="display: flex; flex-direction: column;" id="cge2">
                     <span style="font-size: 19px; color: #b3b3b3; font-weight: 600; margin-bottom: -4px;">Github.com/RichardSepsi/RSPortfolioSite</span>
                     <div style="display: flex; flex-direction: row;">
                         <a href="https://github.com/RichardSepsi/RSPortfolioSite" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton">
