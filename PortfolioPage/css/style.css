@@ -128,8 +128,9 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    transition-duration: 200ms;
+    transition: all 200ms, opacity 0ms;
     position: relative;
+    opacity: 0;
 }
 .lang-selected{
     display: flex;
@@ -137,11 +138,11 @@ body {
 }
 .language-selector:hover{
     background-color: #303030;
-    transition-duration: 200ms;
+    transition: all 200ms, opacity 0ms;
 }
 .language-selector.active{
     background-color: #373737;
-    transition-duration: 200ms;
+    transition: all 200ms, opacity 0ms;
 }
 .lang-label-container{
     width: 52px;

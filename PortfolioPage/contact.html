@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="css/overlayscrollbars.css">
     <script defer src="libraries/anime.min.js"></script>
     <script defer src="libraries/overlayscrollbars.js"></script>
-    <script defer src="js/animations.js"></script>
-    <script defer src="js/animations_contact.js"></script>
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
+    <script defer src="jslangadata/langdata_universal.js"></script>
+    <script defer src="jslangadata/langdata_contact.js"></script>
+    <script defer src="js/animations.js"></script>
+    <script defer src="js/animations_contact.js"></script>
     <script defer src="js/search.js"></script>
     <title>Contact • Richard Sepši - Portfolio</title>
 </head>
@@ -33,7 +35,7 @@
         <div class="nav-links">
             <a class="nav-link" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px">Home</text></mask>
+                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home">Home</text></mask>
                     <linearGradient id="paint0_linear_3_10" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_10)" mask="url(#gradient-contact-mask-1)"/>
@@ -41,7 +43,7 @@
             </div></a>
             <a class="nav-link" id="3dprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="90" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px">3D Projects</text></mask>
+                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d">3D Projects</text></mask>
                     <linearGradient id="paint0_linear_3_11" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="90" height="24" class="n-l-color" fill="url(#paint0_linear_3_11)" mask="url(#gradient-contact-mask-2)"/>
@@ -49,7 +51,7 @@
             </div></a>
             <a class="nav-link" id="designprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="122" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px">Design Projects</text></mask>
+                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d">Design Projects</text></mask>
                     <linearGradient id="paint0_linear_3_12" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="122" height="24" class="n-l-color" fill="url(#paint0_linear_3_12)" mask="url(#gradient-contact-mask-3)"/>
@@ -57,7 +59,7 @@
             </div></a>
             <a class="nav-link" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="64" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px">Contact</text></mask>
+                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact">Contact</text></mask>
                     <linearGradient id="paint0_linear_3_13" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_13)" mask="url(#gradient-contact-mask-4)"/>
@@ -103,10 +105,10 @@
     </div>
     <div class="content-container" id="content-container" style="display: flex; flex-direction: row;">
         <div class="contact-left">
-            <span class="contact-title">Contact me</span>
+            <span class="contact-title" id="langs-contact-title">Contact me</span>
             <span class="contact-desc-title" id="cdt1">through e-mail</span>
-            <span class="contact-desc-email" id="cdt1" onclick="mailcopy()">appsepsi@gmail.com
-                <span style="color: #696969; font-weight: 600; font-size: 20px; margin-left: 7px; margin-top: 5px; user-select: none;">Click to copy</span>
+            <span class="contact-desc-email" id="cdt1a1" onclick="mailcopy()">appsepsi@gmail.com
+                <span style="color: #696969; font-weight: 600; font-size: 20px; margin-left: 7px; margin-top: 5px; user-select: none;" id="langs-contact-copy">Click to copy</span>
             </span>
             <span class="contact-desc-title" id="cdt2">or social media</span>
             <div class="contact-social-container">
@@ -158,10 +160,10 @@
                 <div style="display: flex; flex-direction: column;" id="cge2">
                     <span style="font-size: 19px; color: #b3b3b3; font-weight: 600; margin-bottom: -4px;">Github.com/RichardSepsi/RSPortfolioSite</span>
                     <div style="display: flex; flex-direction: row;">
-                        <a href="https://github.com/RichardSepsi/RSPortfolioSite" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton">
+                        <a href="https://github.com/RichardSepsi/RSPortfolioSite" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton" id="langs-contact-github">
                             Visit GitHub page
                         </div></a>
-                        <a href="https://github.com/RichardSepsi/RSPortfolioSite/issues/new" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton">
+                        <a href="https://github.com/RichardSepsi/RSPortfolioSite/issues/new" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton" id="langs-contact-issue">
                             Submit a new issue
                         </div></a>
                     </div>
@@ -177,39 +179,39 @@
                 <div class="footer-center">
                     <div class="footer-social-container">
                         <a href="https://www.linkedin.com/in/richard-sep%C5%A1i-43b247144/" draggable="false"><img src="assets/social/linkedin.svg" width="26px" draggable="false" class="social-button-hover"></a>
-                        <a href="https://www.artstation.com/richardsepsi" draggable="false"><img src="assets/social/artstation.svg" width="26px" draggable="false" class="social-button-hover"></a>
-                        <a href="https://dribbble.com/RichardSepsi/" draggable="false"><img src="assets/social/dribbble.svg" width="26px" draggable="false" class="social-button-hover"></a>
-                        <a href="https://github.com/RichardSepsi" draggable="false"><img src="assets/social/github.svg" width="26px" draggable="false" class="social-button-hover"></a>
+                            <a href="https://www.artstation.com/richardsepsi" draggable="false"><img src="assets/social/artstation.svg" width="26px" draggable="false" class="social-button-hover"></a>
+                            <a href="https://dribbble.com/RichardSepsi/" draggable="false"><img src="assets/social/dribbble.svg" width="26px" draggable="false" class="social-button-hover"></a>
+                            <a href="https://github.com/RichardSepsi" draggable="false"><img src="assets/social/github.svg" width="26px" draggable="false" class="social-button-hover"></a>
                     </div>
                     <div class="footer-action-line">
-                        <a class="footer-action-link" onclick="scrolltothetop()"><img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">
+                        <a class="footer-action-link" onclick="scrolltothetop()" id="langs-foot-scroll"><img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">
                         Scroll to the top</a>
                     </div>
                     <div class="footer-action-line">
-                        <a href="https://github.com/RichardSepsi/RSPortfolioSite/blob/main/README.md" draggable="false" class="footer-action-link"><img src="assets/info.svg" style="margin-right: 14px;" draggable="false">
+                        <a href="https://github.com/RichardSepsi/RSPortfolioSite/blob/main/README.md" draggable="false" class="footer-action-link" id="langs-foot-info"><img src="assets/info.svg" style="margin-right: 14px;" draggable="false">
                         Website information</a>
                     </div>
                 </div>
                 <div class="footer-nav">
                     <a class="nav-link footer" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                         <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="gradient-contact-mask-12"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px">Home</text></mask>
+                            <mask id="gradient-contact-mask-12"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-home">Home</text></mask>
                             <linearGradient id="paint0_linear_3_102" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                             <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                             <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_102)" mask="url(#gradient-contact-mask-12)"/>
                         </svg>
                     </div></a>
                     <a class="nav-link footer" id="3dprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
-                        <svg width="90" height="24" viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="gradient-contact-mask-22"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px">3D Projects</text></mask>
+                        <svg width="90" height="24" viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-3dfix">
+                            <mask id="gradient-contact-mask-22"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-3d">3D Projects</text></mask>
                             <linearGradient id="paint0_linear_3_112" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                             <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                             <rect width="90" height="24" class="n-l-color" fill="url(#paint0_linear_3_112)" mask="url(#gradient-contact-mask-22)"/>
                         </svg>
                     </div></a>
                     <a class="nav-link footer" id="designprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
-                        <svg width="122" height="24" viewBox="0 0 122 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="gradient-contact-mask-32"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px">Design Projects</text></mask>
+                        <svg width="122" height="24" viewBox="0 0 122 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-2dfix">
+                            <mask id="gradient-contact-mask-32"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-2d">Design Projects</text></mask>
                             <linearGradient id="paint0_linear_3_122" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                             <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                             <rect width="122" height="24" class="n-l-color" fill="url(#paint0_linear_3_122)" mask="url(#gradient-contact-mask-32)"/>
@@ -217,7 +219,7 @@
                     </div></a>
                     <a class="nav-link footer" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
                         <svg width="64" height="24" viewBox="0 0 64 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="gradient-contact-mask-42"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px">Contact</text></mask>
+                            <mask id="gradient-contact-mask-42"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-contact">Contact</text></mask>
                             <linearGradient id="paint0_linear_3_132" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                             <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                             <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_132)" mask="url(#gradient-contact-mask-42)"/>
@@ -225,7 +227,6 @@
                     </div></a>
                 </div>
             </div>
-        </div>
         <div class="contact-right">
             <img src="assets/contact-artwork.svg" style="height: 100vh; opacity: 36%;">
         </div>

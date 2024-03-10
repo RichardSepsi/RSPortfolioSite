@@ -6,11 +6,24 @@ anime({
     duration: 300,
     easing: 'cubicBezier(0.500, 0.000, 0.650, 1.000)'
 });
+anime({
+    targets: '#language-selector',
+    opacity: 1,
+    duration: 300,
+    delay: 50,
+    easing: 'cubicBezier(0.500, 0.000, 0.650, 1.000)'
+});
 
 // page fadeout function
 function fadeout(nhref) {
     anime({
         targets: '#content-container',
+        opacity: 0,
+        duration: 300,
+        easing: 'cubicBezier(0.500, 0.000, 0.650, 1.000)'
+    });
+    anime({
+        targets: '#language-selector',
         opacity: 0,
         duration: 300,
         easing: 'cubicBezier(0.500, 0.000, 0.650, 1.000)'

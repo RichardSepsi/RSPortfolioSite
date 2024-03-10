@@ -62,6 +62,20 @@ anime({
     easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
 });
 anime({
+    targets: '#cdt1a1',
+    opacity: 1,
+    duration: 1000,
+    delay: 50,
+    easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
+});
+anime({
+    targets: '#cdt1a1',
+    translateX: [-30, 0],
+    duration: 700,
+    delay: 50,
+    easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
+});
+anime({
     targets: '#cdt2',
     opacity: 1,
     duration: 1000,

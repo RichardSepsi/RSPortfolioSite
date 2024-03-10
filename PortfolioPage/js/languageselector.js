@@ -58,6 +58,7 @@ function switchlang(newlang){
     document.getElementById(newlang).classList.add("selected")
     document.getElementById("language-options").classList.remove("active")
     document.getElementById("language-selector").classList.remove("active");
-
+    
     document.cookie = "LANG="+newlang+"; expires=Thu, 18 Dec 2030 12:00:00 UTC";
+    langizeunversal()
 }
