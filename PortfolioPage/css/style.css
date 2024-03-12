@@ -68,6 +68,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 78px;
+    opacity: 0;
 }
 .nav-link{
     margin: 0 17px;

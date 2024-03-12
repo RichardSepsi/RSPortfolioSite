@@ -16,6 +16,7 @@
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
     <script defer src="jslangadata/langdata_universal.js"></script>
+    <script defer src="jslangadata/langdata_unageo.js"></script>
     <script defer src="js/animations.js"></script>
     <script defer src="js/animations_projects.js"></script>
     <script defer src="js/imageviewer.js"></script>
@@ -38,7 +39,7 @@
         <div class="nav-links">
             <a class="nav-link" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home">Home</text></mask>
+                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home"></text></mask>
                     <linearGradient id="paint0_linear_3_10" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_10)" mask="url(#gradient-contact-mask-1)"/>
@@ -46,7 +47,7 @@
             </div></a>
             <a class="nav-link" id="3dprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="90" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d">3D Projects</text></mask>
+                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d"></text></mask>
                     <linearGradient id="paint0_linear_3_11" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="90" height="24" class="n-l-color" fill="url(#paint0_linear_3_11)" mask="url(#gradient-contact-mask-2)"/>
@@ -54,7 +55,7 @@
             </div></a>
             <a class="nav-link" id="designprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="122" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d">Design Projects</text></mask>
+                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d"></text></mask>
                     <linearGradient id="paint0_linear_3_12" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="122" height="24" class="n-l-color" fill="url(#paint0_linear_3_12)" mask="url(#gradient-contact-mask-3)"/>
@@ -62,7 +63,7 @@
             </div></a>
             <a class="nav-link" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="64" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact">Contact</text></mask>
+                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact"></text></mask>
                     <linearGradient id="paint0_linear_3_13" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_13)" mask="url(#gradient-contact-mask-4)"/>
@@ -121,7 +122,7 @@
                 </svg></a>
                 <div class="project-link-button">
                     <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.1/Unageo2.1-variable.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
-                    <span class="project-link-button-label" style="font-family: Unageo-vf;">Download Variable</span>
+                    <span class="project-link-button-label" style="font-family: Unageo-vf;" id="langs-unageo-dvariable"></span>
                     <div class="project-link-button-ext">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path class="project-link-button-svg" d="M12 5V19" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -131,7 +132,7 @@
                 </div>
                 <div class="project-link-button" style="margin-left: 10px;">
                     <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.1/Unageo2.1-static.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
-                    <span class="project-link-button-label" style="font-family: Unageo-vf;">Download Static</span>
+                    <span class="project-link-button-label" style="font-family: Unageo-vf;" id="langs-unageo-dstatic"></span>
                     <div class="project-link-button-ext">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path class="project-link-button-svg" d="M12 5V19" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -157,9 +158,9 @@
                         </span>
                     </div>
                     <div class="unageo-intro-text">
-                        <span style="font-weight: 500;">Unageo is a modern, open-source, sans-serif typeface that uses perfect geometry and uniform stroke width where possible, but still maintains great readability.<br></span>
+                        <span style="font-weight: 500;" id="langs-unageo-desc"></span>
                         <div style="width: 100%; height: 14px;"></div>
-                        <span style="font-size: 38px; line-height: 40px; opacity: 75%;">Unageo supports hundreds of languages in latin, cyrillic and greek scripts.</span>
+                        <span style="font-size: 38px; line-height: 40px; opacity: 75%;" id="langs-unageo-desc2"></span>
                     </div>
                 </div>
                 <div class="unageo-row" style="justify-content: space-between;">
@@ -184,7 +185,7 @@
                             ƯưǍǎǪǫȘșȚțȷɛṖṗṢṣẀẁẂẃẄẅẞẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵ
                             ẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợ
                             ỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹ</span>
-                        <span style="font-size: 16px; line-height: 18px; font-weight: 400; width: 446px; margin-top: 2px; filter: opacity(80%);">+ Cyrillic and greek scripts, scroll down to find out more!</span>
+                        <span style="font-size: 16px; line-height: 18px; font-weight: 400; width: 446px; margin-top: 2px; filter: opacity(80%);" id="langs-unageo-desc3"></span>
                     </div>
                     <div class="unageo-intro-num">
                         <span style="font-size: 40px; line-height: 40px; font-weight: 500; letter-spacing: 2px;">1234567890</span>
@@ -230,7 +231,7 @@
                                 </div>
                             </div>
                             <div class="unageo-var-control" style="margin-left: 30px;">
-                                <span style="font-weight: 450; font-size: 18px; margin-right: 29px;">Line height</span>
+                                <span style="font-weight: 450; font-size: 18px; margin-right: 29px;" id="langs-unageo-lineheight"></span>
                                 <div class="unageo-var-slider-wrapper">
                                     <div class="unageo-var-numselector-wrapper">
                                         <input type="number" class="unageo-var-num" id="unageo-var-num3" value="1.1" min="0.5" max="2" step="any">
@@ -247,7 +248,7 @@
                             </div>
                             <div style="height: 10px;"></div>
                             <div class="unageo-var-control" style="margin-left: 30px;">
-                                <span style="font-weight: 450; font-size: 18px; margin-right: 16px;">Letter space</span>
+                                <span style="font-weight: 450; font-size: 18px; margin-right: 16px;" id="langs-unageo-letterspace"></span>
                                 <div class="unageo-var-slider-wrapper">
                                     <div class="unageo-var-numselector-wrapper">
                                         <input type="number" class="unageo-var-num" id="unageo-var-num4" value="0" min="-1" max="1" step="any">
@@ -263,7 +264,7 @@
                                 </div>
                             </div>
                             <div class="unageo-var-control">
-                                <span style="font-weight: 450; font-size: 18px; margin-right: 16px;">Font size</span>
+                                <span style="font-weight: 450; font-size: 18px; margin-right: 16px;" id="langs-unageo-fontsize"></span>
                                 <div class="unageo-var-slider-wrapper">
                                     <div class="unageo-var-numselector-wrapper">
                                         <input type="number" class="unageo-var-num" id="unageo-var-num5" value="32" min="8" max="140" step="any">
@@ -276,15 +277,14 @@
                                 </div>
                             </div>
                         </div>
-                        <textarea id="Unageo-fonttestfield" class="Unageo-fonttestfield" placeholder="Type here to try out unageo and it's variable features"></textarea>
+                        <textarea id="Unageo-fonttestfield" class="Unageo-fonttestfield" placeholder=""></textarea>
                     </div>
                 </div>
                 <div class="unageo-row">
                     <div class="unageo-scripts-left">
-                        <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Кириллица<span class="unageo-scripts-subtitle">Cyrillic</span></span>
+                        <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Кириллица<span class="unageo-scripts-subtitle" id="langs-unageo-cyrillictitle"></span></span>
                         <div style="height: 10px;"></div>
-                        <span class="unageo-scripts-desc">
-                            Unageo cyrillic was made in Bulgarian style. It uses more rounded geometric shapes and letters have more variety in their height, which makes reading easier.
+                        <span class="unageo-scripts-desc" id="langs-unageo-cyrillic">
                         </span>
                         <div style="height: 10px;"></div>
                         <span class="unageo-scripts-descb">
@@ -300,10 +300,9 @@
                         </span>
                     </div>
                     <div class="unageo-scripts-right">
-                        <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Ελληνικά<span class="unageo-scripts-subtitle">Greek</span></span>
+                        <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Ελληνικά<span class="unageo-scripts-subtitle" id="langs-unageo-greektitle"></span></span>
                         <div style="height: 10px;"></div>
-                        <span class="unageo-scripts-desc">
-                            Unageo greek follows the same style with perfect geometry, but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.
+                        <span class="unageo-scripts-desc" id="langs-unageo-greek">
                         </span>
                         <div style="height: 10px;"></div>
                         <span class="unageo-scripts-descb">
@@ -319,29 +318,15 @@
                     </div>
                 </div>
                 <div class="unageo-row">
-                    <span class="unageo-row-title"><span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>How was unageo made</span>
+                    <span class="unageo-row-title" id="langs-unageo-howmadetitle"></span>
                 </div>
                 <div class="unageo-row" style="flex-direction: column !important; margin-bottom: 50px;">
                     <div class="unageo-story-textsection">
-                        <div class="unageo-story-par" style="width: 27%;"><span class="unageo-story-text">
-                            As a designer, I have used many different fonts for my projects and sometimes I thought
-                            that to better match my style, I could try to make my own font, but I never did. 
-                            This time, I decided to give it a shot, even though I knew almost nothing about font creation.
-                            I only knew I wanted my font to be geometric because that's my preferred style.
+                        <div class="unageo-story-par" style="width: 27%;"><span class="unageo-story-text" id="langs-unageo-story1">
                         </span></div>
-                        <div class="unageo-story-par" style="width: 33%;"><span class="unageo-story-text">
-                            I opened up FontForge to try to create something, but I couldn't use it very well,
-                            so I decided to continue with an unusual workflow. I made the characters in Inkscape, which I'm familiar with, and imported the outlines into FontForge.
-                            The process didn't take as long as I expected, and I was done in a few days. I made each glyph in light and Black variant, made sure they were
-                            interpolable and then I adjusted the metrics and added kerning.
+                        <div class="unageo-story-par" style="width: 33%;"><span class="unageo-story-text" id="langs-unageo-story2">
                         </span></div>
-                        <div class="unageo-story-par" style="width: 36%;"><span class="unageo-story-text">
-                            Of course, I ran into some issues along the way and learned that fonts are
-                            much more complicated than they look like. After I had everything figured out, I used fontmake to generate a variable font and fonttools to
-                            create static instances.
-                            I still have a lot to learn if I decide to make another font, and I'm sure this one isn't perfect either.
-                            If you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
-                            See further down below.
+                        <div class="unageo-story-par" style="width: 36%;"><span class="unageo-story-text" id="langs-unageo-story3">
                         </span></div>
                     </div>
                 </div>
@@ -350,11 +335,8 @@
         <div class="unageo-bottom-sources">
             <div class="unageo-row-bottom">
                 <div style="display: flex; flex-direction: row; padding-bottom: 60px; padding-top: 35px;">
-                    <div style="display: flex; flex-direction: column;"><span class="unageo-row-title"><span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Follow the development</span>
-                    <span class="unageo-github-text">
-                        <span style="font-size: 21px; font-weight: 600; color: #e6e6e6;">Unageo is an open source typeface developed on GitHub.</span><div style="height: 18px;"></div>
-                        If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.<div style="height: 14px;"></div>
-                        Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.
+                    <div style="display: flex; flex-direction: column;"><span class="unageo-row-title" id="langs-unageo-followdevtitle"></span>
+                    <span class="unageo-github-text" id="langs-unageo-ost">
                     </span></div>
                     <div class="unageo-bottom-links-container">
                         <div style="display: flex; flex-direction: row; margin-bottom: 16px; user-select: none; justify-content: center; margin-left: -18px;">
@@ -369,7 +351,7 @@
                         <div class="unageo-bottom-links-download">
                             <div class="project-link-button">
                                 <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.1/Unageo2.1-variable.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
-                                <span class="project-link-button-label" style="font-family: Unageo-vf;">Download Variable</span>
+                                <span class="project-link-button-label" style="font-family: Unageo-vf;" id="langs-unageo-dvariable1"></span>
                                 <div class="project-link-button-ext">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path class="project-link-button-svg" d="M12 5V19" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -379,7 +361,7 @@
                             </div>
                             <div class="project-link-button" style="margin-left: 10px;">
                                 <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.1/Unageo2.1-static.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
-                                <span class="project-link-button-label" style="font-family: Unageo-vf;">Download Static</span>
+                                <span class="project-link-button-label" style="font-family: Unageo-vf;" id="langs-unageo-dstatic1"></span>
                                 <div class="project-link-button-ext">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path class="project-link-button-svg" d="M12 5V19" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -389,14 +371,11 @@
                             </div>
                         </div>
                         <div style="display: flex; flex-direction: row;">
-                            <a href="https://github.com/RichardSepsi/Unageo" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton">
-                                Visit GitHub page
+                            <a href="https://github.com/RichardSepsi/Unageo" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton" id="langs-unageo-links1">
                             </div></a>
-                            <a href="https://github.com/RichardSepsi/Unageo/issues/new" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton">
-                                Submit a new issue
+                            <a href="https://github.com/RichardSepsi/Unageo/issues/new" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton" id="langs-unageo-links2">
                             </div></a>
-                            <a href="https://github.com/RichardSepsi/Unageo/releases" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton">
-                                Releases/Changelog
+                            <a href="https://github.com/RichardSepsi/Unageo/releases" style="text-decoration: none; color: inherit;" draggable="false"><div class="unageo-smallbutton" id="langs-unageo-links3">
                             </div></a>
                         </div>
                     </div>
@@ -418,18 +397,16 @@
                         <a href="https://github.com/RichardSepsi" draggable="false"><img src="assets/social/github.svg" width="26px" draggable="false" class="social-button-hover"></a>
                 </div>
                 <div class="footer-action-line">
-                    <a class="footer-action-link" onclick="scrolltothetop()" id="langs-foot-scroll"><img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">
-                    Scroll to the top</a>
+                    <a class="footer-action-link" onclick="scrolltothetop()" id="langs-foot-scroll"></a>
                 </div>
                 <div class="footer-action-line">
-                    <a href="https://github.com/RichardSepsi/RSPortfolioSite/blob/main/README.md" draggable="false" class="footer-action-link" id="langs-foot-info"><img src="assets/info.svg" style="margin-right: 14px;" draggable="false">
-                    Website information</a>
+                    <a href="https://github.com/RichardSepsi/RSPortfolioSite/blob/main/README.md" draggable="false" class="footer-action-link" id="langs-foot-info"></a>
                 </div>
             </div>
             <div class="footer-nav">
                 <a class="nav-link footer" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                     <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="gradient-contact-mask-12"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-home">Home</text></mask>
+                        <mask id="gradient-contact-mask-12"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-home"></text></mask>
                         <linearGradient id="paint0_linear_3_102" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                         <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                         <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_102)" mask="url(#gradient-contact-mask-12)"/>
@@ -437,7 +414,7 @@
                 </div></a>
                 <a class="nav-link footer" id="3dprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                     <svg width="90" height="24" viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-3dfix">
-                        <mask id="gradient-contact-mask-22"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-3d">3D Projects</text></mask>
+                        <mask id="gradient-contact-mask-22"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-3d"></text></mask>
                         <linearGradient id="paint0_linear_3_112" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                         <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                         <rect width="90" height="24" class="n-l-color" fill="url(#paint0_linear_3_112)" mask="url(#gradient-contact-mask-22)"/>
@@ -445,7 +422,7 @@
                 </div></a>
                 <a class="nav-link footer" id="designprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                     <svg width="122" height="24" viewBox="0 0 122 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-2dfix">
-                        <mask id="gradient-contact-mask-32"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-2d">Design Projects</text></mask>
+                        <mask id="gradient-contact-mask-32"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-2d"></text></mask>
                         <linearGradient id="paint0_linear_3_122" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                         <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                         <rect width="122" height="24" class="n-l-color" fill="url(#paint0_linear_3_122)" mask="url(#gradient-contact-mask-32)"/>
@@ -453,7 +430,7 @@
                 </div></a>
                 <a class="nav-link footer" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
                     <svg width="64" height="24" viewBox="0 0 64 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="gradient-contact-mask-42"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-contact">Contact</text></mask>
+                        <mask id="gradient-contact-mask-42"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-contact"></text></mask>
                         <linearGradient id="paint0_linear_3_132" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                         <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                         <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_132)" mask="url(#gradient-contact-mask-42)"/>

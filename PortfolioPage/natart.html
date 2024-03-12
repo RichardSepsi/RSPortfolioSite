@@ -16,6 +16,7 @@
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
     <script defer src="jslangadata/langdata_universal.js"></script>
+    <script defer src="jslangadata/langdata_natart.js"></script>
     <script defer src="js/animations.js"></script>
     <script defer src="js/animations_projects.js"></script>
     <script defer src="js/imageviewer.js"></script>
@@ -37,7 +38,7 @@
         <div class="nav-links">
             <a class="nav-link" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home">Home</text></mask>
+                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home"></text></mask>
                     <linearGradient id="paint0_linear_3_10" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_10)" mask="url(#gradient-contact-mask-1)"/>
@@ -45,7 +46,7 @@
             </div></a>
             <a class="nav-link" id="3dprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="90" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d">3D Projects</text></mask>
+                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d"></text></mask>
                     <linearGradient id="paint0_linear_3_11" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="90" height="24" class="n-l-color" fill="url(#paint0_linear_3_11)" mask="url(#gradient-contact-mask-2)"/>
@@ -53,7 +54,7 @@
             </div></a>
             <a class="nav-link" id="designprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="122" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d">Design Projects</text></mask>
+                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d"></text></mask>
                     <linearGradient id="paint0_linear_3_12" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="122" height="24" class="n-l-color" fill="url(#paint0_linear_3_12)" mask="url(#gradient-contact-mask-3)"/>
@@ -61,7 +62,7 @@
             </div></a>
             <a class="nav-link" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="64" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact">Contact</text></mask>
+                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact"></text></mask>
                     <linearGradient id="paint0_linear_3_13" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_13)" mask="url(#gradient-contact-mask-4)"/>
@@ -136,12 +137,12 @@
                     <div class="natart-project-slide1">
                         <div class="natart-svg-container">
                             <div class="natart-svg-top">
-                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/darkandlight.svg" draggable="false"><div class="natart-label">Dark and light mode</div></div>
-                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/popups.svg" draggable="false"><div class="natart-label">Dropdowns and popups</div></div>
+                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/darkandlight.svg" draggable="false"><div class="natart-label" id="langs-natart-label1"></div></div>
+                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/popups.svg" draggable="false"><div class="natart-label" id="langs-natart-label2"></div></div>
                             </div>
                             <div class="natart-svg-bottom">
-                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/other.svg" draggable="false"><div class="natart-label">Other pages</div></div>
-                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/mobile.svg" draggable="false"><div class="natart-label">Mobile version</div></div>
+                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/other.svg" draggable="false"><div class="natart-label" id="langs-natart-label3"></div></div>
+                                <div class="natart-svg-wrapper"><img class="natart-svg" src="projects/2d/natart/mobile.svg" draggable="false"><div class="natart-label" id="langs-natart-label4"></div></div>
                             </div>
                         </div>
                         
@@ -153,25 +154,21 @@
                 <div class="project-element-container">
                     <div class="project-element-title-top">
                         <span class="project-element-title">NarArt</span>
-                        <span class="project-element-subtext" style="margin-right: 5px;">From March to August 2023</span>
+                        <span class="project-element-subtext" style="margin-right: 5px;" id="langs-natart-time"></span>
                     </div>
-                    <span class="project-element-header">Category:<span class="project-element-subtext" style="margin-left: 10px;">Web design</span></span>
-                    <span class="project-element-header">Date added:<span class="project-element-subtext" style="margin-left: 10px;">2.12.2023</span></span>
+                    <span class="project-element-header" id="langs-natart-category"></span>
+                    <span class="project-element-header" id="langs-natart-date"></span>
                 </div>
                 <div class="project-element-container">
-                    <span class="project-element-header">What is NatArt?</span>
-                    <span class="project-element-text">
-                        NatArt is a company that makes various souvenirs with a national theme since 2016.
-                        Their name combines the words National and Art, because the beauty of
-                        nations was the basis for their work. Now they are exapnding online to respond to the increasing interest in their products.
+                    <span class="project-element-header" id="langs-natart-abouttitle"></span>
+                    <span class="project-element-text" id="langs-natart-abouttext">
                     </span>
-                    <span class="project-element-header" style="margin-top: 20px;">My work on natart</span>
-                    <span class="project-element-text">
-                        I worked mainly on the design for the online store and also on things like the design for invoices and e-mails.
+                    <span class="project-element-header" style="margin-top: 20px;" id="langs-natart-myworktitle"></span>
+                    <span class="project-element-text" id="langs-natart-myworktext">
                     </span>
                 </div>
                 <div class="project-element-container">
-                    <span class="project-element-header">Software used</span>
+                    <span class="project-element-header" id="langs-natart-softewaretitle"></span>
                     <div class="project-element-software">
                         <div class="project-software-tag">
                             <img class="software-icon" src="assets/software/figma.svg" draggable="false" height="28px"><div style="width: 12px;"></div>Figma
@@ -183,7 +180,7 @@
                 </div>
                 <div class="project-link-button-container">
                     <a href="https://natart.sk/" style="text-decoration: none; color: inherit;" draggable="false"><div class="project-link-button">
-                        <span class="project-link-button-label">Visit NatArt on <u>natart.sk</u></span>
+                        <span class="project-link-button-label" id="langs-natart-link"></span>
                         <div class="project-link-button-ext">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="project-link-button-svg" d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>

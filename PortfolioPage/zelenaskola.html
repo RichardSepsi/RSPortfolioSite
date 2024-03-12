@@ -16,6 +16,7 @@
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
     <script defer src="jslangadata/langdata_universal.js"></script>
+    <script defer src="jslangadata/langdata_zelenaskola.js"></script>
     <script defer src="js/animations.js"></script>
     <script defer src="js/animations_projects.js"></script>
     <script defer src="js/imageviewer.js"></script>
@@ -37,7 +38,7 @@
         <div class="nav-links">
             <a class="nav-link" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home">Home</text></mask>
+                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home"></text></mask>
                     <linearGradient id="paint0_linear_3_10" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_10)" mask="url(#gradient-contact-mask-1)"/>
@@ -45,7 +46,7 @@
             </div></a>
             <a class="nav-link" id="3dprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="90" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d">3D Projects</text></mask>
+                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d"></text></mask>
                     <linearGradient id="paint0_linear_3_11" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="90" height="24" class="n-l-color" fill="url(#paint0_linear_3_11)" mask="url(#gradient-contact-mask-2)"/>
@@ -53,7 +54,7 @@
             </div></a>
             <a class="nav-link" id="designprojects.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="122" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d">Design Projects</text></mask>
+                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d"></text></mask>
                     <linearGradient id="paint0_linear_3_12" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="122" height="24" class="n-l-color" fill="url(#paint0_linear_3_12)" mask="url(#gradient-contact-mask-3)"/>
@@ -61,7 +62,7 @@
             </div></a>
             <a class="nav-link" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="64" height="24" xmlns="http://www.w3.org/2000/svg" fill="none">
-                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact">Contact</text></mask>
+                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact"></text></mask>
                     <linearGradient id="paint0_linear_3_13" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
                     <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
                     <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_13)" mask="url(#gradient-contact-mask-4)"/>
@@ -143,26 +144,21 @@
                 <div class="project-element-container">
                     <div class="project-element-title-top" style="flex-direction: column; align-items: flex-start;">
                         <span class="project-element-title">Projekty a blog zelenej školy</span>
-                        <span class="project-element-subtext" style="margin-left: 4.5px;">From November to December 2023</span>
+                        <span class="project-element-subtext" style="margin-left: 4.5px;" id="langs-zelenaskola-time"></span>
                     </div>
-                    <span class="project-element-header">Category:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span></span>
-                    <span class="project-element-header">Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.12.2023</span></span>
+                    <span class="project-element-header" id="langs-zelenaskola-category"></span>
+                    <span class="project-element-header" id="langs-zelenaskola-date"></span>
                 </div>
                 <div class="project-element-container">
-                    <span class="project-element-header">About the project</span>
-                    <span class="project-element-text">
-                        "Projekty a blog zelenej školy" or "Projects and blog of the green school" is a website of a team made up of students from the high school that I attended.
-                        Their goal is to make the school more green through various projects.
-                        <div style="height: 12px;"></div>
-                        This website is made to present these projects and highlight their goals, as well as to host their blog.
+                    <span class="project-element-header" id="langs-zelenaskola-abouttitle"></span>
+                    <span class="project-element-text" id="langs-zelenaskola-abouttext">
                     </span>
-                    <span class="project-element-header" style="margin-top: 20px;">My work on the project</span>
-                    <span class="project-element-text">
-                        The website is very simple and so is the design that I worked on. It's just two pages. The bottom right variant was not used, it's the old version of the blog page.
+                    <span class="project-element-header" style="margin-top: 20px;" id="langs-zelenaskola-myworktitle"></span>
+                    <span class="project-element-text" id="langs-zelenaskola-myworktext">
                     </span>
                 </div>
                 <div class="project-element-container">
-                    <span class="project-element-header">Software used</span>
+                    <span class="project-element-header" id="langs-zelenaskola-softewaretitle"></span>
                     <div class="project-element-software">
                         <div class="project-software-tag">
                             <img class="software-icon" src="assets/software/figma.svg" draggable="false" height="28px"><div style="width: 12px;"></div>Figma
