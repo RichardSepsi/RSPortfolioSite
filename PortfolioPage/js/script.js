@@ -52,17 +52,29 @@ function mailcopy() {
 // enable and disable scrolling
 // left: 37, up: 38, right: 39, down: 40,
 // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-let scrollkeys = {37: 1, 38: 1, 39: 1, 40: 1};
+let scrollkeys = {33: 1,34: 1,35: 1,36: 1,37: 1, 38: 1, 39: 1, 40: 1};
+let scrollkeysalt = {32: 1,33: 1,34: 1,35: 1,36: 1,37: 1, 38: 1, 39: 1, 40: 1};
 
 function preventDefault(e) {
     e.preventDefault();
 }
 
 function preventDefaultForScrollKeys(e) {
-    if (scrollkeys[e.keyCode]) {
-        preventDefault(e);
-        return false;
+    if (document.getElementById("searchquery") === document.activeElement) {
+        if (scrollkeys[e.keyCode]) {
+            console.log("defaultprevented")
+            preventDefault(e);
+            return false;
+        }
     }
+    else {
+        if (scrollkeysalt[e.keyCode]) {
+            console.log("defaultprevented")
+            preventDefault(e);
+            return false;
+        }
+    }
+    
 }
 
 // modern Chrome requires { passive: false } when adding event
@@ -82,6 +94,7 @@ function disableScroll() {
     window.addEventListener(wheelEvent, preventDefault, wheelOpt); // modern desktop
     window.addEventListener('touchmove', preventDefault, wheelOpt); // mobile
     window.addEventListener('keydown', preventDefaultForScrollKeys, false);
+    document.querySelector(".os-scrollbar-vertical").setAttribute("style", "display: none;")
 }
 
 // Enables scrolling
@@ -90,6 +103,7 @@ function enableScroll() {
     window.removeEventListener(wheelEvent, preventDefault, wheelOpt); 
     window.removeEventListener('touchmove', preventDefault, wheelOpt);
     window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
+    document.querySelector(".os-scrollbar-vertical").removeAttribute("style")
 }
 
 var searchinfo;

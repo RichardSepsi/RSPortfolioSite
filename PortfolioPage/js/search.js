@@ -71,17 +71,14 @@ function searchfunction() {
             
 
         function removesearchexitlisteners() {
-            document.removeEventListener("keydown", escsearchquit);
-            document.removeEventListener("keydown", clicksearchquit);
-            document.removeEventListener('keydown', minussearchclear);
-            document.removeEventListener('keydown', searchnavigate)
+            document.removeEventListener("keydown", searchkeydown);
+            document.removeEventListener('click', clicksearchquit);
         }
-        document.addEventListener('keydown', escsearchquit)
+        document.addEventListener('keydown', searchkeydown)
         document.getElementById("search-maincontainer").addEventListener('click', clicksearchquit);
-        document.addEventListener('keydown', minussearchclear)
-        document.addEventListener('keydown', searchnavigate)
 
-        function escsearchquit(evt) {
+        currentfiltereditemselected = 0;
+        function searchkeydown(evt) {
             if (evt.key === 'Escape') {
                 document.getElementById("search-maincontainer").style.opacity = "0";
                 document.getElementById("search-maincontainer").style.pointerEvents = "none";
@@ -91,6 +88,39 @@ function searchfunction() {
                     issearchopen = 0
                 }, 200);
                 removesearchexitlisteners()
+            }
+            if (evt.key === 'ArrowDown') {
+                currentfiltereditemselected = currentfiltereditemselected + 1
+                if(currentfiltereditemselected < 1) {
+                    currentfiltereditemselected = 1
+                } else if(currentfiltereditemselected > filtereditemscount) {
+                    currentfiltereditemselected = filtereditemscount
+                }
+                console.log(currentfiltereditemselected)
+                if (document.getElementById("search-result-container1") !== null) {
+                    document.getElementById("search-result-container"+currentfiltereditemselected).focus()
+                }
+            }
+            if (evt.key === 'ArrowUp') {
+                currentfiltereditemselected = currentfiltereditemselected - 1
+                if(currentfiltereditemselected < 1) {
+                    currentfiltereditemselected = 1
+                } else if(currentfiltereditemselected > filtereditemscount) {
+                    currentfiltereditemselected = filtereditemscount
+                }
+                console.log(currentfiltereditemselected)
+                if (document.getElementById("search-result-container1") !== null) {
+                    document.getElementById("search-result-container"+currentfiltereditemselected).focus()
+                }
+            }
+            if (evt.key === 'Enter') {
+                document.activeElement.click()
+            }
+            if (evt.key === '-') {
+                setTimeout(function() {
+                    document.getElementById("searchquery").value = ""
+                    search()
+                }, 10);
             }
         };
         function clicksearchquit(e) {
@@ -105,44 +135,6 @@ function searchfunction() {
                 removesearchexitlisteners()
             }
         };
-        function minussearchclear(en) {
-            if (en.key === '-') {
-                setTimeout(function() {
-                    document.getElementById("searchquery").value = ""
-                    search()
-                }, 10);
-            }
-        };
-        currentfiltereditemselected = 0;
-        function searchnavigate(ev) {
-            if (ev.key === 'ArrowDown') {
-                currentfiltereditemselected = currentfiltereditemselected + 1
-                if(currentfiltereditemselected < 1) {
-                    currentfiltereditemselected = 1
-                } else if(currentfiltereditemselected > filtereditemscount) {
-                    currentfiltereditemselected = filtereditemscount
-                }
-                console.log(currentfiltereditemselected)
-                if (document.getElementById("search-result-container1") !== null) {
-                    document.getElementById("search-result-container"+currentfiltereditemselected).focus()
-                }
-            }
-            if (ev.key === 'ArrowUp') {
-                currentfiltereditemselected = currentfiltereditemselected - 1
-                if(currentfiltereditemselected < 1) {
-                    currentfiltereditemselected = 1
-                } else if(currentfiltereditemselected > filtereditemscount) {
-                    currentfiltereditemselected = filtereditemscount
-                }
-                console.log(currentfiltereditemselected)
-                if (document.getElementById("search-result-container1") !== null) {
-                    document.getElementById("search-result-container"+currentfiltereditemselected).focus()
-                }
-            }
-            if (ev.key === 'Enter') {
-                document.activeElement.click()
-            }
-        }
     }
 }
 
