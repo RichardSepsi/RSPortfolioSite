@@ -9,7 +9,7 @@ function searchfunction() {
         disableScroll()
         if(currentlang == "EN") {
             document.getElementById("search-maincontainer").innerHTML += `
-            <div class="search-element">
+            <div class="search-prevent-wrapper"><div class="search-element">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#505050" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
                     <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
@@ -31,7 +31,7 @@ function searchfunction() {
                     <div class="search-keyhint">esc</div>
                     <span class="search-keyhint-label" style="margin-right: 0;">to close</span>
                 </div>
-            </div>
+            </div></div>
             `
         } else if(currentlang == "SK") {
             document.getElementById("search-maincontainer").innerHTML += `
