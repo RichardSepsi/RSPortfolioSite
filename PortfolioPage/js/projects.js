@@ -27,7 +27,7 @@ var scrollingDirection = 0;
 var lastScroll = 9999;
 var scrollIdleTime = 230;
 
-window.onwheel = function(event){
+document.getElementById("metro-project-slide1").onwheel = function(event){
     var timeNow = performance.now();
     if (event.deltaY > 0 && ( scrollingDirection != 1 || timeNow > lastScroll + scrollIdleTime)){
         defaultid = parseInt(defaultid) + 1

@@ -412,6 +412,10 @@ body {
     outline: 4px solid #696969;
     transition-duration: 100ms;
 }
+.search-result-container:focus{
+    outline: 4px solid #696969;
+    transition-duration: 100ms;
+}
 .search-result-left{
     display: flex;
     flex-direction: column;
