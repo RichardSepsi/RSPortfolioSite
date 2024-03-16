@@ -106,6 +106,19 @@ function enableScroll() {
     document.querySelector(".os-scrollbar-vertical").removeAttribute("style")
 }
 
+
+
+// mobile nav toggle
+
+function openmobilenavmenu() {
+    document.querySelector(".nav-mobile-container").classList.toggle("active")
+}
+
+
+
+
+// search json parse
+
 var searchinfo;
 fetch ("../search.json")
     .then(response => response.json())

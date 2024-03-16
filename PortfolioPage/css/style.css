@@ -78,6 +78,14 @@ body {
     transition-duration: 200ms;
     cursor: pointer;
 }
+.nav-link-mobile{
+    margin: 0 17px;
+    font-weight: 600;
+    color: #e6e6e6;
+    user-select: none;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
 .nav-link.footer{
     margin: 24px 0px;
     max-height: 12px;
@@ -436,4 +444,69 @@ body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+/*   Responsive   */
+
+.nav-mobile-menu{
+    display: none;
+}
+.navmenuicon{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 200ms;
+}
+.navmenuicon-colored{
+    pointer-events: none;
+}
+.navmenuicon:hover{
+    opacity: 0;
+    transition-duration: 200ms;
+}
+.nav-mobile-container{
+    display: flex;
+    position: fixed;
+    background-color: #373737;
+    backdrop-filter: blur(25px);
+    padding: 20px 12px;
+    border-radius: 16px;
+    top: 90px;
+    margin-left: calc(50% - 241px - 18px);
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transition-duration: 200ms;
+}
+.nav-mobile-container.active{
+    opacity: 1;
+    pointer-events: all;
+    transition-duration: 200ms;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-links{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .nav-link{
+        display: none;
+    }
+    .nav-mobile-menu{
+        display: block;
+    }
+    .nav-mobile-container{
+        display: flex;
+    }
+}
+@media screen and (max-width: 650px) {
+    .footer-dlogo-container{
+        display: none !important;
+    }
+    .footer-center{
+        margin-left: 0px;
+    }
 }
