@@ -72,3 +72,40 @@
 .project-thumb-info-sub.one{
     padding-left: 20px;
 }
+
+
+
+/* responsivity */
+
+@media screen and (max-width: 1184px) {
+    .grid-container{
+        justify-content: center;
+    }
+    .grid{
+        flex-wrap: wrap;
+        margin-top: 80px;
+    }
+    .grid-column{
+        padding: 0px 10px 0 10px;
+    }
+}
+@media screen and (max-width: 1159px) {
+    .grid{
+        max-width: 780px;
+    }
+}
+@media screen and (max-width: 779px) {
+    .grid{
+        max-width: 380px;
+        margin-right: 21px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .grid{
+        transform: scale(0.9);
+        margin-top: 22px;
+    }
+    .grid-container{
+        margin-bottom: -36px;
+    }
+}

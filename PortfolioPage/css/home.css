@@ -271,6 +271,33 @@
 
 /*   Responsive   */
 
+@media screen and (max-width: 1550px) {
+    .about-me-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 80px 85px 80px;
+    }
+    .aboutme-anime-svg{
+        margin-right: 0px !important;
+    }
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 80px 0px 80px;
+    }
+    .software-container{
+        padding: 40px 80px 80px 80px;
+    }
+    .skills-anime-1{
+        margin-right: 0px !important;
+    }
+    .section-content-wrapper{
+        justify-content: center;
+    }
+    .skill-category{
+        margin-bottom: 40px;
+    }
+}
 @media screen and (max-width: 1300px) {
     .home-right{
         padding: 0 0 0 0px;
@@ -281,6 +308,28 @@
     }
     .home-svg-wrapper{
         margin-right: 100px;
+    }
+    .section-content-wrapper.row{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1270px) {
+    .section-content-wrapper{
+        width: auto;
+    }
+}
+@media screen and (max-width: 1259px) {
+    .software-category-container{
+        margin-right: 20.5px;
+        margin-left: 20.5px;
+        margin-bottom: 41px;
+    }
+    .software-anime-7{
+        margin-right: 20.5px;
+    }
+    .software-container{
+        padding: 40px 59.5px 80px 19.5px;
     }
 }
 @media screen and (max-width: 970px) {
@@ -317,6 +366,60 @@
         max-width: none;
     }
 }
+@media screen and (min-height: 1220px) {
+    .scroll-down-anime-2{
+        display: block !important;
+    }
+    .scroll-down-container{
+        justify-content: space-between;
+    }
+}
+@media screen and (min-height: 1020px) {
+    .home-left{
+        height: 60%;
+    }
+    .home-right{
+        height: 40%;
+    }
+}
+@media screen and (min-height: 1020px) and (min-width: 970px) {
+    .home-left{
+        height: 100%;
+    }
+    .home-right{
+        height: 100%;
+    }
+}
+@media screen and (max-height: 878px) {
+    .title-text{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-height: 760px) {
+    .title-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .scroll-down-anime-2{
+        display: none;
+    }
+    .scroll-down-container{
+        justify-content: end;
+    }
+    .scroll-down-container{
+        top: calc(100% - 175px) !important;
+    }
+    .scroll-down-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-height: 700px) {
+    .scroll-down-container{
+        display: none;
+    }
+}
 @media screen and (max-width: 860px) {
     .home-svg-wrapper{
         width: 80%;
@@ -327,6 +430,17 @@
         font-size: 65px;
         font-weight: 700;
         line-height: 85px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .resp-home3{
+        display: contents !important;
+    }
+    .resp-home4{
+        display: contents !important;
+    }
+    .skill-category {
+        max-width: 260px;
     }
 }
 @media screen and (max-width: 635px) {
@@ -341,6 +455,15 @@
     .main-screen{
         padding: 0 70px;
     }
+    .about-me-container{
+        padding: 60px 70px 85px 70px;
+    }
+    .skills-container{
+        padding: 70px 70px 0px 70px;
+    }
+    .software-container{
+        padding: 40px 49.5px 80px 49.5px;
+    }
     .home-svg-wrapper{
         width: 100%;
     }
@@ -350,7 +473,15 @@
         top: calc(100% - 180px);
     }
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 530px) {
+    .home-left{
+        height: 53%;
+    }
+    .home-right{
+        height: 47%;
+    }
+}
+@media screen and (max-width: 478px) {
     .title-name{
         font-size: 45px;
         font-weight: 700;
@@ -358,5 +489,50 @@
     }
     .header {
         font-size: 26px;
+    }
+    .main-screen{
+        padding: 0 60px;
+    }
+    .about-me-container{
+        padding: 60px 60px 85px 60px;
+    }
+    .skills-container{
+        padding: 70px 60px 0px 60px;
+    }
+    .software-container{
+        padding: 40px 39.5px 80px 39.5px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main-screen{
+        padding: 0 50px;
+    }
+    .about-me-container{
+        padding: 60px 50px 85px 50px;
+    }
+    .skills-container{
+        padding: 70px 50px 0px 50px;
+    }
+    .software-container{
+        padding: 40px 29.5px 80px 29.5px;
+    }
+}
+@media screen and (max-width: 406px) {
+    .title-name{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .main-screen{
+        padding: 0 40px;
+    }
+    .about-me-container{
+        padding: 60px 40px 85px 40px;
+    }
+    .skills-container{
+        padding: 70px 40px 0px 40px;
+    }
+    .software-container{
+        padding: 40px 19.5px 80px 19.5px;
     }
 }

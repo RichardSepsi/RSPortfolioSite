@@ -1,5 +1,4 @@
 var currentlang = document.getElementById("current-lang").innerHTML
-console.log(currentlang)
 
 if(currentlang == "EN") {
     document.getElementById("langs-nav-home").innerHTML = `Home`
@@ -46,7 +45,6 @@ if(currentlang == "EN") {
 }
 
 function langizeunversal() {
-    console.log("switching")
     currentlang = document.getElementById("current-lang").innerHTML
     if(currentlang == "EN") {
         document.getElementById("langs-nav-home").innerHTML = `Home`

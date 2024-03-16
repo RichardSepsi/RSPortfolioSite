@@ -19,7 +19,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsandsoftware2").innerHTML = `&`
     document.getElementById("langs-text-skillsandsoftware3").innerHTML = `&`
     document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "141px")
-    document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "100px"
+    document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "90px"
     document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "90px")
     document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "90px")
     document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `And a lot more...`
@@ -107,7 +107,7 @@ function langizehome() {
         document.getElementById("langs-text-skillsandsoftware2").innerHTML = `&`
         document.getElementById("langs-text-skillsandsoftware3").innerHTML = `&`
         document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "141px")
-        document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "100px"
+        document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "90px"
         document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "90px")
         document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "90px")
         document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `And a lot more...`
@@ -172,4 +172,5 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 5 projektoch`
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte`
     }
+    sethomemediaqueries()
 }

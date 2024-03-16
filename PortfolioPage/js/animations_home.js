@@ -455,3 +455,66 @@ window.onscroll = function() {
     aboutanifunct();
     skillsandsoftwareanifunct();
 }
+
+
+
+// media queries
+
+function sethomemediaqueries() {
+    if (window.matchMedia('(max-width: 1550px)').matches) {
+        document.getElementById("resp-home1").setAttribute("dy", "0")
+        document.getElementById("resp-home2").setAttribute("dy", "0")
+        if(currentlang == "EN") {
+            document.getElementById("resp-home1").setAttribute("x", "120.42px")
+            document.getElementById("resp-home2").setAttribute("x", "120.42px")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "261px")  
+        } else if(currentlang == "SK") {
+            document.getElementById("resp-home1").setAttribute("x", "183.83px")
+            document.getElementById("resp-home2").setAttribute("x", "183.83px")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "326px")  
+        }
+           
+    }
+    else if (window.matchMedia('(min-width: 1550px)').matches) {
+        document.getElementById("resp-home1").setAttribute("dy", "1.2em")
+        document.getElementById("resp-home2").setAttribute("dy", "1.2em")
+        document.getElementById("resp-home1").setAttribute("x", "0")
+        document.getElementById("resp-home2").setAttribute("x", "0")
+        if(currentlang == "EN") {
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "151px")
+        } else if(currentlang == "SK") {
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+        }
+    }
+}
+
+sethomemediaqueries()
+
+addEventListener("resize", (event) => {
+    if (window.matchMedia('(max-width: 1550px)').matches) {
+        document.getElementById("resp-home1").setAttribute("dy", "0")
+        document.getElementById("resp-home2").setAttribute("dy", "0")
+        if(currentlang == "EN") {
+            document.getElementById("resp-home1").setAttribute("x", "120.42px")
+            document.getElementById("resp-home2").setAttribute("x", "120.42px")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "261px")  
+        } else if(currentlang == "SK") {
+            document.getElementById("resp-home1").setAttribute("x", "183.83px")
+            document.getElementById("resp-home2").setAttribute("x", "183.83px")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "326px")  
+        }
+           
+    }
+    else if (window.matchMedia('(min-width: 1550px)').matches) {
+        document.getElementById("resp-home1").setAttribute("dy", "1.2em")
+        document.getElementById("resp-home2").setAttribute("dy", "1.2em")
+        document.getElementById("resp-home1").setAttribute("x", "0")
+        document.getElementById("resp-home2").setAttribute("x", "0")
+        if(currentlang == "EN") {
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "151px")
+        } else if(currentlang == "SK") {
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+        }
+    }
+    
+});
