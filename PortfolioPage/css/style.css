@@ -503,6 +503,12 @@ body {
     .nav-mobile-container{
         display: flex;
     }
+    .search-keybinds{
+        display: none;
+    }
+    .search-divider{
+        height: 0px;
+    }
 }
 @media screen and (max-width: 650px) {
     .footer-dlogo-container{
@@ -515,6 +521,9 @@ body {
 @media screen and (max-width: 530px) {
     .footer-center{
         margin-right: 40px;
+    }
+    .search-prevent-wrapper{
+        transform: scale(0.9);
     }
 }
 @media screen and (max-width: 478px) {
@@ -536,5 +545,25 @@ body {
     }
     .footer-container{
         height: 360px;
+    }
+    .search-prevent-wrapper{
+        transform: scale(0.8);
+    }
+    .search-bar{
+        font-size: 22px;
+    }
+    .search-placeholder{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .search-prevent-wrapper{
+        transform: scale(0.7);
+    }
+    .search-bar{
+        font-size: 23px;
+    }
+    .search-placeholder{
+        font-size: 20px;
     }
 }

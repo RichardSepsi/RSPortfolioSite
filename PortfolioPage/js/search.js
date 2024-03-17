@@ -96,7 +96,6 @@ function searchfunction() {
                 } else if(currentfiltereditemselected > filtereditemscount) {
                     currentfiltereditemselected = filtereditemscount
                 }
-                console.log(currentfiltereditemselected)
                 if (document.getElementById("search-result-container1") !== null) {
                     document.getElementById("search-result-container"+currentfiltereditemselected).focus()
                 }
@@ -108,7 +107,6 @@ function searchfunction() {
                 } else if(currentfiltereditemselected > filtereditemscount) {
                     currentfiltereditemselected = filtereditemscount
                 }
-                console.log(currentfiltereditemselected)
                 if (document.getElementById("search-result-container1") !== null) {
                     document.getElementById("search-result-container"+currentfiltereditemselected).focus()
                 }

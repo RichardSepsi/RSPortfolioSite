@@ -62,14 +62,12 @@ function preventDefault(e) {
 function preventDefaultForScrollKeys(e) {
     if (document.getElementById("searchquery") === document.activeElement) {
         if (scrollkeys[e.keyCode]) {
-            console.log("defaultprevented")
             preventDefault(e);
             return false;
         }
     }
     else {
         if (scrollkeysalt[e.keyCode]) {
-            console.log("defaultprevented")
             preventDefault(e);
             return false;
         }
