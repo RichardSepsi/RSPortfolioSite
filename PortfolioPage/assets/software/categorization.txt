@@ -1,0 +1,33 @@
+Blender
+Cinema 4D
+** Maya/3ds **
+
+Unreal engine
+** Marmoset toolbag **
+** D5 render **
+** Twinmotion **
+
+Substance 3D Painter
+Substance 3D Designer
+Quixel mixer
+-- xNormal --
+** Normalizer **
+
+** Gaea **
+** World Machine **
+** Speedtree **
+** Worldcreator **
+
+Meshroom
+Realitycapture
+Realityscan
+--LumaAI--
+
+Gimp
+Darktable
+** Photoshop **
+
+Inkscape
+Figma
+** Ilustrator **
+
