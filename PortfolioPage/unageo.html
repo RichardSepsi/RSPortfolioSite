@@ -158,12 +158,12 @@
             <div class="unageo-nav" id="unageo-nav">
                 <div class="unageo-nav-content"><div class="unageo-nav-left">
                     <img src="projects/2d/unageo/u_logo.svg" width="80px" height="80px" draggable="false" style="user-select: none;">
-                    <div style="display: flex; flex-direction: column; justify-content: center;padding-left: 10px; letter-spacing: -0.1px;">
+                    <div style="display: flex; flex-direction: column; justify-content: center;padding-left: 10px; letter-spacing: -0.1px;" id="resp-ug-g2">
                         <span style="font-size: 31px; font-family: Unageo-vf; line-height: 32px; color: #cccccc; font-weight: 600;">Unageo</span>
                         <span style="font-size: 23px; font-family: Unageo-vf; color: #969696; line-height: 27px; font-weight: 600;">typeface</span>
                     </div>
                 </div>
-                <div style="display: flex; flex-direction: row;"><a href="https://github.com/RichardSepsi/Unageo" draggable="false">
+                <div style="display: flex; flex-direction: row;"><a href="https://github.com/RichardSepsi/Unageo" draggable="false" id="resp-ug-github-nav">
                     <img class="unageo-github" src="assets/social/github.svg" width="38px" draggable="false">
                 </svg></a>
                 <div class="project-link-button">
@@ -188,7 +188,7 @@
                 </div></div></div>
             </div>
             <div class="unageo-rows">
-                <div class="unageo-row">
+                <div id="resp-ug-row-1"><div class="unageo-row" id="resp-ug-row-intro1">
                     <div class="unageo-intro-title">
                         <span style="font-size: 96px; line-height: 96px; font-weight: 300;">Simple</span>
                         <span style="font-size: 59.5px; line-height: 59.5px; font-weight: 600; opacity: 80%;">Geometric</span>
@@ -209,7 +209,7 @@
                         <span style="font-size: 38px; line-height: 40px; opacity: 75%;" id="langs-unageo-desc2"></span>
                     </div>
                 </div>
-                <div class="unageo-row" style="justify-content: space-between;">
+                <div class="unageo-row" style="justify-content: space-between;" id="resp-ug-row-intro2">
                     <div class="unageo-intro-waterfall">
                         <span style="font-size: 72px; line-height: 68px; font-weight: 400;">Seventy-two</span><br>
                         <span style="font-size: 60px; line-height: 60px; font-weight: 400;">Sixty</span><span style="display: inline-block; width: 10px;"></span>
@@ -239,11 +239,11 @@
                         <span style="font-size: 22px; line-height: 28px; font-weight: 500;">[\]^_`{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿</span>
                         <span style="font-size: 20px; line-height: 22px; font-weight: 500; width: 100%;">– —‘’‚“”„†‡•…‰‹›⁄€₴₽₿<br>№℗™←↑→↓↔↕↖↗↘↙⅓⅔∀<br>∃∅−∕∫ƒ×÷</span>
                     </div>
-                </div>
+                </div></div>
                 <div class="unageo-row" style="justify-content: center;">
                     <div class="unageo-var-container">
                         <div class="unageo-var-controls-container">  
-                            <div class="unageo-var-control">
+                            <div class="resp-ug-varcontrol1"><div class="unageo-var-control">
                                 <span style="font-weight: 450; font-size: 18px; margin-right: 12px;">Weight</span>
                                 <div class="unageo-var-slider-wrapper">
                                     <div class="unageo-var-numselector-wrapper">
@@ -254,7 +254,7 @@
                                             <div class="unageo-var-numselector-button two" onmousedown="ugsliderdecrease('unageo-var-num1')" onmouseup="end()" onmouseout="end()">-</div>
                                         </div>
                                     </div>
-                                    <div class="unageo-var-varslider-wrapper">
+                                    <div class="unageo-var-varslider-wrapper" id="resp-ug-varslider1">
                                         <input type="range" min="300" max="900" value="400" class="unageo-var-varslider" id="unageo-var-varslider1">
                                     </div>
                                 </div>
@@ -271,12 +271,13 @@
                                             <div class="unageo-var-numselector-button two" onmousedown="ugsliderdecrease2('unageo-var-num2')" onmouseup="end()" onmouseout="end()">-</div>
                                         </div>
                                     </div>
-                                    <div class="unageo-var-varslider-wrapper">
+                                    <div class="unageo-var-varslider-wrapper" id="resp-ug-varslider2">
                                         <input type="range" step="0.01" min="0" max="1" value="0" class="unageo-var-varslider two" id="unageo-var-varslider2">
                                     </div>
                                 </div>
                             </div>
-                            <div class="unageo-var-control" style="margin-left: 30px;">
+                            <div style="height: 10px;" id="resp-ug-g1"></div>
+                            <div class="unageo-var-control" style="margin-left: 30px;" id="resp-ug-varcontrol2">
                                 <span style="font-weight: 450; font-size: 18px; margin-right: 29px;" id="langs-unageo-lineheight"></span>
                                 <div class="unageo-var-slider-wrapper">
                                     <div class="unageo-var-numselector-wrapper">
@@ -287,13 +288,13 @@
                                             <div class="unageo-var-numselector-button two" onmousedown="ugsliderdecrease3('unageo-var-num3')" onmouseup="end()" onmouseout="end()">-</div>
                                         </div>
                                     </div>
-                                    <div class="unageo-var-varslider-wrapper">
+                                    <div class="unageo-var-varslider-wrapper" id="resp-ug-varslider3">
                                         <input type="range" step="0.1" min="0.5" max="2" value="1.1" class="unageo-var-varslider three" id="unageo-var-varslider3">
                                     </div>
                                 </div>
                             </div>
                             <div style="height: 10px;"></div>
-                            <div class="unageo-var-control" style="margin-left: 30px;">
+                            <div class="unageo-var-control" style="margin-left: 30px;" id="resp-ug-varcontrol2">
                                 <span style="font-weight: 450; font-size: 18px; margin-right: 16px;" id="langs-unageo-letterspace"></span>
                                 <div class="unageo-var-slider-wrapper">
                                     <div class="unageo-var-numselector-wrapper">
@@ -304,11 +305,11 @@
                                             <div class="unageo-var-numselector-button two" onmousedown="ugsliderdecrease4('unageo-var-num4')" onmouseup="end()" onmouseout="end()">-</div>
                                         </div>
                                     </div>
-                                    <div class="unageo-var-varslider-wrapper">
+                                    <div class="unageo-var-varslider-wrapper" id="resp-ug-varslider4">
                                         <input type="range" step="0.1" min="-1" max="1" value="0" class="unageo-var-varslider four" id="unageo-var-varslider4">
                                     </div>
                                 </div>
-                            </div>
+                            </div></div>
                             <div class="unageo-var-control">
                                 <span style="font-weight: 450; font-size: 18px; margin-right: 16px;" id="langs-unageo-fontsize"></span>
                                 <div class="unageo-var-slider-wrapper">
@@ -326,7 +327,7 @@
                         <textarea id="Unageo-fonttestfield" class="Unageo-fonttestfield" placeholder=""></textarea>
                     </div>
                 </div>
-                <div class="unageo-row">
+                <div class="unageo-row" id="resp-ug-row-scripts">
                     <div class="unageo-scripts-left">
                         <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Кириллица<span class="unageo-scripts-subtitle" id="langs-unageo-cyrillictitle"></span></span>
                         <div style="height: 10px;"></div>
@@ -363,10 +364,10 @@
                         </span>
                     </div>
                 </div>
-                <div class="unageo-row">
+                <div class="unageo-row" id="resp-ug-row-2">
                     <span class="unageo-row-title" id="langs-unageo-howmadetitle"></span>
                 </div>
-                <div class="unageo-row" style="flex-direction: column !important; margin-bottom: 50px;">
+                <div class="unageo-row" id="resp-ug-row-2" style="flex-direction: column !important; margin-bottom: 50px;">
                     <div class="unageo-story-textsection">
                         <div class="unageo-story-par" style="width: 27%;"><span class="unageo-story-text" id="langs-unageo-story1">
                         </span></div>
@@ -380,7 +381,7 @@
         </div>
         <div class="unageo-bottom-sources">
             <div class="unageo-row-bottom">
-                <div style="display: flex; flex-direction: row; padding-bottom: 60px; padding-top: 35px;">
+                <div style="display: flex; flex-direction: row; padding-bottom: 60px; padding-top: 35px;" id="resp-ug-row-3">
                     <div style="display: flex; flex-direction: column;"><span class="unageo-row-title" id="langs-unageo-followdevtitle"></span>
                     <span class="unageo-github-text" id="langs-unageo-ost">
                     </span></div>

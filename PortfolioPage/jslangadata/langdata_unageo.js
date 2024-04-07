@@ -1,6 +1,6 @@
 if(currentlang == "EN") {
-    document.getElementById("langs-unageo-dvariable").innerHTML = `Download Variable`
-    document.getElementById("langs-unageo-dstatic").innerHTML = `Download Static`
+    document.getElementById("langs-unageo-dvariable").innerHTML = `Variable`
+    document.getElementById("langs-unageo-dstatic").innerHTML = `Static`
     document.getElementById("langs-unageo-desc").innerHTML = `Unageo is a modern, open-source, sans-serif
     typeface that uses perfect geometry and uniform stroke width where possible, but still maintains great readability.<br>`
     document.getElementById("langs-unageo-desc2").innerHTML = `Unageo supports hundreds of languages in latin, cyrillic and greek scripts.`
@@ -36,9 +36,9 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Follow the development`
     document.getElementById("langs-unageo-ost").innerHTML = `
     <span style="font-size: 21px; font-weight: 600; color: #e6e6e6;">Unageo is an open source typeface developed on GitHub.</span>
-    <div style="height: 18px;"></div>
+    <div style="height: 18px;" id="resp-ug-space-1"></div>
     If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.
-    <div style="height: 14px;"></div>
+    <div style="height: 14px;" id="resp-ug-space-2"></div>
     Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Download Variable`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Download Static`
@@ -46,8 +46,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-links2").innerHTML = `Submit a new issue`
     document.getElementById("langs-unageo-links3").innerHTML = `Releases/Changelog`
 } else if(currentlang == "SK") {
-    document.getElementById("langs-unageo-dvariable").innerHTML = `Stiahnuť Variabliný`
-    document.getElementById("langs-unageo-dstatic").innerHTML = `Stiahnuť Statický`
+    document.getElementById("langs-unageo-dvariable").innerHTML = `Variabliný`
+    document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
     document.getElementById("langs-unageo-desc").innerHTML = `Unageo je moderný, open-source, sans-serif
     font, ktorý používa geometrické tvary a rovnomernú šírku ťahu vždy keď je to možné, ale stále si zachováva dobrú čitatelnosť.<br>`
     document.getElementById("langs-unageo-desc2").innerHTML = `Unageo podporuje stovky jazykov v latinskej a gréckej abecede, a v cyrilike.`
@@ -98,8 +98,8 @@ if(currentlang == "EN") {
 
 function langizeunageo() {
     if(currentlang == "EN") {
-        document.getElementById("langs-unageo-dvariable").innerHTML = `Download Variable`
-        document.getElementById("langs-unageo-dstatic").innerHTML = `Download Static`
+        document.getElementById("langs-unageo-dvariable").innerHTML = `Variable`
+        document.getElementById("langs-unageo-dstatic").innerHTML = `Static`
         document.getElementById("langs-unageo-desc").innerHTML = `Unageo is a modern, open-source, sans-serif
         typeface that uses perfect geometry and uniform stroke width where possible, but still maintains great readability.<br>`
         document.getElementById("langs-unageo-desc2").innerHTML = `Unageo supports hundreds of languages in latin, cyrillic and greek scripts.`
@@ -145,8 +145,8 @@ function langizeunageo() {
         document.getElementById("langs-unageo-links2").innerHTML = `Submit a new issue`
         document.getElementById("langs-unageo-links3").innerHTML = `Releases/Changelog`
     } else if(currentlang == "SK") {
-        document.getElementById("langs-unageo-dvariable").innerHTML = `Stiahnuť Variabliný`
-        document.getElementById("langs-unageo-dstatic").innerHTML = `Stiahnuť Statický`
+        document.getElementById("langs-unageo-dvariable").innerHTML = `Variabliný`
+        document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
         document.getElementById("langs-unageo-desc").innerHTML = `Unageo je moderný, open-source, sans-serif
         font, ktorý používa geometrické tvary a rovnomernú šírku ťahu vždy keď je to možné, ale stále si zachováva dobrú čitatelnosť.<br>`
         document.getElementById("langs-unageo-desc2").innerHTML = `Unageo podporuje stovky jazykov v latinskej a gréckej abecede, a v cyrilike.`
@@ -182,9 +182,9 @@ function langizeunageo() {
         document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
         document.getElementById("langs-unageo-ost").innerHTML = `
         <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvýjaný na platforme GitHub.</span>
-        <div style="height: 18px;"></div>
+        <div style="height: 18px;" id="resp-ug-space-1"></div>
         Ak máte nápad na vylepšenie, našli ste chybu alebo máte nejaký iný návrh, kľudne ma o tom informujte na GitHube.
-        <div style="height: 14px;"></div>
+        <div style="height: 14px;" id="resp-ug-space-2"></div>
         Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Stiahnuť Variabliný`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Stiahnuť Statický`
