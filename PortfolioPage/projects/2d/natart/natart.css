@@ -62,3 +62,25 @@
     transition-duration: 200ms;
     pointer-events: none;
 }
+
+
+
+/*   Responsive   */
+
+
+@media screen and (max-width: 1450px) {
+    .natart-svg-container{
+        max-width: 1405px !important;
+        height: calc(-115px + 52.95vw) !important;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .natart-svg-container{
+        height: calc(-63px + 52.95vw) !important;
+    }
+}
+@media screen and (max-width: 760px) {
+    .natart-svg-container{
+        height: calc(-43px + 52.95vw) !important;
+    }
+}

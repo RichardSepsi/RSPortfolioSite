@@ -369,10 +369,16 @@
         left: calc(100% - 480px);
         background-color: #121212;
         z-index: 2;
-        display: none;
+        display: block;
+        transform: translateX(50%);
+        opacity: 0;
+        transition: transform 200ms ease, opacity 200ms ease;
+        
     }
     .project-right-side.open{
-        display: block;
+        transform: translateX(0%);
+        opacity: 1;
+        transition: transform 200ms ease, opacity 200ms ease;
     }
     .project-left-side{
         height: 100vh;
@@ -380,10 +386,6 @@
     }
     .project-sides-container{
         width: 100vw;
-    }
-    .natart-svg-container{
-        max-width: 1405px !important;
-        height: calc(-115px + 52.95vw) !important;
     }
     .project-image-content{
         padding: 60px;
@@ -398,16 +400,10 @@
         padding-top: 10px;
         padding-bottom: 12px;
     }
-    .natart-svg-container{
-        height: calc(-63px + 52.95vw) !important;
-    }
 }
 @media screen and (max-width: 760px) {
     .project-image-content{
         padding: 40px;
-    }
-    .natart-svg-container{
-        height: calc(-43px + 52.95vw) !important;
     }
 }
 @media screen and (max-width: 535px) {
