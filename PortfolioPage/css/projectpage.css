@@ -69,9 +69,9 @@
     height: 100vh;
     padding: 40px;
     padding-top: 100px;
-    padding-bottom: 0px;
     max-height: 100vh;
     overflow: scroll;
+    padding-bottom: 40px;
 }
 .project-element-container{
     display: flex;
@@ -177,6 +177,7 @@
 .project-link-button-container{
     width: 100%;
     padding: 20px;
+    padding-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -373,7 +374,6 @@
         transform: translateX(50%);
         opacity: 0;
         transition: transform 200ms ease, opacity 200ms ease;
-        
     }
     .project-right-side.open{
         transform: translateX(0%);
@@ -424,7 +424,7 @@
     .project-right-side {
         width: 100%;
         left: 0;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 }
 @media screen and (max-width: 420px) {

@@ -10,7 +10,7 @@ if(currentlang == "EN") {
     This website is made to present these projects and highlight their goals, as well as to host their blog.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
     document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website is very simple and so is the design that I worked on. It's just two pages.
-    The bottom right variant was not used, it's the old version of the blog page.`
+    The bottom right variant was not used (bottom variant on mobile), it's the old version of the blog page.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
 } else if(currentlang == "SK") {
     document.getElementById("langs-zelenaskola-time").innerHTML = `Od Novembra do Decembra 2023`
@@ -24,7 +24,7 @@ if(currentlang == "EN") {
     Táto webstránka bola vytvorená, aby prezentovala ich projekty a ciele, a taktiež ich blog.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Moja práca na projekte`
     document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Táto stránka je veľmi jednoduchá a rovnako aj design, na ktorom som pracoval. Sú to len dve stránky.
-    Variant vpravo dole nebol použitý, jedná sa o staršiu verziu blogu.`
+    Variant vpravo dole nebol použitý (Spodný variant na mobile), jedná sa o staršiu verziu blogu.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
 }
 
@@ -43,7 +43,7 @@ function langizezelenaskola() {
         This website is made to present these projects and highlight their goals, as well as to host their blog.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
         document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website is very simple and so is the design that I worked on. It's just two pages.
-        The bottom right variant was not used, it's the old version of the blog page.`
+        The bottom right variant was not used (bottom variant on mobile), it's the old version of the blog page.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
     } else if(currentlang == "SK") {
         document.getElementById("langs-zelenaskola-time").innerHTML = `Od Novembra do Decembra 2023`
@@ -57,7 +57,7 @@ function langizezelenaskola() {
         Táto webstránka bola vytvorená, aby prezentovala ich projekty a ciele, a taktiež ich blog.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Moja práca na projekte`
         document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Táto webstránka je veľmi jednoduchá a rovnako aj design, na ktorom som pracoval. Sú to len dve stránky.
-        Variant vpravo dole nebol použitý, jedná sa o staršiu verziu blogu.`
+        Variant vpravo dole nebol použitý (Spodný variant na mobile), jedná sa o staršiu verziu blogu.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
     }
 }

@@ -6,3 +6,21 @@
     flex-direction: row;
     width: 100%;
 }
+
+
+
+/*   Responsive   */
+
+.zelenaskola-mobile{
+    display: none;
+    max-height: 78vh;
+}
+
+@media screen and (max-width: 620px) {
+    .zelenaskola-mobile{
+        display: block;
+    }
+    .zelenaskola-desktop{
+        display: none;
+    }
+}
