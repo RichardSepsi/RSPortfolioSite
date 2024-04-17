@@ -13,6 +13,7 @@
     justify-content: space-between;
     max-width: 1305px;
     max-height: 692px;
+    transform: scale(1.06);
 }
 .relnao-svg-top{
     height: 47.5%;
@@ -60,4 +61,28 @@
     opacity: 0;
     transition-duration: 200ms;
     pointer-events: none;
+}
+
+
+
+/*   Responsive   */
+
+@media screen and (max-width: 1450px) {
+    .relnao-svg-container{
+        max-width: 1405px !important;
+        height: calc(-115px + 52.95vw) !important;
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 1180px) {
+    .relnao-svg-container{
+        height: calc(-63px + 52.95vw) !important;
+        transform: scale(1.12);
+    }
+}
+@media screen and (max-width: 760px) {
+    .relnao-svg-container{
+        height: calc(-43px + 52.95vw) !important;
+        transform: scale(1.16);
+    }
 }
