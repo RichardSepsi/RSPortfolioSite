@@ -1,0 +1,101 @@
+.natart-project-slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    flex-direction: row;
+    width: 100%;
+}
+.natart-svg-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(-315px + 52.95vw);
+    justify-content: space-between;
+    max-width: 1305px;
+    max-height: 692px;
+}
+.natart-svg-top{
+    height: 40.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.natart-svg-bottom{
+    height: 54.6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.natart-svg{
+    transition-duration: 200ms;
+    border-radius: 2px;
+    outline: 4px solid transparent;
+
+    height: 100%;
+}
+.natart-svg:hover{
+    transition-duration: 200ms;
+    outline: 4px solid #969696;
+    background-color: #969696;
+}
+.natart-svg1{
+    background: no-repeat url(/projects/2d/natart/darkandlight.svg) 50% / 100%;
+    aspect-ratio: 3.58/1;
+}
+.natart-svg2{
+    background: no-repeat url(/projects/2d/natart/popups.svg) 50% / 100%;
+    aspect-ratio: 0.94/1;
+}
+.natart-svg3{
+    background: no-repeat url(/projects/2d/natart/other.svg) 50% / 100%;
+    aspect-ratio: 2.65/1;
+}
+.natart-svg4{
+    background: no-repeat url(/projects/2d/natart/mobile.svg) 50% / 100%;
+    aspect-ratio: 0.7/1;
+}
+.natart-svg-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.natart-svg-wrapper:hover .natart-label{
+    opacity: 1;
+    transition-duration: 200ms;
+}
+.natart-label{
+    position: absolute;
+    background-color: #373737;
+    padding: 9px 14px;
+    user-select: none;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-bottom: -20px;
+    opacity: 0;
+    transition-duration: 200ms;
+    pointer-events: none;
+}
+
+
+
+/*   Responsive   */
+
+@media screen and (max-width: 1450px) {
+    .natart-svg-container{
+        max-width: 1405px !important;
+        height: calc(-115px + 52.95vw) !important;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .natart-svg-container{
+        height: calc(-63px + 52.95vw) !important;
+    }
+}
+@media screen and (max-width: 760px) {
+    .natart-svg-container{
+        height: calc(-43px + 52.95vw) !important;
+    }
+}

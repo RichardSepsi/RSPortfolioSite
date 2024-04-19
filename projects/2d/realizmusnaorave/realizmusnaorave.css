@@ -1,0 +1,100 @@
+.relnao-project-slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    flex-direction: row;
+    width: 100%;
+}
+.relnao-svg-container{
+    display: flex;
+    flex-direction: column;
+    height: calc(-315px + 52.95vw);
+    justify-content: space-between;
+    max-width: 1305px;
+    max-height: 692px;
+    transform: scale(1.06);
+}
+.relnao-svg-top{
+    height: 47.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.relnao-svg-bottom{
+    height: 47.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.relano-test{
+    transition-duration: 200ms;
+    border-radius: 2px;
+    outline: 4px solid transparent;
+
+    height: 100%;
+}
+.relano-test:hover{
+    transition-duration: 200ms;
+    outline: 4px solid #969696;
+    background-color: #969696;
+}
+.relnao-test1{
+    background: no-repeat url(/projects/2d/realizmusnaorave/base.svg) 50% / 100%;
+    aspect-ratio: 1.92/1;
+}
+.relnao-test2{
+    background: no-repeat url(/projects/2d/realizmusnaorave/errors.svg) 50% / 100%;
+    aspect-ratio: 1.59/1;
+}
+.relnao-test3{
+    background: no-repeat url(/projects/2d/realizmusnaorave/dowanload.svg) 50% / 100%;
+    aspect-ratio: 2.58/1;
+}
+.relnao-svg-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.relnao-svg-wrapper:hover .relnao-label{
+    opacity: 1;
+    transition-duration: 200ms;
+}
+.relnao-label{
+    position: absolute;
+    background-color: #373737;
+    padding: 9px 14px;
+    user-select: none;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-bottom: -20px;
+    opacity: 0;
+    transition-duration: 200ms;
+    pointer-events: none;
+}
+
+
+
+/*   Responsive   */
+
+@media screen and (max-width: 1450px) {
+    .relnao-svg-container{
+        max-width: 1405px !important;
+        height: calc(-115px + 52.95vw) !important;
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 1180px) {
+    .relnao-svg-container{
+        height: calc(-63px + 52.95vw) !important;
+        transform: scale(1.12);
+    }
+}
+@media screen and (max-width: 760px) {
+    .relnao-svg-container{
+        height: calc(-43px + 52.95vw) !important;
+        transform: scale(1.16);
+    }
+}
