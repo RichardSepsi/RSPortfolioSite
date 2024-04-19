@@ -13,7 +13,7 @@
 
 .zelenaskola-mobile{
     display: none;
-    max-height: 78vh;
+    max-height: 74vh;
 }
 
 @media screen and (max-width: 620px) {
