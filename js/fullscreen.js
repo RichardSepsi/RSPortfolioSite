@@ -2,7 +2,7 @@ function fullscreen(id) {
     if(currentlang == "EN") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu">
+        <div class="project-fullscreen-menu one">
             <div class="project-fullscreen-menu-row">
                 <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
                 <div class="p-f-m-r-column">
@@ -26,7 +26,7 @@ function fullscreen(id) {
     } else if(currentlang == "SK") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu">
+        <div class="project-fullscreen-menu" one>
             <div class="project-fullscreen-menu-row">
                 <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
                 <div class="p-f-m-r-column">
