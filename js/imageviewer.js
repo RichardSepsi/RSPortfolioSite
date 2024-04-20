@@ -66,7 +66,7 @@ function imageviewer() {
                 pointY = 0;
             }
             setTransform();
-            console.log(e.clientX)
+            console.log(pointX)
         }
     }
 
@@ -94,8 +94,8 @@ function imageviewer() {
         } else if (e.touches.length === 2) {
             initialDistance = getDistance(e.touches);
             initialScale = scale;
-            initialCenterX = (e.touches[0].clientX + e.touches[1].clientX) / 2 - pointX;
-            initialCenterY = (e.touches[0].clientY + e.touches[1].clientY) / 2 - pointY;
+            initialCenterX = (((e.touches[0].clientX + e.touches[1].clientX) / 2) - pointX) / scale;
+            initialCenterY = (((e.touches[0].clientY + e.touches[1].clientY) / 2) - pointY) / scale;
         }
     });
 
@@ -119,14 +119,18 @@ function imageviewer() {
             setTransform();
 
             // Calculate new translation based on the current center of the two fingers
-            const newCenterX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-            const newCenterY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-            const offsetX = newCenterX - initialCenterX * scale;
-            const offsetY = newCenterY - initialCenterY * scale;
-            pointX = offsetX;
-            pointY = offsetY;
+            let newCenterX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+            let newCenterY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+            if (scale == 1) {
+                zoom.style.transitionDuration = "100ms";
+                pointX = 0;
+                pointY = 0;
+            }
+            else {
+                pointX = newCenterX - initialCenterX * scale;
+                pointY = newCenterY - initialCenterY * scale;
+            }
             setTransform();
-            console.log(pointX)
         }
     });
 
@@ -135,38 +139,4 @@ function imageviewer() {
         zoom.style.cursor = 'grab';
         zoom.style.transitionDuration = "100ms";
     });
-}
-
-
-
-// Reference to an output container, use 'pre' styling for JSON output
-var outputaa = document.createElement('pre');
-outputaa.setAttribute("style", "position: absolute; max-height: 80vh; overflow: hidden; z-index: 5000; display: flex; justify-content: end; align-items: end; pointer-events: none;")
-document.body.appendChild(outputaa);
-
-// Reference to native method(s)
-var oldLog = console.log;
-
-console.log = function( ...items ) {
-
-    // Call native method first
-    oldLog.apply(this,items);
-
-    // Use JSON to transform objects, all others display normally
-    items.forEach( (item,i)=>{
-        items[i] = (typeof item === 'object' ? JSON.stringify(item,null,4) : item);
-    });
-    outputaa.innerHTML += items.join(' ') + '<br />';
-
-};
-
-// You could even allow Javascript input...
-function consoleInput( data ) {
-    // Print it to console as typed
-    console.log( data + '<br />' );
-    try {
-        console.log( eval( data ) );
-    } catch (e) {
-        console.log( e.stack );
-    }
 }
