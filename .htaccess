@@ -4,7 +4,6 @@ RewriteEngine on
 
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-RewriteRule ^nejaky-pekny-text /content.php
-RewriteRule ^video/(.*)$ ./video.php?id=$1 [QSA]
-RewriteRule ^projects ./projects.html
-RewriteRule ^test ./test.php
+RewriteRule ^home ./home.html
+RewriteRule ^3D ./3dprojects.html
+RewriteRule ^2D ./designprojects.html

@@ -13,7 +13,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-aboutmetext1").innerHTML = `I first got into what I do when I was about 10. I used to play games on my phone, and I thought that it would be fun to make my own, so I signed up for a local game programming course. We made various simple games in basic programming languages, but we also had to work on the game's visuals and design the interface, which was a surprisingly big part of it.`
     document.getElementById("langs-text-aboutmetext2").innerHTML = `Later, I also tried to make 3D games, which I enjoyed even more, but it was much more difficult than 2D games, even if my game was really simple. I thought that it may be because the basic programming languages didn't have a way to edit the levels visually, so everything had to be coded manually. That was inconvenient by itself, but it became an even bigger problem when there were tens of objects in a scene, and I often got lost in the code and the coordinates. My teacher told me about Unity, but he didn't teach it, so I tried looking for a solution online and I found Unreal Engine, which looked great. I downloaded it, started playing with it and over time I learned about things like level design, 3D modeling, and a lot more.`
     document.getElementById("langs-text-aboutmetext3").innerHTML = `Meanwhile, I also signed up for a web development course because I was interested in websites too, but I quickly realized that I enjoy designing websites much more than coding them, although, I found coding useful as well. Besides HTML and CSS, I also learned Javascript, which allowed me to make my own functional websites like this one.`
-    document.getElementById("langs-text-aboutmetext4").innerHTML = `Nowadays I do 3D graphics and UI/UX Design and that's what I would like to improve and gain more experience in. If you'd like to see my work, feel free to check out the 3D Projects and Design Projects pages.`
+    document.getElementById("langs-text-aboutmetext4").innerHTML = `Nowadays I do 3D graphics and UI/UX Design and that's what I would like to improve and gain more experience in. If you'd like to see my work, feel free to check out the 3D and 2D Graphics pages.`
     document.getElementById("langs-text-skillsandsoftware").innerHTML = `Skills`
     document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Skills`
     document.getElementById("langs-text-skillsandsoftware2").innerHTML = `&`
@@ -23,6 +23,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "90px")
     document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "90px")
     document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `And a lot more...`
+    document.getElementById("langs-text-skillsfotware1m").innerHTML = `3D Graphics`
+    document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Graphics`
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Coding`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Other`
 
@@ -55,7 +57,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-aboutmetext1").innerHTML = `Do toho, čo robím, som sa prvý krát dostal keď som mal priblížne 10 rokov. Zvykol som hrať hry na svojom mobile, a myslel som si, že by ma bavilo vyskúšať si tvoriť vlastné, tak som sa prihlásil na kurz programovania. Tvorili sme rôzne jednoduché hry v základných programovacích jazykoch, ale museli sme pracovať aj na vizuálnej stránke hry, čo bola prekvapivo veľká časť práce.`
     document.getElementById("langs-text-aboutmetext2").innerHTML = `Neskôr som si vyskúšal aj tvorbu 3D hier, čo ma bavilo ešte viac, ale bolo to podstatne tažšie, aj keď som pracoval na veľmi jednoduchej hre. Myslel som si, že za to môže ten jednoduchý programovací jazyk, ktorý nemal možnosť tvoby prostredia vizuálne a všetko som preto musel písať manuálne ako kód. Sám o sebe to bol celkom veľký problém, ale bolo to ešte horšie, keď som mal desiatky objektov v scéne a začínal som sa strácať vo vlastnom kóde a súradniciach. Učitel mi poradil použiť Unity, ale neučil to, takže som si musel nájsť riešenie sám a našiel som Unreal Engine, ktorý vyzeral výborne. Hneď som ho aj vyskúšal a postupom času ako som sa zlepšoval, som sa naučil o level designe, 3D modelovaní a mnohých iných oblastiach.`
     document.getElementById("langs-text-aboutmetext3").innerHTML = `Okrem toho som sa prilásil aj na kurz tvorby webstránok, pretože aj to ma zaujímalo, ale rýchlo som prišiel na to, že designovanie webstránok ma baví oveľa viac ako programovanie, ale aj to bolo veľmi užitočné. Okrem HTML a CSS som sa naučil aj Javascript, vďaka ktorému viem tvoriť svoje vlastné funkčné webstránky, ako napríklad táto.`
-    document.getElementById("langs-text-aboutmetext4").innerHTML = `Dnes vačšinou robím 3D grafiku a UI/UX Design a to sú oblasti, v ktorých by som sa rád ďalej zlepšoval a nabral viac skúseností. Ak by ste chceli vidieť moju prácu, pokojne navštívte stránky "3D Projekty" a "Design Projekty".`
+    document.getElementById("langs-text-aboutmetext4").innerHTML = `Dnes vačšinou robím 3D grafiku a UI/UX Design a to sú oblasti, v ktorých by som sa rád ďalej zlepšoval a nabral viac skúseností. Ak by ste chceli vidieť moju prácu, pokojne navštívte stránky "3D Grafika" a "2D Grafika".`
     document.getElementById("langs-text-skillsandsoftware").innerHTML = `Zručnosti`
     document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Zručnosti`
     document.getElementById("langs-text-skillsandsoftware2").innerHTML = `a`
@@ -65,6 +67,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "157px")
     document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "157px")
     document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `A oveľa viac...`
+    document.getElementById("langs-text-skillsfotware1m").innerHTML = `3D Grafika`
+    document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Grafika`
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Programovanie`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatné`
 
@@ -101,7 +105,7 @@ function langizehome() {
         document.getElementById("langs-text-aboutmetext1").innerHTML = `I first got into what I do when I was about 10. I used to play games on my phone, and I thought that it would be fun to make my own, so I signed up for a local game programming course. We made various simple games in basic programming languages, but we also had to work on the game's visuals and design the interface, which was a surprisingly big part of it.`
         document.getElementById("langs-text-aboutmetext2").innerHTML = `Later, I also tried to make 3D games, which I enjoyed even more, but it was much more difficult than 2D games, even if my game was really simple. I thought that it may be because the basic programming languages didn't have a way to edit the levels visually, so everything had to be coded manually. That was inconvenient by itself, but it became an even bigger problem when there were tens of objects in a scene, and I often got lost in the code and the coordinates. My teacher told me about Unity, but he didn't teach it, so I tried looking for a solution online and I found Unreal Engine, which looked great. I downloaded it, started playing with it and over time I learned about things like level design, 3D modeling, and a lot more.`
         document.getElementById("langs-text-aboutmetext3").innerHTML = `Meanwhile, I also signed up for a web development course because I was interested in websites too, but I quickly realized that I enjoy designing websites much more than coding them, although, I found coding useful as well. Besides HTML and CSS, I also learned Javascript, which allowed me to make my own functional websites like this one.`
-        document.getElementById("langs-text-aboutmetext4").innerHTML = `Nowadays I do 3D graphics and UI/UX Design and that's what I would like to improve and gain more experience in. If you'd like to see my work, feel free to check out the 3D Projects and Design Projects pages.`
+        document.getElementById("langs-text-aboutmetext4").innerHTML = `Nowadays I do 3D graphics and UI/UX Design and that's what I would like to improve and gain more experience in. If you'd like to see my work, feel free to check out the 3D and 2D Graphics pages.`
         document.getElementById("langs-text-skillsandsoftware").innerHTML = `Skills`
         document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Skills`
         document.getElementById("langs-text-skillsandsoftware2").innerHTML = `&`
@@ -111,6 +115,8 @@ function langizehome() {
         document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "90px")
         document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "90px")
         document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `And a lot more...`
+        document.getElementById("langs-text-skillsfotware1m").innerHTML = `3D Graphics`
+        document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Graphics`
         document.getElementById("langs-text-skillsfotware1").innerHTML = `Coding`
         document.getElementById("langs-text-skillsfotware2").innerHTML = `Other`
     
@@ -143,7 +149,7 @@ function langizehome() {
         document.getElementById("langs-text-aboutmetext1").innerHTML = `Do toho, čo robím, som sa prvý krát dostal keď som mal priblížne 10 rokov. Zvykol som hrať hry na svojom mobile, a myslel som si, že by ma bavilo vyskúšať si tvoriť vlastné, tak som sa prihlásil na kurz programovania. Tvorili sme rôzne jednoduché hry v základných programovacích jazykoch, ale museli sme pracovať aj na vizuálnej stránke hry, čo bola prekvapivo veľká časť práce.`
         document.getElementById("langs-text-aboutmetext2").innerHTML = `Neskôr som si vyskúšal aj tvorbu 3D hier, čo ma bavilo ešte viac, ale bolo to podstatne tažšie, aj keď som pracoval na veľmi jednoduchej hre. Myslel som si, že za to môže ten jednoduchý programovací jazyk, ktorý nemal možnosť tvoby prostredia vizuálne a všetko som preto musel písať manuálne ako kód. Sám o sebe to bol celkom veľký problém, ale bolo to ešte horšie, keď som mal desiatky objektov v scéne a začínal som sa strácať vo vlastnom kóde a súradniciach. Učitel mi poradil použiť Unity, ale neučil to, takže som si musel nájsť riešenie sám a našiel som Unreal Engine, ktorý vyzeral výborne. Hneď som ho aj vyskúšal a postupom času ako som sa zlepšoval, som sa naučil o level designe, 3D modelovaní a mnohých iných oblastiach.`
         document.getElementById("langs-text-aboutmetext3").innerHTML = `Okrem toho som sa prilásil aj na kurz tvorby webstránok, pretože aj to ma zaujímalo, ale rýchlo som prišiel na to, že designovanie webstránok ma baví oveľa viac ako programovanie, ale aj to bolo veľmi užitočné. Okrem HTML a CSS som sa naučil aj Javascript, vďaka ktorému viem tvoriť svoje vlastné funkčné webstránky, ako napríklad táto.`
-        document.getElementById("langs-text-aboutmetext4").innerHTML = `Dnes vačšinou robím 3D grafiku a UI/UX Design a to sú oblasti, v ktorých by som sa rád ďalej zlepšoval a nabral viac skúseností. Ak by ste chceli vidieť moju prácu, pokojne navštívte stránky "3D Projekty" a "Design Projekty".`
+        document.getElementById("langs-text-aboutmetext4").innerHTML = `Dnes vačšinou robím 3D grafiku a UI/UX Design a to sú oblasti, v ktorých by som sa rád ďalej zlepšoval a nabral viac skúseností. Ak by ste chceli vidieť moju prácu, pokojne navštívte stránky "3D Grafika" a "2D Grafika"`
         document.getElementById("langs-text-skillsandsoftware").innerHTML = `Zručnosti`
         document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Zručnosti`
         document.getElementById("langs-text-skillsandsoftware2").innerHTML = `a`
@@ -153,6 +159,8 @@ function langizehome() {
         document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "157px")
         document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "157px")
         document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `A oveľa viac...`
+        document.getElementById("langs-text-skillsfotware1m").innerHTML = `3D Grafika`
+        document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Grafika`
         document.getElementById("langs-text-skillsfotware1").innerHTML = `Programovanie`
         document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatné`
     

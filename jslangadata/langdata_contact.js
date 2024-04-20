@@ -10,7 +10,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-contact-issue").innerHTML = `Submit a new issue`
 
 } else if(currentlang == "SK") {
-    document.getElementById("langs-contact-title").innerHTML = `Kontaktujte ma`
+    document.getElementById("langs-contact-title").innerHTML = `Kontakt`
     document.getElementById("cdt1").innerHTML = `cez e-mail`
     document.getElementById("langs-contact-copy").innerHTML = `stlačte pre skopírovanie`
     document.getElementById("cdt2").innerHTML = `alebo sociálne médiá`
@@ -34,7 +34,7 @@ function langizecontact() {
         document.getElementById("langs-contact-issue").innerHTML = `Submit a new issue`
     
     } else if(currentlang == "SK") {
-        document.getElementById("langs-contact-title").innerHTML = `Kontaktujte ma`
+        document.getElementById("langs-contact-title").innerHTML = `Kontakt`
         document.getElementById("cdt1").innerHTML = `cez e-mail`
         document.getElementById("langs-contact-copy").innerHTML = `stlačte pre skopírovanie`
         document.getElementById("cdt2").innerHTML = `alebo sociálne médiá`
