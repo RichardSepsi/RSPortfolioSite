@@ -4,21 +4,25 @@ RewriteEngine on
 
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-RewriteRule ^home ./home.html
-Redirect /home.html /home
-RewriteRule ^3D ./3dprojects.html
-Redirect /3dprojects.html /3D
+RewriteRule ^/home.html /home
+
+RewriteRule ^/3dprojects.html /3dprojects
+
 RewriteRule ^2D ./designprojects.html
-Redirect /designprojects.html /2D
+
 RewriteRule ^contact ./contact.html
-Redirect /contact.html /contact
+
 RewriteRule ^3D/metrostation ./metrostation.html
-Redirect /metrostation.html /3D/metrostation
+
 RewriteRule ^2D/unageo ./unageo.html
-Redirect /unageo.html /2D/unageo
+
 RewriteRule ^2D/zelenaskola ./zelenaskola.html
-Redirect /zelenaskola.html /2D/zelenaskola
+
 RewriteRule ^2D/realizmusnaorave ./realizmusnaorave.html
-Redirect /realizmusnaorave.html /2D/realizmusnaorave
+
 RewriteRule ^2D/natart ./natart.html
-Redirect /natart.html /2D/natart
+
+
+
+
+ErrorDocument 404 https://example.com/
