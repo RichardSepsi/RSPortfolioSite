@@ -60,7 +60,8 @@ function switchlang(newlang){
     document.getElementById("language-selector").classList.remove("active");
     
     document.cookie = "LANG="+newlang+"; expires=Thu, 18 Dec 2030 12:00:00 UTC";
-    location.reload() // TEMPORARY : Fix for languages not switching on live deployed version
+    
     langizeunversal()
+    location.reload() // TEMPORARY : Fix for languages not switching on live deployed version
     
 }
