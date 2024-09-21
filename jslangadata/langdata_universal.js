@@ -42,6 +42,26 @@ if(currentlang == "EN") {
         document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Informácie o webstránke`
     }
     document.documentElement.lang = "sk"
+} else if(currentlang == "CZ") {
+    document.getElementById("langs-nav-home").innerHTML = `Úvod`
+    document.getElementById("langs-nav-3d").innerHTML = `3D Grafika`
+    document.getElementById("langs-nav-2d").innerHTML = `2D Grafika`
+    document.getElementById("langs-nav-contact").innerHTML = `Kontakt`
+    document.getElementById("langs-mnav-home").innerHTML = `Úvod`
+    document.getElementById("langs-mnav-3d").innerHTML = `3D Grafika`
+    document.getElementById("langs-mnav-2d").innerHTML = `2D Grafika`
+    document.getElementById("langs-mnav-contact").innerHTML = `Kontakt`
+    if (document.getElementById("langs-foot-home") !== null) {
+        document.getElementById("langs-foot-home").innerHTML = `Úvod`
+        document.getElementById("langs-foot-3d").innerHTML = `3D Grafika`
+        document.getElementById("langs-foot-2d").innerHTML = `2D Grafika`
+        document.getElementById("langs-foot-contact").innerHTML = `Kontakt`
+        document.getElementById("langs-foot-3dfix").setAttribute("width", "88px")
+        document.getElementById("langs-foot-2dfix").setAttribute("width", "88px")
+        document.getElementById("langs-foot-scroll").innerHTML = `<img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">Zpět na začátek`
+        document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Informace o webu`
+    }
+    document.documentElement.lang = "cs"
 }
 
 function langizeunversal() {
@@ -88,6 +108,26 @@ function langizeunversal() {
             document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Informácie o webstránke`
         }
         document.documentElement.lang = "sk"
+    } else if(currentlang == "CZ") {
+        document.getElementById("langs-nav-home").innerHTML = `Úvod`
+        document.getElementById("langs-nav-3d").innerHTML = `3D Grafika`
+        document.getElementById("langs-nav-2d").innerHTML = `2D Grafika`
+        document.getElementById("langs-nav-contact").innerHTML = `Kontakt`
+        document.getElementById("langs-mnav-home").innerHTML = `Úvod`
+        document.getElementById("langs-mnav-3d").innerHTML = `3D Grafika`
+        document.getElementById("langs-mnav-2d").innerHTML = `2D Grafika`
+        document.getElementById("langs-mnav-contact").innerHTML = `Kontakt`
+        if (document.getElementById("langs-foot-home") !== null) {
+            document.getElementById("langs-foot-home").innerHTML = `Úvod`
+            document.getElementById("langs-foot-3d").innerHTML = `3D Grafika`
+            document.getElementById("langs-foot-2d").innerHTML = `2D Grafika`
+            document.getElementById("langs-foot-contact").innerHTML = `Kontakt`
+            document.getElementById("langs-foot-3dfix").setAttribute("width", "88px")
+            document.getElementById("langs-foot-2dfix").setAttribute("width", "88px")
+            document.getElementById("langs-foot-scroll").innerHTML = `<img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">Zpět na začátek`
+            document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Informace o webu`
+        }
+        document.documentElement.lang = "cs"
     }
 
     if(window.location.href.indexOf('home') !== -1){

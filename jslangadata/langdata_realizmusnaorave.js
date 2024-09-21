@@ -30,7 +30,24 @@ if(currentlang == "EN") {
     document.getElementById("langs-realizmusnaorave-label1").innerHTML = `UI Aplikácie`
     document.getElementById("langs-realizmusnaorave-label2").innerHTML = `Chyby`
     document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Úvodné obrazovky`
+} else if(currentlang == "CZ") {
+    document.getElementById("langs-realizmusnaorave-time").innerHTML = `Od Června do Srpna 2023`
+    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-realizmusnaorave-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
+    document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `O projektu`
+    document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
+    Realismus na Oravě je jednoduchá, progresivní webová aplikace, která vás provede významnými památkami období realismu v
+    Oravskem regionu Slovenska.
+    <div style="height: 12px;"></div>
+    Projekt/aplikace není v současné době k dispozici, protože nebyla nikdy zveřejněna. Většina funkcí aplikace však byla dokončena a je připravena k použití.`
+    document.getElementById("langs-realizmusnaorave-myworktitle").innerHTML = `Moje práce na projektu`
+    document.getElementById("langs-realizmusnaorave-myworktext").innerHTML = `Pracoval jsem na designu aplikace, úvodní obrazovce, dalších částech aplikace a ikonách.`
+    document.getElementById("langs-realizmusnaorave-softewaretitle").innerHTML = `Použitý software`
+    document.getElementById("langs-realizmusnaorave-label1").innerHTML = `UI Aplikáce`
+    document.getElementById("langs-realizmusnaorave-label2").innerHTML = `Chyby`
+    document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Úvodné obrazovky`
 }
+
 
 
 
@@ -67,5 +84,21 @@ function langizerealizmusnaorave() {
         document.getElementById("langs-realizmusnaorave-label1").innerHTML = `UI Aplikácie`
         document.getElementById("langs-realizmusnaorave-label2").innerHTML = `Chyby`
         document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Úvodné obrazovky`
-    }    
+    } else if(currentlang == "CZ") {
+        document.getElementById("langs-realizmusnaorave-time").innerHTML = `Od Června do Srpna 2023`
+        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-realizmusnaorave-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
+        document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `O projektu`
+        document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
+        Realismus na Oravě je jednoduchá, progresivní webová aplikace, která vás provede významnými památkami období realismu v
+        Oravskem regionu Slovenska.
+        <div style="height: 12px;"></div>
+        Projekt/aplikace není v současné době k dispozici, protože nebyla nikdy zveřejněna. Většina funkcí aplikace však byla dokončena a je připravena k použití.`
+        document.getElementById("langs-realizmusnaorave-myworktitle").innerHTML = `Moje práce na projektu`
+        document.getElementById("langs-realizmusnaorave-myworktext").innerHTML = `Pracoval jsem na designu aplikace, úvodní obrazovce, dalších částech aplikace a ikonách.`
+        document.getElementById("langs-realizmusnaorave-softewaretitle").innerHTML = `Použitý software`
+        document.getElementById("langs-realizmusnaorave-label1").innerHTML = `UI Aplikáce`
+        document.getElementById("langs-realizmusnaorave-label2").innerHTML = `Chyby`
+        document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Úvodné obrazovky`
+    }
 }

@@ -45,6 +45,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
     document.getElementById("langs-unageo-links2").innerHTML = `Submit a new issue`
     document.getElementById("langs-unageo-links3").innerHTML = `Releases/Changelog`
+
 } else if(currentlang == "SK") {
     document.getElementById("langs-unageo-dvariable").innerHTML = `Variabliný`
     document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
@@ -75,9 +76,9 @@ if(currentlang == "EN") {
     aby sa medzi nimi dalo plynulo prechádzať a potom som nastavil rozmery a pridal kerning.`
     document.getElementById("langs-unageo-story3").innerHTML = `
     Samozrejme som počas práce narazil aj na nejaké problémy a naučil som sa,
-    že fonty sú oveľa komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variablinéhofontu a
+    že fonty sú oveľa komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliného fontu a
     Fonttools na statické varianty.
-    Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť Ďalší font, a ani tento určite nie je perfektný.
+    Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
     Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem.
     Nižšie zistíte viac.`
     document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
@@ -92,6 +93,54 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
     document.getElementById("langs-unageo-links2").innerHTML = `Nahlásiť problém`
     document.getElementById("langs-unageo-links3").innerHTML = `Verzie/Aktualizácie`
+
+} else if(currentlang == "CZ") {
+    document.getElementById("langs-unageo-dvariable").innerHTML = `Variabilní`
+    document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
+    document.getElementById("langs-unageo-desc").innerHTML = `Unageo je moderní, open-source, sans-serif
+    font, který používá geometrické tvary a jednotnou šířku tahu, kdykoli je to možné, ale přitom zachovává dobrou čitelnost.<br>`
+    document.getElementById("langs-unageo-desc2").innerHTML = `Unageo podporuje stovky jazyků v latince, řečtině a cyrilici.`
+    document.getElementById("langs-unageo-desc3").innerHTML = `+ Cyrilice a řecké písmo, více informací najdete níže!`
+    document.getElementById("langs-unageo-lineheight").innerHTML = `Výška řádku`
+    document.getElementById("langs-unageo-letterspace").innerHTML = `Rozestup znaků`
+    document.getElementById("langs-unageo-fontsize").innerHTML = `Velikost`
+    document.getElementById("Unageo-fonttestfield").setAttribute("placeholder", "Pište sem a vyzkoušejte si unageo a jeho variabilní funkce.")
+    document.getElementById("langs-unageo-cyrillictitle").innerHTML = `Cyrilice`
+    document.getElementById("langs-unageo-cyrillic").innerHTML = `Cyrilice Unageo byla vytvořena v bulharském stylu.
+    Používá zaoblenější tvary a písmena mají větší výškovou rozmanitost, což usnadňuje jejich čtení.`
+    document.getElementById("langs-unageo-greektitle").innerHTML = `Řecké písmo`
+    document.getElementById("langs-unageo-greek").innerHTML = `Řecké písmo Unageo se drží stejného stylu s dokonalými tvary,
+    ale dotváří ho hladkými tahy a přidává další geometrické prvky, aby bylo jedinečnější.`
+    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Jak vznikl font Unageo`
+    document.getElementById("langs-unageo-story1").innerHTML = `
+    V různých projektech jsem už použil spoustu různých písem a někdy jsem si říkal, že
+    bych do nich rád nějak vložil svůj styl, ale nikdy jsem se nepokusil vytvořit vlastní font.
+    Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl v podstatě nic.
+    Věděl jsem jen, že chci, aby mé písmo bylo geometrické, protože takový styl preferuji.`
+    document.getElementById("langs-unageo-story2").innerHTML = `
+    Zkoušel jsem FontForge, ale nevěděl jsem, jak ho dobře používat, 
+    a tak jsem se rozhodl pokračovat s netradičním postupem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge.
+    Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní jsem měl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky,
+    aby bylo možné mezi nimi plynule přecházet, a poté jsem nastavil rozměry a přidal kerning.`
+    document.getElementById("langs-unageo-story3").innerHTML = `
+    Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem,
+    že fonty jsou mnohem složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
+    Fonttools pro statické varianty.
+    Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další písmo, a ani tohle rozhodně není dokonalé.
+    Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
+    Více informací najdete níže.`
+    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
+    document.getElementById("langs-unageo-ost").innerHTML = `
+    <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvíjený na platformě GitHub.</span>
+    <div style="height: 18px;"></div>
+    Pokud máte nápad na vylepšení, našli jste chybu nebo máte jiný návrh, neváhejte mě informovat na GitHubu.
+    <div style="height: 14px;"></div>
+    Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.`
+    document.getElementById("langs-unageo-dvariable1").innerHTML = `Stáhnout Variabilní`
+    document.getElementById("langs-unageo-dstatic1").innerHTML = `Stáhnout Statický`
+    document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
+    document.getElementById("langs-unageo-links2").innerHTML = `Nahlásit problém`
+    document.getElementById("langs-unageo-links3").innerHTML = `Verze/Aktualizace`
 }
 
 
@@ -144,6 +193,7 @@ function langizeunageo() {
         document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
         document.getElementById("langs-unageo-links2").innerHTML = `Submit a new issue`
         document.getElementById("langs-unageo-links3").innerHTML = `Releases/Changelog`
+
     } else if(currentlang == "SK") {
         document.getElementById("langs-unageo-dvariable").innerHTML = `Variabliný`
         document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
@@ -174,9 +224,9 @@ function langizeunageo() {
         aby sa medzi nimi dalo plynulo prechádzať a potom som nastavil rozmery a pridal kerning.`
         document.getElementById("langs-unageo-story3").innerHTML = `
         Samozrejme som počas práce narazil aj na nejaké problémy a naučil som sa,
-        že fonty sú oveľa komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variablinéhofontu a
+        že fonty sú oveľa komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliného fontu a
         Fonttools na statické varianty.
-        Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť Ďalší font, a ani tento určite nie je perfektný.
+        Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
         Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem.
         Nižšie zistíte viac.`
         document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
@@ -191,5 +241,53 @@ function langizeunageo() {
         document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
         document.getElementById("langs-unageo-links2").innerHTML = `Nahlásiť problém`
         document.getElementById("langs-unageo-links3").innerHTML = `Verzie/Aktualizácie`
+        
+    } else if(currentlang == "CZ") {
+        document.getElementById("langs-unageo-dvariable").innerHTML = `Variabilní`
+        document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
+        document.getElementById("langs-unageo-desc").innerHTML = `Unageo je moderní, open-source, sans-serif
+        font, který používá geometrické tvary a jednotnou šířku tahu, kdykoli je to možné, ale přitom zachovává dobrou čitelnost.<br>`
+        document.getElementById("langs-unageo-desc2").innerHTML = `Unageo podporuje stovky jazyků v latince, řečtině a cyrilici.`
+        document.getElementById("langs-unageo-desc3").innerHTML = `+ Cyrilice a řecké písmo, více informací najdete níže!`
+        document.getElementById("langs-unageo-lineheight").innerHTML = `Výška řádku`
+        document.getElementById("langs-unageo-letterspace").innerHTML = `Rozestup znaků`
+        document.getElementById("langs-unageo-fontsize").innerHTML = `Velikost`
+        document.getElementById("Unageo-fonttestfield").setAttribute("placeholder", "Pište sem a vyzkoušejte si unageo a jeho variabilní funkce.")
+        document.getElementById("langs-unageo-cyrillictitle").innerHTML = `Cyrilice`
+        document.getElementById("langs-unageo-cyrillic").innerHTML = `Cyrilice Unageo byla vytvořena v bulharském stylu.
+        Používá zaoblenější tvary a písmena mají větší výškovou rozmanitost, což usnadňuje jejich čtení.`
+        document.getElementById("langs-unageo-greektitle").innerHTML = `Řecké písmo`
+        document.getElementById("langs-unageo-greek").innerHTML = `Řecké písmo Unageo se drží stejného stylu s dokonalými tvary,
+        ale dotváří ho hladkými tahy a přidává další geometrické prvky, aby bylo jedinečnější.`
+        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Jak vznikl font Unageo`
+        document.getElementById("langs-unageo-story1").innerHTML = `
+        V různých projektech jsem už použil spoustu různých písem a někdy jsem si říkal, že
+        bych do nich rád nějak vložil svůj styl, ale nikdy jsem se nepokusil vytvořit vlastní font.
+        Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl v podstatě nic.
+        Věděl jsem jen, že chci, aby mé písmo bylo geometrické, protože takový styl preferuji.`
+        document.getElementById("langs-unageo-story2").innerHTML = `
+        Zkoušel jsem FontForge, ale nevěděl jsem, jak ho dobře používat, 
+        a tak jsem se rozhodl pokračovat s netradičním postupem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge.
+        Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní jsem měl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky,
+        aby bylo možné mezi nimi plynule přecházet, a poté jsem nastavil rozměry a přidal kerning.`
+        document.getElementById("langs-unageo-story3").innerHTML = `
+        Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem,
+        že fonty jsou mnohem složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
+        Fonttools pro statické varianty.
+        Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další písmo, a ani tohle rozhodně není dokonalé.
+        Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
+        Více informací najdete níže.`
+        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
+        document.getElementById("langs-unageo-ost").innerHTML = `
+        <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvíjený na platformě GitHub.</span>
+        <div style="height: 18px;"></div>
+        Pokud máte nápad na vylepšení, našli jste chybu nebo máte jiný návrh, neváhejte mě informovat na GitHubu.
+        <div style="height: 14px;"></div>
+        Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.`
+        document.getElementById("langs-unageo-dvariable1").innerHTML = `Stáhnout Variabilní`
+        document.getElementById("langs-unageo-dstatic1").innerHTML = `Stáhnout Statický`
+        document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
+        document.getElementById("langs-unageo-links2").innerHTML = `Nahlásit problém`
+        document.getElementById("langs-unageo-links3").innerHTML = `Verze/Aktualizace`
     }
 }

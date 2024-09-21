@@ -286,7 +286,7 @@
     flex-direction: column;
 }
 .project-fullscreen-menu.two{
-    width: 173px;
+    width: auto;
     height: 76px;
     top: calc(100% - 191px);
     left: calc(100% - 193px);

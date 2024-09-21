@@ -23,6 +23,18 @@ if(currentlang == "EN") {
     <div style="height: 12px;"></div>
     V budúcnosti by som rád tento projekt prerobil a dal mu nový, lepší vzhľad.`
     document.getElementById("langs-metrostation-softewaretitle").innerHTML = `Použitý software`
+} else if(currentlang == "CZ") {
+    document.getElementById("langs-metrostation-time").innerHTML = `Od Února do Června 2022`
+    document.getElementById("langs-metrostation-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">3D Projekty</span>`
+    document.getElementById("langs-metrostation-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">1.11.2023</span>`
+    document.getElementById("langs-metrostation-abouttitle").innerHTML = `O projektu`
+    document.getElementById("langs-metrostation-about").innerHTML = `
+    Toto je jeden z prvních 3D projektů, který se mi podařilo dokončit. Jedná se o novou hypotetickou stanici metra v Bratislavě ve archviz stylu.
+    <div style="height: 12px;"></div>
+    Vše bylo vymodelováno v Cinemě 4D a vizualizováno v Blenderu. Všechny textury jsou mé vlastní, kromě dlažby, která pochází z webu AmbientCG.
+    <div style="height: 12px;"></div>
+    V budoucnu bych chtěl tento projekt přepracovat a dát mu nový, lepší vzhled.`
+    document.getElementById("langs-metrostation-softewaretitle").innerHTML = `Použitý software`
 }
 
 
@@ -52,6 +64,18 @@ function langizemetrostation() {
         Všetko bolo modelované v programe Cinema 4D a zvizualizované v Blenderi. Všetky textúry sú moje vlastné, okrem dlažby, ktorá pochádza zo stránky AmbientCG.
         <div style="height: 12px;"></div>
         V budúcnosti by som rád tento projekt prerobil a dal mu nový, lepší vzhľad.`
+        document.getElementById("langs-metrostation-softewaretitle").innerHTML = `Použitý software`
+    } else if(currentlang == "CZ") {
+        document.getElementById("langs-metrostation-time").innerHTML = `Od Února do Června 2022`
+        document.getElementById("langs-metrostation-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">3D Projekty</span>`
+        document.getElementById("langs-metrostation-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">1.11.2023</span>`
+        document.getElementById("langs-metrostation-abouttitle").innerHTML = `O projektu`
+        document.getElementById("langs-metrostation-about").innerHTML = `
+        Toto je jeden z prvních 3D projektů, který se mi podařilo dokončit. Jedná se o novou hypotetickou stanici metra v Bratislavě ve archviz stylu.
+        <div style="height: 12px;"></div>
+        Vše bylo vymodelováno v Cinemě 4D a vizualizováno v Blenderu. Všechny textury jsou mé vlastní, kromě dlažby, která pochází z webu AmbientCG.
+        <div style="height: 12px;"></div>
+        V budoucnu bych chtěl tento projekt přepracovat a dát mu nový, lepší vzhled.`
         document.getElementById("langs-metrostation-softewaretitle").innerHTML = `Použitý software`
     }
 }

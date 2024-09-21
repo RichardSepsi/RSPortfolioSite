@@ -26,6 +26,20 @@ if(currentlang == "EN") {
     document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Táto stránka je veľmi jednoduchá a rovnako aj design, na ktorom som pracoval. Sú to len dve stránky.
     Variant vpravo dole nebol použitý (Spodný variant na mobile), jedná sa o staršiu verziu blogu.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
+} else if(currentlang == "CZ") {
+    document.getElementById("langs-zelenaskola-time").innerHTML = `Od Listopadu do Prosince 2023`
+    document.getElementById("langs-zelenaskola-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+    document.getElementById("langs-zelenaskola-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.12.2023</span>`
+    document.getElementById("langs-zelenaskola-abouttitle").innerHTML = `O projektu`
+    document.getElementById("langs-zelenaskola-abouttext").innerHTML = `
+    "Projekty a blog zelenej školy" je webová stránka týmu studentů ze střední školy, kterou jsem navštěvoval..
+    Jejich cílem je pomoci škole, aby byla ekologičtější a zelenější, a to pomocí různých projektů.
+    <div style="height: 12px;"></div>
+    Tehle web byl vytvořen za účelem prezentace jejich projektů a cílů a také jejich blogu.`
+    document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Moje práce na projektu`
+    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Tento web je velmi jednoduchý a stejně tak i design, na kterém jsem pracoval. Jsou to jen dvě stránky.
+    Varianta vpravo dole nebyla použita (spodní varianta na mobilu), jedná se o starší verzi blogu.`
+    document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
 }
 
 
@@ -58,6 +72,20 @@ function langizezelenaskola() {
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Moja práca na projekte`
         document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Táto webstránka je veľmi jednoduchá a rovnako aj design, na ktorom som pracoval. Sú to len dve stránky.
         Variant vpravo dole nebol použitý (Spodný variant na mobile), jedná sa o staršiu verziu blogu.`
+        document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
+    } else if(currentlang == "CZ") {
+        document.getElementById("langs-zelenaskola-time").innerHTML = `Od Listopadu do Prosince 2023`
+        document.getElementById("langs-zelenaskola-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+        document.getElementById("langs-zelenaskola-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.12.2023</span>`
+        document.getElementById("langs-zelenaskola-abouttitle").innerHTML = `O projektu`
+        document.getElementById("langs-zelenaskola-abouttext").innerHTML = `
+        "Projekty a blog zelenej školy" je webová stránka týmu studentů ze střední školy, kterou jsem navštěvoval..
+        Jejich cílem je pomoci škole, aby byla ekologičtější a zelenější, a to pomocí různých projektů.
+        <div style="height: 12px;"></div>
+        Tehle web byl vytvořen za účelem prezentace jejich projektů a cílů a také jejich blogu.`
+        document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Moje práce na projektu`
+        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Tento web je velmi jednoduchý a stejně tak i design, na kterém jsem pracoval. Jsou to jen dvě stránky.
+        Varianta vpravo dole nebyla použita (spodní varianta na mobilu), jedná se o starší verzi blogu.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
     }
 }
