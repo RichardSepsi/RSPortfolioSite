@@ -126,7 +126,7 @@ if(currentlang == "EN") {
     Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem,
     že fonty jsou mnohem složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
     Fonttools pro statické varianty.
-    Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další písmo, a ani tohle rozhodně není dokonalé.
+    Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další font, a ani tenhle rozhodně není dokonalý.
     Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
     Více informací najdete níže.`
     document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
@@ -274,7 +274,7 @@ function langizeunageo() {
         Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem,
         že fonty jsou mnohem složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
         Fonttools pro statické varianty.
-        Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další písmo, a ani tohle rozhodně není dokonalé.
+        Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další font, a ani tenhle rozhodně není dokonalý.
         Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
         Více informací najdete níže.`
         document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
