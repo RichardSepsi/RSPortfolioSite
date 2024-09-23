@@ -111,9 +111,9 @@ if(currentlang == "EN") {
     }
     document.documentElement.lang = "cs"
 } else if(currentlang == "DE") {
-    document.getElementById("langs-nav-home").innerHTML = `Úvod`
-    document.getElementById("langs-nav-3d").innerHTML = `3D Grafika`
-    document.getElementById("langs-nav-2d").innerHTML = `2D Grafika`
+    document.getElementById("langs-nav-home").innerHTML = `Home`
+    document.getElementById("langs-nav-3d").innerHTML = `3D Graphics`
+    document.getElementById("langs-nav-2d").innerHTML = `2D Graphics`
     document.getElementById("svg-wdth-fix-2").setAttribute("width", "96px")
     document.getElementById("svg-wdth-fix-2-2").setAttribute("width", "96px")
     document.getElementById("svg-wdth-fix-3").setAttribute("width", "96px")
@@ -121,9 +121,9 @@ if(currentlang == "EN") {
     document.getElementById("langs-nav-contact").innerHTML = `Kontakt`
     document.getElementById("svg-wdth-fix-4").setAttribute("width", "64px")
     document.getElementById("svg-wdth-fix-4-2").setAttribute("width", "64px")
-    document.getElementById("langs-mnav-home").innerHTML = `Úvod`
-    document.getElementById("langs-mnav-3d").innerHTML = `3D Grafika`
-    document.getElementById("langs-mnav-2d").innerHTML = `2D Grafika`
+    document.getElementById("langs-mnav-home").innerHTML = `Home`
+    document.getElementById("langs-mnav-3d").innerHTML = `3D Graphics`
+    document.getElementById("langs-mnav-2d").innerHTML = `2D Graphics`
     document.getElementById("svg-wdth-mob-fix-2").setAttribute("width", "96px")
     document.getElementById("svg-wdth-mob-fix-2-2").setAttribute("width", "96px")
     document.getElementById("svg-wdth-mob-fix-3").setAttribute("width", "96px")
@@ -132,18 +132,18 @@ if(currentlang == "EN") {
     document.getElementById("svg-wdth-mob-fix-4").setAttribute("width", "64px")
     document.getElementById("svg-wdth-mob-fix-4-2").setAttribute("width", "64px")
     if (document.getElementById("langs-foot-home") !== null) {
-        document.getElementById("langs-foot-home").innerHTML = `Úvod`
-        document.getElementById("langs-foot-3d").innerHTML = `3D Grafika`
-        document.getElementById("langs-foot-2d").innerHTML = `2D Grafika`
-        document.getElementById("langs-foot-3dfix").setAttribute("width", "88px")
-        document.getElementById("langs-foot-2dfix").setAttribute("width", "88px")
-        document.getElementById("langs-foot-3dfix-2").setAttribute("width", "88px")
-        document.getElementById("langs-foot-2dfix-2").setAttribute("width", "88px")
+        document.getElementById("langs-foot-home").innerHTML = `Home`
+        document.getElementById("langs-foot-3d").innerHTML = `3D Graphics`
+        document.getElementById("langs-foot-2d").innerHTML = `2D Graphics`
+        document.getElementById("langs-foot-3dfix").setAttribute("width", "96px")
+        document.getElementById("langs-foot-2dfix").setAttribute("width", "96px")
+        document.getElementById("langs-foot-3dfix-2").setAttribute("width", "96px")
+        document.getElementById("langs-foot-2dfix-2").setAttribute("width", "96px")
         document.getElementById("langs-foot-contact").innerHTML = `Kontakt`
         document.getElementById("langs-foot-contactfix").setAttribute("width", "66px")
         document.getElementById("langs-foot-contactfix-2").setAttribute("width", "66px")
-        document.getElementById("langs-foot-scroll").innerHTML = `<img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">Zpět na začátek`
-        document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Informace o webu`
+        document.getElementById("langs-foot-scroll").innerHTML = `<img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">Zurück zum Anfang`
+        document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Website Informationen`
     }
     document.documentElement.lang = "de"
 } else if(currentlang == "JP") {
@@ -297,9 +297,9 @@ function langizeunversal() {
         }
         document.documentElement.lang = "cs"
     } else if(currentlang == "DE") {
-        document.getElementById("langs-nav-home").innerHTML = `Úvod`
-        document.getElementById("langs-nav-3d").innerHTML = `3D Grafika`
-        document.getElementById("langs-nav-2d").innerHTML = `2D Grafika`
+        document.getElementById("langs-nav-home").innerHTML = `Home`
+        document.getElementById("langs-nav-3d").innerHTML = `3D Graphics`
+        document.getElementById("langs-nav-2d").innerHTML = `2D Graphics`
         document.getElementById("svg-wdth-fix-2").setAttribute("width", "96px")
         document.getElementById("svg-wdth-fix-2-2").setAttribute("width", "96px")
         document.getElementById("svg-wdth-fix-3").setAttribute("width", "96px")
@@ -307,9 +307,9 @@ function langizeunversal() {
         document.getElementById("langs-nav-contact").innerHTML = `Kontakt`
         document.getElementById("svg-wdth-fix-4").setAttribute("width", "64px")
         document.getElementById("svg-wdth-fix-4-2").setAttribute("width", "64px")
-        document.getElementById("langs-mnav-home").innerHTML = `Úvod`
-        document.getElementById("langs-mnav-3d").innerHTML = `3D Grafika`
-        document.getElementById("langs-mnav-2d").innerHTML = `2D Grafika`
+        document.getElementById("langs-mnav-home").innerHTML = `Home`
+        document.getElementById("langs-mnav-3d").innerHTML = `3D Graphics`
+        document.getElementById("langs-mnav-2d").innerHTML = `2D Graphics`
         document.getElementById("svg-wdth-mob-fix-2").setAttribute("width", "96px")
         document.getElementById("svg-wdth-mob-fix-2-2").setAttribute("width", "96px")
         document.getElementById("svg-wdth-mob-fix-3").setAttribute("width", "96px")
@@ -318,18 +318,18 @@ function langizeunversal() {
         document.getElementById("svg-wdth-mob-fix-4").setAttribute("width", "64px")
         document.getElementById("svg-wdth-mob-fix-4-2").setAttribute("width", "64px")
         if (document.getElementById("langs-foot-home") !== null) {
-            document.getElementById("langs-foot-home").innerHTML = `Úvod`
-            document.getElementById("langs-foot-3d").innerHTML = `3D Grafika`
-            document.getElementById("langs-foot-2d").innerHTML = `2D Grafika`
-            document.getElementById("langs-foot-3dfix").setAttribute("width", "88px")
-            document.getElementById("langs-foot-2dfix").setAttribute("width", "88px")
-            document.getElementById("langs-foot-3dfix-2").setAttribute("width", "88px")
-            document.getElementById("langs-foot-2dfix-2").setAttribute("width", "88px")
+            document.getElementById("langs-foot-home").innerHTML = `Home`
+            document.getElementById("langs-foot-3d").innerHTML = `3D Graphics`
+            document.getElementById("langs-foot-2d").innerHTML = `2D Graphics`
+            document.getElementById("langs-foot-3dfix").setAttribute("width", "96px")
+            document.getElementById("langs-foot-2dfix").setAttribute("width", "96px")
+            document.getElementById("langs-foot-3dfix-2").setAttribute("width", "96px")
+            document.getElementById("langs-foot-2dfix-2").setAttribute("width", "96px")
             document.getElementById("langs-foot-contact").innerHTML = `Kontakt`
             document.getElementById("langs-foot-contactfix").setAttribute("width", "66px")
             document.getElementById("langs-foot-contactfix-2").setAttribute("width", "66px")
-            document.getElementById("langs-foot-scroll").innerHTML = `<img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">Zpět na začátek`
-            document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Informace o webu`
+            document.getElementById("langs-foot-scroll").innerHTML = `<img src="assets/arrow-up.svg" style="margin-right: 14px;" draggable="false">Zurück zum Anfang`
+            document.getElementById("langs-foot-info").innerHTML = `<img src="assets/info.svg" style="margin-right: 14px;" draggable="false">Website Informationen`
         }
         document.documentElement.lang = "de"
     } else if(currentlang == "JP") {
