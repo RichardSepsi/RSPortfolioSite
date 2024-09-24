@@ -181,7 +181,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
 
 } else if(currentlang == "JP") {
-    document.getElementById("langs-text-greeting").innerHTML = `こんばんは`
+    document.getElementById("langs-text-greeting").innerHTML = `こんにちは`
     document.getElementById("langs-main-name").innerHTML = `<div style="width: fit-content;">リチャード</div> <div style="width: fit-content; display: flex; flex-direction: row; align-items: center;">セプシ<div class="header" style="width: fit-content; color: #e6e6e6; -webkit-text-fill-color: #e6e6e6; padding-left:10px;">です</div></div>`
     document.getElementById("langs-text-shortdesc").innerHTML = `
     進行中の作業`
@@ -410,7 +410,7 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
     
     } else if(currentlang == "JP") {
-        document.getElementById("langs-text-greeting").innerHTML = `こんばんは`
+        document.getElementById("langs-text-greeting").innerHTML = `こんにちは`
         document.getElementById("langs-main-name").innerHTML = `<div style="width: fit-content;">リチャード</div> <div style="width: fit-content; display: flex; flex-direction: row; align-items: center;">セプシ<div class="header" style="width: fit-content; color: #e6e6e6; -webkit-text-fill-color: #e6e6e6; padding-left:10px;">です</div></div>`
         document.getElementById("langs-text-shortdesc").innerHTML = `
         進行中の作業`
