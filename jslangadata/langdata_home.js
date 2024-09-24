@@ -9,6 +9,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-sroll2").innerHTML = `to find out more`
     document.getElementById("langs-text-aboutme").innerHTML = `About me`
     document.getElementById("langs-text-aboutme2").innerHTML = `About me`
+    document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+    document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
     document.getElementById("langs-text-aboutme").setAttribute("x", "50%")
     document.getElementById("langs-text-aboutme2").setAttribute("x", "50%")
     document.getElementById("langs-text-aboutmetext1").innerHTML = `I first got into what I do when I was about 10. I used to play games on my phone, and I thought that it would be fun to make my own, so I signed up for a local game programming course. We made various simple games in basic programming languages, but we also had to work on the game's visuals and design the interface, which was a surprisingly big part of it.`
@@ -54,6 +56,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-sroll2").innerHTML = `zistíte viac`
     document.getElementById("langs-text-aboutme").innerHTML = `O mne`
     document.getElementById("langs-text-aboutme2").innerHTML = `O mne`
+    document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+    document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
     document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
     document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
     document.getElementById("langs-text-aboutmetext1").innerHTML = `Do toho, čo robím, som sa prvý krát dostal keď som mal priblížne 10 rokov. Zvykol som hrať hry na svojom mobile, a myslel som si, že by ma bavilo vyskúšať si tvoriť vlastné, tak som sa prihlásil na kurz programovania. Tvorili sme rôzne jednoduché hry v základných programovacích jazykoch, ale museli sme pracovať aj na vizuálnej stránke hry, čo bola prekvapivo veľká časť práce.`
@@ -99,6 +103,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-sroll2").innerHTML = `zjistíte více`
     document.getElementById("langs-text-aboutme").innerHTML = `O mně`
     document.getElementById("langs-text-aboutme2").innerHTML = `O mně`
+    document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+    document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
     document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
     document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
     document.getElementById("langs-text-aboutmetext1").innerHTML = `K tomu, co dělám, jsem se poprvé dostal, když mi bylo přibližně 10. Hrál jsem hry na mobilu a napadlo mě, že by mě mohlo bavit zkusit si vytvořit vlastní, a tak jsem se přihlásil na kurz kódování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, ale museli jsme pracovat i na vizuální stránce hry, což tvořilo překvapivě velkou část práce.`
@@ -139,13 +145,15 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
     document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
     document.getElementById("langs-text-shortdesc").innerHTML = `
-    Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.`
-    document.getElementById("langs-text-sroll").innerHTML = `Níže`
-    document.getElementById("langs-text-sroll2").innerHTML = `zjistíte více`
-    document.getElementById("langs-text-aboutme").innerHTML = `O mně`
-    document.getElementById("langs-text-aboutme2").innerHTML = `O mně`
-    document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
-    document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
+    Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Ich versuche immer, etwas zu schaffen, das gut aussieht und auch gut funktioniert.`
+    document.getElementById("langs-text-sroll").innerHTML = `Mehr finden`
+    document.getElementById("langs-text-sroll2").innerHTML = `sie unten`
+    document.getElementById("langs-text-aboutme").innerHTML = `Über mich`
+    document.getElementById("langs-text-aboutme2").innerHTML = `Über mich`
+    document.getElementById("langs-size-aboutme").setAttribute("width", "162px")
+    document.getElementById("langs-size-aboutme").setAttribute("height", "45px")
+    document.getElementById("langs-text-aboutme").setAttribute("x", "50%")
+    document.getElementById("langs-text-aboutme2").setAttribute("x", "50%")
     document.getElementById("langs-text-aboutmetext1").innerHTML = `K tomu, co dělám, jsem se poprvé dostal, když mi bylo přibližně 10. Hrál jsem hry na mobilu a napadlo mě, že by mě mohlo bavit zkusit si vytvořit vlastní, a tak jsem se přihlásil na kurz kódování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, ale museli jsme pracovat i na vizuální stránce hry, což tvořilo překvapivě velkou část práce.`
     document.getElementById("langs-text-aboutmetext2").innerHTML = `Později jsem si vyzkoušel tvorbu 3D her, což mě bavilo ještě víc, ale bylo to mnohem těžší, i když jsem pracoval na velmi jednoduché hře. Myslel jsem si, že za to může jednoduchý programovací jazyk, který neměl možnost vizuálně tvořit prostředí, takže jsem musel všechno psát ručně jako kód. To byl sám o sobě dost velký problém, ale ještě horší bylo, když jsem měl ve scéně desítky objektů a začínal jsem se ztrácet ve vlastním kódu a souřadnicích. Učitel mi řekl, abych zkusil Unity, ale neučil ho, takže jsem musel najít řešení sám a našel jsem Unreal Engine, který vypadal skvěle. Hned jsem ho vyzkoušel a postupem času, jak jsem se zlepšoval, jsem se naučil o level designu, 3D modelování a mnoha dalších oblastech.`
     document.getElementById("langs-text-aboutmetext3").innerHTML = `Kromě toho jsem se přihlásil na kurz tvorby webů, protože mě to také zajímalo, ale rychle jsem zjistil, že mě designování webů baví mnohem víc než programování, ale bylo to také velmi užitečné. Kromě HTML a CSS jsem se naučil také Javascript, který mi umožňuje vytvářet vlastní funkční webové stránky, jako je třeba tato.`
@@ -189,6 +197,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-sroll2").innerHTML = `進行中の作業`
     document.getElementById("langs-text-aboutme").innerHTML = `進行中の作業`
     document.getElementById("langs-text-aboutme2").innerHTML = `進行中の作業`
+    document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+    document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
     document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
     document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
     document.getElementById("langs-text-aboutmetext1").innerHTML = `進行中の作業`
@@ -238,6 +248,8 @@ function langizehome() {
         document.getElementById("langs-text-sroll2").innerHTML = `to find out more`
         document.getElementById("langs-text-aboutme").innerHTML = `About me`
         document.getElementById("langs-text-aboutme2").innerHTML = `About me`
+        document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+        document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
         document.getElementById("langs-text-aboutme").setAttribute("x", "50%")
         document.getElementById("langs-text-aboutme2").setAttribute("x", "50%")
         document.getElementById("langs-text-aboutmetext1").innerHTML = `I first got into what I do when I was about 10. I used to play games on my phone, and I thought that it would be fun to make my own, so I signed up for a local game programming course. We made various simple games in basic programming languages, but we also had to work on the game's visuals and design the interface, which was a surprisingly big part of it.`
@@ -283,12 +295,14 @@ function langizehome() {
         document.getElementById("langs-text-sroll2").innerHTML = `zistíte viac`
         document.getElementById("langs-text-aboutme").innerHTML = `O mne`
         document.getElementById("langs-text-aboutme2").innerHTML = `O mne`
+        document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+        document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
         document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
         document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
         document.getElementById("langs-text-aboutmetext1").innerHTML = `Do toho, čo robím, som sa prvý krát dostal keď som mal priblížne 10 rokov. Zvykol som hrať hry na svojom mobile, a myslel som si, že by ma bavilo vyskúšať si tvoriť vlastné, tak som sa prihlásil na kurz programovania. Tvorili sme rôzne jednoduché hry v základných programovacích jazykoch, ale museli sme pracovať aj na vizuálnej stránke hry, čo bola prekvapivo veľká časť práce.`
         document.getElementById("langs-text-aboutmetext2").innerHTML = `Neskôr som si vyskúšal aj tvorbu 3D hier, čo ma bavilo ešte viac, ale bolo to podstatne tažšie, aj keď som pracoval na veľmi jednoduchej hre. Myslel som si, že za to môže ten jednoduchý programovací jazyk, ktorý nemal možnosť tvoby prostredia vizuálne a všetko som preto musel písať manuálne ako kód. Sám o sebe to bol celkom veľký problém, ale bolo to ešte horšie, keď som mal desiatky objektov v scéne a začínal som sa strácať vo vlastnom kóde a súradniciach. Učitel mi poradil použiť Unity, ale neučil to, takže som si musel nájsť riešenie sám a našiel som Unreal Engine, ktorý vyzeral výborne. Hneď som ho aj vyskúšal a postupom času ako som sa zlepšoval, som sa naučil o level designe, 3D modelovaní a mnohých iných oblastiach.`
         document.getElementById("langs-text-aboutmetext3").innerHTML = `Okrem toho som sa prilásil aj na kurz tvorby webstránok, pretože aj to ma zaujímalo, ale rýchlo som prišiel na to, že designovanie webstránok ma baví oveľa viac ako programovanie, ale aj to bolo veľmi užitočné. Okrem HTML a CSS som sa naučil aj Javascript, vďaka ktorému viem tvoriť svoje vlastné funkčné webstránky, ako napríklad táto.`
-        document.getElementById("langs-text-aboutmetext4").innerHTML = `Dnes vačšinou robím 3D grafiku a UI/UX Design a to sú oblasti, v ktorých by som sa rád ďalej zlepšoval a nabral viac skúseností. Ak by ste chceli vidieť moju prácu, pokojne navštívte stránky "3D Grafika" a "2D Grafika"`
+        document.getElementById("langs-text-aboutmetext4").innerHTML = `Dnes vačšinou robím 3D grafiku a UI/UX Design a to sú oblasti, v ktorých by som sa rád ďalej zlepšoval a nabral viac skúseností. Ak by ste chceli vidieť moju prácu, pokojne navštívte stránky "3D Grafika" a "2D Grafika".`
         document.getElementById("langs-text-skillsandsoftware").innerHTML = `Zručnosti`
         document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Zručnosti`
         document.getElementById("langs-text-skillsandsoftware2").innerHTML = `a`
@@ -318,7 +332,7 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 3 projektoch`
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 5 projektoch`
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte`
-
+    
     } else if(currentlang == "CZ") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
         document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
@@ -328,6 +342,8 @@ function langizehome() {
         document.getElementById("langs-text-sroll2").innerHTML = `zjistíte více`
         document.getElementById("langs-text-aboutme").innerHTML = `O mně`
         document.getElementById("langs-text-aboutme2").innerHTML = `O mně`
+        document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+        document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
         document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
         document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
         document.getElementById("langs-text-aboutmetext1").innerHTML = `K tomu, co dělám, jsem se poprvé dostal, když mi bylo přibližně 10. Hrál jsem hry na mobilu a napadlo mě, že by mě mohlo bavit zkusit si vytvořit vlastní, a tak jsem se přihlásil na kurz kódování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, ale museli jsme pracovat i na vizuální stránce hry, což tvořilo překvapivě velkou část práce.`
@@ -363,18 +379,20 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
-
+    
     } else if(currentlang == "DE") {
         document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
         document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
         document.getElementById("langs-text-shortdesc").innerHTML = `
-        Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.`
-        document.getElementById("langs-text-sroll").innerHTML = `Níže`
-        document.getElementById("langs-text-sroll2").innerHTML = `zjistíte více`
-        document.getElementById("langs-text-aboutme").innerHTML = `O mně`
-        document.getElementById("langs-text-aboutme2").innerHTML = `O mně`
-        document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
-        document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
+        Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Ich versuche immer, etwas zu schaffen, das gut aussieht und auch gut funktioniert.`
+        document.getElementById("langs-text-sroll").innerHTML = `Mehr finden`
+        document.getElementById("langs-text-sroll2").innerHTML = `sie unten`
+        document.getElementById("langs-text-aboutme").innerHTML = `Über mich`
+        document.getElementById("langs-text-aboutme2").innerHTML = `Über mich`
+        document.getElementById("langs-size-aboutme").setAttribute("width", "162px")
+        document.getElementById("langs-size-aboutme").setAttribute("height", "45px")
+        document.getElementById("langs-text-aboutme").setAttribute("x", "50%")
+        document.getElementById("langs-text-aboutme2").setAttribute("x", "50%")
         document.getElementById("langs-text-aboutmetext1").innerHTML = `K tomu, co dělám, jsem se poprvé dostal, když mi bylo přibližně 10. Hrál jsem hry na mobilu a napadlo mě, že by mě mohlo bavit zkusit si vytvořit vlastní, a tak jsem se přihlásil na kurz kódování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, ale museli jsme pracovat i na vizuální stránce hry, což tvořilo překvapivě velkou část práce.`
         document.getElementById("langs-text-aboutmetext2").innerHTML = `Později jsem si vyzkoušel tvorbu 3D her, což mě bavilo ještě víc, ale bylo to mnohem těžší, i když jsem pracoval na velmi jednoduché hře. Myslel jsem si, že za to může jednoduchý programovací jazyk, který neměl možnost vizuálně tvořit prostředí, takže jsem musel všechno psát ručně jako kód. To byl sám o sobě dost velký problém, ale ještě horší bylo, když jsem měl ve scéně desítky objektů a začínal jsem se ztrácet ve vlastním kódu a souřadnicích. Učitel mi řekl, abych zkusil Unity, ale neučil ho, takže jsem musel najít řešení sám a našel jsem Unreal Engine, který vypadal skvěle. Hned jsem ho vyzkoušel a postupem času, jak jsem se zlepšoval, jsem se naučil o level designu, 3D modelování a mnoha dalších oblastech.`
         document.getElementById("langs-text-aboutmetext3").innerHTML = `Kromě toho jsem se přihlásil na kurz tvorby webů, protože mě to také zajímalo, ale rychle jsem zjistil, že mě designování webů baví mnohem víc než programování, ale bylo to také velmi užitečné. Kromě HTML a CSS jsem se naučil také Javascript, který mi umožňuje vytvářet vlastní funkční webové stránky, jako je třeba tato.`
@@ -418,6 +436,8 @@ function langizehome() {
         document.getElementById("langs-text-sroll2").innerHTML = `進行中の作業`
         document.getElementById("langs-text-aboutme").innerHTML = `進行中の作業`
         document.getElementById("langs-text-aboutme2").innerHTML = `進行中の作業`
+        document.getElementById("langs-size-aboutme").setAttribute("width", "151px")
+        document.getElementById("langs-size-aboutme").setAttribute("height", "39px")
         document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
         document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
         document.getElementById("langs-text-aboutmetext1").innerHTML = `進行中の作業`
