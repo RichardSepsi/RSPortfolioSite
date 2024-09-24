@@ -1,5 +1,6 @@
 if(currentlang == "EN") {
     document.getElementById("langs-text-greeting").innerHTML = `Hi, I’m`
+    document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
     document.getElementById("langs-text-shortdesc").innerHTML = `
     I’m a student from Bratislava, Slovakia, interested in
     3D graphics and UI/UX Design. I always do my best
@@ -46,6 +47,7 @@ if(currentlang == "EN") {
 
 } else if(currentlang == "SK") {
     document.getElementById("langs-text-greeting").innerHTML = `Ahoj, volám sa`
+    document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
     document.getElementById("langs-text-shortdesc").innerHTML = `
     Som študent z Bratislavy a zaujímam sa o 3D grafiku a UI/UX Design. Vždy sa snažím vytvoriť niečo, čo aj dobre vyzerá a zároveň aj dobre funguje.`
     document.getElementById("langs-text-sroll").innerHTML = `Nižšie`
@@ -90,6 +92,7 @@ if(currentlang == "EN") {
 
 } else if(currentlang == "CZ") {
     document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
+    document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
     document.getElementById("langs-text-shortdesc").innerHTML = `
     Jsem student z Bratislavy a zajímám se o 3D grafiku a UI/UX design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.`
     document.getElementById("langs-text-sroll").innerHTML = `Níže`
@@ -131,11 +134,102 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
     document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+
+} else if(currentlang == "DE") {
+    document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
+    document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
+    document.getElementById("langs-text-shortdesc").innerHTML = `
+    Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.`
+    document.getElementById("langs-text-sroll").innerHTML = `Níže`
+    document.getElementById("langs-text-sroll2").innerHTML = `zjistíte více`
+    document.getElementById("langs-text-aboutme").innerHTML = `O mně`
+    document.getElementById("langs-text-aboutme2").innerHTML = `O mně`
+    document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
+    document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
+    document.getElementById("langs-text-aboutmetext1").innerHTML = `K tomu, co dělám, jsem se poprvé dostal, když mi bylo přibližně 10. Hrál jsem hry na mobilu a napadlo mě, že by mě mohlo bavit zkusit si vytvořit vlastní, a tak jsem se přihlásil na kurz kódování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, ale museli jsme pracovat i na vizuální stránce hry, což tvořilo překvapivě velkou část práce.`
+    document.getElementById("langs-text-aboutmetext2").innerHTML = `Později jsem si vyzkoušel tvorbu 3D her, což mě bavilo ještě víc, ale bylo to mnohem těžší, i když jsem pracoval na velmi jednoduché hře. Myslel jsem si, že za to může jednoduchý programovací jazyk, který neměl možnost vizuálně tvořit prostředí, takže jsem musel všechno psát ručně jako kód. To byl sám o sobě dost velký problém, ale ještě horší bylo, když jsem měl ve scéně desítky objektů a začínal jsem se ztrácet ve vlastním kódu a souřadnicích. Učitel mi řekl, abych zkusil Unity, ale neučil ho, takže jsem musel najít řešení sám a našel jsem Unreal Engine, který vypadal skvěle. Hned jsem ho vyzkoušel a postupem času, jak jsem se zlepšoval, jsem se naučil o level designu, 3D modelování a mnoha dalších oblastech.`
+    document.getElementById("langs-text-aboutmetext3").innerHTML = `Kromě toho jsem se přihlásil na kurz tvorby webů, protože mě to také zajímalo, ale rychle jsem zjistil, že mě designování webů baví mnohem víc než programování, ale bylo to také velmi užitečné. Kromě HTML a CSS jsem se naučil také Javascript, který mi umožňuje vytvářet vlastní funkční webové stránky, jako je třeba tato.`
+    document.getElementById("langs-text-aboutmetext4").innerHTML = `V současné době se věnuji především 3D grafice a UI/UX designu a právě v těchto oblastech bych se chtěl zdokonalit a získat více zkušeností. Pokud si chcete prohlédnout mou práci, neváhejte navštívit stránky „3D grafika“ a „2D grafika“.`
+    document.getElementById("langs-text-skillsandsoftware").innerHTML = `Zručnosti`
+    document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Zručnosti`
+    document.getElementById("langs-text-skillsandsoftware2").innerHTML = `a`
+    document.getElementById("langs-text-skillsandsoftware3").innerHTML = `a`
+    document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+    document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "60px"
+    document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "157px")
+    document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "157px")
+    document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `A mnohem víc...`
+    document.getElementById("langs-text-skillsfotware1m").innerHTML = `3D Grafika`
+    document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Grafika`
+    document.getElementById("langs-text-skillsfotware1").innerHTML = `Programování`
+    document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatní`
+
+    document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 1 projektu`
+    document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu`
+    document.getElementById("langs-softwaretooltip0").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip1").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip2").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip3").innerHTML = `Použito v 1 projektu`
+    document.getElementById("langs-softwaretooltip4").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip5").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip6").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 4 projektech`
+    document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech`
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
+    document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+
+} else if(currentlang == "JP") {
+    document.getElementById("langs-text-greeting").innerHTML = `こんばんは`
+    document.getElementById("langs-main-name").innerHTML = `<div style="width: fit-content;">リチャード</div> <div style="width: fit-content; display: flex; flex-direction: row; align-items: center;">セプシ<div class="header" style="width: fit-content; color: #e6e6e6; -webkit-text-fill-color: #e6e6e6; padding-left:10px;">です</div></div>`
+    document.getElementById("langs-text-shortdesc").innerHTML = `
+    進行中の作業`
+    document.getElementById("langs-text-sroll").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-sroll2").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-aboutme").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-aboutme2").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
+    document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
+    document.getElementById("langs-text-aboutmetext1").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-aboutmetext2").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-aboutmetext3").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-aboutmetext4").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsandsoftware").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsandsoftware5").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsandsoftware2").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsandsoftware3").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+    document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "60px"
+    document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "157px")
+    document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "157px")
+    document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsfotware1m").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsfotware0").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsfotware1").innerHTML = `進行中の作業`
+    document.getElementById("langs-text-skillsfotware2").innerHTML = `進行中の作業`
+
+    document.getElementById("langs-softwaretooltip2m").innerHTML = `1プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip1m").innerHTML = `1プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip0").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip1").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip2").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip3").innerHTML = `1プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip4").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip5").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip6").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip7").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip8").innerHTML = `4プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip9").innerHTML = `0プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip10").innerHTML = `3プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip11").innerHTML = `5プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip12").innerHTML = `1プロジェクトで使いました`
 }
 
 function langizehome() {
     if(currentlang == "EN") {
         document.getElementById("langs-text-greeting").innerHTML = `Hi, I’m`
+        document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
         document.getElementById("langs-text-shortdesc").innerHTML = `
         I’m a student from Bratislava, Slovakia, interested in
         3D graphics and UI/UX Design. I always do my best
@@ -182,6 +276,7 @@ function langizehome() {
     
     } else if(currentlang == "SK") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, volám sa`
+        document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
         document.getElementById("langs-text-shortdesc").innerHTML = `
         Som študent z Bratislavy a zaujímam sa o 3D grafiku a UI/UX Design. Vždy sa snažím vytvoriť niečo, čo aj dobre vyzerá a zároveň aj dobre funguje.`
         document.getElementById("langs-text-sroll").innerHTML = `Nižšie`
@@ -226,6 +321,7 @@ function langizehome() {
 
     } else if(currentlang == "CZ") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
+        document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
         document.getElementById("langs-text-shortdesc").innerHTML = `
         Jsem student z Bratislavy a zajímám se o 3D grafiku a UI/UX design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.`
         document.getElementById("langs-text-sroll").innerHTML = `Níže`
@@ -267,6 +363,96 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+
+    } else if(currentlang == "DE") {
+        document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
+        document.getElementById("langs-main-name").innerHTML = `Richard Sepši`
+        document.getElementById("langs-text-shortdesc").innerHTML = `
+        Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.`
+        document.getElementById("langs-text-sroll").innerHTML = `Níže`
+        document.getElementById("langs-text-sroll2").innerHTML = `zjistíte více`
+        document.getElementById("langs-text-aboutme").innerHTML = `O mně`
+        document.getElementById("langs-text-aboutme2").innerHTML = `O mně`
+        document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
+        document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
+        document.getElementById("langs-text-aboutmetext1").innerHTML = `K tomu, co dělám, jsem se poprvé dostal, když mi bylo přibližně 10. Hrál jsem hry na mobilu a napadlo mě, že by mě mohlo bavit zkusit si vytvořit vlastní, a tak jsem se přihlásil na kurz kódování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, ale museli jsme pracovat i na vizuální stránce hry, což tvořilo překvapivě velkou část práce.`
+        document.getElementById("langs-text-aboutmetext2").innerHTML = `Později jsem si vyzkoušel tvorbu 3D her, což mě bavilo ještě víc, ale bylo to mnohem těžší, i když jsem pracoval na velmi jednoduché hře. Myslel jsem si, že za to může jednoduchý programovací jazyk, který neměl možnost vizuálně tvořit prostředí, takže jsem musel všechno psát ručně jako kód. To byl sám o sobě dost velký problém, ale ještě horší bylo, když jsem měl ve scéně desítky objektů a začínal jsem se ztrácet ve vlastním kódu a souřadnicích. Učitel mi řekl, abych zkusil Unity, ale neučil ho, takže jsem musel najít řešení sám a našel jsem Unreal Engine, který vypadal skvěle. Hned jsem ho vyzkoušel a postupem času, jak jsem se zlepšoval, jsem se naučil o level designu, 3D modelování a mnoha dalších oblastech.`
+        document.getElementById("langs-text-aboutmetext3").innerHTML = `Kromě toho jsem se přihlásil na kurz tvorby webů, protože mě to také zajímalo, ale rychle jsem zjistil, že mě designování webů baví mnohem víc než programování, ale bylo to také velmi užitečné. Kromě HTML a CSS jsem se naučil také Javascript, který mi umožňuje vytvářet vlastní funkční webové stránky, jako je třeba tato.`
+        document.getElementById("langs-text-aboutmetext4").innerHTML = `V současné době se věnuji především 3D grafice a UI/UX designu a právě v těchto oblastech bych se chtěl zdokonalit a získat více zkušeností. Pokud si chcete prohlédnout mou práci, neváhejte navštívit stránky „3D grafika“ a „2D grafika“.`
+        document.getElementById("langs-text-skillsandsoftware").innerHTML = `Zručnosti`
+        document.getElementById("langs-text-skillsandsoftware5").innerHTML = `Zručnosti`
+        document.getElementById("langs-text-skillsandsoftware2").innerHTML = `a`
+        document.getElementById("langs-text-skillsandsoftware3").innerHTML = `a`
+        document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+        document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "60px"
+        document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "157px")
+        document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "157px")
+        document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `A mnohem víc...`
+        document.getElementById("langs-text-skillsfotware1m").innerHTML = `3D Grafika`
+        document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Grafika`
+        document.getElementById("langs-text-skillsfotware1").innerHTML = `Programování`
+        document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatní`
+    
+        document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 1 projektu`
+        document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu`
+        document.getElementById("langs-softwaretooltip0").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip1").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip2").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip3").innerHTML = `Použito v 1 projektu`
+        document.getElementById("langs-softwaretooltip4").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip5").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip6").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 4 projektech`
+        document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech`
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
+        document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+    
+    } else if(currentlang == "JP") {
+        document.getElementById("langs-text-greeting").innerHTML = `こんばんは`
+        document.getElementById("langs-main-name").innerHTML = `<div style="width: fit-content;">リチャード</div> <div style="width: fit-content; display: flex; flex-direction: row; align-items: center;">セプシ<div class="header" style="width: fit-content; color: #e6e6e6; -webkit-text-fill-color: #e6e6e6; padding-left:10px;">です</div></div>`
+        document.getElementById("langs-text-shortdesc").innerHTML = `
+        進行中の作業`
+        document.getElementById("langs-text-sroll").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-sroll2").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-aboutme").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-aboutme2").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-aboutme").setAttribute("x", "35%")
+        document.getElementById("langs-text-aboutme2").setAttribute("x", "35%")
+        document.getElementById("langs-text-aboutmetext1").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-aboutmetext2").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-aboutmetext3").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-aboutmetext4").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsandsoftware").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsandsoftware5").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsandsoftware2").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsandsoftware3").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+        document.getElementById("langs-text-skilsoftwaresvg").style.marginRight = "60px"
+        document.getElementById("langs-text-skillsandsoftware2").setAttribute("x", "157px")
+        document.getElementById("langs-text-skillsandsoftware3").setAttribute("x", "157px")
+        document.getElementById("langs-text-skillsfotwaresub1").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsfotware1m").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsfotware0").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsfotware1").innerHTML = `進行中の作業`
+        document.getElementById("langs-text-skillsfotware2").innerHTML = `進行中の作業`
+    
+        document.getElementById("langs-softwaretooltip2m").innerHTML = `1プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip1m").innerHTML = `1プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip0").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip1").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip2").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip3").innerHTML = `1プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip4").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip5").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip6").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip7").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip8").innerHTML = `4プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip9").innerHTML = `0プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip10").innerHTML = `3プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip11").innerHTML = `5プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip12").innerHTML = `1プロジェクトで使いました`
     }
     sethomemediaqueries()
 }
