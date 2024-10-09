@@ -47,6 +47,16 @@
         "codecz" : "<a id=\"zelenaskola.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\" id=\"search-result-container\" tabindex=\"-1\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">Zelena skola</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projekty / Web Design</span></div><img src=\"projects/2d/zelenaskola/zelenaskola_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
         "releasedate" : "22/04/2023",
         "order" : "1"
+    },
+
+    "wordgrind" : {
+        "resultname" : "wordgrind",
+        "tags" : "word grind wordgrind 言葉作業ゲー 言葉 作業 ゲー",
+        "codeen" : "<a id=\"wordgrind.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\" id=\"search-result-container\" tabindex=\"-1\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">WordGrind</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projects / Web Design</span></div><img src=\"projects/2d/wordgrind/wordgrind_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
+        "codesk" : "<a id=\"wordgrind.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\" id=\"search-result-container\" tabindex=\"-1\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">WordGrind</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projekty / Web Design</span></div><img src=\"projects/2d/wordgrind/wordgrind_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
+        "codecz" : "<a id=\"wordgrind.html\" onclick=\"fadeout(this.id), searchuniquit()\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\" id=\"search-result-container\" tabindex=\"-1\"><div class=\"search-result-left\"><span style=\"color: #cccccc; font-size: 20px; font-weight: 600;\">WordGrind</span><div style=\"height: 1px;\"></div><span style=\"color: #969696; font-size: 16px; font-weight: 500;\">Design Projekty / Web Design</span></div><img src=\"projects/2d/wordgrind/wordgrind_art.svg\" draggable=\"false\" style=\"height: 89px; width: auto; border-radius: 0px 15px 15px 0; margin-top: 1px; z-index: 2;\"></div></a>",
+        "releasedate" : "09/10/2024",
+        "order" : "1"
     }
     
 }
