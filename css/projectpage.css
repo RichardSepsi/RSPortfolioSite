@@ -482,6 +482,7 @@
 
 @media screen and (max-width: 1300px) {
     .project-fullscreen-image{
+        max-width: none;
         width: 90vw;
     }
 }
