@@ -31,21 +31,21 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Coding`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Other`
 
-    document.getElementById("langs-softwaretooltip2m").innerHTML = `Used in 1 project`
-    document.getElementById("langs-softwaretooltip1m").innerHTML = `Used in 1 project`
-    document.getElementById("langs-softwaretooltip0").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip1").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip2").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip3").innerHTML = `Used in 1 project`
-    document.getElementById("langs-softwaretooltip4").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip5").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip6").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip7").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip8").innerHTML = `Used in 4 projects`
-    document.getElementById("langs-softwaretooltip9").innerHTML = `Used in 0 projects`
-    document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 3 projects`
-    document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 5 projects`
-    document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project`
+    document.getElementById("langs-softwaretooltip2m").innerHTML = `Used in 2 project` // blender
+    document.getElementById("langs-softwaretooltip1m").innerHTML = `Used in 1 project` // cinema
+    document.getElementById("langs-softwaretooltip0").innerHTML = `Used in 0 projects` // ue
+    document.getElementById("langs-softwaretooltip1").innerHTML = `Used in 1 projects` // ds
+    document.getElementById("langs-softwaretooltip2").innerHTML = `Used in 1 projects` // pt
+    document.getElementById("langs-softwaretooltip3").innerHTML = `Used in 1 project` // qmixer
+    document.getElementById("langs-softwaretooltip4").innerHTML = `Used in 1 projects` // gaea
+    document.getElementById("langs-softwaretooltip5").innerHTML = `Used in 0 projects` // realitycapture
+    document.getElementById("langs-softwaretooltip6").innerHTML = `Used in 0 projects` // rscan
+    document.getElementById("langs-softwaretooltip7").innerHTML = `Used in 0 projects` // meshroom
+    document.getElementById("langs-softwaretooltip8").innerHTML = `Used in 5 projects` // gimp
+    document.getElementById("langs-softwaretooltip9").innerHTML = `Used in 0 projects` // darktable
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 4 projects` // figma
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 7 projects` // inkscape
+    document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project` // fontforge
 
 } else if(currentlang == "SK") {
     document.getElementById("langs-text-greeting").innerHTML = `Ahoj, volám sa`
@@ -78,21 +78,21 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Programovanie`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatné`
 
-    document.getElementById("langs-softwaretooltip2m").innerHTML = `Použité v 1 projekte`
-    document.getElementById("langs-softwaretooltip1m").innerHTML = `Použité v 1 projekte`
-    document.getElementById("langs-softwaretooltip0").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip1").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip2").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip3").innerHTML = `Použité v 1 projekte`
-    document.getElementById("langs-softwaretooltip4").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip5").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip6").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip7").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip8").innerHTML = `Použité v 4 projektoch`
-    document.getElementById("langs-softwaretooltip9").innerHTML = `Použité v 0 projektoch`
-    document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 3 projektoch`
-    document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 5 projektoch`
-    document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte`
+    document.getElementById("langs-softwaretooltip2m").innerHTML = `Použité v 2 projektoch` // blender
+    document.getElementById("langs-softwaretooltip1m").innerHTML = `Použité v 1 projekte` // cinema
+    document.getElementById("langs-softwaretooltip0").innerHTML = `Použité v 0 projektoch` // ue
+    document.getElementById("langs-softwaretooltip1").innerHTML = `Použité v 1 projekte` // ds
+    document.getElementById("langs-softwaretooltip2").innerHTML = `Použité v 1 projekte` // pt
+    document.getElementById("langs-softwaretooltip3").innerHTML = `Použité v 1 projekte` // qmixer
+    document.getElementById("langs-softwaretooltip4").innerHTML = `Použité v 1 projekte` // gaea
+    document.getElementById("langs-softwaretooltip5").innerHTML = `Použité v 0 projektoch` // realitycapture
+    document.getElementById("langs-softwaretooltip6").innerHTML = `Použité v 0 projektoch` // rscan
+    document.getElementById("langs-softwaretooltip7").innerHTML = `Použité v 0 projektoch` // meshroom
+    document.getElementById("langs-softwaretooltip8").innerHTML = `Použité v 5 projektoch` // gimp
+    document.getElementById("langs-softwaretooltip9").innerHTML = `Použité v 0 projektoch` // darktable
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 4 projektoch` // figma
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 7 projektoch` // inkscape
+    document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte` // fontforge
 
 } else if(currentlang == "CZ") {
     document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
@@ -125,21 +125,21 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Programování`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatní`
 
-    document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 1 projektu`
-    document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu`
-    document.getElementById("langs-softwaretooltip0").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip1").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip2").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip3").innerHTML = `Použito v 1 projektu`
-    document.getElementById("langs-softwaretooltip4").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip5").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip6").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 4 projektech`
-    document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech`
-    document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
-    document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
-    document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+    document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 2 projektech` // blender
+    document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu` // cinema
+    document.getElementById("langs-softwaretooltip0").innerHTML = `Použito v 0 projektech` // ue
+    document.getElementById("langs-softwaretooltip1").innerHTML = `Použito v 1 projektu` // ds
+    document.getElementById("langs-softwaretooltip2").innerHTML = `Použito v 1 projektu` // pt
+    document.getElementById("langs-softwaretooltip3").innerHTML = `Použito v 1 projektu` // qmixer
+    document.getElementById("langs-softwaretooltip4").innerHTML = `Použito v 1 projektu` // gaea
+    document.getElementById("langs-softwaretooltip5").innerHTML = `Použito v 0 projektech` // realitycapture
+    document.getElementById("langs-softwaretooltip6").innerHTML = `Použito v 0 projektech` // rscan
+    document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech` // meshroom
+    document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 2 projektech` // gimp
+    document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech` // darktable
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 4 projektech` // figma
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 7 projektech` // inkscape
+    document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu` // fontforge
 
 } else if(currentlang == "DE") {
     document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
@@ -270,21 +270,21 @@ function langizehome() {
         document.getElementById("langs-text-skillsfotware1").innerHTML = `Coding`
         document.getElementById("langs-text-skillsfotware2").innerHTML = `Other`
     
-        document.getElementById("langs-softwaretooltip2m").innerHTML = `Used in 1 project`
-        document.getElementById("langs-softwaretooltip1m").innerHTML = `Used in 1 project`
-        document.getElementById("langs-softwaretooltip0").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip1").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip2").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip3").innerHTML = `Used in 1 project`
-        document.getElementById("langs-softwaretooltip4").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip5").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip6").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip7").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip8").innerHTML = `Used in 4 projects`
-        document.getElementById("langs-softwaretooltip9").innerHTML = `Used in 0 projects`
-        document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 3 projects`
-        document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 5 projects`
-        document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project`
+        document.getElementById("langs-softwaretooltip2m").innerHTML = `Used in 2 project` // blender
+        document.getElementById("langs-softwaretooltip1m").innerHTML = `Used in 1 project` // cinema
+        document.getElementById("langs-softwaretooltip0").innerHTML = `Used in 0 projects` // ue
+        document.getElementById("langs-softwaretooltip1").innerHTML = `Used in 1 projects` // ds
+        document.getElementById("langs-softwaretooltip2").innerHTML = `Used in 1 projects` // pt
+        document.getElementById("langs-softwaretooltip3").innerHTML = `Used in 1 project` // qmixer
+        document.getElementById("langs-softwaretooltip4").innerHTML = `Used in 1 projects` // gaea
+        document.getElementById("langs-softwaretooltip5").innerHTML = `Used in 0 projects` // realitycapture
+        document.getElementById("langs-softwaretooltip6").innerHTML = `Used in 0 projects` // rscan
+        document.getElementById("langs-softwaretooltip7").innerHTML = `Used in 0 projects` // meshroom
+        document.getElementById("langs-softwaretooltip8").innerHTML = `Used in 5 projects` // gimp
+        document.getElementById("langs-softwaretooltip9").innerHTML = `Used in 0 projects` // darktable
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 4 projects` // figma
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 7 projects` // inkscape
+        document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project` // fontforge
     
     } else if(currentlang == "SK") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, volám sa`
@@ -317,21 +317,21 @@ function langizehome() {
         document.getElementById("langs-text-skillsfotware1").innerHTML = `Programovanie`
         document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatné`
     
-        document.getElementById("langs-softwaretooltip2m").innerHTML = `Použité v 1 projekte`
-        document.getElementById("langs-softwaretooltip1m").innerHTML = `Použité v 1 projekte`
-        document.getElementById("langs-softwaretooltip0").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip1").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip2").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip3").innerHTML = `Použité v 1 projekte`
-        document.getElementById("langs-softwaretooltip4").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip5").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip6").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip7").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip8").innerHTML = `Použité v 4 projektoch`
-        document.getElementById("langs-softwaretooltip9").innerHTML = `Použité v 0 projektoch`
-        document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 3 projektoch`
-        document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 5 projektoch`
-        document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte`
+        document.getElementById("langs-softwaretooltip2m").innerHTML = `Použité v 2 projektoch` // blender
+        document.getElementById("langs-softwaretooltip1m").innerHTML = `Použité v 1 projekte` // cinema
+        document.getElementById("langs-softwaretooltip0").innerHTML = `Použité v 0 projektoch` // ue
+        document.getElementById("langs-softwaretooltip1").innerHTML = `Použité v 1 projekte` // ds
+        document.getElementById("langs-softwaretooltip2").innerHTML = `Použité v 1 projekte` // pt
+        document.getElementById("langs-softwaretooltip3").innerHTML = `Použité v 1 projekte` // qmixer
+        document.getElementById("langs-softwaretooltip4").innerHTML = `Použité v 1 projekte` // gaea
+        document.getElementById("langs-softwaretooltip5").innerHTML = `Použité v 0 projektoch` // realitycapture
+        document.getElementById("langs-softwaretooltip6").innerHTML = `Použité v 0 projektoch` // rscan
+        document.getElementById("langs-softwaretooltip7").innerHTML = `Použité v 0 projektoch` // meshroom
+        document.getElementById("langs-softwaretooltip8").innerHTML = `Použité v 5 projektoch` // gimp
+        document.getElementById("langs-softwaretooltip9").innerHTML = `Použité v 0 projektoch` // darktable
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 4 projektoch` // figma
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 7 projektoch` // inkscape
+        document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte` // fontforge
     
     } else if(currentlang == "CZ") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
@@ -364,21 +364,21 @@ function langizehome() {
         document.getElementById("langs-text-skillsfotware1").innerHTML = `Programování`
         document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatní`
     
-        document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 1 projektu`
-        document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu`
-        document.getElementById("langs-softwaretooltip0").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip1").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip2").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip3").innerHTML = `Použito v 1 projektu`
-        document.getElementById("langs-softwaretooltip4").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip5").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip6").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 4 projektech`
-        document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech`
-        document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
-        document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
-        document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+        document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 2 projektech` // blender
+        document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu` // cinema
+        document.getElementById("langs-softwaretooltip0").innerHTML = `Použito v 0 projektech` // ue
+        document.getElementById("langs-softwaretooltip1").innerHTML = `Použito v 1 projektu` // ds
+        document.getElementById("langs-softwaretooltip2").innerHTML = `Použito v 1 projektu` // pt
+        document.getElementById("langs-softwaretooltip3").innerHTML = `Použito v 1 projektu` // qmixer
+        document.getElementById("langs-softwaretooltip4").innerHTML = `Použito v 1 projektu` // gaea
+        document.getElementById("langs-softwaretooltip5").innerHTML = `Použito v 0 projektech` // realitycapture
+        document.getElementById("langs-softwaretooltip6").innerHTML = `Použito v 0 projektech` // rscan
+        document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech` // meshroom
+        document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 2 projektech` // gimp
+        document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech` // darktable
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 4 projektech` // figma
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 7 projektech` // inkscape
+        document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu` // fontforge
     
     } else if(currentlang == "DE") {
         document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
