@@ -11,7 +11,7 @@ function selectimage(imgid) {
     let swpx = 80
     let swaddpx = 20
 
-    document.getElementById("metro-project-slide1").style.transform = "translateY(calc(-"+swvh*imagenum+"vh + "+swpx*imagenum+"px + "+swaddpx*imagenum+"px))"
+    document.getElementById("td-project-slide1").style.transform = "translateY(calc(-"+swvh*imagenum+"vh + "+swpx*imagenum+"px + "+swaddpx*imagenum+"px))"
     document.querySelectorAll(".project-slide-switcher-button").forEach(swbtn => {
         swbtn.classList.remove("selected")
     });
@@ -27,12 +27,12 @@ var scrollingDirection = 0;
 var lastScroll = 9999;
 var scrollIdleTime = 230;
 
-document.getElementById("metro-project-slide1").onwheel = function(event){
+document.getElementById("td-project-slide1").onwheel = function(event){
     var timeNow = performance.now();
     if (event.deltaY > 0 && ( scrollingDirection != 1 || timeNow > lastScroll + scrollIdleTime)){
         defaultid = parseInt(defaultid) + 1
-        if(defaultid > 3) {
-            defaultid = 3
+        if(defaultid > document.getElementById("td-project-slide1").childElementCount) {
+            defaultid = document.getElementById("td-project-slide1").childElementCount
         }
         selectimage("sw-img"+defaultid)
         scrollingDirection = 1;

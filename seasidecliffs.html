@@ -16,14 +16,15 @@
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
     <script defer src="jslangadata/langdata_universal.js"></script>
-    <script defer src="jslangadata/langdata_metrostation.js"></script>
+    <script defer src="jslangadata/langdata_seasidecliffs.js"></script>
     <script defer src="js/animations.js"></script>
     <script defer src="js/animations_projects.js"></script>
     <script defer src="js/imageviewer.js"></script>
     <script defer src="js/fullscreen.js"></script>
     <script defer src="js/projects.js"></script>
     <script defer src="js/search.js"></script>
-    <title>Metro station • Richard Sepši - Portfolio</title>
+    <link rel="preload" as="image" href="projects/3d/seasidecliffs/r2.jpg"/>
+    <title>Seaside Cliffs • Richard Sepši - Portfolio</title>
 </head>
 <body id="body" style="min-height: -webkit-fill-available; min-height: -moz-available; min-height: 100%;">
     <div class="navbar-container">
@@ -171,7 +172,7 @@
         <div class="project-sides-container">
             <div class="project-left-side">
                 <div class="project-slide-buttons">
-                    <div class="project-link-button" style="margin: 10px" id="fullscreen-button" onclick="fullscreen('projects/3d/metrostation/r1.jpg')">
+                    <div class="project-link-button" style="margin: 10px" id="fullscreen-button" onclick="fullscreen('projects/3d/seasidecliffs/r1.jpg')">
                         <div class="project-link-button-ext">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="project-link-button-svg" d="M15 3H21V9" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -182,7 +183,7 @@
                         </div>
                     </div>
                     <div class="project-link-button" style="margin: 10px">
-                        <a href="projects/3d/metrostation/r1.jpg" id="img-download-button" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
+                        <a href="projects/3d/seasidecliffs/r1.jpg" id="img-download-button" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
                         <div class="project-link-button-ext">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="project-link-button-svg" d="M12 5V19" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -193,14 +194,12 @@
                     <div class="project-slide-switcher">
                         <div class="project-slide-switcher-button selected" id="sw-img1" onclick="selectimage(this.id);changeimgdef(this.id);"></div>
                         <div class="project-slide-switcher-button" id="sw-img2" onclick="selectimage(this.id);changeimgdef(this.id);"></div>
-                        <div class="project-slide-switcher-button" id="sw-img3" onclick="selectimage(this.id);changeimgdef(this.id);"></div>
                     </div>
                 </div>
                 <div class="project-image-content" style="align-items: flex-start;">
                     <div class="td-project-slide1" id="td-project-slide1">
-                        <div class="td-project-image-wrapper"><img src="projects/3d/metrostation/r1.jpg" draggable="false" class="td-project-image" id="sw-current-image"></div>
-                        <div class="td-project-image-wrapper"><img src="projects/3d/metrostation/r2.jpg" draggable="false" class="td-project-image"></div>
-                        <div class="td-project-image-wrapper"><img src="projects/3d/metrostation/r3.jpg" draggable="false" class="td-project-image"></div>
+                        <div class="td-project-image-wrapper"><img src="projects/3d/seasidecliffs/r1.jpg" draggable="false" class="td-project-image" id="sw-current-image"></div>
+                        <div class="td-project-image-wrapper"><img src="projects/3d/seasidecliffs/r2.jpg" draggable="false" class="td-project-image"></div>
                     </div>
                 </div>
                 
@@ -208,19 +207,19 @@
             <div class="project-right-side">
                 <div class="project-element-container">
                     <div class="project-element-title-top" style="flex-direction: column; align-items: flex-start;">
-                        <span class="project-element-title">Metro station</span>
-                        <span class="project-element-subtext" style="margin-left: 4.5px;" id="langs-metrostation-time"></span>
+                        <span class="project-element-title">Seaside cliffs</span>
+                        <span class="project-element-subtext" style="margin-left: 4.5px;" id="langs-seasidecliffs-time"></span>
                     </div>
-                    <span class="project-element-header" id="langs-metrostation-category"></span>
-                    <span class="project-element-header" id="langs-metrostation-date"></span>
+                    <span class="project-element-header" id="langs-seasidecliffs-category"></span>
+                    <span class="project-element-header" id="langs-seasidecliffs-date"></span>
                 </div>
                 <div class="project-element-container">
-                    <span class="project-element-header" id="langs-metrostation-abouttitle"></span>
-                    <span class="project-element-text" id="langs-metrostation-about">
+                    <span class="project-element-header" id="langs-seasidecliffs-abouttitle"></span>
+                    <span class="project-element-text" id="langs-seasidecliffs-about">
                     </span>
                 </div>
                 <div class="project-element-container">
-                    <span class="project-element-header" id="langs-metrostation-softewaretitle"></span>
+                    <span class="project-element-header" id="langs-seasidecliffs-softewaretitle"></span>
                     <div class="project-element-software">
                         <div class="project-software-tag">
                             <img class="software-icon" src="assets/software/c4d.png" draggable="false" height="28px"><div style="width: 11px;"></div>Cinema4D
