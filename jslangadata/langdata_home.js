@@ -4,7 +4,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-shortdesc").innerHTML = `
     I’m a student from Bratislava, Slovakia, interested in
     3D graphics and UI/UX Design. I always do my best
-     to create something that both looks cool and works well.`
+     to create something that both looks nice and works well.`
     document.getElementById("langs-text-sroll").innerHTML = `Scroll down`
     document.getElementById("langs-text-sroll2").innerHTML = `to find out more`
     document.getElementById("langs-text-aboutme").innerHTML = `About me`
@@ -243,7 +243,7 @@ function langizehome() {
         document.getElementById("langs-text-shortdesc").innerHTML = `
         I’m a student from Bratislava, Slovakia, interested in
         3D graphics and UI/UX Design. I always do my best
-         to create something that both looks cool and works well.`
+         to create something that both looks nice and works well.`
         document.getElementById("langs-text-sroll").innerHTML = `Scroll down`
         document.getElementById("langs-text-sroll2").innerHTML = `to find out more`
         document.getElementById("langs-text-aboutme").innerHTML = `About me`
