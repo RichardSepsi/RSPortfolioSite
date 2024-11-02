@@ -10,7 +10,7 @@ if(currentlang == "EN") {
     This website is made to present these projects and highlight their goals, as well as to host their blog.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
     document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website is very simple and so is the design that I worked on. It's just two pages.
-    The bottom right variant was not used (bottom variant on mobile), it's the old version of the blog page.`
+    The bottom right variant was not used (bottom variant on mobile), it's an old version of the blog page.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
 } else if(currentlang == "SK") {
     document.getElementById("langs-zelenaskola-time").innerHTML = `Od Novembra do Decembra 2023`
@@ -57,7 +57,7 @@ function langizezelenaskola() {
         This website is made to present these projects and highlight their goals, as well as to host their blog.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
         document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website is very simple and so is the design that I worked on. It's just two pages.
-        The bottom right variant was not used (bottom variant on mobile), it's the old version of the blog page.`
+        The bottom right variant was not used (bottom variant on mobile), it's an old version of the blog page.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
     } else if(currentlang == "SK") {
         document.getElementById("langs-zelenaskola-time").innerHTML = `Od Novembra do Decembra 2023`
