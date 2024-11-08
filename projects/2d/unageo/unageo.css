@@ -216,12 +216,13 @@
     outline: none;
     font-family: Unageo-vf;
     resize: vertical;
-    margin-top: 30px;
+    margin-top: 22px;
     background-color: rgba(255, 255, 255, 0.05);
     max-height: 240px;
     min-height: 120px;
     color: #e6e6e6;
     margin-bottom: -5px;
+    font-feature-settings: inherit;
 
     font-size: 32px;
     line-height: 1.1;
@@ -286,7 +287,7 @@
     font-weight: 500;
 }
 .unageo-story-textsection{
-    width: 100%px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -360,6 +361,65 @@
     flex-direction: row;
     flex-direction: column;
     max-width: 1200px;
+}
+.unageo-opentype{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 80px;
+}
+.unageo-ot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.unageo-ot-checkbox{
+    width: 26px;
+    height: 26px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 18px;
+    margin-bottom: 6px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 30%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 100ms;
+    cursor: pointer;
+}
+.unageo-ot-checkbox:hover{
+    border: 2px solid #696969;
+    transition-duration: 100ms;
+}
+.unageo-ot-checkbox::before{
+    display: block;
+    content: "";
+    background-color: #007eff;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    transform: scale(0);
+    transition-duration: 100ms;
+}
+.unageo-ot-checkbox:hover::before{
+    background-color: #006bd6;
+    transition-duration: 100ms;
+}
+.unageo-ot-checkbox:checked::before{
+    transform: scale(1);
+}
+.unageo-ot-label{
+    font-weight: 450;
+    font-size: 18px;
+    margin-top: 3px;
 }
 
 
@@ -630,9 +690,6 @@
     #resp-ug-g1{
         display: block !important;
     }
-    .Unageo-fonttestfield{
-        margin-top: 120px;
-    }
     #resp-ug-varcontrol2{
         margin-left: 12px !important;
     }
@@ -650,6 +707,18 @@
     .unageo-nav-content{
         margin-right: 35px;
         margin-left: 24px;
+    }
+    .unageo-var-controls-container{
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 701px) {
+    .resp-unageo-ot-1{
+        flex-direction: column !important;
+    }
+    .resp-unageo-ot-2{
+        margin-left: 0 !important;
+        margin-top: 2px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -810,6 +879,14 @@
         margin-left: 8px !important;
     }
 }
+@media screen and (max-width: 467px) {
+    .resp-unageo-ot-2{
+        font-size: 34px !important;
+    }
+    .resp-unageo-ot-4{
+        font-size: 34px !important;
+    }
+}
 @media screen and (max-width: 462px) {
     .unageo-bottom-links-container{
         transform: scale(0.75);
@@ -840,6 +917,14 @@
     }
     #resp-ug-varslider4{
         width: 150px;
+    }
+}
+@media screen and (max-width: 432px) {
+    .resp-unageo-ot-2{
+        font-size: 31px !important;
+    }
+    .resp-unageo-ot-4{
+        font-size: 31px !important;
     }
 }
 @media screen and (max-width: 421px) {
@@ -879,6 +964,21 @@
         margin-right: 44px;
     }
 }
+@media screen and (max-width: 408px) {
+    .resp-unageo-ot-3{
+        flex-direction: column !important;
+    }
+    .resp-unageo-ot-4{
+        margin-left: 0 !important;
+        margin-top: 2px;
+    }
+    .resp-unageo-ot-2{
+        font-size: 29px !important;
+    }
+    .resp-unageo-ot-4{
+        font-size: 29px !important;
+    }
+}
 @media screen and (max-width: 400px) {
     #unageo-var-varslider1{
         width: 130px;
@@ -908,8 +1008,24 @@
         min-height: 187px;
     }
 }
+@media screen and (max-width: 389px) {
+    .resp-unageo-ot-2{
+        font-size: 26px !important;
+    }
+    .resp-unageo-ot-4{
+        font-size: 26px !important;
+    }
+}
 @media screen and (max-width: 370px) {
     #resp-ug-varcontrol2{
         max-height: 42px;
+    }
+}
+@media screen and (max-width: 366px) {
+    .resp-unageo-ot-2{
+        font-size: 24px !important;
+    }
+    .resp-unageo-ot-4{
+        font-size: 24px !important;
     }
 }

@@ -15,7 +15,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-greektitle").innerHTML = `Greek`
     document.getElementById("langs-unageo-greek").innerHTML = `Unageo greek follows the same style with perfect geometry,
     but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.`
-    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>How was unageo made`
+    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>How was unageo made`
     document.getElementById("langs-unageo-story1").innerHTML = `
     As a designer, I have used many different fonts for my projects and sometimes I thought
     that to better match my style, I could try to make my own font, but I never did. 
@@ -33,7 +33,7 @@ if(currentlang == "EN") {
     I still have a lot to learn if I decide to make another font, and I'm sure this one isn't perfect either.
     If you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
     See further down below.`
-    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Follow the development`
+    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Follow the development`
     document.getElementById("langs-unageo-ost").innerHTML = `
     <span style="font-size: 21px; font-weight: 600; color: #e6e6e6;">Unageo is an open source typeface developed on GitHub.</span>
     <div style="height: 18px;" id="resp-ug-space-1"></div>
@@ -45,6 +45,13 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
     document.getElementById("langs-unageo-links2").innerHTML = `Submit a new issue`
     document.getElementById("langs-unageo-links3").innerHTML = `Releases/Changelog`
+    document.getElementById("langs-unageo-ot-0").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>OpenType features`
+    document.getElementById("langs-unageo-ot-1").innerHTML = `Eastern cyrillic forms`
+    document.getElementById("langs-unageo-ot-2").innerHTML = `Stylistic set 1 "ss01"`
+    document.getElementById("langs-unageo-ot-3").innerHTML = `Eastern cyrillic form`
+    document.getElementById("langs-unageo-ot-4").innerHTML = `Stylistic set 2 "ss02"`
+    document.getElementById("langs-unageo-ot-label-1").innerHTML = `Eastern cyrillic forms (к, ю, ж, в, з) "ss01"`
+    document.getElementById("langs-unageo-ot-label-2").innerHTML = `Eastern cyrillic form (д) "ss02"`
 
 } else if(currentlang == "SK") {
     document.getElementById("langs-unageo-dvariable").innerHTML = `Variabliný`
@@ -63,7 +70,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-greektitle").innerHTML = `Grécke písmo`
     document.getElementById("langs-unageo-greek").innerHTML = `Grécky font Unageo nasleduje ten istý štýl s dokonalými tvarmi,
     ale dotvára ho plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátny.`
-    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Ako vznikol font Unageo`
+    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Ako vznikol font Unageo`
     document.getElementById("langs-unageo-story1").innerHTML = `
     Použil som už veľa rôznych fontov v rôznych projektoch a občas mi napadlo, že
     by som tam rád nejak dal svoj štýl, ale nikdy som sa nepokúsil vytvoriť vlastný font. 
@@ -81,7 +88,7 @@ if(currentlang == "EN") {
     Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
     Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem.
     Nižšie zistíte viac.`
-    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
+    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
     document.getElementById("langs-unageo-ost").innerHTML = `
     <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvýjaný na platforme GitHub.</span>
     <div style="height: 18px;"></div>
@@ -93,6 +100,13 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
     document.getElementById("langs-unageo-links2").innerHTML = `Nahlásiť problém`
     document.getElementById("langs-unageo-links3").innerHTML = `Verzie/Aktualizácie`
+    document.getElementById("langs-unageo-ot-0").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>OpenType funkcie`
+    document.getElementById("langs-unageo-ot-1").innerHTML = `Východná forma Cyriliky`
+    document.getElementById("langs-unageo-ot-2").innerHTML = `Štylistický set 1 "ss01"`
+    document.getElementById("langs-unageo-ot-3").innerHTML = `Východná forma Cyriliky`
+    document.getElementById("langs-unageo-ot-4").innerHTML = `Štylistický set 2 "ss02"`
+    document.getElementById("langs-unageo-ot-label-1").innerHTML = `Východná forma Cyriliky (к, ю, ж, в, з) "ss01"`
+    document.getElementById("langs-unageo-ot-label-2").innerHTML = `Východná forma Cyriliky (д) "ss02"`
 
 } else if(currentlang == "CZ") {
     document.getElementById("langs-unageo-dvariable").innerHTML = `Variabilní`
@@ -111,7 +125,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-greektitle").innerHTML = `Řecké písmo`
     document.getElementById("langs-unageo-greek").innerHTML = `Řecké písmo Unageo se drží stejného stylu s dokonalými tvary,
     ale dotváří ho hladkými tahy a přidává další geometrické prvky, aby bylo jedinečnější.`
-    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Jak vznikl font Unageo`
+    document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Jak vznikl font Unageo`
     document.getElementById("langs-unageo-story1").innerHTML = `
     V různých projektech jsem už použil spoustu různých písem a někdy jsem si říkal, že
     bych do nich rád nějak vložil svůj styl, ale nikdy jsem se nepokusil vytvořit vlastní font.
@@ -129,7 +143,7 @@ if(currentlang == "EN") {
     Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další font, a ani tenhle rozhodně není dokonalý.
     Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
     Více informací najdete níže.`
-    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
+    document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
     document.getElementById("langs-unageo-ost").innerHTML = `
     <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvíjený na platformě GitHub.</span>
     <div style="height: 18px;"></div>
@@ -141,6 +155,13 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
     document.getElementById("langs-unageo-links2").innerHTML = `Nahlásit problém`
     document.getElementById("langs-unageo-links3").innerHTML = `Verze/Aktualizace`
+    document.getElementById("langs-unageo-ot-0").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>OpenType funkce`
+    document.getElementById("langs-unageo-ot-1").innerHTML = `Východná forma Cyriliky`
+    document.getElementById("langs-unageo-ot-2").innerHTML = `Stylistický set 1 "ss01"`
+    document.getElementById("langs-unageo-ot-3").innerHTML = `Východná forma Cyriliky`
+    document.getElementById("langs-unageo-ot-4").innerHTML = `Stylistický set 2 "ss02"`
+    document.getElementById("langs-unageo-ot-label-1").innerHTML = `Východná forma Cyriliky (к, ю, ж, в, з) "ss01"`
+    document.getElementById("langs-unageo-ot-label-2").innerHTML = `Východná forma Cyriliky (д) "ss02"`
 }
 
 
@@ -163,7 +184,7 @@ function langizeunageo() {
         document.getElementById("langs-unageo-greektitle").innerHTML = `Greek`
         document.getElementById("langs-unageo-greek").innerHTML = `Unageo greek follows the same style with perfect geometry,
         but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.`
-        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>How was unageo made`
+        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>How was unageo made`
         document.getElementById("langs-unageo-story1").innerHTML = `
         As a designer, I have used many different fonts for my projects and sometimes I thought
         that to better match my style, I could try to make my own font, but I never did. 
@@ -181,19 +202,26 @@ function langizeunageo() {
         I still have a lot to learn if I decide to make another font, and I'm sure this one isn't perfect either.
         If you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
         See further down below.`
-        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Follow the development`
+        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Follow the development`
         document.getElementById("langs-unageo-ost").innerHTML = `
         <span style="font-size: 21px; font-weight: 600; color: #e6e6e6;">Unageo is an open source typeface developed on GitHub.</span>
-        <div style="height: 18px;"></div>
+        <div style="height: 18px;" id="resp-ug-space-1"></div>
         If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.
-        <div style="height: 14px;"></div>
+        <div style="height: 14px;" id="resp-ug-space-2"></div>
         Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Download Variable`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Download Static`
         document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
         document.getElementById("langs-unageo-links2").innerHTML = `Submit a new issue`
         document.getElementById("langs-unageo-links3").innerHTML = `Releases/Changelog`
-
+        document.getElementById("langs-unageo-ot-0").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>OpenType features`
+        document.getElementById("langs-unageo-ot-1").innerHTML = `Eastern cyrillic forms`
+        document.getElementById("langs-unageo-ot-2").innerHTML = `Stylistic set 1 "ss01"`
+        document.getElementById("langs-unageo-ot-3").innerHTML = `Eastern cyrillic form`
+        document.getElementById("langs-unageo-ot-4").innerHTML = `Stylistic set 2 "ss02"`
+        document.getElementById("langs-unageo-ot-label-1").innerHTML = `Eastern cyrillic forms (к, ю, ж, в, з) "ss01"`
+        document.getElementById("langs-unageo-ot-label-2").innerHTML = `Eastern cyrillic form (д) "ss02"`
+    
     } else if(currentlang == "SK") {
         document.getElementById("langs-unageo-dvariable").innerHTML = `Variabliný`
         document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
@@ -211,7 +239,7 @@ function langizeunageo() {
         document.getElementById("langs-unageo-greektitle").innerHTML = `Grécke písmo`
         document.getElementById("langs-unageo-greek").innerHTML = `Grécky font Unageo nasleduje ten istý štýl s dokonalými tvarmi,
         ale dotvára ho plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátny.`
-        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Ako vznikol font Unageo`
+        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Ako vznikol font Unageo`
         document.getElementById("langs-unageo-story1").innerHTML = `
         Použil som už veľa rôznych fontov v rôznych projektoch a občas mi napadlo, že
         by som tam rád nejak dal svoj štýl, ale nikdy som sa nepokúsil vytvoriť vlastný font. 
@@ -229,19 +257,26 @@ function langizeunageo() {
         Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
         Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem.
         Nižšie zistíte viac.`
-        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
+        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
         document.getElementById("langs-unageo-ost").innerHTML = `
         <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvýjaný na platforme GitHub.</span>
-        <div style="height: 18px;" id="resp-ug-space-1"></div>
+        <div style="height: 18px;"></div>
         Ak máte nápad na vylepšenie, našli ste chybu alebo máte nejaký iný návrh, kľudne ma o tom informujte na GitHube.
-        <div style="height: 14px;" id="resp-ug-space-2"></div>
+        <div style="height: 14px;"></div>
         Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Stiahnuť Variabliný`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Stiahnuť Statický`
         document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
         document.getElementById("langs-unageo-links2").innerHTML = `Nahlásiť problém`
         document.getElementById("langs-unageo-links3").innerHTML = `Verzie/Aktualizácie`
-        
+        document.getElementById("langs-unageo-ot-0").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>OpenType funkcie`
+        document.getElementById("langs-unageo-ot-1").innerHTML = `Východná forma Cyriliky`
+        document.getElementById("langs-unageo-ot-2").innerHTML = `Štylistický set 1 "ss01"`
+        document.getElementById("langs-unageo-ot-3").innerHTML = `Východná forma Cyriliky`
+        document.getElementById("langs-unageo-ot-4").innerHTML = `Štylistický set 2 "ss02"`
+        document.getElementById("langs-unageo-ot-label-1").innerHTML = `Východná forma Cyriliky (к, ю, ж, в, з) "ss01"`
+        document.getElementById("langs-unageo-ot-label-2").innerHTML = `Východná forma Cyriliky (д) "ss02"`
+    
     } else if(currentlang == "CZ") {
         document.getElementById("langs-unageo-dvariable").innerHTML = `Variabilní`
         document.getElementById("langs-unageo-dstatic").innerHTML = `Statický`
@@ -259,7 +294,7 @@ function langizeunageo() {
         document.getElementById("langs-unageo-greektitle").innerHTML = `Řecké písmo`
         document.getElementById("langs-unageo-greek").innerHTML = `Řecké písmo Unageo se drží stejného stylu s dokonalými tvary,
         ale dotváří ho hladkými tahy a přidává další geometrické prvky, aby bylo jedinečnější.`
-        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Jak vznikl font Unageo`
+        document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Jak vznikl font Unageo`
         document.getElementById("langs-unageo-story1").innerHTML = `
         V různých projektech jsem už použil spoustu různých písem a někdy jsem si říkal, že
         bych do nich rád nějak vložil svůj styl, ale nikdy jsem se nepokusil vytvořit vlastní font.
@@ -277,7 +312,7 @@ function langizeunageo() {
         Rozhodně se mám ještě hodně co učit, pokud se rozhodnu vytvořit další font, a ani tenhle rozhodně není dokonalý.
         Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
         Více informací najdete níže.`
-        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500; color: #969696; margin-left: -19px;">› </span>Sledujte vývoj`
+        document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
         document.getElementById("langs-unageo-ost").innerHTML = `
         <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvíjený na platformě GitHub.</span>
         <div style="height: 18px;"></div>
@@ -289,5 +324,12 @@ function langizeunageo() {
         document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
         document.getElementById("langs-unageo-links2").innerHTML = `Nahlásit problém`
         document.getElementById("langs-unageo-links3").innerHTML = `Verze/Aktualizace`
+        document.getElementById("langs-unageo-ot-0").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>OpenType funkce`
+        document.getElementById("langs-unageo-ot-1").innerHTML = `Východná forma Cyriliky`
+        document.getElementById("langs-unageo-ot-2").innerHTML = `Stylistický set 1 "ss01"`
+        document.getElementById("langs-unageo-ot-3").innerHTML = `Východná forma Cyriliky`
+        document.getElementById("langs-unageo-ot-4").innerHTML = `Stylistický set 2 "ss02"`
+        document.getElementById("langs-unageo-ot-label-1").innerHTML = `Východná forma Cyriliky (к, ю, ж, в, з) "ss01"`
+        document.getElementById("langs-unageo-ot-label-2").innerHTML = `Východná forma Cyriliky (д) "ss02"`
     }
 }

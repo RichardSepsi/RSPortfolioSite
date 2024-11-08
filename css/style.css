@@ -9,6 +9,7 @@
     src: url(../projects/2d/unageo/Unageo[wght\,ital].ttf);
     font-weight: 300 900;
     font-variation-settings: "ital" 0 1;
+    font-feature-settings: "kern", "ss01", "ss02";
 }
 @font-face {
     font-family: NotoJP;

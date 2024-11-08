@@ -171,7 +171,7 @@
                     <img class="unageo-github" src="assets/social/github.svg" width="38px" draggable="false">
                 </svg></a>
                 <div class="project-link-button">
-                    <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.1/Unageo2.1-variable.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
+                    <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.2/Unageo2.2-variable.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
                     <span class="project-link-button-label" style="font-family: Unageo-vf;" id="langs-unageo-dvariable"></span>
                     <div class="project-link-button-ext">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,7 +181,7 @@
                     </div></a>
                 </div>
                 <div class="project-link-button" style="margin-left: 10px;">
-                    <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.1/Unageo2.1-static.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
+                    <a href="https://github.com/RichardSepsi/Unageo/releases/download/Unageo2.2/Unageo2.2-static.zip" style="text-decoration: none; color: inherit; display: flex; align-items: center;" download draggable="false">
                     <span class="project-link-button-label" style="font-family: Unageo-vf;" id="langs-unageo-dstatic"></span>
                     <div class="project-link-button-ext">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,12 +328,23 @@
                                 </div>
                             </div>
                         </div>
-                        <textarea id="Unageo-fonttestfield" class="Unageo-fonttestfield" placeholder=""></textarea>
+                        <div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; margin-top: 20px; margin-left: 5px; gap: 2px 0;">
+                            <div class="unageo-ot-container">
+                                <input type="checkbox" class="unageo-ot-checkbox" id="unageo-ot-ss01-checkbox" onclick="unageotoggleot('ss01')"/>
+                                <span class="unageo-ot-label" style="font-feature-settings: 'ss01' on;" id="langs-unageo-ot-label-1"></span>
+                            </div>
+                            <div style="width: 30px;"></div>
+                            <div class="unageo-ot-container">
+                                <input type="checkbox" class="unageo-ot-checkbox" id="unageo-ot-ss02-checkbox" onclick="unageotoggleot('ss02')"/>
+                                <span class="unageo-ot-label" style="font-feature-settings: 'ss02' on;" id="langs-unageo-ot-label-2"></span>
+                            </div>
+                        </div>
+                        <div id="unageo-ot-wrapper"><textarea id="Unageo-fonttestfield" class="Unageo-fonttestfield" placeholder=""></textarea></div>
                     </div>
                 </div>
                 <div class="unageo-row" id="resp-ug-row-scripts">
                     <div class="unageo-scripts-left">
-                        <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Кириллица<span class="unageo-scripts-subtitle" id="langs-unageo-cyrillictitle"></span></span>
+                        <span class="unageo-scripts-title"><span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Кириллица<span class="unageo-scripts-subtitle" id="langs-unageo-cyrillictitle"></span></span>
                         <div style="height: 10px;"></div>
                         <span class="unageo-scripts-desc" id="langs-unageo-cyrillic">
                         </span>
@@ -351,7 +362,7 @@
                         </span>
                     </div>
                     <div class="unageo-scripts-right">
-                        <span class="unageo-scripts-title"><span style="font-weight: 500; color: #969696; margin-left: -20px;">› </span>Ελληνικά<span class="unageo-scripts-subtitle" id="langs-unageo-greektitle"></span></span>
+                        <span class="unageo-scripts-title"><span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Ελληνικά<span class="unageo-scripts-subtitle" id="langs-unageo-greektitle"></span></span>
                         <div style="height: 10px;"></div>
                         <span class="unageo-scripts-desc" id="langs-unageo-greek">
                         </span>
@@ -379,6 +390,37 @@
                         </span></div>
                         <div class="unageo-story-par" style="width: 36%;"><span class="unageo-story-text" id="langs-unageo-story3">
                         </span></div>
+                    </div>
+                </div>
+                <div class="unageo-row" id="resp-ug-row-2">
+                    <span class="unageo-row-title" id="langs-unageo-ot-0"></span>
+                </div>
+                <div class="unageo-row" id="resp-ug-row-2" style="flex-direction: column !important; margin-bottom: 60px;">
+                    <div class="unageo-opentype">
+                        <div style="display: flex; flex-direction: row; font-family: Unageo-vf; margin-top: 10px;" class="resp-unageo-ot-1">
+                            <div style="display: flex; flex-direction: column;">
+                                <span style="font-weight: 500; font-size: 20px;" id="langs-unageo-ot-1"></span>
+                                <div style="height: 2px;"></div>
+                                <span style="font-weight: 500; color: #b3b3b3;" id="langs-unageo-ot-2"></span>
+                            </div>
+                            <div style="display: flex; flex-direction: row; margin-left: 30px; font-size: 38px" class="resp-unageo-ot-2">
+                                <span style="font-weight: 500; font-weight: 500; color: #969696;">к ю ж в з</span>
+                                <span style="font-weight: 500; font-weight: 500; color: #b3b3b3; margin: 0 20px;">→</span>
+                                <span style="font-weight: 500; font-weight: 500; color: #cccccc; font-feature-settings: 'ss01' on;">к ю ж в з</span>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: row; font-family: Unageo-vf; margin-top: 10px;" class="resp-unageo-ot-3">
+                            <div style="display: flex; flex-direction: column;">
+                                <span style="font-weight: 500; font-size: 20px;" id="langs-unageo-ot-3"></span>
+                                <div style="height: 2px;"></div>
+                                <span style="font-weight: 500; color: #b3b3b3;" id="langs-unageo-ot-4"></span>
+                            </div>
+                            <div style="display: flex; flex-direction: row; margin-left: 30px; font-size: 38px" class="resp-unageo-ot-4">
+                                <span style="font-weight: 500; font-weight: 500; color: #969696;">д</span>
+                                <span style="font-weight: 500; font-weight: 500; color: #b3b3b3; margin: 0 20px;">→</span>
+                                <span style="font-weight: 500; font-weight: 500; color: #cccccc; font-feature-settings: 'ss02' on;">д</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

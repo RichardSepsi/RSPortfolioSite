@@ -411,3 +411,29 @@ function ugnavvisibility() {
         document.getElementById("unageo-nav").style.pointerEvents = "all"
     }
 }
+
+let ss01 = "off"
+let ss02 = "off"
+
+function unageotoggleot(otfeature) {
+    if(otfeature == "ss01"){
+        ss01 = "on"
+        document.getElementById("unageo-ot-ss01-checkbox").setAttribute("onclick", "unageotoggleotoff('ss01')")
+    }
+    if(otfeature == "ss02"){
+        ss02 = "on"
+        document.getElementById("unageo-ot-ss02-checkbox").setAttribute("onclick", "unageotoggleotoff('ss02')")
+    }
+    document.getElementById("unageo-ot-wrapper").setAttribute('style', "font-feature-settings: 'ss01' "+ss01+", 'ss02' "+ss02+";")
+}
+function unageotoggleotoff(otfeature) {
+    if(otfeature == "ss01"){
+        ss01 = "off"
+        document.getElementById("unageo-ot-ss01-checkbox").setAttribute("onclick", "unageotoggleot('ss01')")
+    }
+    if(otfeature == "ss02"){
+        ss02 = "off"
+        document.getElementById("unageo-ot-ss02-checkbox").setAttribute("onclick", "unageotoggleot('ss02')")
+    }
+    document.getElementById("unageo-ot-wrapper").setAttribute('style', "font-feature-settings: 'ss01' "+ss01+", 'ss02' "+ss02+";")
+}
