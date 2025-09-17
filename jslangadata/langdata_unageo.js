@@ -39,7 +39,9 @@ if(currentlang == "EN") {
     <div style="height: 18px;" id="resp-ug-space-1"></div>
     If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.
     <div style="height: 14px;" id="resp-ug-space-2"></div>
-    Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.`
+    Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.
+    <div style="height: 14px;" id="resp-ug-space-2"></div>
+    Typeface was recently accepted into Google Fonts and should be available in 2025 Q4.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Download Variable`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Download Static`
     document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
@@ -94,7 +96,9 @@ if(currentlang == "EN") {
     <div style="height: 18px;"></div>
     Ak máte nápad na vylepšenie, našli ste chybu alebo máte nejaký iný návrh, kľudne ma o tom informujte na GitHube.
     <div style="height: 14px;"></div>
-    Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.`
+    Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.
+    <div style="height: 14px;" id="resp-ug-space-2"></div>
+    Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q4 2025.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Stiahnuť Variabliný`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Stiahnuť Statický`
     document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
@@ -149,7 +153,9 @@ if(currentlang == "EN") {
     <div style="height: 18px;"></div>
     Pokud máte nápad na vylepšení, našli jste chybu nebo máte jiný návrh, neváhejte mě informovat na GitHubu.
     <div style="height: 14px;"></div>
-    Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.`
+    Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.
+    <div style="height: 14px;" id="resp-ug-space-2"></div>
+    Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q4 2025.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Stáhnout Variabilní`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Stáhnout Statický`
     document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
@@ -208,7 +214,9 @@ function langizeunageo() {
         <div style="height: 18px;" id="resp-ug-space-1"></div>
         If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.
         <div style="height: 14px;" id="resp-ug-space-2"></div>
-        Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.`
+        Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.
+        <div style="height: 14px;" id="resp-ug-space-2"></div>
+        Typeface was recently accepted into Google Fonts and should be available in 2025 Q4.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Download Variable`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Download Static`
         document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
@@ -263,7 +271,9 @@ function langizeunageo() {
         <div style="height: 18px;"></div>
         Ak máte nápad na vylepšenie, našli ste chybu alebo máte nejaký iný návrh, kľudne ma o tom informujte na GitHube.
         <div style="height: 14px;"></div>
-        Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.`
+        Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.
+        <div style="height: 14px;" id="resp-ug-space-2"></div>
+        Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q4 2025.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Stiahnuť Variabliný`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Stiahnuť Statický`
         document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
@@ -318,7 +328,9 @@ function langizeunageo() {
         <div style="height: 18px;"></div>
         Pokud máte nápad na vylepšení, našli jste chybu nebo máte jiný návrh, neváhejte mě informovat na GitHubu.
         <div style="height: 14px;"></div>
-        Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.`
+        Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.
+        <div style="height: 14px;" id="resp-ug-space-2"></div>
+        Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q4 2025.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Stáhnout Variabilní`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Stáhnout Statický`
         document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
