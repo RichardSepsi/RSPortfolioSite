@@ -13,7 +13,7 @@ Quixel mixer
 -- xNormal --
 ** Normalizer **
 
-** Gaea **
+Gaea
 ** World Machine **
 ** Speedtree **
 ** Worldcreator **
@@ -31,3 +31,9 @@ Inkscape
 Figma
 ** Ilustrator **
 
+FontForge
+
+VSCodium
+
+Windows
+FedoraLinux
