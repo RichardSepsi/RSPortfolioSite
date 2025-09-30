@@ -384,5 +384,11 @@ function langizeunversal() {
         langizezelenaskola()
     } else if(window.location.href.indexOf('unageo') !== -1){
         langizeunageo()
+    } else if(window.location.href.indexOf('wordgrind') !== -1){
+        langizewordgrind()
+    } else if(window.location.href.indexOf('seasidecliffs') !== -1){
+        langizeseasidecliffs()
+    } else if(window.location.href.indexOf('photography') !== -1){
+        langizephotography()
     }
 }

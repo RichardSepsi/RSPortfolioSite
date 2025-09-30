@@ -34,7 +34,24 @@ function fadeoutphotography (nhref) {
     photolanding = document.getElementById("photography-grid-container").innerHTML
     window[nhref]()
     navbackup = document.getElementById("photography-folder-nav-container").innerHTML
-    document.getElementById("photography-folder-nav-container").innerHTML = `
+    document.getElementById("photography-navlinks-fake-wrapper").style.display = "none"
+    let backbuttonlabel = ""
+    if(currentlang == "EN") {
+        backbuttonlabel = "Back"
+    }
+    if(currentlang == "SK") {
+        backbuttonlabel = "Späť"
+    }
+    if(currentlang == "CZ") {
+        backbuttonlabel = "Zpět"
+    }
+    if(currentlang == "DE") {
+        backbuttonlabel = "Zurück"
+    }
+    if(currentlang == "JP") {
+        backbuttonlabel = "戻る"
+    }
+    document.getElementById("photography-folder-nav-container").innerHTML += `
     <div class="photography-folder-nav-container">
         <div class="project-link-button" style="height: 48px;" id="photography-album-back" onClick="photography_back()">
                 <div class="project-link-button-ext" style="height: 36px; width: 36px;">                             
@@ -43,7 +60,7 @@ function fadeoutphotography (nhref) {
                         <path class="project-link-button-svg" d="M12 19L5 12L12 5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>                            
                 </div>
-                <span class="project-link-button-label" style="padding: 0 16px 0px 8px;">Back</span>
+                <span class="project-link-button-label" style="padding: 0 16px 0px 8px;" id="langdata-photography-back">`+backbuttonlabel+`</span>
             </div>
         <span style="font-size: 16px; font-weight: 600; color: #191919; position: absolute; width: 100%; text-align: center; pointer-events: none;" id="photography-album-name">`+currentalbumname+`</span>
         <span style="font-size: 16px; font-weight: 600; color: #191919; margin-right: 10px;" id="photography-album-date">9.10.2024</span>
