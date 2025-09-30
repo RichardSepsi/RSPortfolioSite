@@ -43,7 +43,7 @@ function scrolltothetop(){
 
 //copy mail function
 function mailcopy() {
-    let mail = "appsepsi@gmail.com";
+    let mail = "richard@sepsi.sk";
     navigator.clipboard.writeText(mail);
 }
 

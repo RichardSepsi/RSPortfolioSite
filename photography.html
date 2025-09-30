@@ -18,6 +18,7 @@
     <script defer src="js/animations.js"></script>
     <script defer src="js/animations_designprojects.js"></script>
     <script defer src="js/search.js"></script>
+    <script defer src="js/imageviewer.js"></script>
     <script defer src="js/photography.js"></script>
     <title>Photography • Richard Sepši - Portfolio</title>
 </head>
@@ -32,7 +33,7 @@
             </defs>
         </svg></a>
 
-        <div class="nav-links">
+        <div class="nav-links" id="photography-folder-nav-container">
             <a class="nav-link" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
                 <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-fix-1">
                     <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home"></text></mask>
@@ -88,6 +89,7 @@
                 </svg>
             </div>
         </div>
+        
 
         <div class="nav-mobile-container">
             <a class="nav-link-mobile" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
@@ -154,42 +156,17 @@
         </div>
     </div>
     <div class="content-container" id="content-container">
+        <div class="project-fullscreen-view" id="project-fullscreen-view">
+        </div>
         <div class="grid-container">
-            <div class="grid photos">
-                <div class="photography-folder-nav-container">
-
-                </div>
-                <div class="grid-column photos">
-                    <div id="Menton-2024-1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-                    </div>
-                    <div id="Menton-2024-1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/menton-2024-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-                    </div>
-                </div>
-                <div class="grid-column photos">
-                    <div id="Menton-2024-1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/menton-2024-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-                    </div>
-                    <div id="Menton-2024-1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/menton-2024-6-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-                    </div>
-                </div>
-                <div class="grid-column photos">
-                    <div id="Menton-2024-1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/menton-2024-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-                    </div>
-                    <div id="Menton-2024-1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/menton-2024-4-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-                    </div>
-                </div>
-                <!--<div class="grid-column">
-                    <div id="Menton-2024" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-                        <img src="projects/photography/Menton-2024/thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div class="grid" id="photography-grid-container">
+                <div class="grid-column">
+                    <div id="menton_2024" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
+                        <img src="projects/photography/menton-2024/thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
                         <div class="project-thumb-info-container">
                             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Menton 2024</span>
                             <span class="project-thumb-info-sub one"></span></div>
-                            <span class="project-thumb-info-sub">9.10.2024</span>
+                            <span class="project-thumb-info-sub" id="photo-thumb-album-date">9.10.2024</span>
                         </div>
                     </div>
                     <a id="natart.html" onclick="fadeout(this.id)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
@@ -308,10 +285,10 @@
                             <span class="project-thumb-info-sub">9.10.2024</span>
                         </div>
                     </div></a>
-                </div>-->  
+                </div>
             </div>
         </div>
-        <div class="footer-container">
+        <div class="footer-container" id="footer-container">
             <div style="display: flex; flex-direction: column;" class="footer-dlogo-container">
                 <div style="height: 4px;"></div>
                 <img src="assets/d-footer-light.svg" draggable="false" height="90px">
