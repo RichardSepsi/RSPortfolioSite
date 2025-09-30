@@ -10,13 +10,19 @@
     height: 100%;
     padding: 0 10px;
 }
+.grid.photos {
+    position: relative;
+}
 .grid-column {
     text-align: center;
     font-size: 30px;
     padding: 80px 10px 0 10px;
 }
+.grid-column.photos {
+    padding: 120px 10px 0 10px;
+}
 .project-thumb-container{
-    width: 460px;
+    width: 500px;
     min-height: 100px;
     background-color: #dadada;
     border-radius: 18px;
@@ -92,10 +98,28 @@
     border-radius: 8px;
 }
 
+.photography-folder-nav-container{
+    position: absolute;
+    background-color: red;
+    width: calc(100% - 30px - 10px);
+    margin-left: 10px;
+    top: 80px;
+    height: 40px;
+}
 
 
 /* responsivity */
 
+@media screen and (max-width: 1620px) {
+    .project-thumb-container{
+        width: 480px;
+    }
+}
+@media screen and (max-width: 1560px) {
+    .project-thumb-container{
+        width: 460px;
+    }
+}
 @media screen and (max-width: 1500px) {
     .project-thumb-container{
         width: 440px;
