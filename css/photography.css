@@ -416,6 +416,11 @@
         width: 420px;
     }
 }
+@media screen and (max-width: 511px) {
+    #langdata-photography-back {
+        display: none;
+    }
+}
 @media screen and (max-width: 499px) {
     .grid{
         max-width: 420px;
