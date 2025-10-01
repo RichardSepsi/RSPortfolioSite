@@ -54,14 +54,14 @@ function fadeoutphotography (nhref) {
     document.getElementById("photography-folder-nav-container").innerHTML += `
     <div class="photography-folder-nav-container">
         <div class="project-link-button" style="height: 48px;" id="photography-album-back" onClick="photography_back()">
-                <div class="project-link-button-ext" style="height: 36px; width: 36px;">                             
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="project-link-button-svg" d="M19 12H5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path class="project-link-button-svg" d="M12 19L5 12L12 5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>                            
-                </div>
-                <span class="project-link-button-label" style="padding: 0 16px 0px 8px;" id="langdata-photography-back">`+backbuttonlabel+`</span>
+            <div class="project-link-button-ext" style="height: 36px; width: 36px;">                             
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="project-link-button-svg" d="M19 12H5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path class="project-link-button-svg" d="M12 19L5 12L12 5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>                            
             </div>
+            <span class="project-link-button-label" style="padding: 0 16px 0px 8px;" id="langdata-photography-back">`+backbuttonlabel+`</span>
+        </div>
         <span style="font-size: 16px; font-weight: 600; color: #191919; position: absolute; width: 100%; text-align: center; pointer-events: none;" id="photography-album-name">`+currentalbumname+`</span>
         <span style="font-size: 16px; font-weight: 600; color: #191919; margin-right: 10px;" id="photography-album-date">9.10.2024</span>
     </div>
@@ -113,25 +113,61 @@ function menton_2024() {
     <div class="grid-column">
         <div id="menton-2024-1" onclick="fullscreen(this.id)" class="project-thumb-container">
             <img src="projects/photography/menton-2024/thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div style="display: none;" id="photo-data-source">
+                <span style="margin-bottom: 2px;">Menton, France</span>
+                <span style="margin-bottom: 2px;">8.Aug.2024</span>
+                <span style="margin-bottom: 2px;">Google Pixel 5</span>
+                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
+            </div>
         </div>
         <div id="menton-2024-2" onclick="fullscreen(this.id)" class="project-thumb-container">
             <img src="projects/photography/menton-2024/menton-2024-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div style="display: none;" id="photo-data-source">
+                <span style="margin-bottom: 2px;">Menton, France</span>
+                <span style="margin-bottom: 2px;">8.Aug.2024</span>
+                <span style="margin-bottom: 2px;">Google Pixel 5</span>
+                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
+            </div>
         </div>
     </div>
     <div class="grid-column">
         <div id="menton-2024-3" onclick="fullscreen(this.id)" class="project-thumb-container">
             <img src="projects/photography/menton-2024/menton-2024-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div style="display: none;" id="photo-data-source">
+                <span style="margin-bottom: 2px;">Menton, France</span>
+                <span style="margin-bottom: 2px;">8.Aug.2024</span>
+                <span style="margin-bottom: 2px;">Google Pixel 5</span>
+                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
+            </div>
         </div>
         <div id="menton-2024-6" onclick="fullscreen(this.id)" class="project-thumb-container">
             <img src="projects/photography/menton-2024/menton-2024-6-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div style="display: none;" id="photo-data-source">
+                <span style="margin-bottom: 2px;">Menton, France</span>
+                <span style="margin-bottom: 2px;">8.Aug.2024</span>
+                <span style="margin-bottom: 2px;">Google Pixel 5</span>
+                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
+            </div>
         </div>
     </div>
     <div class="grid-column">
         <div id="menton-2024-5" onclick="fullscreen(this.id)" class="project-thumb-container">
             <img src="projects/photography/menton-2024/menton-2024-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div style="display: none;" id="photo-data-source">
+                <span style="margin-bottom: 2px;">test, test</span>
+                <span style="margin-bottom: 2px;">8.Aug.2024</span>
+                <span style="margin-bottom: 2px;">Google Pixel 5</span>
+                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
+            </div>
         </div>
         <div id="menton-2024-4" onclick="fullscreen(this.id)" class="project-thumb-container">
             <img src="projects/photography/menton-2024/menton-2024-4-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+            <div style="display: none;" id="photo-data-source">
+                <span style="margin-bottom: 2px;">Menton, France</span>
+                <span style="margin-bottom: 2px;">8.Aug.2024</span>
+                <span style="margin-bottom: 2px;">Google Pixel 5</span>
+                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
+            </div>
         </div>
     </div>
     `
@@ -185,7 +221,8 @@ function photography_back() {
             easing: 'cubicBezier(0.500, 0.000, 0.650, 1.000)',
             direction: 'normal'
         });
-        /*anicounter2 = 0
+
+        anicounter2 = 0
 
         document.querySelectorAll(".project-thumb-container").forEach((prthco) => {
             anime({
@@ -195,8 +232,8 @@ function photography_back() {
                 delay: anicounter2,
                 easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
             });
-            anicounter2 = anicounter2 + 100
-        });*/
+            anicounter2 = anicounter2 + 10
+        });
     }, 300);
 }
 
@@ -215,11 +252,7 @@ function fullscreen(id) {
                 </div>
             </div>
             <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
-                <div class="p-f-m-r-column" style="margin-left: 2px !important;">
-                    <span>Menton, France</span>
-                    <span>8.Aug.2024</span>
-                    <span>Google Pixel 5</span>
-                    <span>f/1,7 1/5832sec ISO:63</span>
+                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
                 </div>
             </div>
         </div>
@@ -235,6 +268,10 @@ function fullscreen(id) {
                     <span>Click and drag to move</span>
                 </div>
             </div>
+            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
+                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
+                </div>
+            </div>
         </div>
         `
     } else if(currentlang == "CZ") {
@@ -246,6 +283,10 @@ function fullscreen(id) {
                 <div class="p-f-m-r-column">
                     <span>Sroll to zoom in and out</span>
                     <span>Click and drag to move</span>
+                </div>
+            </div>
+            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
+                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
                 </div>
             </div>
         </div>
@@ -261,6 +302,10 @@ function fullscreen(id) {
                     <span>Click and drag to move</span>
                 </div>
             </div>
+            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
+                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
+                </div>
+            </div>
         </div>
         `
     } else if(currentlang == "JP") {
@@ -274,15 +319,20 @@ function fullscreen(id) {
                     <span>Click and drag to move</span>
                 </div>
             </div>
+            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
+                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
+                </div>
+            </div>
         </div>
         `
     }
-    
+    document.getElementById("photo-data-wrapper").innerHTML = document.querySelector("#"+id+" #photo-data-source").innerHTML
     document.getElementById("project-fullscreen-image").setAttribute("src", "projects/photography/"+id.substring(0, id.length - 2)+"/"+id+".jpg")
     document.getElementById("project-fullscreen-view").style.opacity = "1"
     document.getElementById("project-fullscreen-view").style.pointerEvents = "all"
     imageviewer()
 }
+
 function unfullscreen() {
     document.getElementById("photography-album-back").setAttribute("onClick", "photography_back()")
     enableScroll()
