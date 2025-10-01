@@ -41,6 +41,16 @@ function scrolltothetop(){
 
 
 
+// scroll to top function
+function middleclicklink(mcid, ev){
+    if( ev.button === 1 ) {
+        /*alert(window.location.href = mcid)*/
+        window.open(mcid, '_blank');
+    }
+}
+
+
+
 //copy mail function
 function mailcopy() {
     let mail = "richard@sepsi.sk";
