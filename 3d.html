@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/overlayscrollbars.css">
+    <script defer src="js/sorting_3Dgraphics.js"></script>
     <script defer src="libraries/anime.min.js"></script>
     <script defer src="libraries/overlayscrollbars.js"></script>
     <script defer src="js/script.js"></script>
@@ -155,25 +156,14 @@
     <div class="content-container" id="content-container">
         <div class="grid-container">
             <div class="grid">
-                <div class="grid-column">
-                    <a id="seasidecliffs.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-                        <img src="projects/3d/seasidecliffs/r1_thumb.jpg" style="pointer-events: none;" width="100%" height="auto">
-                        <div class="project-thumb-info-container">
-                            <span class="project-thumb-info-title">Seaside cliffs</span>
-                            <span class="project-thumb-info-sub one">30.10.2024</span>
-                        </div>
-                    </div></a>
+                <div class="grid-column" id="projects-column-1">
+                    <!--   Items are added here through sorting JS   -->
                 </div>
-                <div class="grid-column">
-                    <a id="metrostation.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-                        <img src="projects/3d/metrostation/r1.jpg" style="pointer-events: none;" width="100%" height="auto">
-                        <div class="project-thumb-info-container">
-                            <span class="project-thumb-info-title">Metro station</span>
-                            <span class="project-thumb-info-sub one">1.11.2023</span>
-                        </div>
-                    </div></a>
+                <div class="grid-column" id="projects-column-2">
+                    <!--   Items are added here through sorting JS   -->
                 </div>
-                <!--<div class="grid-column">
+                <!--<div class="grid-column" id="projects-column-3">
+                    
                 </div>-->
             </div>
         </div>
