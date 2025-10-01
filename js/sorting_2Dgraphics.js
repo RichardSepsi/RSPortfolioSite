@@ -6,12 +6,7 @@ let itemcount = 5
 
 
 // Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
-
-/*let item1 = 
-let item2 = 
-let item3 = 
-let item4 = 
-let item5 = */
+// Items on the top of the list will be last on the website !
 
 let itemdatabase = [
 `
@@ -70,7 +65,6 @@ let itemdatabase = [
 `
 ]
 
-//window.addEventListener("load", (event) => {
 document.getElementById("projects-column-1").innerHTML = ``
 document.getElementById("projects-column-2").innerHTML = ``
 if(itemcount > 2){
@@ -118,4 +112,3 @@ for(let i = 1; i <= itemcount; i++) {
     }
     
 }
-//});

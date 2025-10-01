@@ -449,6 +449,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+.search-result-title{
+    color: #cccccc;
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-result-subtext{
+    color: #969696;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 

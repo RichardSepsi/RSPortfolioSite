@@ -327,7 +327,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
     z-index: 90;
@@ -341,7 +341,7 @@ body {
     transition-duration: 200ms;
 }
 .search-element{
-    background-color: #191919;
+    background-color: #e6e6e6;
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -448,6 +448,16 @@ body {
 .search-result-left{
     display: flex;
     flex-direction: column;
+}
+.search-result-title{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-result-subtext{
+    color: #696969;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
