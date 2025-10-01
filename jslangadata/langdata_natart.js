@@ -10,7 +10,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-natart-myworktitle").innerHTML = `My work on natart`
     document.getElementById("langs-natart-myworktext").innerHTML = `I worked mainly on the design for the online store and also on things like the design for invoices and e-mails.`
     document.getElementById("langs-natart-softewaretitle").innerHTML = `Software used`
-    document.getElementById("langs-natart-link").innerHTML = `Visit NatArt on <u>natart.sk</u>`
+    /*document.getElementById("langs-natart-link").innerHTML = `Visit NatArt on <u>natart.sk</u>`*/
     document.getElementById("langs-natart-label1").innerHTML = `Dark and light mode`
     document.getElementById("langs-natart-label2").innerHTML = `Dropdowns & popups`
     document.getElementById("langs-natart-label3").innerHTML = `Other pages`
@@ -27,7 +27,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-natart-myworktitle").innerHTML = `Moja práca na NatArte`
     document.getElementById("langs-natart-myworktext").innerHTML = `Ja som pracoval predovšetkým na designe webstránky, ich online obchodu a na designe účtov a iných e-mailov.`
     document.getElementById("langs-natart-softewaretitle").innerHTML = `Použitý software`
-    document.getElementById("langs-natart-link").innerHTML = `Navštívte NatArt na <u>natart.sk</u>`
+    /*document.getElementById("langs-natart-link").innerHTML = `Navštívte NatArt na <u>natart.sk</u>`*/
     document.getElementById("langs-natart-label1").innerHTML = `Dark a light mode`
     document.getElementById("langs-natart-label2").innerHTML = `Dropdowns & popups`
     document.getElementById("langs-natart-label3").innerHTML = `Ostatné stránky`
@@ -44,7 +44,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-natart-myworktitle").innerHTML = `Moje práce na NatArtu`
     document.getElementById("langs-natart-myworktext").innerHTML = `Pracoval jsem především na designu webových stránek, jejich internetového obchodu a na designu účtenek a jiných e-mailů.`
     document.getElementById("langs-natart-softewaretitle").innerHTML = `Použitý software`
-    document.getElementById("langs-natart-link").innerHTML = `Navštivte NatArt na <u>natart.sk</u>`
+    /*document.getElementById("langs-natart-link").innerHTML = `Navštivte NatArt na <u>natart.sk</u>`*/
     document.getElementById("langs-natart-label1").innerHTML = `Dark a light mode`
     document.getElementById("langs-natart-label2").innerHTML = `Dropdowns & popups`
     document.getElementById("langs-natart-label3").innerHTML = `Ostatní stránky`
@@ -66,7 +66,7 @@ function langizenatart() {
         document.getElementById("langs-natart-myworktitle").innerHTML = `My work on natart`
         document.getElementById("langs-natart-myworktext").innerHTML = `I worked mainly on the design for the online store and also on things like the design for invoices and e-mails.`
         document.getElementById("langs-natart-softewaretitle").innerHTML = `Software used`
-        document.getElementById("langs-natart-link").innerHTML = `Visit NatArt on <u>natart.sk</u>`
+        /*document.getElementById("langs-natart-link").innerHTML = `Visit NatArt on <u>natart.sk</u>`*/
         document.getElementById("langs-natart-label1").innerHTML = `Dark and light mode`
         document.getElementById("langs-natart-label2").innerHTML = `Dropdowns & popups`
         document.getElementById("langs-natart-label3").innerHTML = `Other pages`
@@ -83,7 +83,7 @@ function langizenatart() {
         document.getElementById("langs-natart-myworktitle").innerHTML = `Moja práca na NatArte`
         document.getElementById("langs-natart-myworktext").innerHTML = `Ja som pracoval predovšetkým na designe webstránky, ich online obchodu a na designe účtov a iných e-mailov.`
         document.getElementById("langs-natart-softewaretitle").innerHTML = `Použitý software`
-        document.getElementById("langs-natart-link").innerHTML = `Navštívte NatArt na <u>natart.sk</u>`
+        /*document.getElementById("langs-natart-link").innerHTML = `Navštívte NatArt na <u>natart.sk</u>`*/
         document.getElementById("langs-natart-label1").innerHTML = `Dark a light mode`
         document.getElementById("langs-natart-label2").innerHTML = `Dropdowns & popups`
         document.getElementById("langs-natart-label3").innerHTML = `Ostatné stránky`
@@ -100,7 +100,7 @@ function langizenatart() {
         document.getElementById("langs-natart-myworktitle").innerHTML = `Moje práce na NatArtu`
         document.getElementById("langs-natart-myworktext").innerHTML = `Pracoval jsem především na designu webových stránek, jejich internetového obchodu a na designu účtenek a jiných e-mailů.`
         document.getElementById("langs-natart-softewaretitle").innerHTML = `Použitý software`
-        document.getElementById("langs-natart-link").innerHTML = `Navštivte NatArt na <u>natart.sk</u>`
+        /*document.getElementById("langs-natart-link").innerHTML = `Navštivte NatArt na <u>natart.sk</u>`*/
         document.getElementById("langs-natart-label1").innerHTML = `Dark a light mode`
         document.getElementById("langs-natart-label2").innerHTML = `Dropdowns & popups`
         document.getElementById("langs-natart-label3").innerHTML = `Ostatní stránky`
