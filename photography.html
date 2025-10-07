@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style-light.css">
     <link rel="stylesheet" href="css/photography.css">
     <link rel="stylesheet" href="css/overlayscrollbars.css">
+    <script defer src="js/sorting_photography.js"></script>
     <script defer src="libraries/anime.min.js"></script>
     <script defer src="libraries/overlayscrollbars.js"></script>
     <script defer src="js/script.js"></script>
@@ -162,7 +163,7 @@
         </div>
         <div class="grid-container">
             <div class="grid" id="photography-grid-container">
-                <div class="grid-column">
+                <div class="grid-column" id="projects-column-1">
                     <div id="menton_2024" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
                         <img src="projects/photography/menton-2024/thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
                         <div class="project-thumb-info-container">
@@ -171,14 +172,7 @@
                             <span class="project-thumb-info-sub" id="photo-thumb-album-date">9.10.2024</span>
                         </div>
                     </div>
-                    <a id="natart.html" onclick="fadeout(this.id)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-                        <div style="background-color: royalblue; width: 100%; height: 216px;"></div>
-                        <div class="project-thumb-info-container">
-                            <div class="project-thumb-info-one"><span class="project-thumb-info-title">Test 2</span>
-                            <span class="project-thumb-info-sub one"></span></div>
-                            <span class="project-thumb-info-sub">9.10.2024</span>
-                        </div>
-                    </div></a>
+                    
                     <a id="natart.html" onclick="fadeout(this.id)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
                         <div style="background-color: royalblue; width: 100%; height: 364px;"></div>
                         <div class="project-thumb-info-container">
@@ -204,7 +198,7 @@
                         </div>
                     </div></a>
                 </div>
-                <div class="grid-column">
+                <div class="grid-column" id="projects-column-2">
                     <a id="unageo.html" onclick="fadeout(this.id)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
                         <div style="background-color: slategray; width: 100%; height: 156px;"></div>
                         <div class="project-thumb-info-container">
@@ -246,7 +240,7 @@
                         </div>
                     </div></a>
                 </div>
-                <div class="grid-column">
+                <div class="grid-column" id="projects-column-3">
                     <a id="realizmusnaorave.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
                         <div style="background-color: cadetblue; width: 100%; height: 306px;"></div>
                         <div class="project-thumb-info-container">

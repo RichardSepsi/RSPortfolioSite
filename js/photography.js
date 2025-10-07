@@ -1,6 +1,24 @@
+function photoaddcolumns() {
+    document.getElementById("photography-grid-container").innerHTML = `
+    <div class="grid-column" id="projects-column-1">
+        
+        
+    </div>
+    <div class="grid-column" id="projects-column-2">
+        
+        
+    </div>
+    <div class="grid-column" id="projects-column-3">
+        
+        
+    </div>
+    `
+}
+
+
 // page fadeout photography function
 let album = ""
-let photolanding = ""
+/*let photolanding = ""*/
 let navbackup = ""
 let navbackupmargin = ""
 let anicounter2 = 0;
@@ -31,8 +49,11 @@ function fadeoutphotography (nhref) {
     });
 
     setTimeout(() => {
-    photolanding = document.getElementById("photography-grid-container").innerHTML
-    window[nhref]()
+    /*photolanding = document.getElementById("photography-grid-container").innerHTML*/
+    photoaddcolumns()
+    /*window[nhref]()*/
+    console.log(nhref)
+    photoalbumsort(nhref)
     navbackup = document.getElementById("photography-folder-nav-container").innerHTML
     document.getElementById("photography-navlinks-fake-wrapper").style.display = "none"
     let backbuttonlabel = ""
@@ -108,70 +129,7 @@ function fadeoutphotography (nhref) {
     }, 300);
 }
 
-function menton_2024() {
-    document.getElementById("photography-grid-container").innerHTML = `
-    <div class="grid-column">
-        <div id="menton-2024-1" onclick="fullscreen(this.id)" class="project-thumb-container">
-            <img src="projects/photography/menton-2024/thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-            <div style="display: none;" id="photo-data-source">
-                <span style="margin-bottom: 2px;">Menton, France</span>
-                <span style="margin-bottom: 2px;">8.Aug.2024</span>
-                <span style="margin-bottom: 2px;">Google Pixel 5</span>
-                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
-            </div>
-        </div>
-        <div id="menton-2024-2" onclick="fullscreen(this.id)" class="project-thumb-container">
-            <img src="projects/photography/menton-2024/menton-2024-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-            <div style="display: none;" id="photo-data-source">
-                <span style="margin-bottom: 2px;">Menton, France</span>
-                <span style="margin-bottom: 2px;">8.Aug.2024</span>
-                <span style="margin-bottom: 2px;">Google Pixel 5</span>
-                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
-            </div>
-        </div>
-    </div>
-    <div class="grid-column">
-        <div id="menton-2024-3" onclick="fullscreen(this.id)" class="project-thumb-container">
-            <img src="projects/photography/menton-2024/menton-2024-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-            <div style="display: none;" id="photo-data-source">
-                <span style="margin-bottom: 2px;">Menton, France</span>
-                <span style="margin-bottom: 2px;">8.Aug.2024</span>
-                <span style="margin-bottom: 2px;">Google Pixel 5</span>
-                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
-            </div>
-        </div>
-        <div id="menton-2024-6" onclick="fullscreen(this.id)" class="project-thumb-container">
-            <img src="projects/photography/menton-2024/menton-2024-6-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-            <div style="display: none;" id="photo-data-source">
-                <span style="margin-bottom: 2px;">Menton, France</span>
-                <span style="margin-bottom: 2px;">8.Aug.2024</span>
-                <span style="margin-bottom: 2px;">Google Pixel 5</span>
-                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
-            </div>
-        </div>
-    </div>
-    <div class="grid-column">
-        <div id="menton-2024-5" onclick="fullscreen(this.id)" class="project-thumb-container">
-            <img src="projects/photography/menton-2024/menton-2024-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-            <div style="display: none;" id="photo-data-source">
-                <span style="margin-bottom: 2px;">test, test</span>
-                <span style="margin-bottom: 2px;">8.Aug.2024</span>
-                <span style="margin-bottom: 2px;">Google Pixel 5</span>
-                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
-            </div>
-        </div>
-        <div id="menton-2024-4" onclick="fullscreen(this.id)" class="project-thumb-container">
-            <img src="projects/photography/menton-2024/menton-2024-4-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
-            <div style="display: none;" id="photo-data-source">
-                <span style="margin-bottom: 2px;">Menton, France</span>
-                <span style="margin-bottom: 2px;">8.Aug.2024</span>
-                <span style="margin-bottom: 2px;">Google Pixel 5</span>
-                <span style="margin-bottom: 2px;">f/1,7 1/5832sec ISO:63</span>
-            </div>
-        </div>
-    </div>
-    `
-}
+
 
 function photography_back() {
     scrolltothetop()
@@ -197,9 +155,11 @@ function photography_back() {
         direction: 'normal'
     });
     setTimeout(() => {
-        document.getElementById("photography-grid-container").innerHTML = photolanding
+        /*document.getElementById("photography-grid-container").innerHTML = photolanding*/
         document.getElementById("photography-folder-nav-container").innerHTML = navbackup
         document.getElementById("photography-folder-nav-container").style.marginLeft = navbackupmargin
+        photoaddcolumns()
+        photographysort()
         anime({
             targets: '#photography-grid-container',
             opacity: 1,
