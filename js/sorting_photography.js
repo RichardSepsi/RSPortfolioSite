@@ -172,7 +172,6 @@ function photographysort() {
     let sorththreecounter = 1
 
     for(let i = 1; i <= itemcount; i++) {
-        console.log(window.innerWidth)
         if(window.innerWidth <= "1159" && window.innerWidth > "779" || itemcount <= 2 && window.innerWidth > "779"){
             if(sorththreecounter <= 2) {
                 if(sorththreecounter == 1) {
