@@ -70,7 +70,7 @@
         "order" : "1"
     },
 
-    "photography" : {
+    "!photography" : {
         "resultname" : "photography",
         "tags" : "photography photos foto fotogragia photographie fotografie fotky fotka",
         "codeen" : "<a id=\"photography.html\" onclick=\"fadeout(this.id), searchuniquit()\" onauxclick=\"middleclicklink(this.id, event)\" style=\"text-decoration: none; color: inherit;\"><div class=\"search-result-container\" style=\"height: 89px;\" id=\"search-result-container\" tabindex=\"-1\"><div class=\"search-result-left\"><span class=\"search-result-title\">Photography</span><div style=\"height: 1px;\"></div><span class=\"search-result-subtext\">Here you can check out my photography</span></div></div></a>",

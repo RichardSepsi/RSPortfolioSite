@@ -83,8 +83,8 @@ function fadeoutphotography (nhref) {
             </div>
             <span class="project-link-button-label" style="padding: 0 16px 0px 8px;" id="langdata-photography-back">`+backbuttonlabel+`</span>
         </div>
-        <span style="font-size: 16px; font-weight: 600; color: #191919; position: absolute; width: 100%; text-align: center; pointer-events: none;" id="photography-album-name">`+currentalbumname+`</span>
-        <span style="font-size: 16px; font-weight: 600; color: #191919; margin-right: 10px;" id="photography-album-date">9.10.2024</span>
+        <span style="font-size: 16px; font-weight: 600; color: #e6e6e6; position: absolute; width: 100%; text-align: center; pointer-events: none; margin-left: 6px;" id="photography-album-name">`+currentalbumname+`</span>
+        <span style="font-size: 16px; font-weight: 600; color: #e6e6e6; margin-right: 10px;" id="photography-album-date">`+currentalbumdate+`</span>
     </div>
     `
 
@@ -287,7 +287,14 @@ function fullscreen(id) {
         `
     }
     document.getElementById("photo-data-wrapper").innerHTML = document.querySelector("#"+id+" #photo-data-source").innerHTML
-    document.getElementById("project-fullscreen-image").setAttribute("src", "projects/photography/"+id.substring(0, id.length - 2)+"/"+id+".jpg")
+    let tempimagesubstring = id.substring(0, id.length - 2)
+    if(tempimagesubstring.charAt(tempimagesubstring.length - 1) == "-") {
+        tempimagesubstring = tempimagesubstring.substring(0, tempimagesubstring.length -1)
+    }
+    else {
+
+    }
+    document.getElementById("project-fullscreen-image").setAttribute("src", "projects/photography/"+tempimagesubstring+"/"+id+".jpg")
     document.getElementById("project-fullscreen-view").style.opacity = "1"
     document.getElementById("project-fullscreen-view").style.pointerEvents = "all"
     imageviewer()

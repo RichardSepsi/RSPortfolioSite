@@ -47,6 +47,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 4 projects` // figma
     document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 7 projects` // inkscape
     document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project` // fontforge
+    document.getElementById("langs-softwaretooltip13").innerHTML = `Used in 0 projects` // lightroom classic
+    document.getElementById("langs-softwaretooltip14").innerHTML = `Used in 1 project` // rawtherapee
 
 } else if(currentlang == "SK") {
     document.getElementById("langs-text-greeting").innerHTML = `Ahoj, volám sa`
@@ -95,6 +97,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 4 projektoch` // figma
     document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 7 projektoch` // inkscape
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte` // fontforge
+    document.getElementById("langs-softwaretooltip13").innerHTML = `Použité v 0 projektoch` // lightroom classic
+    document.getElementById("langs-softwaretooltip14").innerHTML = `Použité v 1 projekte` // rawtherapee
 
 } else if(currentlang == "CZ") {
     document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
@@ -143,6 +147,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 4 projektech` // figma
     document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 7 projektech` // inkscape
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu` // fontforge
+    document.getElementById("langs-softwaretooltip13").innerHTML = `Použito v 0 projektech` // lightroom classic
+    document.getElementById("langs-softwaretooltip14").innerHTML = `Použito v 1 projektu` // rawtherapee
 
 } else if(currentlang == "DE") {
     document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
@@ -191,6 +197,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
     document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+    document.getElementById("langs-softwaretooltip13").innerHTML = `Použito v 0 projektech` // lightroom classic
+    document.getElementById("langs-softwaretooltip14").innerHTML = `Použito v 1 projektu` // rawtherapee
 
 } else if(currentlang == "JP") {
     document.getElementById("langs-text-greeting").innerHTML = `こんにちは`
@@ -239,6 +247,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip10").innerHTML = `3プロジェクトで使いました`
     document.getElementById("langs-softwaretooltip11").innerHTML = `5プロジェクトで使いました`
     document.getElementById("langs-softwaretooltip12").innerHTML = `1プロジェクトで使いました`
+    document.getElementById("langs-softwaretooltip13").innerHTML = `0プロジェクトで使いました` // lightroom classic
+    document.getElementById("langs-softwaretooltip14").innerHTML = `1プロジェクトで使いました` // rawtherapee
 }
 
 function langizehome() {
@@ -291,6 +301,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 4 projects` // figma
         document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 7 projects` // inkscape
         document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project` // fontforge
+        document.getElementById("langs-softwaretooltip13").innerHTML = `Used in 0 projects` // lightroom classic
+        document.getElementById("langs-softwaretooltip14").innerHTML = `Used in 1 project` // rawtherapee
     
     } else if(currentlang == "SK") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, volám sa`
@@ -339,6 +351,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 4 projektoch` // figma
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 7 projektoch` // inkscape
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte` // fontforge
+        document.getElementById("langs-softwaretooltip13").innerHTML = `Použité v 0 projektoch` // lightroom classic
+        document.getElementById("langs-softwaretooltip14").innerHTML = `Použité v 1 projekte` // rawtherapee
     
     } else if(currentlang == "CZ") {
         document.getElementById("langs-text-greeting").innerHTML = `Ahoj, jmenuji se`
@@ -387,6 +401,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 4 projektech` // figma
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 7 projektech` // inkscape
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu` // fontforge
+        document.getElementById("langs-softwaretooltip13").innerHTML = `Použito v 0 projektech` // lightroom classic
+        document.getElementById("langs-softwaretooltip14").innerHTML = `Použito v 1 projektu` // rawtherapee
     
     } else if(currentlang == "DE") {
         document.getElementById("langs-text-greeting").innerHTML = `Hallo, Ich bin`
@@ -435,6 +451,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 3 projektech`
         document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 5 projektech`
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu`
+        document.getElementById("langs-softwaretooltip13").innerHTML = `Použito v 0 projektech` // lightroom classic
+        document.getElementById("langs-softwaretooltip14").innerHTML = `Použito v 1 projektu` // rawtherapee
     
     } else if(currentlang == "JP") {
         document.getElementById("langs-text-greeting").innerHTML = `こんにちは`
@@ -483,6 +501,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip10").innerHTML = `3プロジェクトで使いました`
         document.getElementById("langs-softwaretooltip11").innerHTML = `5プロジェクトで使いました`
         document.getElementById("langs-softwaretooltip12").innerHTML = `1プロジェクトで使いました`
+        document.getElementById("langs-softwaretooltip13").innerHTML = `0プロジェクトで使いました` // lightroom classic
+        document.getElementById("langs-softwaretooltip14").innerHTML = `1プロジェクトで使いました` // rawtherapee
     }
     sethomemediaqueries()
 }

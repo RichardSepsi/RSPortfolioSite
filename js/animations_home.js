@@ -404,7 +404,7 @@ function skillsandsoftwareanifunct() {
             });
             anime({
                 targets: '.software-anime-6',
-                height: '193.83px',
+                height: '365.63px',
                 duration: 600,
                 delay: 0,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'

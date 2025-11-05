@@ -24,7 +24,10 @@ Realityscan
 --LumaAI--
 
 Gimp
+RawTherapee
 Darktable
+Lightroom Classic
+** Lightroom **
 ** Photoshop **
 
 Inkscape
