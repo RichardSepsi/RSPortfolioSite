@@ -197,6 +197,54 @@ function photography_back() {
     }, 300);
 }
 
+function singlephoto (id7) {
+    navbackup =  document.getElementById("photography-folder-nav-container").innerHTML
+    let backbuttonlabel = ""
+    if(currentlang == "EN") {
+        backbuttonlabel = "Back"
+    }
+    if(currentlang == "SK") {
+        backbuttonlabel = "Späť"
+    }
+    if(currentlang == "CZ") {
+        backbuttonlabel = "Zpět"
+    }
+    if(currentlang == "DE") {
+        backbuttonlabel = "Zurück"
+    }
+    if(currentlang == "JP") {
+        backbuttonlabel = "戻る"
+    }
+    let currentalbumname = document.querySelector("#"+id7+" .project-thumb-info-title").innerHTML
+    let currentalbumdate = document.querySelector("#"+id7+" #photo-thumb-album-date").innerHTML
+    document.getElementById("photography-folder-nav-container").innerHTML = `
+    <div class="photography-folder-nav-container">
+        <div class="project-link-button" style="height: 48px; display:none;" id="photography-album-back" onClick="singlephoto_back()"></div>
+        <div class="project-link-button" style="height: 48px;" id="photography-album-back-singlephoto" onClick="singlephoto_back()">
+            <div class="project-link-button-ext" style="height: 36px; width: 36px;">                             
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="project-link-button-svg" d="M19 12H5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path class="project-link-button-svg" d="M12 19L5 12L12 5" stroke="#969696" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>                            
+            </div>
+            <span class="project-link-button-label" style="padding: 0 16px 0px 8px;" id="langdata-photography-back">`+backbuttonlabel+`</span>
+        </div>
+        <span style="font-size: 16px; font-weight: 600; color: #e6e6e6; position: absolute; width: 100%; text-align: center; pointer-events: none; margin-left: 6px;" id="photography-album-name">`+currentalbumname+`</span>
+        <span style="font-size: 16px; font-weight: 600; color: #e6e6e6; margin-right: 10px;" id="photography-album-date">`+currentalbumdate+`</span>
+    </div>
+    `
+    fullscreen(id7)
+}
+
+function singlephoto_back() {
+    scrolltothetop()
+    document.getElementById("photography-folder-nav-container").innerHTML = navbackup
+    enableScroll()
+    document.getElementById("project-fullscreen-view").style.opacity = "0"
+    document.getElementById("project-fullscreen-view").style.pointerEvents = "none"
+    document.getElementById("project-fullscreen-view"). innerHTML = ""
+}
+
 function fullscreen(id) {
     disableScroll()
     document.getElementById("photography-album-back").setAttribute("onClick", "unfullscreen()")
