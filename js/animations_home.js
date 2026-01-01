@@ -492,28 +492,65 @@ sethomemediaqueries()
 
 addEventListener("resize", (event) => {
     if (window.matchMedia('(max-width: 1550px)').matches) {
-        document.getElementById("resp-home1").setAttribute("dy", "0")
-        document.getElementById("resp-home2").setAttribute("dy", "0")
         if(currentlang == "EN") {
+            document.getElementById("resp-home1").setAttribute("dy", "0")
+            document.getElementById("resp-home2").setAttribute("dy", "0")
             document.getElementById("resp-home1").setAttribute("x", "120.42px")
             document.getElementById("resp-home2").setAttribute("x", "120.42px")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "261px")  
-        } else if(currentlang == "SK") {
+        }
+    }
+    else if (window.matchMedia('(min-width: 1550px)').matches) {
+        if(currentlang == "EN") {
+            document.getElementById("resp-home1").setAttribute("dy", "1.2em")
+            document.getElementById("resp-home2").setAttribute("dy", "1.2em")
+            document.getElementById("resp-home1").setAttribute("x", "0")
+            document.getElementById("resp-home2").setAttribute("x", "0")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "151px")
+        }
+    }
+    if (window.matchMedia('(max-width: 1550px) and (min-width: 440px)').matches) {
+        if(currentlang == "SK") {
+            document.getElementById("resp-home1").setAttribute("dy", "0")
+            document.getElementById("resp-home2").setAttribute("dy", "0")
+            document.getElementById("resp-home1").setAttribute("x", "183.83px")
+            document.getElementById("resp-home2").setAttribute("x", "183.83px")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "326px")  
+        } else if(currentlang == "CZ") {
+            document.getElementById("resp-home1").setAttribute("dy", "0")
+            document.getElementById("resp-home2").setAttribute("dy", "0")
             document.getElementById("resp-home1").setAttribute("x", "183.83px")
             document.getElementById("resp-home2").setAttribute("x", "183.83px")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "326px")  
         }
-           
     }
-    else if (window.matchMedia('(min-width: 1550px)').matches) {
-        document.getElementById("resp-home1").setAttribute("dy", "1.2em")
-        document.getElementById("resp-home2").setAttribute("dy", "1.2em")
-        document.getElementById("resp-home1").setAttribute("x", "0")
-        document.getElementById("resp-home2").setAttribute("x", "0")
-        if(currentlang == "EN") {
-            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "151px")
-        } else if(currentlang == "SK") {
+    else if (window.matchMedia('(max-width: 440px) or (min-width: 1550px)').matches) {
+        if(currentlang == "SK") {
+            document.getElementById("resp-home1").setAttribute("dy", "1.2em")
+            document.getElementById("resp-home2").setAttribute("dy", "1.2em")
+            document.getElementById("resp-home1").setAttribute("x", "0")
+            document.getElementById("resp-home2").setAttribute("x", "0")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+        } else if(currentlang == "CZ") {
+            document.getElementById("resp-home1").setAttribute("dy", "1.2em")
+            document.getElementById("resp-home2").setAttribute("dy", "1.2em")
+            document.getElementById("resp-home1").setAttribute("x", "0")
+            document.getElementById("resp-home2").setAttribute("x", "0")
+            document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
+        }
+    }
+    if (window.matchMedia('(max-width: 440px)').matches) {
+        if(currentlang == "SK") {
+            document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "56px"
+        } else if(currentlang == "CZ") {
+            document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "56px"
+        }
+    }
+    if (window.matchMedia('(min-width: 440px)').matches) {
+        if(currentlang == "SK") {
+            document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "10px"
+        } else if(currentlang == "CZ") {
+            document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "10px"
         }
     }
     
