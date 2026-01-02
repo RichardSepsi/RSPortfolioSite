@@ -397,6 +397,11 @@
         padding: 40px 59.5px 80px 19.5px;
     }
 }
+@media screen and (max-width: 1160px) {
+    #education-timeline-year-2025 {
+        margin-bottom: 70px !important;
+    }
+}
 @media screen and (max-width: 970px) {
     .main-screen{
         flex-direction: column;
@@ -459,6 +464,11 @@
     .title-text{
         font-size: 18px;
         line-height: 26px;
+    }
+}
+@media screen and (max-width: 810px) {
+    #education-timeline-year-2025 {
+        margin-bottom: 100px !important;
     }
 }
 @media screen and (max-height: 760px) {
@@ -665,5 +675,15 @@
 @media screen and (max-width: 350px) {
     .scroll-down-container{
         display: none;
+    }
+}
+@media screen and (max-width: 344px) {
+    #education-timeline-year-2025 {
+        margin-bottom: 140px !important;
+    }
+}
+@media screen and (max-width: 338px) {
+    #education-timeline-year-2025 {
+        margin-bottom: 160px !important;
     }
 }
