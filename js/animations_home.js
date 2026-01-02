@@ -448,12 +448,59 @@ function skillsandsoftwareanifunct() {
     }
 }
 
+let educationscrolled = 0
+function educationanifunct() {
+    if(educationscrolled == 0){
+        if(window.pageYOffset >= 1480){
+            anime({
+                targets: '.education-anime-1',
+                width: '100%',
+                duration: 700,
+                delay: 100,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+        }
+        if(window.pageYOffset >= 1600){
+            educationscrolled = 1
+            anime({
+                targets: '.education-anime-svg',
+                opacity: 1,
+                duration: 800,
+                delay: 350,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.education-anime-svg',
+                translateY: 0,
+                duration: 800,
+                delay: 350,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.education-anime-2',
+                opacity: 1,
+                duration: 800,
+                delay: 550,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.education-anime-2',
+                translateX: 0,
+                duration: 800,
+                delay: 550,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+        }
+    }
+}
+
 
 
 window.onscroll = function() {
     smalldanifunct();
     aboutanifunct();
     skillsandsoftwareanifunct();
+    educationanifunct();
 }
 
 

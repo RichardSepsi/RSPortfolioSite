@@ -31,6 +31,13 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Graphics`
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Coding`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Other`
+    document.getElementById("langs-text-education").innerHTML = `Education`
+    document.getElementById("langs-text-education2").innerHTML = `Education`
+    document.getElementById("langs-text-education-longdate1").innerHTML = `September 2017 - June 2025`
+    document.getElementById("langs-text-education-location-ba").innerHTML = `Bratislava, Slovakia`
+    document.getElementById("langs-text-education-name2").innerHTML = `Prague University of Economics and Business - Multimedia in economic practice`
+    document.getElementById("langs-text-education-longdate2").innerHTML = `September 2025 - January 2029`
+    document.getElementById("langs-text-education-location-pg").innerHTML = `Prague, Czechia`
 
     document.getElementById("langs-softwaretooltip2m").innerHTML = `Used in 2 projects` // blender
     document.getElementById("langs-softwaretooltip1m").innerHTML = `Used in 1 project` // cinema
@@ -81,6 +88,13 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Grafika`
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Programovanie`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatné`
+    document.getElementById("langs-text-education").innerHTML = `Vzdelanie`
+    document.getElementById("langs-text-education2").innerHTML = `Vzdelanie`
+    document.getElementById("langs-text-education-longdate1").innerHTML = `September 2017 - Jún 2025`
+    document.getElementById("langs-text-education-location-ba").innerHTML = `Bratislava, Slovensko`
+    document.getElementById("langs-text-education-name2").innerHTML = `Vysoká škola ekonomická v Prahe - Multimédia v ekonomickej praxi`
+    document.getElementById("langs-text-education-longdate2").innerHTML = `September 2025 - Január 2029`
+    document.getElementById("langs-text-education-location-pg").innerHTML = `Praha, Česko`
 
     document.getElementById("langs-softwaretooltip2m").innerHTML = `Použité v 2 projektoch` // blender
     document.getElementById("langs-softwaretooltip1m").innerHTML = `Použité v 1 projekte` // cinema
@@ -131,6 +145,13 @@ if(currentlang == "EN") {
     document.getElementById("langs-text-skillsfotware0").innerHTML = `2D Grafika`
     document.getElementById("langs-text-skillsfotware1").innerHTML = `Programování`
     document.getElementById("langs-text-skillsfotware2").innerHTML = `Ostatní`
+    document.getElementById("langs-text-education").innerHTML = `Vzdělání`
+    document.getElementById("langs-text-education2").innerHTML = `Vzdělání`
+    document.getElementById("langs-text-education-longdate1").innerHTML = `Září 2017 - Červen 2025`
+    document.getElementById("langs-text-education-location-ba").innerHTML = `Bratislava, Slovensko`
+    document.getElementById("langs-text-education-name2").innerHTML = `Vysoká škola ekonomická v Praze - Multimédia v ekonomické praxi`
+    document.getElementById("langs-text-education-longdate2").innerHTML = `Září 2025 - Leden 2029`
+    document.getElementById("langs-text-education-location-pg").innerHTML = `Praha, Česko`
 
     document.getElementById("langs-softwaretooltip2m").innerHTML = `Použito v 2 projektech` // blender
     document.getElementById("langs-softwaretooltip1m").innerHTML = `Použito v 1 projektu` // cinema
