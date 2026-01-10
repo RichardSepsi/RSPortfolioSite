@@ -386,8 +386,10 @@ function langizeunversal() {
         langizeunageo()
     } else if(window.location.href.indexOf('wordgrind') !== -1){
         langizewordgrind()
-    } else if(window.location.href.indexOf('seasidecliffs') !== -1){
-        langizeseasidecliffs()
+    } else if(window.location.href.indexOf('wordgrind') !== -1){
+        langizewordgrind()
+    } else if(window.location.href.indexOf('opucestauprchlika') !== -1){
+        langizeopucestauprchlika()
     } else if(window.location.href.indexOf('photography') !== -1){
         langizephotography()
     }

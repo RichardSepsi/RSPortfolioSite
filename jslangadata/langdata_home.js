@@ -51,8 +51,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip7").innerHTML = `Used in 0 projects` // meshroom
     document.getElementById("langs-softwaretooltip8").innerHTML = `Used in 5 projects` // gimp
     document.getElementById("langs-softwaretooltip9").innerHTML = `Used in 0 projects` // darktable
-    document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 4 projects` // figma
-    document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 7 projects` // inkscape
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 5 projects` // figma
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 8 projects` // inkscape
     document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project` // fontforge
     document.getElementById("langs-softwaretooltip13").innerHTML = `Used in 0 projects` // lightroom classic
     document.getElementById("langs-softwaretooltip14").innerHTML = `Used in 1 project` // rawtherapee
@@ -108,8 +108,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip7").innerHTML = `Použité v 0 projektoch` // meshroom
     document.getElementById("langs-softwaretooltip8").innerHTML = `Použité v 5 projektoch` // gimp
     document.getElementById("langs-softwaretooltip9").innerHTML = `Použité v 0 projektoch` // darktable
-    document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 4 projektoch` // figma
-    document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 7 projektoch` // inkscape
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 5 projektoch` // figma
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 8 projektoch` // inkscape
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte` // fontforge
     document.getElementById("langs-softwaretooltip13").innerHTML = `Použité v 0 projektoch` // lightroom classic
     document.getElementById("langs-softwaretooltip14").innerHTML = `Použité v 1 projekte` // rawtherapee
@@ -165,8 +165,8 @@ if(currentlang == "EN") {
     document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech` // meshroom
     document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 2 projektech` // gimp
     document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech` // darktable
-    document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 4 projektech` // figma
-    document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 7 projektech` // inkscape
+    document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 5 projektech` // figma
+    document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 8 projektech` // inkscape
     document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu` // fontforge
     document.getElementById("langs-softwaretooltip13").innerHTML = `Použito v 0 projektech` // lightroom classic
     document.getElementById("langs-softwaretooltip14").innerHTML = `Použito v 1 projektu` // rawtherapee
@@ -319,8 +319,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip7").innerHTML = `Used in 0 projects` // meshroom
         document.getElementById("langs-softwaretooltip8").innerHTML = `Used in 5 projects` // gimp
         document.getElementById("langs-softwaretooltip9").innerHTML = `Used in 0 projects` // darktable
-        document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 4 projects` // figma
-        document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 7 projects` // inkscape
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Used in 5 projects` // figma
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Used in 8 projects` // inkscape
         document.getElementById("langs-softwaretooltip12").innerHTML = `Used in 1 project` // fontforge
         document.getElementById("langs-softwaretooltip13").innerHTML = `Used in 0 projects` // lightroom classic
         document.getElementById("langs-softwaretooltip14").innerHTML = `Used in 1 project` // rawtherapee
@@ -369,8 +369,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip7").innerHTML = `Použité v 0 projektoch` // meshroom
         document.getElementById("langs-softwaretooltip8").innerHTML = `Použité v 5 projektoch` // gimp
         document.getElementById("langs-softwaretooltip9").innerHTML = `Použité v 0 projektoch` // darktable
-        document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 4 projektoch` // figma
-        document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 7 projektoch` // inkscape
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Použité v 5 projektoch` // figma
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Použité v 8 projektoch` // inkscape
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použité v 1 projekte` // fontforge
         document.getElementById("langs-softwaretooltip13").innerHTML = `Použité v 0 projektoch` // lightroom classic
         document.getElementById("langs-softwaretooltip14").innerHTML = `Použité v 1 projekte` // rawtherapee
@@ -419,8 +419,8 @@ function langizehome() {
         document.getElementById("langs-softwaretooltip7").innerHTML = `Použito v 0 projektech` // meshroom
         document.getElementById("langs-softwaretooltip8").innerHTML = `Použito ve 2 projektech` // gimp
         document.getElementById("langs-softwaretooltip9").innerHTML = `Použito v 0 projektech` // darktable
-        document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 4 projektech` // figma
-        document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 7 projektech` // inkscape
+        document.getElementById("langs-softwaretooltip10").innerHTML = `Použito ve 5 projektech` // figma
+        document.getElementById("langs-softwaretooltip11").innerHTML = `Použito v 8 projektech` // inkscape
         document.getElementById("langs-softwaretooltip12").innerHTML = `Použito v 1 projektu` // fontforge
         document.getElementById("langs-softwaretooltip13").innerHTML = `Použito v 0 projektech` // lightroom classic
         document.getElementById("langs-softwaretooltip14").innerHTML = `Použito v 1 projektu` // rawtherapee

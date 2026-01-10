@@ -16,7 +16,7 @@ function selectimage(imgid) {
         swbtn.classList.remove("selected")
     });
     document.getElementById(imgid).classList.add("selected")
-    let setattr = document.getElementById("sw-current-image").getAttribute("src").replace("r1.jpg", "r"+imgid.replace(/sw-img/gi, "")+".jpg")
+    let setattr = document.getElementById("sw-current-image").getAttribute("src").replace("r1", "r"+imgid.replace(/sw-img/gi, ""))
     document.getElementById("fullscreen-button").setAttribute("onclick", "fullscreen('"+setattr+"')")
     document.getElementById("img-download-button").setAttribute("href", setattr)
     

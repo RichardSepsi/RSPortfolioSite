@@ -1,7 +1,7 @@
 
 // Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
 
-let itemcount = 5
+let itemcount = 6
 
 
 
@@ -11,7 +11,7 @@ let itemcount = 5
 let itemdatabase = [
 `
     <a id="realizmusnaorave.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-        <img src="projects/2d/realizmusnaorave/realizmusnaorave_art.svg" style="pointer-events: none; width: 100%; height: auto;">
+        <img src="projects/2d/realizmusnaorave/thumb.svg" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Realizmus na O.</span>
             <span class="project-thumb-info-sub one">9.2.2024</span></div>
@@ -21,7 +21,7 @@ let itemdatabase = [
 `,
 `
     <a id="zelenaskola.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-        <img src="projects/2d/zelenaskola/zelenaskola_art.svg" style="pointer-events: none; width: 100%; height: auto;">
+        <img src="projects/2d/zelenaskola/thumb.svg" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Zelená Škola</span>
             <span class="project-thumb-info-sub one">9.12.2023</span></div>
@@ -31,8 +31,8 @@ let itemdatabase = [
 `,
 `
     <a id="natart.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-        <img src="projects/2d/natart/natart_art.svg" style="pointer-events: none;">
-        <div class="project-thumb-info-container">
+        <img src="projects/2d/natart/thumb.svg" style="pointer-events: none; width: 100%; height: auto; border-bottom: 1px solid #696969">
+        <div class="project-thumb-info-container" style="background-color: rgba(36, 36, 36, 0.75);">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">NatArt</span>
             <span class="project-thumb-info-sub one">2.12.2023</span></div>
             <span class="project-thumb-info-sub">Web design</span>
@@ -55,11 +55,21 @@ let itemdatabase = [
 `,
 `
     <a id="wordgrind.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-        <img src="projects/2d/wordgrind/wordgrind_art.svg" style="pointer-events: none; width: 100%; height: auto;">
+        <img src="projects/2d/wordgrind/thumb.svg" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">WordGrind</span>
             <span class="project-thumb-info-sub one">9.10.2024</span></div>
             <span class="project-thumb-info-sub">Web Design</span>
+        </div>
+    </div></a>
+`,
+`
+    <a id="opucestauprchlika.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
+        <img src="projects/2d/opucestauprchlika/thumb.svg" style="pointer-events: none; width: 100%; height: auto;">
+        <div class="project-thumb-info-container">
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">Cesta uprchlíka</span>
+            <span class="project-thumb-info-sub one">9.1.2026</span></div>
+            <span class="project-thumb-info-sub">UI Design</span>
         </div>
     </div></a>
 `
