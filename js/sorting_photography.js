@@ -1,7 +1,7 @@
 
 // Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
 
-let itemcount = 8
+let itemcount = 7
 
 
 
@@ -11,15 +11,15 @@ let itemcount = 8
 
 let itemdatabase = [
 `
-    <div id="vysoke_iso" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
-        <img src="projects/photography/vysoke_iso/vysoke_iso-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+    <div id="fotka1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/naznaceny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
-            <div class="project-thumb-info-one"><span class="project-thumb-info-title">Vysoké ISO</span>
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">Fotka 1</span>
             <span class="project-thumb-info-sub one"></span></div>
-            <span class="project-thumb-info-sub" id="photo-thumb-album-date">2.12.2025</span>
+            <span class="project-thumb-info-sub" id="photo-thumb-album-date">12.2025</span>
         </div>
     </div>
-`,
+`/*,
 `
     <div id="fotostory" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/fotostory/fotostory-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
@@ -29,7 +29,7 @@ let itemdatabase = [
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">2.12.2025</span>
         </div>
     </div>
-`,
+`*/,
 `
     <div id="zmrazeny_pohyb" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/zmrazeny_pohyb/zmrazeny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
@@ -151,59 +151,114 @@ function photographysort() {
 
 
 
-// vysoke_iso items
+// fotka1 items
 
 // Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
 
-var itemcount_vysoke_iso = 4
+var itemcount_fotka1 = 9
 
 
 
 // Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
 // Items on the top of the list will be last on the website !
 
-var itemdatabase_vysoke_iso = [
+var itemdatabase_fotka1 = [
 `
-    <div id="vysoke_iso-1" onclick="fullscreen(this.id)" class="project-thumb-container">
-        <img src="projects/photography/vysoke_iso/vysoke_iso-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+    <div id="fotka1-1" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/vysoke_iso-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div style="display: none;" id="photo-data-source">
             <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
-            <span style="margin-bottom: 2px;">19.Oct.2025</span>
+            <span style="margin-bottom: 2px;">16.Oct.2025</span>
             <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
-            <span style="margin-bottom: 2px;">f/5 1/30s ISO:3200</span>
+            <span style="margin-bottom: 2px;">f/4.9 1/40s ISO:3200</span>
         </div>
     </div>
 `,
 `
-    <div id="vysoke_iso-2" onclick="fullscreen(this.id)" class="project-thumb-container">
-        <img src="projects/photography/vysoke_iso/vysoke_iso-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+    <div id="fotka1-2" onclick="fullscreen(this.id)" class="project-thumb-container" style="display: none;">
+        <img src="projects/photography/fotka1/vysoke_iso-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
+            <span style="margin-bottom: 2px;">16.Oct.2025</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/4.9 1/40s ISO:3200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka1-3" onclick="fullscreen(this.id)" class="project-thumb-container" style="display: none;">
+        <img src="projects/photography/fotka1/vysoke_iso-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
+            <span style="margin-bottom: 2px;">16.Oct.2025</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/4.9 1/40s ISO:3200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka1-4" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/nizke_iso-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">13.Nov.2025</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/4,9 1/2000s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka1-5" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/zmrazeny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
+            <span style="margin-bottom: 2px;">19.Oct.2025</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/8 1/2000s ISO:400</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka1-6" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/velka_hloubka_ostrosti-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">30.Sep.2025</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/10 1/30s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka1-7" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/naznaceny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div style="display: none;" id="photo-data-source">
             <span style="margin-bottom: 2px;">Praha, Česko</span>
             <span style="margin-bottom: 2px;">14.Nov.2025</span>
             <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
-            <span style="margin-bottom: 2px;">f/3,5 1/80s ISO:800</span>
+            <span style="margin-bottom: 2px;">f/11 1/2s ISO:100</span>
         </div>
     </div>
 `,
 `
-    <div id="vysoke_iso-3" onclick="fullscreen(this.id)" class="project-thumb-container">
-        <img src="projects/photography/vysoke_iso/vysoke_iso-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+    <div id="fotka1-8" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/velka_hloubka_ostrosti-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
         <div style="display: none;" id="photo-data-source">
             <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
             <span style="margin-bottom: 2px;">19.Oct.2025</span>
             <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
-            <span style="margin-bottom: 2px;">f/4,9 1/40s ISO:3200</span>
+            <span style="margin-bottom: 2px;">f/8 1/200s ISO:100</span>
         </div>
     </div>
 `,
 `
-    <div id="vysoke_iso-4" onclick="fullscreen(this.id)" class="project-thumb-container">
-        <img src="projects/photography/vysoke_iso/vysoke_iso-4-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+    <div id="fotka1-9" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka1/naznaceny_pohyb-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div style="display: none;" id="photo-data-source">
             <span style="margin-bottom: 2px;">Praha, Česko</span>
-            <span style="margin-bottom: 2px;">8.Oct.2025</span>
+            <span style="margin-bottom: 2px;">13.Nov.2025</span>
             <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
-            <span style="margin-bottom: 2px;">f/4,9 1/80s ISO:6400</span>
+            <span style="margin-bottom: 2px;">f/11 20s ISO:100</span>
         </div>
     </div>
 `
@@ -493,13 +548,13 @@ var itemdatabase_mala_hloubka_ostrosti = [
 
 // Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
 
-var itemcount_fotostory = 5
+/*var itemcount_fotostory = 5*/
 
 
 // Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
 // Items on the top of the list will be last on the website !
 
-var itemdatabase_fotostory = [
+/*var itemdatabase_fotostory = [
 `
     <div id="fotostory-5" onclick="fullscreen(this.id)" class="project-thumb-container">
         <img src="projects/photography/fotostory/fotostory-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
@@ -555,7 +610,7 @@ var itemdatabase_fotostory = [
         </div>
     </div>
 `
-]
+]*/
 
 
 
