@@ -1,7 +1,7 @@
 
 // Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
 
-let itemcount = 7
+let itemcount = 3
 
 
 
@@ -14,9 +14,29 @@ let itemdatabase = [
     <div id="fotka1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/fotka1/naznaceny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
-            <div class="project-thumb-info-one"><span class="project-thumb-info-title">Fotka 1</span>
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">VŠE Fotka 1</span>
             <span class="project-thumb-info-sub one"></span></div>
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">12.2025</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e" onclick="fadeoutphotography(this.id)" class="project-thumb-container" style="display: none;">
+        <img src="projects/photography/fotka_e/fotka_e-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div class="project-thumb-info-container">
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">Fotka Zvysok</span>
+            <span class="project-thumb-info-sub one"></span></div>
+            <span class="project-thumb-info-sub" id="photo-thumb-album-date">06.2026</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-8-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div class="project-thumb-info-container">
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">VŠE Fotka 2</span>
+            <span class="project-thumb-info-sub one"></span></div>
+            <span class="project-thumb-info-sub" id="photo-thumb-album-date">06.2026</span>
         </div>
     </div>
 `/*,
@@ -29,7 +49,7 @@ let itemdatabase = [
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">2.12.2025</span>
         </div>
     </div>
-`*/,
+`*//*,
 `
     <div id="zmrazeny_pohyb" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/zmrazeny_pohyb/zmrazeny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
@@ -95,7 +115,7 @@ let itemdatabase = [
             <span style="margin-bottom: 2px;">f/6,3 1/2s ISO:100</span>
         </div>
     </div>
-`
+`*/
 ]
 
 photographysort()
@@ -147,6 +167,237 @@ function photographysort() {
         
     }
 }
+
+
+
+// fotkae items
+
+// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
+
+var itemcount_fotka_e = 8
+
+
+
+// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Items on the top of the list will be last on the website !
+
+var itemdatabase_fotka_e = [
+`
+    <div id="fotka_e-1" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Lednice, Česko</span>
+            <span style="margin-bottom: 2px;">4.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/1.8 1/30s ISO:200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-2" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">19.Mar.2026</span>
+            <span style="margin-bottom: 2px;">Nikon Z50</span>
+            <span style="margin-bottom: 2px;">f/7.1 1/400s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-3" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">22.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/4.9 1/160s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-4" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-4-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">25.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/5 1/400s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-5" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">18.Apr.2026</span>
+            <span style="margin-bottom: 2px;">Nikon Z50</span>
+            <span style="margin-bottom: 2px;">f/9 1/250s ISO:200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-6" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-6-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">5.May.2026</span>
+            <span style="margin-bottom: 2px;">Canon EOS R6</span>
+            <span style="margin-bottom: 2px;">f/22 1/160s ISO:320</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-7" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-7-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
+            <span style="margin-bottom: 2px;">8.May.2026</span>
+            <span style="margin-bottom: 2px;">Canon EOS R6</span>
+            <span style="margin-bottom: 2px;">f/2.8 1/3200s ISO:200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka_e-8" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka_e/fotka_e-8-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Slovakia Ring</span>
+            <span style="margin-bottom: 2px;">10.May.2026</span>
+            <span style="margin-bottom: 2px;">Canon EOS R6</span>
+            <span style="margin-bottom: 2px;">f/32 1/30s ISO:200</span>
+        </div>
+    </div>
+`
+]
+
+
+
+
+// fotka2 items
+
+// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
+
+var itemcount_fotka2 = 10
+
+
+
+// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Items on the top of the list will be last on the website !
+
+var itemdatabase_fotka2 = [
+`
+    <div id="fotka2-5" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Lednice, Česko</span>
+            <span style="margin-bottom: 2px;">4.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/1.8 1/30s ISO:200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-2" onclick="fullscreen(this.id)" class="project-thumb-container" style="display: none;"><!-- FILLER -->
+        <img src="projects/photography/fotka2/fotka2-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">19.Mar.2026</span>
+            <span style="margin-bottom: 2px;">Nikon Z50</span>
+            <span style="margin-bottom: 2px;">f/7.1 1/400s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-3" onclick="fullscreen(this.id)" class="project-thumb-container" style="display: none;"><!-- FILLER -->
+        <img src="projects/photography/fotka2/fotka2-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">22.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/4.9 1/160s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-2" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-2-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">19.Mar.2026</span>
+            <span style="margin-bottom: 2px;">Nikon Z50</span>
+            <span style="margin-bottom: 2px;">f/7.1 1/400s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-3" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-3-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">22.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/4.9 1/160s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-4" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-4-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">25.Apr.2026</span>
+            <span style="margin-bottom: 2px;">SONY DSC-RX100M2</span>
+            <span style="margin-bottom: 2px;">f/5 1/400s ISO:100</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-1" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">18.Apr.2026</span>
+            <span style="margin-bottom: 2px;">Nikon Z50</span>
+            <span style="margin-bottom: 2px;">f/9 1/250s ISO:200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-6" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-6-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Praha, Česko</span>
+            <span style="margin-bottom: 2px;">5.May.2026</span>
+            <span style="margin-bottom: 2px;">Canon EOS R6</span>
+            <span style="margin-bottom: 2px;">f/22 1/160s ISO:320</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-7" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-7-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Bratislava, Slovensko</span>
+            <span style="margin-bottom: 2px;">8.May.2026</span>
+            <span style="margin-bottom: 2px;">Canon EOS R6</span>
+            <span style="margin-bottom: 2px;">f/2.8 1/3200s ISO:200</span>
+        </div>
+    </div>
+`,
+`
+    <div id="fotka2-8" onclick="fullscreen(this.id)" class="project-thumb-container">
+        <img src="projects/photography/fotka2/fotka2-8-thumb.webp" style="pointer-events: none; width: 100%; height: auto; image-rendering: crisp-edges;">
+        <div style="display: none;" id="photo-data-source">
+            <span style="margin-bottom: 2px;">Slovakia Ring</span>
+            <span style="margin-bottom: 2px;">10.May.2026</span>
+            <span style="margin-bottom: 2px;">Canon EOS R6</span>
+            <span style="margin-bottom: 2px;">f/32 1/30s ISO:200</span>
+        </div>
+    </div>
+`
+]
 
 
 

@@ -1,6 +1,6 @@
 if(currentlang == "EN") {
     document.getElementById("langs-opucestauprchlika-time").innerHTML = `From Spetember to December 2025`
-    document.getElementById("langs-opucestauprchlika-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-opucestauprchlika-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
     document.getElementById("langs-opucestauprchlika-date").innerHTML = `Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.1.2026</span>`
     document.getElementById("langs-opucestauprchlika-abouttitle").innerHTML = `About the project`
     document.getElementById("langs-opucestauprchlika-about").innerHTML = `
@@ -8,12 +8,12 @@ if(currentlang == "EN") {
     <div style="height: 20px;"></div>
     <span class="project-element-header" style="margin-left: 0px;">My Role in the Project</span><br>
     <div style="height: 8px;"></div>
-    I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma. Additionally, I also worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.
+    I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma. Additionally, I worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.
     `
     document.getElementById("langs-opucestauprchlika-softewaretitle").innerHTML = `Software used`
 } else if(currentlang == "SK") {
     document.getElementById("langs-opucestauprchlika-time").innerHTML = `Od Septembra do Decembra 2025`
-    document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
     document.getElementById("langs-opucestauprchlika-date").innerHTML = `Dátum pridania:<span class="project-element-subtext" style="margin-left: 10px;">9.1.2026</span>`
     document.getElementById("langs-opucestauprchlika-abouttitle").innerHTML = `O projekte`
     document.getElementById("langs-opucestauprchlika-about").innerHTML = `
@@ -26,7 +26,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-opucestauprchlika-softewaretitle").innerHTML = `Použitý software`
 } else if(currentlang == "CZ") {
     document.getElementById("langs-opucestauprchlika-time").innerHTML = `Od Září do Prosince 2025`
-    document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
     document.getElementById("langs-opucestauprchlika-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.1.2026</span>`
     document.getElementById("langs-opucestauprchlika-abouttitle").innerHTML = `O projektu`
     document.getElementById("langs-opucestauprchlika-about").innerHTML = `
@@ -44,7 +44,7 @@ if(currentlang == "EN") {
 function langizeopucestauprchlika() {
     if(currentlang == "EN") {
         document.getElementById("langs-opucestauprchlika-time").innerHTML = `From Spetember to December 2025`
-        document.getElementById("langs-opucestauprchlika-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-opucestauprchlika-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
         document.getElementById("langs-opucestauprchlika-date").innerHTML = `Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.1.2026</span>`
         document.getElementById("langs-opucestauprchlika-abouttitle").innerHTML = `About the project`
         document.getElementById("langs-opucestauprchlika-about").innerHTML = `
@@ -52,12 +52,12 @@ function langizeopucestauprchlika() {
         <div style="height: 20px;"></div>
         <span class="project-element-header" style="margin-left: 0px;">My Role in the Project</span><br>
         <div style="height: 8px;"></div>
-        I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma. Additionally, I also worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.
+        I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma. Additionally, I worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.
         `
         document.getElementById("langs-opucestauprchlika-softewaretitle").innerHTML = `Software used`
     } else if(currentlang == "SK") {
         document.getElementById("langs-opucestauprchlika-time").innerHTML = `Od Septembra do Decembra 2025`
-        document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
         document.getElementById("langs-opucestauprchlika-date").innerHTML = `Dátum pridania:<span class="project-element-subtext" style="margin-left: 10px;">9.1.2026</span>`
         document.getElementById("langs-opucestauprchlika-abouttitle").innerHTML = `O projekte`
         document.getElementById("langs-opucestauprchlika-about").innerHTML = `
@@ -70,7 +70,7 @@ function langizeopucestauprchlika() {
         document.getElementById("langs-opucestauprchlika-softewaretitle").innerHTML = `Použitý software`
     } else if(currentlang == "CZ") {
         document.getElementById("langs-opucestauprchlika-time").innerHTML = `Od Září do Prosince 2025`
-        document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-opucestauprchlika-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
         document.getElementById("langs-opucestauprchlika-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.1.2026</span>`
         document.getElementById("langs-opucestauprchlika-abouttitle").innerHTML = `O projektu`
         document.getElementById("langs-opucestauprchlika-about").innerHTML = `

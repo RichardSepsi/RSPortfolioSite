@@ -7,9 +7,9 @@ if(currentlang == "EN") {
     "Projekty a blog zelenej školy" or "Projects and blog of the green school" is a website for a team of students from the high school that I attended.
     Their goal is to make the school more green through various projects.
     <div style="height: 12px;"></div>
-    This website is made to present their projects and highlight their goals, as well as to host their blog.`
+    This website is made to present their projects, highlight their goals, as well as to host their blog.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
-    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website has a straightforward design, consisting of just two pages.
+    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website has a simple design, consisting of just two pages.
     The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
 } else if(currentlang == "SK") {
@@ -21,10 +21,10 @@ if(currentlang == "EN") {
     "Projekty a blog zelenej školy" je webstránka tímu študentov zo strednej školy, kde som študoval.
     Ich cieľ je pomôcť škole, aby bola viac zelená a ekologická pomocou rôznych projektov.
     <div style="height: 12px;"></div>
-    Táto webstránka bola vytvorená, aby prezentovala ich projekty,ciele, a taktiež ich blog.`
+    Táto webstránka bola vytvorená, za účelom prezentácie ich projektov, cieľov, a taktiež ich blogu.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Môj podiel na projekte`
     document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Web má jednoduchý design a pozostáva len z dvoch stránok.
-    Variant vpravo dole nebol použitý (Spodný variant na mobile), ide o staršiu verziu blogu.`
+    Varianta vpravo dole nebola použitá (Spodná varianta na mobile), ide o staršiu verziu blogu.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
 } else if(currentlang == "CZ") {
     document.getElementById("langs-zelenaskola-time").innerHTML = `Od Listopadu do Prosince 2023`
@@ -54,9 +54,9 @@ function langizezelenaskola() {
         "Projekty a blog zelenej školy" or "Projects and blog of the green school" is a website for a team of students from the high school that I attended.
         Their goal is to make the school more green through various projects.
         <div style="height: 12px;"></div>
-        This website is made to present their projects and highlight their goals, as well as to host their blog.`
+        This website is made to present their projects, highlight their goals, as well as to host their blog.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
-        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website has a straightforward design, consisting of just two pages.
+        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website has a simple design, consisting of just two pages.
         The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
     } else if(currentlang == "SK") {
@@ -68,10 +68,10 @@ function langizezelenaskola() {
         "Projekty a blog zelenej školy" je webstránka tímu študentov zo strednej školy, kde som študoval.
         Ich cieľ je pomôcť škole, aby bola viac zelená a ekologická pomocou rôznych projektov.
         <div style="height: 12px;"></div>
-        Táto webstránka bola vytvorená, aby prezentovala ich projekty,ciele, a taktiež ich blog.`
+        Táto webstránka bola vytvorená, za účelom prezentácie ich projektov, cieľov, a taktiež ich blogu.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Môj podiel na projekte`
         document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Web má jednoduchý design a pozostáva len z dvoch stránok.
-        Variant vpravo dole nebol použitý (Spodný variant na mobile), ide o staršiu verziu blogu.`
+        Varianta vpravo dole nebola použitá (Spodná varianta na mobile), ide o staršiu verziu blogu.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
     } else if(currentlang == "CZ") {
         document.getElementById("langs-zelenaskola-time").innerHTML = `Od Listopadu do Prosince 2023`

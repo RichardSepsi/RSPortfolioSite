@@ -17,21 +17,20 @@ if(currentlang == "EN") {
     but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.`
     document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>How was unageo made`
     document.getElementById("langs-unageo-story1").innerHTML = `
-    As a designer, I have used many different fonts for my projects and sometimes I thought
-    that to better match my style, I could try to make my own font. 
-    I decided to give it a shot, even though I knew almost nothing about font creation.
-    I only knew I wanted my font to be geometric because that's my preferred style.`
+    Over the years, I have used many different fonts for my projects and sometimes I thought
+    that to better match my style, I could try to make my own typeface. 
+    I decided to give it a shot, even though I knew almost nothing about font creation itsef.
+    I only knew that I would like my font to be geometric because that's my preferred style.`
     document.getElementById("langs-unageo-story2").innerHTML = `
-    I opened up FontForge to try to create something, but I couldn't use it very well,
-    so I decided to continue with an unusual workflow. I made the characters in Inkscape, which I'm familiar with, and imported the outlines into FontForge.
-    The process didn't take as long as I expected, and I was done in a few days. I made each glyph in light and Black variant, made sure they were
+    I decided to work on the typeface with an unusual workflow. I made the characters in Inkscape, which I'm familiar with. Then I imported the outlines into FontForge, which I only tried for the first time.
+    The process didn't take as long as I expected, and everything was done in a few days. I made each glyph in light and Black variant, made sure they were
     interpolable and then I adjusted the metrics and added kerning.`
     document.getElementById("langs-unageo-story3").innerHTML = `
     Of course, I ran into some issues along the way and learned that fonts are
-    much more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to
+    more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to
     create static instances.
-    There is still a lot I can learn if I decide to make another font, and I'm sure this one isn't perfect either.
-    If you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
+    There is still a lot I can learn, especially if I decide to make another font, and I'm sure this one isn't perfect either, so
+    if you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
     See further down below.`
     document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Follow the development`
     document.getElementById("langs-unageo-ost").innerHTML = `
@@ -41,7 +40,7 @@ if(currentlang == "EN") {
     <div style="height: 14px;" id="resp-ug-space-2"></div>
     Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.
     <div style="height: 14px;" id="resp-ug-space-2"></div>
-    Typeface was recently accepted into Google Fonts and should be available in 2026 Q1.`
+    Typeface was recently accepted into Google Fonts and should be available in 2026 Q2.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Download Variable`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Download Static`
     document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
@@ -67,27 +66,26 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-fontsize").innerHTML = `Veľkosť`
     document.getElementById("Unageo-fonttestfield").setAttribute("placeholder", "Píšte a vyskúšajte si unageo a jeho variabilné funkcie.")
     document.getElementById("langs-unageo-cyrillictitle").innerHTML = `Cyrilika`
-    document.getElementById("langs-unageo-cyrillic").innerHTML = `Unageo - cyrilika bola vytvorená v Bulharskom štýle.
+    document.getElementById("langs-unageo-cyrillic").innerHTML = `Unageo cyrilika bola robená v Bulharskom štýle.
     Používa viac zaoblené tvary a písmená majú väčšiu rozmanitosť vo výške, vďaka čomu sa ľahšie číta.`
     document.getElementById("langs-unageo-greektitle").innerHTML = `Grécke písmo`
     document.getElementById("langs-unageo-greek").innerHTML = `Grécke Unageo sa drží toho istého štýlu s dokonalou geometriou,
-    ale dotvára ju plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátny.`
+    ale dotvára ju plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátne.`
     document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Ako vznikol font Unageo`
     document.getElementById("langs-unageo-story1").innerHTML = `
-    Použil som už v minulosti veľa rôznych fontov v rôznych projektoch a občas mi napadlo, že
-    môj vlastný font by sa viac zhodoval s mojim štýlom, do teraz som sa ho ale nepokúsil vytvoriť.
-    Tento krát som sa rozhodol, že to skúsim, aj keď som o tvorbe fontov v podstate nič nevedel.
+    Použil som už v minulosti veľa rôznych fontov v rôznych projektoch a občas som rozmýšľal, že
+    môj vlastný font by sa viac zhodoval s mojim štýlom, do teraz som sa ale žiaden nepokúsil vytvoriť.
+    Tento krát som sa rozhodol, že to skúsim, aj keď som o tvorbe fontov skoro nič nevedel.
     Vedel som iba to, že chcem aby môj font bol geometrický, pretože to je štýl, ktorý preferujem.`
     document.getElementById("langs-unageo-story2").innerHTML = `
-    Vyskúšal som si FontForge, ale nevedel som ho veľmi dobre používať,
-    a preto som sa rozhodol pokračovať s netradičným postupom. Vytvoril som znaky cez Inkscape, ktorý poznám celkom dobre, and potom som tieto znaky vložil do Fontforge.
-    Celý proces netrval až tak dlho ako som čakal, a za pár dní som mal projekt hotový. Každý znak som spravil vo dvoch variantách podľa hrúbky, tak,
+    Rozhodol som sa pracovať s netradičným postupom. Vytvoril som znaky cez Inkscape, ktorý poznám celkom dobre, and potom som tieto znaky vložil do Fontforge, s ktorým som robil len prvý krát.
+    Celý proces netrval až tak dlho ako som čakal, a za pár dní bol projekt hotový. Každý znak som spravil vo dvoch variantách podľa hrúbky, tak,
     aby sa medzi nimi dalo plynulo prechádzať a potom som nastavil rozmery a pridal kerning.`
     document.getElementById("langs-unageo-story3").innerHTML = `
     Samozrejme, počas práce som narazil aj na nejaké problémy a naučil som sa,
-    že fonty sú oveľa komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliných fontov a
+    že fonty sú komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliných fontov a
     Fonttools na statické varianty.
-    Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
+    Stále sa určite mám čo naučiť, hlavne ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
     Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem.
     Nižšie zistíte viac.`
     document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
@@ -98,7 +96,7 @@ if(currentlang == "EN") {
     <div style="height: 14px;"></div>
     Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.
     <div style="height: 14px;" id="resp-ug-space-2"></div>
-    Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q1 2026.`
+    Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q2 2026.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Stiahnuť Variabliný`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Stiahnuť Statický`
     document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
@@ -133,20 +131,19 @@ if(currentlang == "EN") {
     document.getElementById("langs-unageo-story1").innerHTML = `
     V různých projektech jsem už použil spoustu různých fontů a někdy jsem si říkal, že
     můj vlastní font by více odpovídal mému stylu, ale dosud jsem se nepokusil žádný vytvořit.
-    Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl v podstatě nic.
+    Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl téměř nic.
     Věděl jsem jen, že chci, aby můj font byl geometrický, protože takový styl preferuji.`
     document.getElementById("langs-unageo-story2").innerHTML = `
-    Zkoušel jsem FontForge, ale nevěděl jsem, jak ho dobře používat, 
-    a tak jsem se rozhodl pokračovat s netradičním postupem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge.
-    Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní jsem měl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky,
+    Rozhodl jsem se pracovat netradičním způsobem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge, se kterým jsem pracoval poprvé..
+    Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní byl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky,
     aby bylo možné mezi nimi plynule přecházet, a poté jsem nastavil rozměry a přidal kerning.`
     document.getElementById("langs-unageo-story3").innerHTML = `
     Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem,
-    že fonty jsou mnohem složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
+    že fonty jsou složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
     Fonttools pro statické varianty.
-    Rozhodně se mám ještě co naučit, pokud se rozhodnu vytvořit další font, a ani tenhle rozhodně není dokonalý.
-    Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
-    Více informací najdete níže.`
+    Rozhodně se mám ještě co naučit, hlavně pokud se rozhodnu vytvořit další font, a ani tenhle jistě není dokonalý.
+    Pokud máte nápad na zlepšení, určitě mě neváhejte informovat na GitHubu, rád se na váš nápad podívám.
+    Níže zjistíte více.`
     document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
     document.getElementById("langs-unageo-ost").innerHTML = `
     <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvíjený na platformě GitHub.</span>
@@ -155,7 +152,7 @@ if(currentlang == "EN") {
     <div style="height: 14px;"></div>
     Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.
     <div style="height: 14px;" id="resp-ug-space-2"></div>
-    Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q1 2026.`
+    Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q2 2026.`
     document.getElementById("langs-unageo-dvariable1").innerHTML = `Stáhnout Variabilní`
     document.getElementById("langs-unageo-dstatic1").innerHTML = `Stáhnout Statický`
     document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`
@@ -192,21 +189,20 @@ function langizeunageo() {
         but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.`
         document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>How was unageo made`
         document.getElementById("langs-unageo-story1").innerHTML = `
-        As a designer, I have used many different fonts for my projects and sometimes I thought
-        that to better match my style, I could try to make my own font. 
-        I decided to give it a shot, even though I knew almost nothing about font creation.
-        I only knew I wanted my font to be geometric because that's my preferred style.`
+        Over the years, I have used many different fonts for my projects and sometimes I thought
+        that to better match my style, I could try to make my own typeface. 
+        I decided to give it a shot, even though I knew almost nothing about font creation itsef.
+        I only knew that I would like my font to be geometric because that's my preferred style.`
         document.getElementById("langs-unageo-story2").innerHTML = `
-        I opened up FontForge to try to create something, but I couldn't use it very well,
-        so I decided to continue with an unusual workflow. I made the characters in Inkscape, which I'm familiar with, and imported the outlines into FontForge.
-        The process didn't take as long as I expected, and I was done in a few days. I made each glyph in light and Black variant, made sure they were
+        I decided to work on the typeface with an unusual workflow. I made the characters in Inkscape, which I'm familiar with. Then I imported the outlines into FontForge, which I only tried for the first time.
+        The process didn't take as long as I expected, and everything was done in a few days. I made each glyph in light and Black variant, made sure they were
         interpolable and then I adjusted the metrics and added kerning.`
         document.getElementById("langs-unageo-story3").innerHTML = `
         Of course, I ran into some issues along the way and learned that fonts are
-        much more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to
+        more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to
         create static instances.
-        There is still a lot I can learn if I decide to make another font, and I'm sure this one isn't perfect either.
-        If you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
+        There is still a lot I can learn, especially if I decide to make another font, and I'm sure this one isn't perfect either, so
+        if you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it.
         See further down below.`
         document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Follow the development`
         document.getElementById("langs-unageo-ost").innerHTML = `
@@ -216,7 +212,7 @@ function langizeunageo() {
         <div style="height: 14px;" id="resp-ug-space-2"></div>
         Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.
         <div style="height: 14px;" id="resp-ug-space-2"></div>
-        Typeface was recently accepted into Google Fonts and should be available in 2026 Q1.`
+        Typeface was recently accepted into Google Fonts and should be available in 2026 Q2.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Download Variable`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Download Static`
         document.getElementById("langs-unageo-links1").innerHTML = `Visit GitHub page`
@@ -242,27 +238,26 @@ function langizeunageo() {
         document.getElementById("langs-unageo-fontsize").innerHTML = `Veľkosť`
         document.getElementById("Unageo-fonttestfield").setAttribute("placeholder", "Píšte a vyskúšajte si unageo a jeho variabilné funkcie.")
         document.getElementById("langs-unageo-cyrillictitle").innerHTML = `Cyrilika`
-        document.getElementById("langs-unageo-cyrillic").innerHTML = `Unageo - cyrilika bola vytvorená v Bulharskom štýle.
+        document.getElementById("langs-unageo-cyrillic").innerHTML = `Unageo cyrilika bola robená v Bulharskom štýle.
         Používa viac zaoblené tvary a písmená majú väčšiu rozmanitosť vo výške, vďaka čomu sa ľahšie číta.`
         document.getElementById("langs-unageo-greektitle").innerHTML = `Grécke písmo`
         document.getElementById("langs-unageo-greek").innerHTML = `Grécke Unageo sa drží toho istého štýlu s dokonalou geometriou,
-        ale dotvára ju plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátny.`
+        ale dotvára ju plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátne.`
         document.getElementById("langs-unageo-howmadetitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Ako vznikol font Unageo`
         document.getElementById("langs-unageo-story1").innerHTML = `
-        Použil som už v minulosti veľa rôznych fontov v rôznych projektoch a občas mi napadlo, že
-        môj vlastný font by sa viac zhodoval s mojim štýlom, do teraz som sa ho ale nepokúsil vytvoriť.
-        Tento krát som sa rozhodol, že to skúsim, aj keď som o tvorbe fontov v podstate nič nevedel.
+        Použil som už v minulosti veľa rôznych fontov v rôznych projektoch a občas som rozmýšľal, že
+        môj vlastný font by sa viac zhodoval s mojim štýlom, do teraz som sa ale žiaden nepokúsil vytvoriť.
+        Tento krát som sa rozhodol, že to skúsim, aj keď som o tvorbe fontov skoro nič nevedel.
         Vedel som iba to, že chcem aby môj font bol geometrický, pretože to je štýl, ktorý preferujem.`
         document.getElementById("langs-unageo-story2").innerHTML = `
-        Vyskúšal som si FontForge, ale nevedel som ho veľmi dobre používať,
-        a preto som sa rozhodol pokračovať s netradičným postupom. Vytvoril som znaky cez Inkscape, ktorý poznám celkom dobre, and potom som tieto znaky vložil do Fontforge.
-        Celý proces netrval až tak dlho ako som čakal, a za pár dní som mal projekt hotový. Každý znak som spravil vo dvoch variantách podľa hrúbky, tak,
+        Rozhodol som sa pracovať s netradičným postupom. Vytvoril som znaky cez Inkscape, ktorý poznám celkom dobre, and potom som tieto znaky vložil do Fontforge, s ktorým som robil len prvý krát.
+        Celý proces netrval až tak dlho ako som čakal, a za pár dní bol projekt hotový. Každý znak som spravil vo dvoch variantách podľa hrúbky, tak,
         aby sa medzi nimi dalo plynulo prechádzať a potom som nastavil rozmery a pridal kerning.`
         document.getElementById("langs-unageo-story3").innerHTML = `
         Samozrejme, počas práce som narazil aj na nejaké problémy a naučil som sa,
-        že fonty sú oveľa komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliných fontov a
+        že fonty sú komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliných fontov a
         Fonttools na statické varianty.
-        Stále sa určite mám čo naučiť ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
+        Stále sa určite mám čo naučiť, hlavne ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný.
         Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem.
         Nižšie zistíte viac.`
         document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
@@ -273,7 +268,7 @@ function langizeunageo() {
         <div style="height: 14px;"></div>
         Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.
         <div style="height: 14px;" id="resp-ug-space-2"></div>
-        Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q1 2026.`
+        Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q2 2026.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Stiahnuť Variabliný`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Stiahnuť Statický`
         document.getElementById("langs-unageo-links1").innerHTML = `Navštíviť GitHub`
@@ -308,20 +303,19 @@ function langizeunageo() {
         document.getElementById("langs-unageo-story1").innerHTML = `
         V různých projektech jsem už použil spoustu různých fontů a někdy jsem si říkal, že
         můj vlastní font by více odpovídal mému stylu, ale dosud jsem se nepokusil žádný vytvořit.
-        Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl v podstatě nic.
+        Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl téměř nic.
         Věděl jsem jen, že chci, aby můj font byl geometrický, protože takový styl preferuji.`
         document.getElementById("langs-unageo-story2").innerHTML = `
-        Zkoušel jsem FontForge, ale nevěděl jsem, jak ho dobře používat, 
-        a tak jsem se rozhodl pokračovat s netradičním postupem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge.
-        Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní jsem měl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky,
+        Rozhodl jsem se pracovat netradičním způsobem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge, se kterým jsem pracoval poprvé..
+        Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní byl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky,
         aby bylo možné mezi nimi plynule přecházet, a poté jsem nastavil rozměry a přidal kerning.`
         document.getElementById("langs-unageo-story3").innerHTML = `
         Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem,
-        že fonty jsou mnohem složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
+        že fonty jsou složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a
         Fonttools pro statické varianty.
-        Rozhodně se mám ještě co naučit, pokud se rozhodnu vytvořit další font, a ani tenhle rozhodně není dokonalý.
-        Pokud máte nápad na vylepšení, určitě mě neváhejte informovat na GitHubu a já se na váš nápad rád podívám.
-        Více informací najdete níže.`
+        Rozhodně se mám ještě co naučit, hlavně pokud se rozhodnu vytvořit další font, a ani tenhle jistě není dokonalý.
+        Pokud máte nápad na zlepšení, určitě mě neváhejte informovat na GitHubu, rád se na váš nápad podívám.
+        Níže zjistíte více.`
         document.getElementById("langs-unageo-followdevtitle").innerHTML = `<span style="font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;">› </span>Sledujte vývoj`
         document.getElementById("langs-unageo-ost").innerHTML = `
         <span style="font-size: 20px; font-weight: 600; color: #e6e6e6;">Unageo je open source font vyvíjený na platformě GitHub.</span>
@@ -330,7 +324,7 @@ function langizeunageo() {
         <div style="height: 14px;"></div>
         Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.
         <div style="height: 14px;" id="resp-ug-space-2"></div>
-        Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q1 2026.`
+        Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q2 2026.`
         document.getElementById("langs-unageo-dvariable1").innerHTML = `Stáhnout Variabilní`
         document.getElementById("langs-unageo-dstatic1").innerHTML = `Stáhnout Statický`
         document.getElementById("langs-unageo-links1").innerHTML = `Navštívit GitHub`

@@ -1,6 +1,6 @@
 if(currentlang == "EN") {
     document.getElementById("langs-realizmusnaorave-time").innerHTML = `From June to August 2023`
-    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
     document.getElementById("langs-realizmusnaorave-date").innerHTML = `Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
     document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `About the project`
     document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
@@ -16,7 +16,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Download pages`
 } else if(currentlang == "SK") {
     document.getElementById("langs-realizmusnaorave-time").innerHTML = `Od Júna do Augusta 2023`
-    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
     document.getElementById("langs-realizmusnaorave-date").innerHTML = `Dátum pridania:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
     document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `O projekte`
     document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
@@ -31,7 +31,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Úvodné obrazovky`
 } else if(currentlang == "CZ") {
     document.getElementById("langs-realizmusnaorave-time").innerHTML = `Od Června do Srpna 2023`
-    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+    document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
     document.getElementById("langs-realizmusnaorave-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
     document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `O projektu`
     document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
@@ -53,7 +53,7 @@ if(currentlang == "EN") {
 function langizerealizmusnaorave() {
     if(currentlang == "EN") {
         document.getElementById("langs-realizmusnaorave-time").innerHTML = `From June to August 2023`
-        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
         document.getElementById("langs-realizmusnaorave-date").innerHTML = `Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
         document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `About the project`
         document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
@@ -69,7 +69,7 @@ function langizerealizmusnaorave() {
         document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Download pages`
     } else if(currentlang == "SK") {
         document.getElementById("langs-realizmusnaorave-time").innerHTML = `Od Júna do Augusta 2023`
-        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
         document.getElementById("langs-realizmusnaorave-date").innerHTML = `Dátum pridania:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
         document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `O projekte`
         document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `
@@ -84,7 +84,7 @@ function langizerealizmusnaorave() {
         document.getElementById("langs-realizmusnaorave-label3").innerHTML = `Úvodné obrazovky`
     } else if(currentlang == "CZ") {
         document.getElementById("langs-realizmusnaorave-time").innerHTML = `Od Června do Srpna 2023`
-        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI Design</span>`
+        document.getElementById("langs-realizmusnaorave-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">UI/UX Design</span>`
         document.getElementById("langs-realizmusnaorave-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.2.2024</span>`
         document.getElementById("langs-realizmusnaorave-abouttitle").innerHTML = `O projektu`
         document.getElementById("langs-realizmusnaorave-abouttext").innerHTML = `

@@ -10,7 +10,7 @@ if(currentlang == "EN") {
     I started with blocking out the scene and then it was just about creating the assets.
     It unfortunately took a pretty long time as I wanted each asset to be my own and I couldn't work on the project often.
     I also struggled with my computer not beeing able to keep up with the scene's complexity and I was barely able to make the final render because of my GPUs very limited vram.
-    Despite all of the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future.
+    In spite of all the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future.
     I hope you find it interesting.
     `
     document.getElementById("langs-seasidecliffs-softewaretitle").innerHTML = `Software used`
@@ -27,7 +27,7 @@ if(currentlang == "EN") {
     Bohužiaľ to trvalo celkom dlho, keďže som chcel používať iba moje vlastné assety a nemohol som na projekte často pracovať.
     Taktiež môj počítač nedokázal držať krok s komplexnosťou scény a takmer sa mi ani nepodarilo spraviť finálny render, kvôli nedostatku vram.
     Napriek všetkým tažkostiam som rád, že som projekt spravil, keďže som sa veľa naučil a budem lepšie vedieť ako pristupovať k tvorbe podobných projektov v budúcnosti.
-    Dúfam, že sa vám projekt bude páčiť.
+    Dúfam, že vám projekt príde zaujímavý.
     `
     document.getElementById("langs-seasidecliffs-softewaretitle").innerHTML = `Použitý software`
 } else if(currentlang == "CZ") {
@@ -42,8 +42,8 @@ if(currentlang == "EN") {
     Začal jsem od blockoutem scény a pak už to bylo jen o vytváření assetů.
     Bohužel to trvalo celkem dlouho, protože jsem chtěl použít pouze své vlastní assety a neměl jsem čas na projektu stále pracovat.
     Také můj počítač nezvládal náročnost scény a málem jsem ani nemohl udělat finální render, kvůli nedostatku vram.
-    I přes všechny potíže jsem rád, že jsem se do projektu pustil, protože jsem se hodně naučil a budu lépe vědět, jak k tvorbě podobných projektů přistupovat v budoucnu.
-    Doufám, že se vám projekt bude líbit.
+    I přes všechny problémy jsem rád, že jsem se do projektu pustil, protože jsem se hodně naučil a budu lépe vědět, jak k tvorbě podobných projektů přistupovat v budoucnu.
+    Doufám, že vám projekt přijde zajímavý.
     `
     document.getElementById("langs-seasidecliffs-softewaretitle").innerHTML = `Použitý software`
 }
@@ -63,7 +63,7 @@ function langizeseasidecliffs() {
         I started with blocking out the scene and then it was just about creating the assets.
         It unfortunately took a pretty long time as I wanted each asset to be my own and I couldn't work on the project often.
         I also struggled with my computer not beeing able to keep up with the scene's complexity and I was barely able to make the final render because of my GPUs very limited vram.
-        Despite all of the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future.
+        In spite of all the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future.
         I hope you find it interesting.
         `
         document.getElementById("langs-seasidecliffs-softewaretitle").innerHTML = `Software used`
@@ -80,7 +80,7 @@ function langizeseasidecliffs() {
         Bohužiaľ to trvalo celkom dlho, keďže som chcel používať iba moje vlastné assety a nemohol som na projekte často pracovať.
         Taktiež môj počítač nedokázal držať krok s komplexnosťou scény a takmer sa mi ani nepodarilo spraviť finálny render, kvôli nedostatku vram.
         Napriek všetkým tažkostiam som rád, že som projekt spravil, keďže som sa veľa naučil a budem lepšie vedieť ako pristupovať k tvorbe podobných projektov v budúcnosti.
-        Dúfam, že sa vám projekt bude páčiť.
+        Dúfam, že vám projekt príde zaujímavý.
         `
         document.getElementById("langs-seasidecliffs-softewaretitle").innerHTML = `Použitý software`
     } else if(currentlang == "CZ") {
@@ -95,8 +95,8 @@ function langizeseasidecliffs() {
         Začal jsem od blockoutem scény a pak už to bylo jen o vytváření assetů.
         Bohužel to trvalo celkem dlouho, protože jsem chtěl použít pouze své vlastní assety a neměl jsem čas na projektu stále pracovat.
         Také můj počítač nezvládal náročnost scény a málem jsem ani nemohl udělat finální render, kvůli nedostatku vram.
-        I přes všechny potíže jsem rád, že jsem se do projektu pustil, protože jsem se hodně naučil a budu lépe vědět, jak k tvorbě podobných projektů přistupovat v budoucnu.
-        Doufám, že se vám projekt bude líbit.
+        I přes všechny problémy jsem rád, že jsem se do projektu pustil, protože jsem se hodně naučil a budu lépe vědět, jak k tvorbě podobných projektů přistupovat v budoucnu.
+        Doufám, že vám projekt přijde zajímavý.
         `
         document.getElementById("langs-seasidecliffs-softewaretitle").innerHTML = `Použitý software`
     }
