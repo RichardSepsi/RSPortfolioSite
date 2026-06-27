@@ -164,6 +164,13 @@ anime({
     easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
 });
 anime({
+    targets: '#wst1-separator',
+    width: '180px',
+    duration: 600,
+    delay: 400,
+    easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+});
+anime({
     targets: '#wst2',
     opacity: 1,
     duration: 1000,

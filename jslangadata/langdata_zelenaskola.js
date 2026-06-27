@@ -9,7 +9,7 @@ if(currentlang == "EN") {
     <div style="height: 12px;"></div>
     This website is made to present their projects, highlight their goals, as well as to host their blog.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
-    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website has a simple design, consisting of just two pages.
+    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `I worked on the website's design. It's simple, consisting of just two pages.
     The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
 } else if(currentlang == "SK") {
@@ -23,7 +23,7 @@ if(currentlang == "EN") {
     <div style="height: 12px;"></div>
     Táto webstránka bola vytvorená, za účelom prezentácie ich projektov, cieľov, a taktiež ich blogu.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Môj podiel na projekte`
-    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Web má jednoduchý design a pozostáva len z dvoch stránok.
+    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Pracoval som na designe webu. Je jednoduchý a pozostáva len z dvoch stránok.
     Varianta vpravo dole nebola použitá (Spodná varianta na mobile), ide o staršiu verziu blogu.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
 } else if(currentlang == "CZ") {
@@ -37,7 +37,7 @@ if(currentlang == "EN") {
     <div style="height: 12px;"></div>
     Tehle web byl vytvořen za účelem prezentace jejich projektů, cílů a také jejich blogu.`
     document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Můj podíl na projektu`
-    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Web má jednoduchý design a skládá se pouze ze dvou stránek.
+    document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Pracoval jsem na designu webu. Je jednoduchý a skládá se pouze ze dvou stránek.
     Varianta vpravo dole nebyla použita (spodní varianta na mobilu), jde o starší verzi blogu.`
     document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
 }
@@ -56,7 +56,7 @@ function langizezelenaskola() {
         <div style="height: 12px;"></div>
         This website is made to present their projects, highlight their goals, as well as to host their blog.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `My work on the project`
-        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `The website has a simple design, consisting of just two pages.
+        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `I worked on the website's design. It's simple, consisting of just two pages.
         The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Software used`
     } else if(currentlang == "SK") {
@@ -70,7 +70,7 @@ function langizezelenaskola() {
         <div style="height: 12px;"></div>
         Táto webstránka bola vytvorená, za účelom prezentácie ich projektov, cieľov, a taktiež ich blogu.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Môj podiel na projekte`
-        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Web má jednoduchý design a pozostáva len z dvoch stránok.
+        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Pracoval som na designe webu. Je jednoduchý a pozostáva len z dvoch stránok.
         Varianta vpravo dole nebola použitá (Spodná varianta na mobile), ide o staršiu verziu blogu.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
     } else if(currentlang == "CZ") {
@@ -84,7 +84,7 @@ function langizezelenaskola() {
         <div style="height: 12px;"></div>
         Tehle web byl vytvořen za účelem prezentace jejich projektů, cílů a také jejich blogu.`
         document.getElementById("langs-zelenaskola-myworktitle").innerHTML = `Můj podíl na projektu`
-        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Web má jednoduchý design a skládá se pouze ze dvou stránek.
+        document.getElementById("langs-zelenaskola-myworktext").innerHTML = `Pracoval jsem na designu webu. Je jednoduchý a skládá se pouze ze dvou stránek.
         Varianta vpravo dole nebyla použita (spodní varianta na mobilu), jde o starší verzi blogu.`
         document.getElementById("langs-zelenaskola-softewaretitle").innerHTML = `Použitý software`
     }

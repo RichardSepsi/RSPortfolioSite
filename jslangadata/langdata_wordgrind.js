@@ -1,6 +1,6 @@
 if(currentlang == "EN") {
     document.getElementById("langs-wordgrind-time").innerHTML = `October 2024`
-    document.getElementById("langs-wordgrind-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+    document.getElementById("langs-wordgrind-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">Web App</span>`
     document.getElementById("langs-wordgrind-date").innerHTML = `Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.10.2024</span>`
     document.getElementById("langs-wordgrind-abouttitle").innerHTML = `About the project`
     document.getElementById("langs-wordgrind-abouttext").innerHTML = `
@@ -11,7 +11,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-wordgrind-link").innerHTML = `Get WordGrind on <u>GitHub</u>`
 } else if(currentlang == "SK") {
     document.getElementById("langs-wordgrind-time").innerHTML = `Október 2024`
-    document.getElementById("langs-wordgrind-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+    document.getElementById("langs-wordgrind-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">Web App</span>`
     document.getElementById("langs-wordgrind-date").innerHTML = `Dátum pridania:<span class="project-element-subtext" style="margin-left: 10px;">9.10.2024</span>`
     document.getElementById("langs-wordgrind-abouttitle").innerHTML = `O projekte`
     document.getElementById("langs-wordgrind-abouttext").innerHTML = `
@@ -22,7 +22,7 @@ if(currentlang == "EN") {
     document.getElementById("langs-wordgrind-link").innerHTML = `Získajte WordGrind na <u>GitHube</u>`
 } else if(currentlang == "CZ") {
     document.getElementById("langs-wordgrind-time").innerHTML = `Říjen 2024`
-    document.getElementById("langs-wordgrind-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+    document.getElementById("langs-wordgrind-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">Web App</span>`
     document.getElementById("langs-wordgrind-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.10.2024</span>`
     document.getElementById("langs-wordgrind-abouttitle").innerHTML = `O projektu`
     document.getElementById("langs-wordgrind-abouttext").innerHTML = `
@@ -38,7 +38,7 @@ if(currentlang == "EN") {
 function langizewordgrind() {
     if(currentlang == "EN") {
         document.getElementById("langs-wordgrind-time").innerHTML = `October 2024`
-        document.getElementById("langs-wordgrind-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+        document.getElementById("langs-wordgrind-category").innerHTML = `Category:<span class="project-element-subtext" style="margin-left: 10px;">Web App</span>`
         document.getElementById("langs-wordgrind-date").innerHTML = `Date added:<span class="project-element-subtext" style="margin-left: 10px;">9.10.2024</span>`
         document.getElementById("langs-wordgrind-abouttitle").innerHTML = `About the project`
         document.getElementById("langs-wordgrind-abouttext").innerHTML = `
@@ -49,7 +49,7 @@ function langizewordgrind() {
         document.getElementById("langs-wordgrind-link").innerHTML = `Get WordGrind on <u>GitHub</u>`
     } else if(currentlang == "SK") {
         document.getElementById("langs-wordgrind-time").innerHTML = `Október 2024`
-        document.getElementById("langs-wordgrind-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+        document.getElementById("langs-wordgrind-category").innerHTML = `Kategória:<span class="project-element-subtext" style="margin-left: 10px;">Web App</span>`
         document.getElementById("langs-wordgrind-date").innerHTML = `Dátum pridania:<span class="project-element-subtext" style="margin-left: 10px;">9.10.2024</span>`
         document.getElementById("langs-wordgrind-abouttitle").innerHTML = `O projekte`
         document.getElementById("langs-wordgrind-abouttext").innerHTML = `
@@ -60,7 +60,7 @@ function langizewordgrind() {
         document.getElementById("langs-wordgrind-link").innerHTML = `Získajte WordGrind na <u>GitHube</u>`
     } else if(currentlang == "CZ") {
         document.getElementById("langs-wordgrind-time").innerHTML = `Říjen 2024`
-        document.getElementById("langs-wordgrind-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">Web Design</span>`
+        document.getElementById("langs-wordgrind-category").innerHTML = `Kategorie:<span class="project-element-subtext" style="margin-left: 10px;">Web App</span>`
         document.getElementById("langs-wordgrind-date").innerHTML = `Datum přidání:<span class="project-element-subtext" style="margin-left: 10px;">9.10.2024</span>`
         document.getElementById("langs-wordgrind-abouttitle").innerHTML = `O projektu`
         document.getElementById("langs-wordgrind-abouttext").innerHTML = `

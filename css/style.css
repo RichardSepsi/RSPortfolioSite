@@ -282,7 +282,7 @@ body {
     margin-top: 11px;
 }
 .footer-action-line{
-    font-weight: 500;
+    font-weight: 600;
     height: 39px;
     display: flex;
     align-items: center;
@@ -357,7 +357,7 @@ body {
     border: none;
     border-radius: 12px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     padding-left: 64px;
     font-family: Inter;
     user-select: none;

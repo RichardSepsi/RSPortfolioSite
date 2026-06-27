@@ -124,6 +124,7 @@
     padding-left: 12px;
     padding-right: 6px;
     border-radius: 14px 8px 8px 14px;
+    font-weight: 600;
     font-family: Unageo-vf;
 }
 .unageo-var-numselector-wrapper{
@@ -243,7 +244,7 @@
 .unageo-scripts-title{
     font-family: Unageo-vf;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .unageo-scripts-subtitle{
     font-family: Unageo-vf;
@@ -284,7 +285,7 @@
     margin-bottom: 18px;
     font-size: 28px;
     font-family: Unageo-vf;
-    font-weight: 500;
+    font-weight: 600;
 }
 .unageo-story-textsection{
     width: 100%;
@@ -335,7 +336,7 @@
     margin-top: 10px;
     font-size: 14px;
     font-family: Unageo-vf;
-    font-weight: 500;
+    font-weight: 600;
     margin-right: 10px;
     transition-duration: 200ms;
 }
@@ -417,7 +418,7 @@
     transform: scale(1);
 }
 .unageo-ot-label{
-    font-weight: 450;
+    font-weight: 600;
     font-size: 18px;
     margin-top: 3px;
 }

@@ -64,14 +64,16 @@
     align-items: center;
 }
 .project-thumb-info-title{
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1px;
 }
 .project-thumb-info-sub{
     font-size: 16px;
     color: #969696;
     font-weight: 500;
     line-height: 1px;
+    margin-bottom: 2px;
 }
 .project-thumb-info-sub.one{
     padding-left: 20px;

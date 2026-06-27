@@ -84,7 +84,7 @@
 }
 .header{
     font-size: 34px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 44px;
     margin-left: 4px;
 }
@@ -143,6 +143,19 @@
     display: flex;
     flex-direction: row;
 }
+.about-me-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+}
+.ats-separation{
+    background-color: hsla(0, 0%, 85%, 0.15);
+    width: 0px;
+    height: 3px;
+    border-radius: 1px;
+    margin-top: 9px;
+    margin-bottom: -15px;
+}
 .about-me-text{
     line-height: 19px;
     margin-top: 25px;
@@ -156,13 +169,16 @@
     justify-content: center;
     padding-top: 70px;
 }
+.sas-c-wrapper{
+    padding-top: 2px;
+}
 .skill-category{
     max-width: 275px;
     display: flex;
     flex-direction: column;
 }
 .skill-category-name{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
 }
@@ -194,7 +210,7 @@
     pointer-events: none;
 }
 .fake-skill-tag{
-    font-weight: 600;
+    font-weight: 500;
     color: #969696;
     margin-left: 10px;
     margin-top: 5px;
@@ -278,6 +294,7 @@
 .education-content-wrapper{
     display: flex;
     flex-direction: row;
+    padding-top: 2px;
 }
 .education-timeline{
     max-width: 200px;

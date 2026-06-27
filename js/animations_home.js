@@ -212,6 +212,13 @@ function aboutanifunct() {
                 delay: 550,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
+            anime({
+                targets: '.ats-separation',
+                width: '180px',
+                duration: 600,
+                delay: 400,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
         }
     }
 }

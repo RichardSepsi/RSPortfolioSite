@@ -15,7 +15,7 @@ let itemdatabase = [
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Realizmus na O.</span>
             <span class="project-thumb-info-sub one">9.2.2024</span></div>
-            <span class="project-thumb-info-sub">UI/UX</span>
+            <span class="project-thumb-info-sub">UX/UI</span>
         </div>
     </div></a>
 `,
@@ -35,7 +35,7 @@ let itemdatabase = [
         <div class="project-thumb-info-container" style="background-color: rgba(36, 36, 36, 0.75);">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">NatArt</span>
             <span class="project-thumb-info-sub one">2.12.2023</span></div>
-            <span class="project-thumb-info-sub">Web design</span>
+            <span class="project-thumb-info-sub">Web Design</span>
         </div>
     </div></a>
 `,
@@ -59,7 +59,7 @@ let itemdatabase = [
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">WordGrind</span>
             <span class="project-thumb-info-sub one">9.10.2024</span></div>
-            <span class="project-thumb-info-sub">Web Design</span>
+            <span class="project-thumb-info-sub">Web App</span>
         </div>
     </div></a>
 `,
@@ -69,7 +69,7 @@ let itemdatabase = [
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Cesta uprchlíka</span>
             <span class="project-thumb-info-sub one">9.1.2026</span></div>
-            <span class="project-thumb-info-sub">UI/UX</span>
+            <span class="project-thumb-info-sub">UX/UI</span>
         </div>
     </div></a>
 `
