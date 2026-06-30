@@ -170,6 +170,10 @@ function smalldanifunct() {
     header.style.opacity = (1 - ((scroll - start) / length)).toString();
 }
 
+document.onscroll = function() {
+    console.log(window.pageYOffset)
+}
+
 let aboutscrolled = 0
 function aboutanifunct() {
     if(aboutscrolled == 0){
@@ -178,7 +182,7 @@ function aboutanifunct() {
                 targets: '.aboutme-anime-1',
                 width: '100%',
                 duration: 700,
-                delay: 100,
+                delay: 0,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
         }
@@ -188,35 +192,193 @@ function aboutanifunct() {
                 targets: '.aboutme-anime-svg',
                 opacity: 1,
                 duration: 800,
-                delay: 350,
+                delay: 150,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.aboutme-anime-svg',
                 translateY: 0,
                 duration: 800,
-                delay: 350,
+                delay: 150,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.aboutme-anime-2',
                 opacity: 1,
                 duration: 800,
-                delay: 550,
+                delay: 350,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.aboutme-anime-2',
                 translateX: 0,
                 duration: 800,
-                delay: 550,
+                delay: 350,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
+
             anime({
                 targets: '.ats-separation',
                 width: '180px',
                 duration: 600,
+                delay: 200,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+
+            //aboutme text
+            anime({
+                targets: '.aboutme-anime-text-1',
+                opacity: 1,
+                duration: 800,
+                delay: 350,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-1',
+                translateX: 0,
+                duration: 800,
+                delay: 350,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-2',
+                opacity: 1,
+                duration: 800,
                 delay: 400,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-2',
+                translateX: 0,
+                duration: 800,
+                delay: 400,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-3',
+                opacity: 1,
+                duration: 800,
+                delay: 450,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-3',
+                translateX: 0,
+                duration: 800,
+                delay: 450,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-4',
+                opacity: 1,
+                duration: 800,
+                delay: 500,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-4',
+                translateX: 0,
+                duration: 800,
+                delay: 500,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+
+            anime({
+                targets: '.aboutme-anime-text-5',
+                opacity: 1,
+                duration: 800,
+                delay: 550,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-5',
+                translateX: 0,
+                duration: 800,
+                delay: 550,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-6',
+                opacity: 1,
+                duration: 800,
+                delay: 600,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-6',
+                translateX: 0,
+                duration: 800,
+                delay: 600,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-7',
+                opacity: 1,
+                duration: 800,
+                delay: 650,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-7',
+                translateX: 0,
+                duration: 800,
+                delay: 650,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-8',
+                opacity: 1,
+                duration: 800,
+                delay: 700,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-8',
+                translateX: 0,
+                duration: 800,
+                delay: 700,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-9',
+                opacity: 1,
+                duration: 800,
+                delay: 750,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-9',
+                translateX: 0,
+                duration: 800,
+                delay: 750,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-10',
+                opacity: 1,
+                duration: 800,
+                delay: 800,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-10',
+                translateX: 0,
+                duration: 800,
+                delay: 800,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-11',
+                opacity: 1,
+                duration: 800,
+                delay: 850,
+                easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
+            });
+            anime({
+                targets: '.aboutme-anime-text-11',
+                translateX: 0,
+                duration: 800,
+                delay: 850,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
         }
@@ -227,7 +389,7 @@ let skillsandsoftwarescrolled = 0
 let skillsandsoftwarescrolledtwo = 0
 function skillsandsoftwareanifunct() {
     if(skillsandsoftwarescrolled == 0){
-        if(window.pageYOffset >= 780){
+        if(window.pageYOffset >= 1200){
             skillsandsoftwarescrolled = 1
             anime({
                 targets: '.skills-anime-1',
@@ -337,118 +499,118 @@ function skillsandsoftwareanifunct() {
         }
     }
     if(skillsandsoftwarescrolledtwo == 0){
-        if(window.pageYOffset >= 1100){
+        if(window.pageYOffset >= 1520){
             skillsandsoftwarescrolledtwo = 1
             anime({
                 targets: '.software-anime-1',
                 height: '193.83px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-1',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-2',
                 height: '119.91px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-2',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-3',
                 height: '283.72px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-3',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-4',
                 height: '119.91px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-4',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-5',
                 height: '283.72px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-5',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-6',
                 height: '365.63px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-6',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-7',
                 opacity: 1,
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-8',
                 height: '193.83px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-anime-9',
                 height: '119.91px',
                 duration: 600,
-                delay: 0,
+                delay: 100,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.software-icon',
                 opacity: 1,
                 duration: 600,
-                delay: 200,
+                delay: 300,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
         }
@@ -458,43 +620,43 @@ function skillsandsoftwareanifunct() {
 let educationscrolled = 0
 function educationanifunct() {
     if(educationscrolled == 0){
-        if(window.pageYOffset >= 1480){
+        if(window.pageYOffset >= 2040){
             anime({
                 targets: '.education-anime-1',
                 width: '100%',
                 duration: 700,
-                delay: 100,
+                delay: 0,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
         }
-        if(window.pageYOffset >= 1600){
+        if(window.pageYOffset >= 2160){
             educationscrolled = 1
             anime({
                 targets: '.education-anime-svg',
                 opacity: 1,
                 duration: 800,
-                delay: 350,
+                delay: 250,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.education-anime-svg',
                 translateY: 0,
                 duration: 800,
-                delay: 350,
+                delay: 250,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.education-anime-2',
                 opacity: 1,
                 duration: 800,
-                delay: 550,
+                delay: 450,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
             anime({
                 targets: '.education-anime-2',
                 translateX: 0,
                 duration: 800,
-                delay: 550,
+                delay: 450,
                 easing: 'cubicBezier(0.000, 0.000, 0.300, 1.000)'
             });
         }
