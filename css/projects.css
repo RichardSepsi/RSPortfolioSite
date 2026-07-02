@@ -131,9 +131,12 @@
         transform: scale(0.9);
         transform-origin: top;
         margin-top: 70px;
+        margin-bottom: -40%;
     }
-    .grid-container{
-        margin-bottom: -36px;
+}
+@media screen and (max-width: 375px) {
+    .grid{
+        margin-bottom: -48%;
     }
 }
 @media screen and (max-width: 1450px) {

@@ -383,7 +383,7 @@
         margin-top: 110px;
     }
 }
-@media screen and (max-width: 488px) {
+@media screen and (max-width: 489px) {
     .resp-contactcorrector{
         margin: 0 60px;
     }
@@ -410,7 +410,7 @@
         font-size: 30px;
     }
 }
-@media screen and (max-width: 449px) {
+@media screen and (max-width: 452px) {
     .resp-contactcorrector{
         margin: 0 50px;
     }
@@ -418,24 +418,26 @@
         margin-top: 90px;
     }
 }
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 432px) {
+    .unageo-smallbutton{
+        font-size: 12px !important;
+    }
     .project-link-button-label{
         font-size: 15px;
     }
+}
+@media screen and (max-width: 429px) {
     #wst2{
         font-size: 15px !important;
     }
     #wst3{
         font-size: 15px !important;
     }
-    .unageo-smallbutton{
-        font-size: 12px !important;
-    }
     .resp-contact2{
         font-size: 13px !important;
     }
 }
-@media screen and (max-width: 421px) {
+@media screen and (max-width: 423px) {
     .project-link-button-label{
         font-size: 14px;
         margin-bottom: 1px;
@@ -448,6 +450,22 @@
     }
     .contact-github{
         margin-bottom: 45px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .project-link-button-ext{
+        height: 40px;
+        width: 40px;
+    }
+    .project-link-button-ext svg {
+        height: 20px;
+        width: 20px;
+    }
+    .project-link-button {
+        height: 52px;
+    }
+    .contact-social-container {
+        min-height: 124px;
     }
 }
 
