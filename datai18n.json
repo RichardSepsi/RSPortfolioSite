@@ -98,6 +98,12 @@
             "githubvisit":"Visit GitHub page",
             "githubissue":"Submit a new issue"
         },
+        "p404":{
+            "main":"Page not found"
+        },
+        "p403":{
+            "main":"Access Denied"
+        },
         "metrostation":{
             "tperiod":"From February to June 2022",
             "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
