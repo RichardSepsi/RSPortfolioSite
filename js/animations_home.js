@@ -170,10 +170,6 @@ function smalldanifunct() {
     header.style.opacity = (1 - ((scroll - start) / length)).toString();
 }
 
-document.onscroll = function() {
-    console.log(window.pageYOffset)
-}
-
 let aboutscrolled = 0
 function aboutanifunct() {
     if(aboutscrolled == 0){
@@ -680,11 +676,11 @@ function sethomemediaqueries() {
     if (window.matchMedia('(max-width: 1550px)').matches) {
         document.getElementById("resp-home1").setAttribute("dy", "0")
         document.getElementById("resp-home2").setAttribute("dy", "0")
-        if(currentlang == "EN") {
+        if(document.getElementById("current-lang").innerHTML == "EN") {
             document.getElementById("resp-home1").setAttribute("x", "120.42px")
             document.getElementById("resp-home2").setAttribute("x", "120.42px")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "261px")  
-        } else if(currentlang == "SK") {
+        } else if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("resp-home1").setAttribute("x", "183.83px")
             document.getElementById("resp-home2").setAttribute("x", "183.83px")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "326px")  
@@ -696,9 +692,9 @@ function sethomemediaqueries() {
         document.getElementById("resp-home2").setAttribute("dy", "1.2em")
         document.getElementById("resp-home1").setAttribute("x", "0")
         document.getElementById("resp-home2").setAttribute("x", "0")
-        if(currentlang == "EN") {
+        if(document.getElementById("current-lang").innerHTML == "EN") {
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "151px")
-        } else if(currentlang == "SK") {
+        } else if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
         }
     }
@@ -708,7 +704,7 @@ sethomemediaqueries()
 
 addEventListener("resize", (event) => {
     if (window.matchMedia('(max-width: 1550px)').matches) {
-        if(currentlang == "EN") {
+        if(document.getElementById("current-lang").innerHTML == "EN") {
             document.getElementById("resp-home1").setAttribute("dy", "0")
             document.getElementById("resp-home2").setAttribute("dy", "0")
             document.getElementById("resp-home1").setAttribute("x", "120.42px")
@@ -717,7 +713,7 @@ addEventListener("resize", (event) => {
         }
     }
     else if (window.matchMedia('(min-width: 1550px)').matches) {
-        if(currentlang == "EN") {
+        if(document.getElementById("current-lang").innerHTML == "EN") {
             document.getElementById("resp-home1").setAttribute("dy", "1.2em")
             document.getElementById("resp-home2").setAttribute("dy", "1.2em")
             document.getElementById("resp-home1").setAttribute("x", "0")
@@ -726,13 +722,13 @@ addEventListener("resize", (event) => {
         }
     }
     if (window.matchMedia('(max-width: 1550px) and (min-width: 440px)').matches) {
-        if(currentlang == "SK") {
+        if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("resp-home1").setAttribute("dy", "0")
             document.getElementById("resp-home2").setAttribute("dy", "0")
             document.getElementById("resp-home1").setAttribute("x", "183.83px")
             document.getElementById("resp-home2").setAttribute("x", "183.83px")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "326px")  
-        } else if(currentlang == "CZ") {
+        } else if(document.getElementById("current-lang").innerHTML == "CZ") {
             document.getElementById("resp-home1").setAttribute("dy", "0")
             document.getElementById("resp-home2").setAttribute("dy", "0")
             document.getElementById("resp-home1").setAttribute("x", "183.83px")
@@ -741,13 +737,13 @@ addEventListener("resize", (event) => {
         }
     }
     else if (window.matchMedia('(max-width: 440px) or (min-width: 1550px)').matches) {
-        if(currentlang == "SK") {
+        if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("resp-home1").setAttribute("dy", "1.2em")
             document.getElementById("resp-home2").setAttribute("dy", "1.2em")
             document.getElementById("resp-home1").setAttribute("x", "0")
             document.getElementById("resp-home2").setAttribute("x", "0")
             document.getElementById("langs-text-skilsoftwaresvg").setAttribute("width", "181px")
-        } else if(currentlang == "CZ") {
+        } else if(document.getElementById("current-lang").innerHTML == "CZ") {
             document.getElementById("resp-home1").setAttribute("dy", "1.2em")
             document.getElementById("resp-home2").setAttribute("dy", "1.2em")
             document.getElementById("resp-home1").setAttribute("x", "0")
@@ -756,16 +752,16 @@ addEventListener("resize", (event) => {
         }
     }
     if (window.matchMedia('(max-width: 440px)').matches) {
-        if(currentlang == "SK") {
+        if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "56px"
-        } else if(currentlang == "CZ") {
+        } else if(document.getElementById("current-lang").innerHTML == "CZ") {
             document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "56px"
         }
     }
     if (window.matchMedia('(min-width: 440px)').matches) {
-        if(currentlang == "SK") {
+        if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "10px"
-        } else if(currentlang == "CZ") {
+        } else if(document.getElementById("current-lang").innerHTML == "CZ") {
             document.getElementById("langs-text-skilsoftwaresvg").style.marginBottom = "10px"
         }
     }

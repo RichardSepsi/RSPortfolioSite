@@ -33,6 +33,17 @@
     padding: 10px;
     overflow: hidden;
 }
+.standart-single-project-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+
 
 .project-slide-switcher{
     display: flex;

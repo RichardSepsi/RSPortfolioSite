@@ -7,7 +7,7 @@ function searchfunction() {
     if(issearchopen == 0){
         issearchopen = 1
         disableScroll()
-        if(currentlang == "EN") {
+        if(document.getElementById("current-lang").innerHTML == "EN") {
             document.getElementById("search-maincontainer").innerHTML += `
             <div class="search-prevent-wrapper"><div class="search-element">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#505050" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
@@ -33,7 +33,7 @@ function searchfunction() {
                 </div>
             </div></div>
             `
-        } else if(currentlang == "SK") {
+        } else if(document.getElementById("current-lang").innerHTML == "SK") {
             document.getElementById("search-maincontainer").innerHTML += `
             <div class="search-element">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#505050" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
@@ -59,7 +59,7 @@ function searchfunction() {
                 </div>
             </div>
             `
-        }  else if(currentlang == "CZ") {
+        }  else if(document.getElementById("current-lang").innerHTML == "CZ") {
             document.getElementById("search-maincontainer").innerHTML += `
             <div class="search-element">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#505050" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
@@ -179,11 +179,11 @@ function search() {
     squery = squery.toLowerCase()
     let soutput = document.getElementById("search-content")
     if(squery.length < 2) {
-        if(currentlang == "EN") {
+        if(document.getElementById("current-lang").innerHTML == "EN") {
             soutput.innerHTML = `<span class="search-placeholder">Enter at least 2 characters to get results</span>`
-        } else if(currentlang == "SK") {
+        } else if(document.getElementById("current-lang").innerHTML == "SK") {
             soutput.innerHTML = `<span class="search-placeholder">Napíšte aspoň 2 znaky pre získanie výsledkov</span>`
-        } else if(currentlang == "CZ") {
+        } else if(document.getElementById("current-lang").innerHTML == "CZ") {
             soutput.innerHTML = `<span class="search-placeholder">Napište alespoň 2 znaky, abyste získali výsledky</span>`
         }
     }
@@ -208,11 +208,11 @@ function search() {
             let rescounter = 0
             filtereditemscount = filtereditems.length
             filtereditems.forEach((element) => {
-                if(currentlang == "EN") {
+                if(document.getElementById("current-lang").innerHTML == "EN") {
                     soutput.innerHTML += searchinfo[element].codeen
-                } else if(currentlang == "SK") {
+                } else if(document.getElementById("current-lang").innerHTML == "SK") {
                     soutput.innerHTML += searchinfo[element].codesk
-                } else if(currentlang == "CZ") {
+                } else if(document.getElementById("current-lang").innerHTML == "CZ") {
                     soutput.innerHTML += searchinfo[element].codecz
                 }
                 rescounter=rescounter+1
@@ -220,11 +220,11 @@ function search() {
             });
         }
         else {
-            if(currentlang == "EN") {
+            if(document.getElementById("current-lang").innerHTML == "EN") {
                 soutput.innerHTML = `<span class="search-placeholder">There are no results for "`+squery+`"</span>`
-            } else if(currentlang == "SK") {
+            } else if(document.getElementById("current-lang").innerHTML == "SK") {
                 soutput.innerHTML = `<span class="search-placeholder">Pre "`+squery+`" neboli nájdené žiadne výsledky</span>`
-            } else if(currentlang == "CZ") {
+            } else if(document.getElementById("current-lang").innerHTML == "CZ") {
                 soutput.innerHTML = `<span class="search-placeholder">Pro "`+squery+`" nebyly nalezeny žádné výsledky</span>`
             }
         }

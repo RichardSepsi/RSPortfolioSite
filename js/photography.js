@@ -57,19 +57,19 @@ function fadeoutphotography (nhref) {
     navbackup = document.getElementById("photography-folder-nav-container").innerHTML
     document.getElementById("photography-navlinks-fake-wrapper").style.display = "none"
     let backbuttonlabel = ""
-    if(currentlang == "EN") {
+    if(document.getElementById("current-lang").innerHTML == "EN") {
         backbuttonlabel = "Back"
     }
-    if(currentlang == "SK") {
+    if(document.getElementById("current-lang").innerHTML == "SK") {
         backbuttonlabel = "Späť"
     }
-    if(currentlang == "CZ") {
+    if(document.getElementById("current-lang").innerHTML == "CZ") {
         backbuttonlabel = "Zpět"
     }
-    if(currentlang == "DE") {
+    if(document.getElementById("current-lang").innerHTML == "DE") {
         backbuttonlabel = "Zurück"
     }
-    if(currentlang == "JP") {
+    if(document.getElementById("current-lang").innerHTML == "JP") {
         backbuttonlabel = "戻る"
     }
     document.getElementById("photography-folder-nav-container").innerHTML += `
@@ -200,19 +200,19 @@ function photography_back() {
 function singlephoto (id7) {
     navbackup =  document.getElementById("photography-folder-nav-container").innerHTML
     let backbuttonlabel = ""
-    if(currentlang == "EN") {
+    if(document.getElementById("current-lang").innerHTML == "EN") {
         backbuttonlabel = "Back"
     }
-    if(currentlang == "SK") {
+    if(document.getElementById("current-lang").innerHTML == "SK") {
         backbuttonlabel = "Späť"
     }
-    if(currentlang == "CZ") {
+    if(document.getElementById("current-lang").innerHTML == "CZ") {
         backbuttonlabel = "Zpět"
     }
-    if(currentlang == "DE") {
+    if(document.getElementById("current-lang").innerHTML == "DE") {
         backbuttonlabel = "Zurück"
     }
-    if(currentlang == "JP") {
+    if(document.getElementById("current-lang").innerHTML == "JP") {
         backbuttonlabel = "戻る"
     }
     let currentalbumname = document.querySelector("#"+id7+" .project-thumb-info-title").innerHTML
@@ -248,7 +248,7 @@ function singlephoto_back() {
 function fullscreen(id) {
     disableScroll()
     document.getElementById("photography-album-back").setAttribute("onClick", "unfullscreen()")
-    if(currentlang == "EN") {
+    if(document.getElementById("current-lang").innerHTML == "EN") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu one">
@@ -265,7 +265,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "SK") {
+    } else if(document.getElementById("current-lang").innerHTML == "SK") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
@@ -282,7 +282,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "CZ") {
+    } else if(document.getElementById("current-lang").innerHTML == "CZ") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
@@ -299,7 +299,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "DE") {
+    } else if(document.getElementById("current-lang").innerHTML == "DE") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
@@ -316,7 +316,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "JP") {
+    } else if(document.getElementById("current-lang").innerHTML == "JP") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>

@@ -1,3 +1,82 @@
+
+
+
+/* Realizmus na orave */
+
+.realnao-mobile-image{
+    display: none;
+}
+
+@media screen and (max-width: 670px) {
+    .realnao-mobile-image{
+        display: block;
+    }
+    .realnao-desktop-image{
+        display: none;
+    }
+
+}
+
+
+
+/* Natart */
+
+.natart-mobile-image{
+    display: none;
+}
+
+@media screen and (max-width: 630px) {
+    .natart-mobile-image{
+        display: block;
+    }
+    .natart-desktop-image{
+        display: none;
+    }
+
+}
+
+
+
+/* WordGrind */
+
+.wordgrind-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    .wordgrind-mobile{
+        display: block;
+        max-width: 100%;
+        max-height: 94%;
+    }
+    .wordgrind-desktop{
+        display: none;
+    }
+}
+
+
+
+/* ZelenaSkola */
+
+.zelenaskola-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    .zelenaskola-mobile{
+        display: block;
+        max-width: 100%;
+        max-height: 94%;
+    }
+    .zelenaskola-desktop{
+        display: none;
+    }
+}
+
+
+
+/* Unageo */
+
 .unageo-nav {
     height: 190px;
     padding-top: 80px;

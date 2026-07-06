@@ -45,6 +45,14 @@
 .contact-desc-email:active{
     color: #b3b3b3;
 }
+.contact-email-copy{
+    color: #696969;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 5px;
+    user-select: none;
+}
 .contact-social-container{
     display: flex;
     flex-direction: row;
@@ -304,7 +312,7 @@
         flex-direction: column;
         align-items: start;
     }
-    #langs-contact-copy{
+    .contact-email-copy{
         margin-left: 0px !important;
         margin-top: -4px !important;
     }
@@ -336,7 +344,7 @@
         font-size: 36px;
         margin-top: -5px;
     }
-    #langs-contact-copy{
+    .contact-email-copy{
         font-size: 16px !important;
         line-height: 32px !important;
     }

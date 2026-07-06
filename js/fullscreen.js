@@ -1,5 +1,5 @@
 function fullscreen(id) {
-    if(currentlang == "EN") {
+    if(document.getElementById("current-lang").innerHTML == "EN") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu one">
@@ -23,7 +23,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "SK") {
+    } else if(document.getElementById("current-lang").innerHTML == "SK") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
@@ -47,7 +47,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "CZ") {
+    } else if(document.getElementById("current-lang").innerHTML == "CZ") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
@@ -71,7 +71,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "DE") {
+    } else if(document.getElementById("current-lang").innerHTML == "DE") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
@@ -95,7 +95,7 @@ function fullscreen(id) {
             </div>
         </div>
         `
-    } else if(currentlang == "JP") {
+    } else if(document.getElementById("current-lang").innerHTML == "JP") {
         document.getElementById("project-fullscreen-view"). innerHTML = `
         <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
         <div class="project-fullscreen-menu" one>
