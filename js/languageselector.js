@@ -68,10 +68,15 @@ function switchlang(newlang){
 // function that injects the data from the json
 function injectI18n() {
     document.querySelectorAll("[data-i18n]").forEach((element) => {
-    let dataNeeded = element.getAttribute("data-i18n")
-    let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
-    element.innerHTML = eval(`fetchedi18n.${currentLang}.${dataNeeded}`)
-  });
+        let dataNeeded = element.getAttribute("data-i18n")
+        let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
+        element.innerHTML = eval(`fetchedi18n.${currentLang}.${dataNeeded}`)
+    });
+    document.querySelectorAll("[placeholder-i18n]").forEach((element) => {
+        let dataNeeded = element.getAttribute("placeholder-i18n")
+        let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
+        element.setAttribute("placeholder", eval(`fetchedi18n.${currentLang}.${dataNeeded}`))
+    });
 }
 
 // fetch i18n

@@ -88,7 +88,14 @@
     line-height: 44px;
     margin-left: 4px;
 }
+
+.home-name-container{
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-start;
+}
 .title-name{
+    position: absolute;
     font-size: 85px;
     font-weight: 700;
     line-height: 100px;
@@ -98,6 +105,14 @@
     Background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.title-name2{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 100px;
+    -webkit-text-stroke: 4px #3d3d3d;
+    color: #3d3d3d;
+}
+
 .title-social-container{
     display: flex;
     margin-top: 10px;
@@ -132,7 +147,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 60px 0 85px 0px;
+    padding: 84px 0 84px 0px;
     margin-top: 40px;
 }
 .section-content-wrapper{
@@ -143,6 +158,68 @@
     display: flex;
     flex-direction: row;
 }
+
+.section-header-wrapper{
+    width: 240px;
+    max-width: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.section-header-container {
+    display: flex;
+    justify-self: center;
+    align-items: flex-start;
+}
+.section-header-text{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    background: rgb(3,92,226);
+    background: linear-gradient(206deg, rgba(6, 131, 233) 0%, rgba(12, 196, 246) 100%);
+    -webkit-background-clip: text;
+    Background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 175px;
+    line-height: 36px;
+}
+.section-header-text2{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #4D4D4D;
+    color: #4D4D4D;
+    max-width: 175px;
+    line-height: 36px;
+}
+.section-header-lessertext{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    color: #4D4D4D;
+    max-width: 175px;
+    line-height: 36px;
+}
+.section-header-lessertext2{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #373737;
+    color: #373737;
+    max-width: 175px;
+    line-height: 36px;
+}
+.section-header-lessertext.and{
+    margin-left: 94px;
+}
+.section-header-lessertext2.and{
+    margin-left: 94px;
+}
+
+.aboutme-anime-svg {
+    opacity: 0; transform: translateY(-20px);
+}
+
 .about-me-title{
     font-weight: 600;
     font-size: 20px;
@@ -167,7 +244,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 84px;
 }
 .sas-c-wrapper{
     padding-top: 2px;
@@ -221,7 +298,7 @@
     justify-content: center;
     padding-top: 70px;
     padding-left: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 84px;
 }
 .software-category-container{
     width: 122px;
@@ -289,7 +366,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 85px 0 85px 0px;
+    padding: 84px 0 84px 0px;
 }
 .education-content-wrapper{
     display: flex;
@@ -378,6 +455,19 @@
         margin-right: 0px !important;
         margin-bottom: 8px;
         margin-top: 15px;
+    }
+    .section-header-wrapper{
+        height: 64px;
+        width: 100%;
+        max-width: 1100px;
+        justify-content: center;
+    }
+    .section-header-text {
+        max-width: unset;
+    }
+    .section-header-text2 {
+        max-width: unset;
+        position: unset;
     }
 }
 @media screen and (max-width: 1300px) {
@@ -523,6 +613,12 @@
         font-weight: 700;
         line-height: 85px;
     }
+    .title-name2{
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 85px;
+        -webkit-text-stroke: 3px #4D4D4D;
+    }
 }
 @media screen and (max-width: 696px) {
     .education-year-dash{
@@ -559,6 +655,13 @@
         font-weight: 700;
         line-height: 70px;
         margin-left: 2px;
+    }
+    .title-name2{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 70px;
+        margin-left: 2px;
+        -webkit-text-stroke: 2px #4D4D4D;
     }
 }
 @media screen and (max-width: 606px) {
@@ -621,6 +724,11 @@
         font-weight: 700;
         line-height: 45px;
     }
+    .title-name2{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 45px;
+    }
     .header {
         font-size: 26px;
     }
@@ -669,6 +777,11 @@
 }
 @media screen and (max-width: 406px) {
     .title-name{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .title-name2{
         font-size: 40px;
         font-weight: 700;
         line-height: 40px;

@@ -70,6 +70,7 @@ body {
     opacity: 1;
     transition-duration: 200ms;
 }
+
 .nav-links{
     display: flex;
     justify-content: center;
@@ -102,21 +103,32 @@ body {
     width: fit-content;
 }
 
-.n-g-e{
-    stop-color: #e6e6e6;
-    transition: all 200ms;
+@property --navgrad1 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #e6e6e6;
 }
-.n-g-s{
-    stop-color: #e6e6e6;
-    transition: all 200ms;
+@property --navgrad2 {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #e6e6e6;
 }
-.n-l-c:hover .n-g-e{
-    stop-color: #0CC5F7;
-    transition: all 200ms;
+.nav-link-text {
+  background: linear-gradient(90deg, var(--navgrad1), var(--navgrad2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  transition: --navgrad1 .2s, --navgrad2 .2s;
+  font-weight: 630;
 }
-.n-l-c:hover .n-g-s{
-    stop-color: #035EE2;
-    transition: all 200ms;
+.nav-link:hover .nav-link-text{
+  --navgrad1: #0cc4f6;
+  --navgrad2: #0683e9;
+}
+.nav-link-mobile:hover .nav-link-text{
+  --navgrad1: #0cc4f6;
+  --navgrad2: #0683e9;
 }
 
 .searchicon{

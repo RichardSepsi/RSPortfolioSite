@@ -3,19 +3,33 @@
     flex-direction: column;
     width: calc(100vw - 740px);
 }
-.contact-title{
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 100px;
-    background: rgb(3,92,226);
-    background: linear-gradient(206deg, rgba(3,92,226,1) 0%, rgba(13,197,248,1) 100%);
-    -webkit-background-clip: text;
-    Background-clip: text;
-    -webkit-text-fill-color: transparent;
+.contact-title-container{
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-start;
     margin-top: 140px;
     margin-left: 120px;
     opacity: 0;
 }
+.contact-title{
+    position: absolute;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    background: rgb(3, 92, 226);
+    background: linear-gradient(206deg, rgba(8, 133, 223) 0%, rgba(13, 197, 248, 1) 100%);
+    -webkit-background-clip: text;
+    Background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-title2{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    -webkit-text-stroke: 4px #3d3d3d;
+    color: #3d3d3d;
+}
+
 .contact-desc-title{
     font-weight: 500;
     font-size: 18px;
@@ -340,6 +354,13 @@
     .contact-title{
         font-size: 65px;
     }
+    .contact-title2{
+        font-size: 65px;
+        
+    }
+    .contact-title-container{
+        margin-top: 130px;
+    }
     .contact-desc-email{
         font-size: 36px;
         margin-top: -5px;
@@ -354,9 +375,6 @@
     #wst3{
         font-size: 16px !important;
     }
-    .contact-title{
-        margin-top: 130px;
-    }
 }
 @media screen and (max-width: 606px) {
     .resp-contactcorrector{
@@ -368,13 +386,19 @@
         font-size: 16px !important;
         margin-bottom: -1px !important;
     }
-    .contact-title{
+    .contact-title-container{
         margin-top: 120px;
     }
 }
 @media screen and (max-width: 516px) {
     .contact-title{
         font-size: 60px;
+    }
+    .contact-title2{
+        font-size: 60px;
+    }
+    .contact-title-container{
+        margin-top: 110px;
     }
     .contact-desc-email{
         font-size: 32px;
@@ -387,15 +411,12 @@
         padding-right: 14px;
         padding-top: 20px;
     }
-    .contact-title{
-        margin-top: 110px;
-    }
 }
 @media screen and (max-width: 489px) {
     .resp-contactcorrector{
         margin: 0 60px;
     }
-    .contact-title{
+    .contact-title-container{
         margin-top: 100px;
     }
     .contact-github{
@@ -404,6 +425,9 @@
 }
 @media screen and (max-width: 468px) {
     .contact-title{
+        font-size: 55px;
+    }
+    .contact-title2{
         font-size: 55px;
     }
     .unageo-smallbutton{
@@ -422,7 +446,7 @@
     .resp-contactcorrector{
         margin: 0 50px;
     }
-    .contact-title{
+    .contact-title-container{
         margin-top: 90px;
     }
 }
@@ -454,6 +478,11 @@
 @media screen and (max-width: 416px) {
     .contact-title{
         text-wrap: nowrap;
+    }
+    .contact-title2{
+        text-wrap: nowrap;
+    }
+    .contact-title-container{
         margin-top: 75px;
     }
     .contact-github{
