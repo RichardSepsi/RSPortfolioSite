@@ -891,8 +891,8 @@
                 "sec3d":"3D グラフィックス",
                 "sec2d":"2D グラフィックス",
                 "contact":"お問い合わせ",
-                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Scroll to the top",
-                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Website information"
+                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">トップに戻る",
+                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">サイト情報"
             },
             "search":{
                 "placeholder":"Type here to search",

@@ -41,7 +41,7 @@ let itemdatabase = [
 `,
 `
     <a id="unageo.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)" style="text-decoration: none; color: inherit;"><div class="project-thumb-container">
-        <img src="projects/2d/unageo/unageo_art-1.svg" style="pointer-events: none; width: 100%; height: auto;">
+        <img src="projects/2d/unageo/unageo_art-1withtext.svg" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Unageo</span>
             <span class="project-thumb-info-sub one">9.12.2023</span></div>
