@@ -188,7 +188,7 @@ body {
 /* fullscreen view */
 .project-fullscreen-view{
     /*background-color: #e6e6e6;*/
-    background-color: #191919;
+    background-color: #101010;
     position: fixed;
     top: 0;
     left: 0;
@@ -233,22 +233,18 @@ body {
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 .project-fullscreen-menu{
-    width: 270px;
-    height: 190px;
     /*background-color: #dedede;*/
     background-color: #212121;
     border-radius: 22px;
     position: absolute;
-    top: calc(100% - 210px);
-    left: calc(100% - 290px);
+    bottom: 22px;
+    right: 22px;
     display: flex;
     flex-direction: column;
 }
 .project-fullscreen-menu.two{
     width: auto;
-    height: 76px;
-    top: calc(100% - 314px);
-    left: calc(100% - 193px);
+    bottom: 117px;
 }
 .project-fullscreen-menu-row{
     display: flex;

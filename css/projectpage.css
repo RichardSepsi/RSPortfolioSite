@@ -298,26 +298,22 @@
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 .project-fullscreen-menu{
-    width: 270px;
-    height: 83px;
     background-color: #212121;
     border-radius: 22px;
     position: absolute;
-    top: calc(100% - 105px);
-    left: calc(100% - 290px);
+    bottom: 22px;
+    right: 22px;
     display: flex;
     flex-direction: column;
 }
 .project-fullscreen-menu.two{
-    width: auto;
-    height: 76px;
-    top: calc(100% - 191px);
-    left: calc(100% - 193px);
+    width: fit-content;
+    bottom: 117px;
 }
 .project-fullscreen-menu-row{
     display: flex;
     flex-direction: row;
-    margin: 19px 20px;
+    margin: 19px 22px;
 }
 .p-f-m-r-column{
     display: flex;

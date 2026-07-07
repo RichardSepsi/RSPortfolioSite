@@ -57,21 +57,7 @@ function fadeoutphotography (nhref) {
     navbackup = document.getElementById("photography-folder-nav-container").innerHTML
     document.getElementById("photography-navlinks-fake-wrapper").style.display = "none"
     let backbuttonlabel = ""
-    if(document.getElementById("current-lang").innerHTML == "EN") {
-        backbuttonlabel = "Back"
-    }
-    if(document.getElementById("current-lang").innerHTML == "SK") {
-        backbuttonlabel = "Späť"
-    }
-    if(document.getElementById("current-lang").innerHTML == "CZ") {
-        backbuttonlabel = "Zpět"
-    }
-    if(document.getElementById("current-lang").innerHTML == "DE") {
-        backbuttonlabel = "Zurück"
-    }
-    if(document.getElementById("current-lang").innerHTML == "JP") {
-        backbuttonlabel = "戻る"
-    }
+    backbuttonlabel = eval(`fetchedi18n.${document.getElementById("current-lang").innerHTML.toLocaleLowerCase()}.photography.back`)
     document.getElementById("photography-folder-nav-container").innerHTML += `
     <div class="photography-folder-nav-container">
         <div class="project-link-button" style="height: 48px;" id="photography-album-back" onClick="photography_back()">
@@ -200,21 +186,7 @@ function photography_back() {
 function singlephoto (id7) {
     navbackup =  document.getElementById("photography-folder-nav-container").innerHTML
     let backbuttonlabel = ""
-    if(document.getElementById("current-lang").innerHTML == "EN") {
-        backbuttonlabel = "Back"
-    }
-    if(document.getElementById("current-lang").innerHTML == "SK") {
-        backbuttonlabel = "Späť"
-    }
-    if(document.getElementById("current-lang").innerHTML == "CZ") {
-        backbuttonlabel = "Zpět"
-    }
-    if(document.getElementById("current-lang").innerHTML == "DE") {
-        backbuttonlabel = "Zurück"
-    }
-    if(document.getElementById("current-lang").innerHTML == "JP") {
-        backbuttonlabel = "戻る"
-    }
+    backbuttonlabel = eval(`fetchedi18n.${document.getElementById("current-lang").innerHTML.toLocaleLowerCase()}.photography.back`)
     let currentalbumname = document.querySelector("#"+id7+" .project-thumb-info-title").innerHTML
     let currentalbumdate = document.querySelector("#"+id7+" #photo-thumb-album-date").innerHTML
     document.getElementById("photography-folder-nav-container").innerHTML = `
@@ -248,92 +220,25 @@ function singlephoto_back() {
 function fullscreen(id) {
     disableScroll()
     document.getElementById("photography-album-back").setAttribute("onClick", "unfullscreen()")
-    if(document.getElementById("current-lang").innerHTML == "EN") {
-        document.getElementById("project-fullscreen-view"). innerHTML = `
-        <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu one">
-            <div class="project-fullscreen-menu-row">
-                <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
-                <div class="p-f-m-r-column">
-                    <span>Sroll to zoom in and out</span>
-                    <span>Click and drag to move</span>
-                </div>
-            </div>
-            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
-                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
-                </div>
+    document.getElementById("project-fullscreen-view"). innerHTML = `
+    <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
+    <div class="project-fullscreen-menu one">
+        <div class="project-fullscreen-menu-row">
+            <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
+            <div class="p-f-m-r-column">
+                <span data-i18n="sitewide.fullscreen.scroll"></span>
+                <span data-i18n="sitewide.fullscreen.clickDrag"></span>
             </div>
         </div>
-        `
-    } else if(document.getElementById("current-lang").innerHTML == "SK") {
-        document.getElementById("project-fullscreen-view"). innerHTML = `
-        <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu" one>
-            <div class="project-fullscreen-menu-row">
-                <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
-                <div class="p-f-m-r-column">
-                    <span>Sroll to zoom in and out</span>
-                    <span>Click and drag to move</span>
-                </div>
-            </div>
-            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
-                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
-                </div>
+    </div>
+    <div class="project-fullscreen-menu two">
+        <div class="project-fullscreen-menu-row" style="margin: 20px 21px 17px 18px;">
+            <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
             </div>
         </div>
-        `
-    } else if(document.getElementById("current-lang").innerHTML == "CZ") {
-        document.getElementById("project-fullscreen-view"). innerHTML = `
-        <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu" one>
-            <div class="project-fullscreen-menu-row">
-                <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
-                <div class="p-f-m-r-column">
-                    <span>Sroll to zoom in and out</span>
-                    <span>Click and drag to move</span>
-                </div>
-            </div>
-            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
-                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
-                </div>
-            </div>
-        </div>
-        `
-    } else if(document.getElementById("current-lang").innerHTML == "DE") {
-        document.getElementById("project-fullscreen-view"). innerHTML = `
-        <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu" one>
-            <div class="project-fullscreen-menu-row">
-                <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
-                <div class="p-f-m-r-column">
-                    <span>Sroll to zoom in and out</span>
-                    <span>Click and drag to move</span>
-                </div>
-            </div>
-            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
-                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
-                </div>
-            </div>
-        </div>
-        `
-    } else if(document.getElementById("current-lang").innerHTML == "JP") {
-        document.getElementById("project-fullscreen-view"). innerHTML = `
-        <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
-        <div class="project-fullscreen-menu" one>
-            <div class="project-fullscreen-menu-row">
-                <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
-                <div class="p-f-m-r-column">
-                    <span>Sroll to zoom in and out</span>
-                    <span>Click and drag to move</span>
-                </div>
-            </div>
-            <div class="project-fullscreen-menu-row" style="margin-top: 0px !important;">
-                <div class="p-f-m-r-column" style="margin-left: 2px !important; margin-top: -4px;" id="photo-data-wrapper">
-                </div>
-            </div>
-        </div>
-        `
-    }
+    </div>
+    `
+    injectI18n()
     document.getElementById("photo-data-wrapper").innerHTML = document.querySelector("#"+id+" #photo-data-source").innerHTML
     let tempimagesubstring = id.substring(0, id.length - 2)
     if(tempimagesubstring.charAt(tempimagesubstring.length - 1) == "-") {

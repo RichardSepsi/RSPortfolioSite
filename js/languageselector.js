@@ -77,6 +77,11 @@ function injectI18n() {
         let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
         element.setAttribute("placeholder", eval(`fetchedi18n.${currentLang}.${dataNeeded}`))
     });
+    document.querySelectorAll("[lang-i18n]").forEach((element) => {
+        let dataNeeded = element.getAttribute("lang-i18n")
+        let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
+        element.setAttribute("lang", eval(`fetchedi18n.${currentLang}.${dataNeeded}`))
+    });
 }
 
 // fetch i18n
