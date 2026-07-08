@@ -1,4 +1,4 @@
-document.querySelector(".searchicon").setAttribute("onclick", "searchfunction()")
+document.getElementById("searchicon-main").setAttribute("onclick", "searchfunction()")
 let issearchopen = 0
 let filtereditemscount = 0;
 let currentfiltereditemselected = 0;
@@ -41,7 +41,11 @@ function searchfunction() {
         document.getElementById("searchquery").focus()
         document.getElementById("searchquery").addEventListener('input', (event) => {search()});
 
-            
+        document.getElementById("searchicon-main").setAttribute("onclick", "")
+        document.getElementById("searchicon-main").onclick = () => {
+            searchuniquit()
+            removesearchexitlisteners()
+        }
 
         function removesearchexitlisteners() {
             document.removeEventListener("keydown", searchkeydown);
@@ -53,13 +57,7 @@ function searchfunction() {
         currentfiltereditemselected = 0;
         function searchkeydown(evt) {
             if (evt.key === 'Escape') {
-                document.getElementById("search-maincontainer").style.opacity = "0";
-                document.getElementById("search-maincontainer").style.pointerEvents = "none";
-                enableScroll()
-                setTimeout(() => {
-                    document.getElementById("search-maincontainer").innerHTML = ""
-                    issearchopen = 0
-                }, 200);
+                searchuniquit()
                 removesearchexitlisteners()
             }
             if (evt.key === 'ArrowDown') {
@@ -96,13 +94,7 @@ function searchfunction() {
         };
         function clicksearchquit(e) {
             if (e.target === document.getElementById("search-maincontainer")){
-                document.getElementById("search-maincontainer").style.opacity = "0";
-                document.getElementById("search-maincontainer").style.pointerEvents = "none";
-                enableScroll()
-                setTimeout(() => {
-                    document.getElementById("search-maincontainer").innerHTML = ""
-                    issearchopen = 0
-                }, 200);
+                searchuniquit()
                 removesearchexitlisteners()
             }
         };
@@ -117,6 +109,7 @@ function searchuniquit(){
         document.getElementById("search-maincontainer").innerHTML = ""
         issearchopen = 0
     }, 200);
+    document.getElementById("searchicon-main").setAttribute("onclick", "searchfunction()")
 }
 
 

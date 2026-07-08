@@ -1,11 +1,5 @@
 
-// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
-
-let itemcount = 3
-
-
-
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 
@@ -14,14 +8,14 @@ let itemdatabase = [
     <div id="fotka1" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/fotka1/naznaceny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
-            <div class="project-thumb-info-one"><span class="project-thumb-info-title">VŠE Fotka 1</span>
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">VŠE <br style="display:none;" id="fotobr1">Fotka 1</span>
             <span class="project-thumb-info-sub one"></span></div>
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">12.2025</span>
         </div>
     </div>
-`,
+`/*,
 `
-    <div id="fotka_e" onclick="fadeoutphotography(this.id)" class="project-thumb-container" style="display: none;">
+    <div id="fotka_e" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/fotka_e/fotka_e-5-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
             <div class="project-thumb-info-one"><span class="project-thumb-info-title">Fotka Zvysok</span>
@@ -29,12 +23,12 @@ let itemdatabase = [
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">06.2026</span>
         </div>
     </div>
-`,
+`*/,
 `
     <div id="fotka2" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/fotka2/fotka2-8-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
         <div class="project-thumb-info-container">
-            <div class="project-thumb-info-one"><span class="project-thumb-info-title">VŠE Fotka 2</span>
+            <div class="project-thumb-info-one"><span class="project-thumb-info-title">VŠE <br style="display:none;" id="fotobr1">Fotka 2</span>
             <span class="project-thumb-info-sub one"></span></div>
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">06.2026</span>
         </div>
@@ -49,7 +43,7 @@ let itemdatabase = [
             <span class="project-thumb-info-sub" id="photo-thumb-album-date">2.12.2025</span>
         </div>
     </div>
-`*//*,
+`,
 `
     <div id="zmrazeny_pohyb" onclick="fadeoutphotography(this.id)" class="project-thumb-container">
         <img src="projects/photography/zmrazeny_pohyb/zmrazeny_pohyb-1-thumb.webp" style="pointer-events: none; width: 100%; height: auto;">
@@ -118,7 +112,8 @@ let itemdatabase = [
 `*/
 ]
 
-photographysort()
+let itemcount = itemdatabase.length
+
 function photographysort() {
     document.getElementById("projects-column-1").innerHTML = ``
     document.getElementById("projects-column-2").innerHTML = ``
@@ -129,7 +124,7 @@ function photographysort() {
     let sorththreecounter = 1
 
     for(let i = 1; i <= itemcount; i++) {
-        if(window.innerWidth <= "1159" && window.innerWidth > "779" || itemcount <= 2 && window.innerWidth > "779"){
+        if(window.innerWidth <= "1279" && window.innerWidth > "899" || itemcount <= 2 && window.innerWidth > "899"){
             if(sorththreecounter <= 2) {
                 if(sorththreecounter == 1) {
                     document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
@@ -145,7 +140,7 @@ function photographysort() {
                 document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
             }
             sorththreecounter = sorththreecounter + 1
-        } else if(window.innerWidth <= "779" || itemcount == 1) {
+        } else if(window.innerWidth <= "899" || itemcount == 1) {
             document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
         } else {
             if(sorththreecounter <= 3) {
@@ -167,18 +162,13 @@ function photographysort() {
         
     }
 }
+photographysort()
 
 
 
 // fotkae items
 
-// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
-
-var itemcount_fotka_e = 8
-
-
-
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_fotka_e = [
@@ -272,18 +262,14 @@ var itemdatabase_fotka_e = [
 `
 ]
 
+var itemcount_fotka_e = itemdatabase_fotka_e.length
+
 
 
 
 // fotka2 items
 
-// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
-
-var itemcount_fotka2 = 10
-
-
-
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_fotka2 = [
@@ -399,18 +385,14 @@ var itemdatabase_fotka2 = [
 `
 ]
 
+var itemcount_fotka2 = itemdatabase_fotka2.length
+
 
 
 
 // fotka1 items
 
-// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
-
-var itemcount_fotka1 = 9
-
-
-
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_fotka1 = [
@@ -515,6 +497,8 @@ var itemdatabase_fotka1 = [
 `
 ]
 
+var itemcount_fotka1 = itemdatabase_fotka1.length
+
 
 
 // nizke_iso items
@@ -525,7 +509,7 @@ var itemcount_nizke_iso = 4
 
 
 
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_nizke_iso = [
@@ -585,7 +569,7 @@ var itemcount_naznaceny_pohyb = 3
 
 
 
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_naznaceny_pohyb = [
@@ -634,7 +618,7 @@ var itemcount_zmrazeny_pohyb = 3
 
 
 
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_zmrazeny_pohyb = [
@@ -683,7 +667,7 @@ var itemcount_velka_hloubka_ostrosti = 3
 
 
 
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_velka_hloubka_ostrosti = [
@@ -732,7 +716,7 @@ var itemcount_mala_hloubka_ostrosti = 5
 
 
 
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 var itemdatabase_mala_hloubka_ostrosti = [
@@ -802,7 +786,7 @@ var itemdatabase_mala_hloubka_ostrosti = [
 /*var itemcount_fotostory = 5*/
 
 
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed 
 // Items on the top of the list will be last on the website !
 
 /*var itemdatabase_fotostory = [
@@ -866,8 +850,10 @@ var itemdatabase_mala_hloubka_ostrosti = [
 
 
 // sorting for individual photoalbums
+let selectedPhotographyAlbum;
 
 function photoalbumsort(id) {
+    selectedPhotographyAlbum = id
     document.getElementById("projects-column-1").innerHTML = ``
     document.getElementById("projects-column-2").innerHTML = ``
     if(window["itemcount_"+id] > 2){
@@ -876,7 +862,7 @@ function photoalbumsort(id) {
 
     let sorththreecounter_photosort = 1
     for(let f = 1; f <= window["itemcount_"+id]; f++) {
-        if(window.innerWidth <= "1159" && window.innerWidth > "779" || window["itemcount_"+id] <= 2 && window.innerWidth > "779"){
+        if(window.innerWidth <= "1279" && window.innerWidth > "899" || window["itemcount_"+id] <= 2 && window.innerWidth > "899"){
             if(sorththreecounter_photosort <= 2) {
                 if(sorththreecounter_photosort == 1) {
                     document.getElementById("projects-column-1").innerHTML += window["itemdatabase_"+id][window["itemdatabase_"+id].length-f]
@@ -892,7 +878,7 @@ function photoalbumsort(id) {
                 document.getElementById("projects-column-1").innerHTML += window["itemdatabase_"+id][window["itemdatabase_"+id].length-f]
             }
             sorththreecounter_photosort = sorththreecounter_photosort + 1
-        } else if(window.innerWidth <= "779" || window["itemcount_"+id] == 1) {
+        } else if(window.innerWidth <= "899" || window["itemcount_"+id] == 1) {
             document.getElementById("projects-column-1").innerHTML += window["itemdatabase_"+id][window["itemdatabase_"+id].length-f]
         } else {
             if(sorththreecounter_photosort <= 3) {
@@ -914,4 +900,29 @@ function photoalbumsort(id) {
         
     }
 }
+
+
+
+/*   Media queries   */
+
+window.matchMedia("(max-width: 1279px)").addEventListener("change", () => {
+    if(document.querySelector(".photography-album-name-g1") == null){
+        photographysort()
+        animateProjectTiles()
+    } else {
+        photoalbumsort(selectedPhotographyAlbum)
+        animateProjectTiles()
+    }
+    
+});
+
+window.matchMedia("(max-width: 899px)").addEventListener("change", () => {
+    if(document.querySelector(".photography-album-name-g1") == null){
+        photographysort()
+        animateProjectTiles()
+    } else {
+        photoalbumsort(selectedPhotographyAlbum)
+        animateProjectTiles()
+    }
+});
 

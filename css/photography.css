@@ -1,34 +1,37 @@
-body {
-    background-color: #0f0f0f;
-}
-.footer-container {
-    background-color: #121212;
-}
-
 .grid-container {
     display: flex;
     width: 100%;
     justify-content: center;
     min-height: calc(100vh - 320px);
-    margin-bottom: 64px;
+    margin-bottom: 30px;
 }
 .grid {
-    display: flex;
     height: 100%;
-    padding: 0 10px;
+    padding: 100px 10px 0 10px;
+    max-width: 1780px;
+    width: fit-content;
+
+    gap: 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 20px;
 }
 .grid-column {
     text-align: center;
     font-size: 30px;
-    padding: 80px 5px 0 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: fit-content;
 }
 .project-thumb-container{
-    width: 580px;
     min-height: 50px;
     /*background-color: #dadada;*/
     background-color: #252525;
     border-radius: 12px;
-    margin: 10px 0;
     overflow: hidden;
     outline: 4px solid transparent;
     transition: 100ms;
@@ -36,6 +39,8 @@ body {
     user-select: none;
     position: relative;
     opacity: 0;
+
+    max-width: 580px;
 }
 .project-thumb-container:hover{
     /*outline: 4px solid #969696;*/
@@ -102,14 +107,55 @@ body {
 }
 
 .photography-folder-nav-container{
-    position: relative;
-    width: calc(100% - 30px - 10px);
-    width: 480px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
 }
+.photography-nav-grid-1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.photography-nav-grid-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.photography-nav-grid-3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 16px;
+}
+
+#photography-album-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #e6e6e6;
+    text-align: center;
+    pointer-events: none;
+    white-space: nowrap;
+    margin: 0 68px;
+    display: grid;
+}
+#photography-album-date{
+    font-size: 16px;
+    font-weight: 600;
+    color: #e6e6e6;
+    text-align: center;
+    pointer-events: none;
+    white-space: nowrap;
+    display: grid;
+}
+.photography-album-name-g1{
+    display: flex;
+    justify-content: end;
+}
+.photography-album-name-g3{
+    display: flex;
+    justify-content: start;
+}
+
 
 
 
@@ -249,7 +295,7 @@ body {
 .project-fullscreen-menu-row{
     display: flex;
     flex-direction: row;
-    margin: 19px 20px;
+    margin: 19px 22px 19px 21px;
 }
 .p-f-m-r-column{
     display: flex;
@@ -257,7 +303,7 @@ body {
     justify-content: center;
     margin-left: 10px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 21px;
     /*color: #696969;*/
     color: #969696;
 }
@@ -289,359 +335,127 @@ body {
 }
 
 
-
 /* responsivity */
 
-@media screen and (max-width: 1909px) {
-    .project-thumb-container{
-        width: 570px;
-    }
-}
-@media screen and (max-width: 1875px) {
-    .project-thumb-container{
-        width: 560px;
-    }
-}
-@media screen and (max-width: 1840px) {
-    .project-thumb-container{
-        width: 550px;
-    }
-}
-@media screen and (max-width: 1809px) {
-    .project-thumb-container{
-        width: 540px;
-    }
-}
-@media screen and (max-width: 1775px) {
-    .project-thumb-container{
-        width: 530px;
-    }
-}
-@media screen and (max-width: 1740px) {
-    .project-thumb-container{
-        width: 520px;
-    }
-}
-@media screen and (max-width: 1716px) {
-    .project-thumb-container{
-        width: 510px;
-    }
-}
-@media screen and (max-width: 1716px) {
-    .project-thumb-container{
-        width: 510px;
-    }
-}
-@media screen and (max-width: 1683px) {
-    .project-thumb-container{
-        width: 500px;
-    }
-}
-@media screen and (max-width: 1650px) {
-    .project-thumb-container{
-        width: 490px;
-    }
-}
-@media screen and (max-width: 1620px) {
-    .project-thumb-container{
-        width: 480px;
-    }
-}
-@media screen and (max-width: 1560px) {
-    .project-thumb-container{
-        width: 460px;
-    }
-}
-@media screen and (max-width: 1500px) {
-    .project-thumb-container{
-        width: 440px;
-    }
-}
-@media screen and (max-width: 1434px) {
-    .project-thumb-container{
-        width: 420px;
-    }
-}
-@media screen and (max-width: 1374px) {
-    .project-thumb-container{
-        width: 400px;
-    }
-}
-@media screen and (max-width: 1319px) {
-    .project-thumb-container{
-        width: 380px;
-    }
-}
-@media screen and (max-width: 1254px) {
-    .project-thumb-container{
-        width: 360px;
-    }
+.grid-column:empty{
+    margin-left: -10px;
 }
 
-@media screen and (max-width: 1184px) {
-    .grid-container{
-        justify-content: center;
-    }
-    .grid{
-        flex-wrap: wrap;
-        margin-top: 80px;
-    }
-    .grid-column{
-        padding: 0px 5px 0 5px;
-        margin-bottom: -10px;
-    }
-    .photography-folder-nav-container{
-        top: 0;
+@media screen and (max-width: 1834px) {
+    .grid {
+        padding: 95px 10px 0 10px;
     }
 }
-@media screen and (max-width: 1159px) {
+@media screen and (max-width: 1279px) {
     .grid{
-        max-width: 1010px;
-    }
-    .project-thumb-container{
-        width: 480px;
+        padding: 100px 10px 0 10px;
+        max-width: 1180px;
     }
 }
-@media screen and (max-width: 1126px) {
-    .grid{
-        max-width: 1000px;
-    }
-    .project-thumb-container{
-        width: 470px;
-    }
-}
-@media screen and (max-width: 1114px) {
-    .grid{
-        max-width: 970px;
-    }
-    .project-thumb-container{
-        width: 460px;
-    }
-}
-@media screen and (max-width: 1100px) {
-    .grid{
-        max-width: 950px;
-    }
-    .project-thumb-container{
-        width: 450px;
-    }
-}
-@media screen and (max-width: 1090px) {
-    .grid{
-        max-width: 930px;
-    }
-    .project-thumb-container{
-        width: 440px;
-    }
-}
-@media screen and (max-width: 979px) {
-    .grid{
-        max-width: 890px;
-    }
-    .project-thumb-container{
-        width: 420px;
-    }
-}
-@media screen and (max-width: 929px) {
-    .grid{
-        max-width: 850px;
-    }
-    .project-thumb-container{
-        width: 400px;
+@media screen and (max-width: 1222px) {
+    .grid {
+        padding: 95px 10px 0 10px;
     }
 }
 @media screen and (max-width: 899px) {
     .grid{
-        max-width: 810px;
-    }
-    .project-thumb-container{
-        width: 380px;
-    }
-}
-@media screen and (max-width: 859px) {
-    .grid{
-        max-width: 760px;
-    }
-    .project-thumb-container{
-        width: 360px;
-    }
-}
-
-@media screen and (max-width: 779px) {
-    .grid{
+        padding: 100px 10px 0 10px;
         max-width: 580px;
-        margin-right: 21px;
     }
-    .project-thumb-container{
-        width: 560px;
+}
+@media screen and (max-width: 797px) {
+    #photography-album-name{
+        margin: 0 46px;
     }
-    .photography-folder-nav-container{
-        width: calc(100% - 20px);
+    .photography-nav-grid-3{
+        padding-left: 0px;
     }
-    .photography-folder-nav-container{
-        margin-right: 51px;   
-    }
+}
+@media screen and (max-width: 694px) {
     #photography-album-date{
         display: none;
     }
-    #photography-album-name{
-        position: inherit !important;
-    }
-    #photography-album-back{
-        margin-right: 20px;
-    }
-}
-@media screen and (max-width: 685px) {
-    .grid{
-        max-width: 570px;
-    }
-    .project-thumb-container{
-        width: 550px;
-    }
-}
-@media screen and (max-width: 670px) {
-    .grid{
-        max-width: 560px;
-    }
-    .project-thumb-container{
-        width: 540px;
-    }
-}
-@media screen and (max-width: 650px) {
-    .grid{
-        max-width: 550px;
-    }
-    .project-thumb-container{
-        width: 530px;
-    }
-}
-@media screen and (max-width: 635px) {
-    .grid{
-        max-width: 540px;
-    }
-    .project-thumb-container{
-        width: 520px;
-    }
-}
-@media screen and (max-width: 625px) {
-    .grid{
-        max-width: 530px;
-    }
-    .project-thumb-container{
-        width: 510px;
-    }
-}
-@media screen and (max-width: 615px) {
-    .grid{
-        max-width: 520px;
-    }
-    .project-thumb-container{
-        width: 500px;
-    }
-}
-@media screen and (max-width: 605px) {
-    .grid{
-        max-width: 510px;
-    }
-    .project-thumb-container{
-        width: 490px;
-    }
-}
-@media screen and (max-width: 595px) {
-    .grid{
-        max-width: 500px;
-    }
-    .project-thumb-container{
-        width: 480px;
-    }
-}
-@media screen and (max-width: 575px) {
-    .grid{
-        max-width: 480px;
-    }
-    .project-thumb-container{
-        width: 460px;
-    }
-}
-@media screen and (max-width: 549px) {
-    .grid{
-        max-width: 460px;
-    }
-    .project-thumb-container{
-        width: 440px;
-    }
-}
-@media screen and (max-width: 519px) {
-    .grid{
-        max-width: 440px;
-    }
-    .project-thumb-container{
-        width: 420px;
-    }
-}
-@media screen and (max-width: 511px) {
-    #langdata-photography-back {
+    .project-link-button-label{
         display: none;
     }
 }
-@media screen and (max-width: 499px) {
-    .grid{
-        max-width: 420px;
-    }
-    .project-thumb-container{
-        width: 400px;
+@media screen and (max-width: 622px) {
+    .grid {
+        padding: 95px 10px 0 10px;
     }
 }
-@media screen and (max-width: 479px) {
-    .grid{
-        max-width: 400px;
-    }
-    .project-thumb-container{
-        width: 380px;
+@media screen and (max-width: 554px) {
+    #photography-album-name{
+        margin: 0 34px;
     }
 }
-@media screen and (max-width: 439px) {
-    .grid{
-        max-width: 380px;
-    }
-    .project-thumb-container{
-        width: 360px;
+@media screen and (max-width: 489px) {
+    #photography-album-name{
+        margin: 0 28px;
     }
 }
-@media screen and (max-width: 400px) {
-    .grid{
-        transform: scale(0.9);
-        transform-origin: top;
-        margin-top: 75px;
+@media screen and (max-width: 440px) {
+    .photography-nav-grid-3{
+        display: none;
     }
-    .grid-container{
-        margin-bottom: -36px;
+    #photography-folder-nav-container{
+        margin-left: 24px !important;
+        width: stretch;
+        width: -moz-available;
+        width: -webkit-fill-available;
+    }
+    .photography-folder-nav-container{
+        grid-template-columns: 1fr auto 0fr;
+    }
+}
+@media screen and (max-width: 420px) {
+    .photography-nav-grid-2{
+        display: none;
+    }
+    .project-link-button-label{
+        display: block;
+    }
+    #photography-folder-nav-container{
+        margin-left: 34px !important;
+        margin-right: 0px;
     }
 }
 @media screen and (max-width: 399px) {
+    .photography-nav-grid-2{
+        display: flex;
+    }
+    #photography-album-name {
+        margin: 0 24px;
+    }
+    .project-link-button-label{
+        display: none;
+    }
+    .photography-album-name-g1{
+        text-wrap: wrap;
+        line-height: 22px;
+    }
     #photography-folder-nav-container{
-        margin-left: 0 !important;
-        width: min-content;
-    }
-    .photography-folder-nav-container {
-        margin-right: 12px;
+        margin-left: 14px !important;
     }
 }
-@media screen and (max-width: 1450px) {
-    .td-project-slide1{
-        margin-top: 20px;
+@media screen and (max-width: 380px) {
+    #photography-folder-nav-container{
+        margin-left: 0px !important;
+        margin-right: 0px;
+        width: stretch;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
     }
-}
-@media screen and (max-width: 1180px) {
-    .td-project-slide1{
-        margin-top: 0px;
+    .photography-album-name-g1{
+        text-align: start;
     }
-}
-@media screen and (max-width: 600px) {
-    .td-project-image{
-        transform: scale(1.06);
-    }    
-    .td-project-slide1{
-        overflow: visible;
+    #photography-album-name{
+        margin-right: 0px;
+        margin-left: 12px;
+    }
+    #fotobr1{
+        display: block !important;
     }
 }

@@ -313,7 +313,7 @@
 .project-fullscreen-menu-row{
     display: flex;
     flex-direction: row;
-    margin: 19px 22px;
+    margin: 19px 22px 19px 21px;
 }
 .p-f-m-r-column{
     display: flex;
@@ -321,7 +321,7 @@
     justify-content: center;
     margin-left: 10px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 21px;
     color: #969696;
 }
 .project-link-button-light{
@@ -423,6 +423,7 @@
     .project-slide-switcher{
         flex-direction: row;
         margin: 10px 20px;
+        margin-right: 0px;
         width: unset;
     }
     .project-slide-switcher-button.selected{
@@ -434,17 +435,6 @@
     .project-slide-switcher-button{
         margin-bottom: 0;
         margin-right: 12px;
-    }
-}
-@media screen and (max-width: 760px) {
-    .project-image-content{
-        padding: 40px;
-    }
-    .project-fullscreen-menu.one{
-        display: none;
-    }
-    .project-fullscreen-menu.two{
-        top: calc(100% - 95px);
     }
 }
 @media screen and (max-width: 630px) {

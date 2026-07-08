@@ -3,7 +3,7 @@ function fullscreen(id) {
     <div class="project-fullscreen-image-wrapper" id="project-fullscreen-image-wrapper"><img class="project-fullscreen-image" id="project-fullscreen-image" src="projects/2d/natart/natart_design.svg"></div>
     <div class="project-fullscreen-menu one">
         <div class="project-fullscreen-menu-row">
-            <img src="assets/mouse.svg" height="44px" width="auto" draggable="false" style="user-select: none;">
+            <img src="assets/mouse.svg" height="42px" width="auto" draggable="false" style="user-select: none;">
             <div class="p-f-m-r-column">
                 <span data-i18n="sitewide.fullscreen.scroll"></span>
                 <span data-i18n="sitewide.fullscreen.clickDrag"></span>

@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 39px;
+    margin-left: 37px;
     opacity: 0;
 }
 .nav-link{
@@ -212,10 +212,12 @@ body {
     position: absolute;
     border-radius: 16px;
     top: 72px;
-    margin-left: -67px;
+    right: 0px;
     transition-duration: 200ms;
     opacity: 0;
     pointer-events: none;
+    -webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5);
 }
 .language-options.active{
     opacity: 1;
@@ -358,6 +360,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    -webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5);
 }
 .search-bar{
     width: 446px;
@@ -503,7 +507,7 @@ body {
 .nav-mobile-container{
     display: flex;
     position: fixed;
-    background-color: #373737;
+    background-color: #303030;
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
     padding: 19px 16px;
@@ -516,6 +520,8 @@ body {
     transition-duration: 200ms;
     max-width: 242px;
     flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5); 
+box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.5);
 }
 .nav-mobile-container.active{
     opacity: 1;
@@ -523,11 +529,7 @@ body {
     transition-duration: 200ms;
 }
 
-@media screen and (max-width: 900px) {
-    .nav-links{
-        margin-left: 0px;
-    }
-}
+
 @media screen and (max-width: 760px) {
     .nav-link{
         display: none;
@@ -543,6 +545,9 @@ body {
     }
     .search-divider{
         height: 0px;
+    }
+    .nav-links{
+        margin-left: 34px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -600,5 +605,20 @@ body {
     }
     .search-placeholder{
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 399px) {
+    #current-lang{
+        display: none;
+    }
+    .lang-label-container{
+        width: 10px;
+    }
+    .language-selector{
+        width: unset;
+        margin-left: 0px;
+    }
+    .nav-links{
+        margin-left: -12px;
     }
 }
