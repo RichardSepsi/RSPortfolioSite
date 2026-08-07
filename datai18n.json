@@ -1,0 +1,1099 @@
+{
+   "en":{
+        "sitewide":{
+            "lang":"en",
+            "nav":{
+                "home":"Home",
+                "sec3d":"3D Graphics",
+                "sec2d":"2D Graphics",
+                "contact":"Contact"
+            },
+            "mobilenav":{
+                "home":"Home",
+                "sec3d":"3D Graphics",
+                "sec2d":"2D Graphics",
+                "contact":"Contact"
+            },
+            "footer":{
+                "home":"Home",
+                "sec3d":"3D Graphics",
+                "sec2d":"2D Graphics",
+                "contact":"Contact",
+                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Scroll to the top",
+                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Website information"
+            },
+            "search":{
+                "placeholder":"Type here to search",
+                "resultPlaceholder":"Enter at least 2 characters to get results",
+                "clear":"to clear",
+                "navigate":"to navigate",
+                "close":"to close",
+                "tooShort":"Enter at least 2 characters to get results",
+                "noResults":"There are no results for"
+            },
+            "fullscreen":{
+                "scroll":"Scroll to zoom in and out",
+                "clickDrag":"Click and drag to move",
+                "back":"Go back"
+            }
+        },
+        "home":{
+            "intro":{
+                "greeting":"Hi, I’m",
+                "name":"Richard Sepši",
+                "shortdesc":"I’m a student from Bratislava, Slovakia, interested in 3D graphics and UX/UI Design. I always do my best to create something that both looks nice and works well.",
+                "scroll":"Scroll down",
+                "scroll2":"to find out more"
+            },
+            "aboutme":{
+                "title":"About me",
+                "s1title":"How I started",
+                "s1text1":"I first began to develop my current interests when I was about 9 years old. I used to play games on my phone, and I thought that it would be fun to try making my own, so I signed up for a local game programming course. We developed various simple games in basic programming languages like Dark Basic Pro and App Game Kit, later Python or C++, and we also worked on the games' visuals.",
+                "s1text2":"After some time, I also tried developing 3D games, which I quite enjoyed, but it was much more difficult than the 2D games I worked on previously, even if the game itself was really simple. A big problem with the simple tools and basic programming languages was that there was no way to edit the levels visually, so everything had to be coded manually. I wanted a better solution. After searching for something and asking around, I discovered Unreal Engine. It looked great, so I downloaded it and started experimenting with it. Over time, I learned a lot about real-time 3D visuals used in games, as well as 3D computer graphics in general.",
+                "s1text3":"While I worked on games, I also signed up for a web development course that caught my interest. Initially, we covered HTML and CSS, later we continued with JavaScript and I even tried PHP, React and SCSS. I realized that I enjoy designing websites more than coding, however, I found coding skills useful as well, and I kept working on them. It allowed me to make my own functional websites just like this one.",
+                "s2title":"My current work",
+                "s2text1":"Most of the projects I worked on over the recent years were primarily focused on 3D graphics and UX/UI Design, and I also built my portfolio website with that in mind. The majority of them do not perfectly fit under these two categories though. Each project has its own dedicated page containing more details. Coding projects currently do not have a separate category here and they will usually also be listed under graphics. Those that do not involve graphics will only be available on my GitHub. There is a separate photography page, which is currently work in progress and only accessible by search.",
+                "s2text2":"Besides projects for real clients, my portfolio also includes my personal projects that I often work on in my free time. Their primary purpose is learning new skills and software, while also improving in what I already know.",
+                "s2text3":"As a supporter of open source software, I often like to make use of such tools in my projects and I also use Fedora Linux as my primary system. However, I have no problem with using industry standard software as well, which I still work with most of the time.",
+                "s3title":"What's next",
+                "s3text1":"Currently I'm looking to focus mainly on 3D graphics and/or UX/UI design, but I'd also like to improve in all of the other areas I mention here on my portfolio, including programming, photography and some other related fields. I realize it's quite a broad range of skills to focus on, but only more experience can allow me to make the correct decision about what I'm going to specialize in and focus my career on. Moreover, making this decision doesn't force me to abandon my other interests.",
+                "s3text2":"Progress in the digital landscape is also as fast as it's ever been, which strongly influences the job market. My skills and portfolio will have to adapt. I'm always open to learning something new and expanding my skillset. If you'd like to find out more about me and my work, feel free to keep looking around and check out the 3D and 2D Graphics pages.",
+                "s4title":"AI in my work",
+                "s4text1":"In my opinion, AI can help increase skilled person's productivity. Having used many of the major AI tools, I believe I understand why and how it is used, however I also believe that to properly learn a skill, more is needed than just getting something done primarily with AI. That's why currently most of the projects on my portfolio, and all of my personal projects are done without the use of AI, exceptions for those being the use of AI for inspiration, occasionally for photo outpainting and text manipulation. If AI was used, it's use will be described on the project's page."
+            },
+            "skillsandsoftware":{
+                "title":"Skills",
+                "title1p2":"Software",
+                "title2":" & ",
+                "skills3dg":"3D Graphics",
+                "alotmore":"And a lot more...",
+                "coding":"Coding",
+                "python":"Python (Basics)",
+                "skills2dg":"2D Graphics",
+                "other":"Other"
+            },
+            "softwareusage":{
+                "blender":      "Used in 2 projects",
+                "c4d":          "Used in 1 project",
+                "ue":           "",
+                "sdesigner":    "Used in 1 project",
+                "spainter":     "Used in 1 project",
+                "qmixer":       "Used in 1 project",
+                "gaea":         "Used in 1 project",
+                "rscan":        "",
+                "meshroom":     "",
+                "gimp":         "Used in 5 projects",
+                "darktable":    "",
+                "figma":        "Used in 5 projects",
+                "inkscape":     "Used in 8 projects",
+                "fontforge":    "Used in 1 project",
+                "lightroomc":   "",
+                "rawtherapee":  "Used in 1 project"
+            },
+            "education":{
+                "title":"Education",
+                "title2":"Education",
+                "i1tperiod":"September 2017 - June 2025",
+                "i1location":"Bratislava, Slovakia",
+                "i2title":"Prague University of Economics and Business - Multimedia in economic practice",
+                "i2tperiod":"September 2025 - January 2029",
+                "i2location":"Prague, Czechia",
+                "2dg":"2D Graphics",
+                "coding":"Coding",
+                "other":"Other"
+            }
+        },
+        "contact":{
+            "title":"Contact me",
+            "thremail":"through e-mail",
+            "copy":"Click to copy",
+            "thrsocial":"or social media",
+            "help":"Website help",
+            "helptext1":"This website is open source and developed on GitHub.",
+            "helptext2":"If you have found a bug/error or you have an improvement suggestion, don't hesitate to submit a new issue on GitHub.",
+            "githubvisit":"Visit GitHub page",
+            "githubissue":"Submit a new issue"
+        },
+        "p404":{
+            "main":"Page not found"
+        },
+        "p403":{
+            "main":"Access Denied"
+        },
+        "metrostation":{
+            "tperiod":"From February to June 2022",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">1.11.2023</span>",
+            "abouttitle":"About the project",
+            "about":"This project is a remake of one of the first personal 3D projects that I worked on. It's supposed to be a newly built metro station in a hypothetical metro in Bratislava.<div style=\"height: 12px;\"></div>Everything was modeled in Cinema 4D then texured and rendered in Blender. All of the assets are my own except the floor material, which comes from AmbientCG.",
+            "softwaretitle":"Software used"
+        },
+        "seasidecliffs":{
+            "tperiod":"From November 2023 to October 2024",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">30.10.2024</span>",
+            "abouttitle":"About the project",
+            "about":"This is a project I originally started working on to be a replacement for my old banner. Not only did I want to give it a new look, but I also wanted to use only my own assets and learn some things along the way. I feel like it has definitely served that purpouse. I got the idea for the look from a photo of Broken Beach on Bali, I wanted to create something similar. I started with blocking out the scene and then it was just about creating the assets. It unfortunately took a pretty long time as I wanted each asset to be my own and I couldn't work on the project often. I also struggled with my computer not beeing able to keep up with the scene's complexity and I was barely able to make the final render because of my GPUs very limited vram. In spite of all the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future. I hope you find it interesting.",
+            "softwaretitle":"Software used"
+        },
+        "natart":{
+            "tperiod":"Spring 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">2.12.2023</span>",
+            "abouttitle":"What is NatArt?",
+            "about":"NatArt is a company that specializes in making various national-themed souvenirs since 2016. Their name combines the words National and Art, as the beauty of nations is the basis for their work. Now they are exapnding online in response to the increasing interest in their products.",
+            "myworktitle":"My work on NatArt",
+            "mywork":"I worked primarily on designing the online store as well as things like invoices and e-mails.",
+            "softwaretitle":"Software used"
+        },
+        "zelenaskola":{
+            "tperiod":"From November to December 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.12.2023</span>",
+            "abouttitle":"About the project",
+            "about":"\"Projekty a blog zelenej školy\" or \"Projects and blog of the green school\" is a website for a team of students from the high school that I attended. Their goal is to make the school more green through various projects.<div style=\"height: 12px;\"></div>This website is made to present their projects, highlight their goals, as well as to host their blog.",
+            "myworktitle":"My work on the project",
+            "mywork":"I worked on the website's design. It's simple, consisting of just two pages. The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.",
+            "softwaretitle":"Software used"
+        },
+        "realizmusnaorave":{
+            "tperiod":"From June to August 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.2.2024</span>",
+            "abouttitle":"About the project",
+            "about":"Realizmus na Orave is a simple audioguide progressive web app made to guide you through most of the major sights from the time of Realism in the Orava region of Slovakia.<div style=\"height: 12px;\"></div>The project/app is not currently available as it was never publicly released. However, most of the app's functionality was finished and is ready to be used.",
+            "myworktitle":"My work on the project",
+            "mywork":"I worked on the app's UI, the download screen and various other parts of the app including the icons. I also provided some of the photos used in the app, the rest came from different sources.",
+            "softwaretitle":"Software used"
+        },
+        "unageo":{
+            "dvariable":"Variable",
+            "dstatic":"Static",
+            "desc":"Unageo is a modern, open-source, sans-serif typeface that uses perfect geometry and uniform stroke width where possible, but still maintains great readability.<br>",
+            "desc2":"Unageo supports hundreds of languages in latin, cyrillic and greek scripts.",
+            "desc3":"+ Cyrillic and greek scripts, scroll down to find out more!",
+            "lineheight":"Line height",
+            "letterspace":"Letter space",
+            "fontsize":"Font size",
+            "otlabel1":"Eastern cyrillic forms (к, ю, ж, в, з) \"ss01\"",
+            "otlabel2":"Eastern cyrillic form (д) \"ss02\"",
+            "tryplaceholder":"Type here to try out unageo and it's variable features",
+            "cyrillictitle":"Cyrillic",
+            "cyrillic":"Unageo cyrillic was made in Bulgarian style. It uses more rounded geometric shapes and letters have more variety in their height, which makes reading easier.",
+            "greektitle":"Greek",
+            "greek":"Unageo greek follows the same style with perfect geometry, but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.",
+            "storytitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>How was unageo made",
+            "story1":"Over the years, I have used many different fonts for my projects and sometimes I thought that to better match my style, I could try to make my own typeface. I decided to give it a shot, even though I knew almost nothing about font creation itsef. I only knew that I would like my font to be geometric because that's my preferred style.",
+            "story2":"I decided to work on the typeface with an unusual workflow. I made the characters in Inkscape, which I'm familiar with. Then I imported the outlines into FontForge, which I only tried for the first time. The process didn't take as long as I expected, and everything was done in a few days. I made each glyph in light and Black variant, made sure they were interpolable and then I adjusted the metrics and added kerning.",
+            "story3":"Of course, I ran into some issues along the way and learned that fonts are more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to create static instances. There is still a lot I can learn, especially if I decide to make another font, and I'm sure this one isn't perfect either, so if you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it. See further down below.",
+            "ot0":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>OpenType features",
+            "ot1":"Eastern cyrillic forms",
+            "ot2":"Stylistic set 1 \"ss01\"",
+            "ot3":"Eastern cyrillic form",
+            "ot4":"Stylistic set 2 \"ss02\"",
+            "followdevtitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Follow the development",
+            "ost":"<span style=\"font-size: 21px; font-weight: 600; color: #e6e6e6;\">Unageo is an open source typeface developed on GitHub.</span><div style=\"height: 18px;\" id=\"resp-ug-space-1\"></div>If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Typeface was recently accepted into Google Fonts and should be available in 2026 Q2.",
+            "dvariable2":"Download Variable",
+            "dstatic2":"Download Static",
+            "link1":"Visit GitHub page",
+            "link2":"Submit a new issue",
+            "link3":"Releases/Changelog"
+        },
+        "wordgrind":{
+            "tperiod":"October 2024",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web App</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.10.2024</span>",
+            "abouttitle":"About the project",
+            "about":"WordGrind (言葉作業ゲー) is a simple web app for word memorization. It works by randomly picking a word from a deck and asking for the answer. Besides words and their answers it also features \"back sides\" (made for english meaning of kanji words) and hints, which can all be fully customized. It's a project that I primarily made for my personal use, however, you can also download it from GitHub and use it freely if you want.",
+            "softwaretitle":"Software used",
+            "link":"Download WordGrind on <u>GitHub</u>"
+        },
+        "opucestauprchlika":{
+            "tperiod":"From Spetember to December 2025",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.1.2026</span>",
+            "abouttitle":"About the project",
+            "about":"The goal of this project was to transform a paper-based story game by OPU (Organizace pro pomoc uprchlíkům) about the journey of an Ukrainian family fleeing the war into a digital format. Its main purpose is to educate about the challenges these families face, with a particular focus on educating middle school students.<div style=\"height: 20px;\"></div><span class=\"project-element-header\" style=\"margin-left: 0px;\">My Role in the Project</span><br><div style=\"height: 8px;\"></div>I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma, while following the organization's existing visual identity guidelines. In addition, I worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.",
+            "softwaretitle":"Software used"
+        },
+        "photography":{
+            "back":"Back"
+        }
+   },
+   "sk":{
+        "sitewide":{
+            "lang":"sk",
+            "nav":{
+                "home":"Úvod",
+                "sec3d":"3D Grafika",
+                "sec2d":"2D Grafika",
+                "contact":"Kontakt"
+            },
+            "mobilenav":{
+                "home":"Úvod",
+                "sec3d":"3D Grafika",
+                "sec2d":"2D Grafika",
+                "contact":"Kontakt"
+            },
+            "footer":{
+                "home":"Úvod",
+                "sec3d":"3D Grafika",
+                "sec2d":"2D Grafika",
+                "contact":"Kontakt",
+                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Späť na začiatok",
+                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Informácie o webstránke"
+            },
+            "search":{
+                "placeholder":"Píšte sem pre vyhľadávanie",
+                "resultPlaceholder":"Napíšte aspoň 2 znaky pre zobrazenie výsledkov",
+                "clear":"zmazať",
+                "navigate":"navigovať",
+                "close":"zatvoriť",
+                "tooShort":"Napíšte aspoň 2 znaky pre zobrazenie výsledkov",
+                "noResults":"Neboli nájdené žiadne výsledky pre"
+            },
+            "fullscreen":{
+                "scroll":"Scrollovaním približujete",
+                "clickDrag":"Kliknutím a potiahnutím posúvate",
+                "back":"Späť"
+            }
+        },
+        "home":{
+            "intro":{
+                "greeting":"Ahoj, volám sa",
+                "name":"Richard Sepši",
+                "shortdesc":"Som študent z Bratislavy a zaujímam sa o 3D grafiku a UI/UX Design. Vždy sa snažím vytvoriť niečo, čo aj dobre vyzerá a zároveň aj dobre funguje.",
+                "scroll":"Nižšie",
+                "scroll2":"zistíte viac"
+            },
+            "aboutme":{
+                "title":"O mne",
+                "s1title":"Ako som začínal",
+                "s1text1":"Svoje aktuálne záujmy som začal rozvíjať keď som mal priblížne 9 rokov. Zvykol som hrať hry na svojom mobile a napadlo mi, že by bolo zaujímavé vyskúšať si tvoriť vlastné, tak som sa prihlásil na miestny kurz programovania. Tvorili sme rôzne jednoduché hry v základných programovacích jazykoch ako Dark Basic Pro a App Game Kit, neskôr Python alebo C++, a pracovali sme aj na vizuálnej stránke hry.",
+                "s1text2":"Po nejakom čase som si vyskúšal aj tvorbu 3D hier, čo ma celkom bavilo, ale bolo to podstatne ťažšie, aj keď som pracoval na veľmi jednoduchej hre. Veľkým problémom jednoduchých nástrojov a základných programovacích jazykov bolo, že neexistoval spôsob, ako vizuálne upravovať prostredie hry, takže sa všetko muselo programovať manuálne. Chcel som lepšie riešenie. Po tom, čo som sa pýtal vo svojom okolí a chvíľu sám hľadal, som našiel Unreal Engine. Vyzeral výborne a hneď som ho aj išiel vyskúšať. Postupom času som sa naučil veľa o real-time 3D grafike používanej v hrách a o 3D grafike vo všeobecnosti.",
+                "s1text3":"Počas toho, ako som pracoval na hrách som sa prihlásil aj na kurz tvorby webstránok, ktorý ma zaujal. Začínali sme s HTML a CSS, potom sme pokračovali s JavaScriptom a skúsil som si dokonca aj PHP, React a SCSS. Zistil som, že design webových stránok ma baví viac ako programovanie, ale svoje zručnosti v programovaní som považoval za užitočné a tiež som na nich ďalej pracoval. Vďaka tomu môžem tvoriť aj vlastné funkčné webové stránky, ako je napríklad táto.",
+                "s2title":"Moja súčasná tvorba",
+                "s2text1":"Väčšina projektov, na ktorých som v posledných rokoch pracoval, sa zameriavala hlavne na 3D grafiku a UX/UI design, a svoj web som robil takisto s ohľadom na to. Väčšina z nich však do týchto dvoch kategórií perfektne nezapadá. Každý z projektov má svoju vlastnú stránku s podrobnejšími informáciami. Projekty v oblasti programovania tu momentálne nemajú samostatnú kategóriu a zvyčajne budú uvedené medzi grafickými projektmi. Tie, ktoré nezahŕňajú grafiku, budú dostupné len na mojom GitHube. Existuje aj samostatná stránka venovaná fotografii, ktorá je ale zatiaľ len v príprave a je dostupná iba prostredníctvom vyhľadávania.",
+                "s2text2":"Okrem projektov pre reálnych klientov moje portfólio zahŕňa aj moje osobné projekty, na ktorých často pracujem vo voľnom čase. Ich hlavným cieľom je získavanie nových vedomostí, práca s novým softwarom a zlepšovanie sa v tom, čo už zvládam.",
+                "s2text3":"Keďže som zastánca open source softwaru, tak rád využívam takéto nástroje vo svojich projektoch a tiež používam Fedora Linux ako svoj hlavný operačný systém. Nemám však samozrejme žiaden problém používať štandardné programy pre konkrétne odvetvie, s ktorými aj tak stále pracujem väčšinu času.",
+                "s3title":"Čo ďalej",
+                "s3text1":"V súčasnosti sa chcem zamerať hlavne na 3D grafiku a/alebo UX/UI design, ale rád by som sa zlepšil aj vo všetkých ostatných oblastiach, ktoré spomínam tu na svojom portfóliu, vrátane programovania, fotografie a niektorých ďalších súvisiacich odvetví. Je mi jasné, že sa zameriavam na pomerne široký rozsah oblastí, ale len viac skúseností mi umožní urobiť správne rozhodnutie o tom, na čo sa budem ďalej špecializovať a kde budem nakoniec pracovať. Navyše, nič ma nenúti vzdať sa svojich ostatných záujmov bez ohľadu na to, ako sa rozhodnem.",
+                "s3text2":"Pokrok v digitálnom svete je tiež rýchlejší ako kedykoľvek predtým, čo má silný vplyv na trh práce. Moje znalosti a portfólio sa budú musieť prispôsobovať. Vždy mám záujem sa naučiť niečo nové a rád rozširujem svoje zručnosti. Ak chcete zistiť viac o mne a mojej tvorbe, neváhajte pokračovať ďalej a pozrite si aj stránky \"3D Grafika\" a \"2D Grafika\".",
+                "s4title":"AI in my work",
+                "s4text1":"In my opinion, AI can help increase skilled person's productivity. Having used many of the major AI tools, I believe I understand why and how it is used, however I also believe that to properly learn a skill, more is needed than just getting something done primarily with AI. That's why currently most of the projects on my portfolio, and all of my personal projects are done without the use of AI, exceptions for those being the use of AI for inspiration, occasionally for photo outpainting and text manipulation. If AI was used, it's use will be described on the project's page."
+            },
+            "skillsandsoftware":{
+                "title":"Zručnosti",
+                "title1p2":"Software",
+                "title2":" a ",
+                "skills3dg":"3D Grafika",
+                "alotmore":"A oveľa viac...",
+                "coding":"Programovanie",
+                "python":"Python (Základy)",
+                "skills2dg":"2D Grafika",
+                "other":"Ostatné"
+            },
+            "softwareusage":{
+                "blender":      "Použité v 2 projektoch",
+                "c4d":          "Použité v 1 projekte",
+                "ue":           "",
+                "sdesigner":    "Použité v 1 projekte",
+                "spainter":     "Použité v 1 projekte",
+                "qmixer":       "Použité v 1 projekte",
+                "gaea":         "Použité v 1 projekte",
+                "rscan":        "",
+                "meshroom":     "",
+                "gimp":         "Použité v 5 projektoch",
+                "darktable":    "",
+                "figma":        "Použité v 5 projektoch",
+                "inkscape":     "Použité v 8 projektoch",
+                "fontforge":    "Použité v 1 projekte",
+                "lightroomc":   "",
+                "rawtherapee":  "Použité v 1 projekte"
+            },
+            "education":{
+                "title":"Vzdelanie",
+                "i1tperiod":"September 2017 - Jún 2025",
+                "i1location":"Bratislava, Slovensko",
+                "i2title":"Vysoká škola ekonomická v Prahe - Multimédia v ekonomickej praxi",
+                "i2tperiod":"September 2025 - Január 2029",
+                "i2location":"Praha, Česko"
+            }
+        },
+        "contact":{
+            "title":"Kontaktujte ma",
+            "thremail":"cez e-mail",
+            "copy":"Kliknutím skopírujete",
+            "thrsocial":"alebo sociálne médiá",
+            "help":"Pomoc s webstránkou",
+            "helptext1":"Táto webstránka je open source a je vyvýjaná na platforme GitHub.",
+            "helptext2":"Ak ste našli na webe nejakú chybu alebo máte nápad na zlepšenie, budem rád ak ma o tom informujete na GitHube.",
+            "githubvisit":"Navštíviť GitHub",
+            "githubissue":"Nahlásiť problém"
+        },
+        "p404":{
+            "main":"Stránka nenájdená"
+        },
+        "p403":{
+            "main":"Prístup zamietnutý"
+        },
+        "metrostation":{
+            "tperiod":"Od Februára do Júna 2022",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Projekty</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">1.11.2023</span>",
+            "abouttitle":"O projekte",
+            "about":"Tento projekt je prerobenou verziou jedného z mojich prvých 3D projektov, na ktorých som pracoval. Ide o novú stanicu hypotetického metra v Bratislave.<div style=\"height: 12px;\"></div>Všetko bolo modelované v programe Cinema 4D a zvizualizované v Blenderi. Všetky textúry sú moje vlastné, okrem dlažby, ktorá pochádza zo stránky AmbientCG.",
+            "softwaretitle":"Použitý software"
+        },
+        "seasidecliffs":{
+            "tperiod":"Od Novembra 2023 do Októbra 2024",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Projekty</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">30.10.2024</span>",
+            "abouttitle":"O projekte",
+            "about":"Na tomto projekte som pôvodne začal robiť aby neskôr vymenil môj starý banner. Nie len, že som mu chcel dať nový vzhľad, ale chcel som aj aby v ňom boli použité iba moje assety a aby som sa počas práce niečo naučil. Myslím si, že tento účel projekt jednoznačne splnil. Nápad na vzhľad som dostal z fotky pláže Broken Beach na Bali, chcel som vytvoriť niečo podobné. Začal som z blockoutom scény a potom to už bolo len o tvorbe assetov. Bohužiaľ to trvalo celkom dlho, keďže som chcel používať iba moje vlastné assety a nemohol som na projekte často pracovať. Taktiež môj počítač nedokázal držať krok s komplexnosťou scény a takmer sa mi ani nepodarilo spraviť finálny render, kvôli nedostatku vram. Napriek všetkým tažkostiam som rád, že som projekt spravil, keďže som sa veľa naučil a budem lepšie vedieť ako pristupovať k tvorbe podobných projektov v budúcnosti. Dúfam, že vám projekt príde zaujímavý.",
+            "softwaretitle":"Použitý software"
+        },
+        "natart":{
+            "tperiod":"Jar 2023",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">2.12.2023</span>",
+            "abouttitle":"Čo je NatArt?",
+            "about":"NatArt je firma, ktorá sa už od roku 2016 špecializuje na vórbu rôznyvh suvenírov s národnou tématikou. Ich meno kombinuje slová National a Art, pretože krása národov je základom ich práce. Teraz sa snažia rozšíriť svoju ponuku aj online, čím reagujú na narastajúci záujem o ich produkty.",
+            "myworktitle":"Moja práca na NatArte",
+            "mywork":"Pracoval som predovšetkým na designe webstránky, ich online obchodu, účtov a iných e-mailov.",
+            "softwaretitle":"Použitý software"
+        },
+        "zelenaskola":{
+            "tperiod":"Od Novembra do Decembra 2023",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.12.2023</span>",
+            "abouttitle":"O projekte",
+            "about":"\"Projekty a blog zelenej školy\" je webstránka tímu študentov zo strednej školy, kde som študoval. Ich cieľ je pomôcť škole, aby bola viac zelená a ekologická pomocou rôznych projektov.<div style=\"height: 12px;\"></div>Táto webstránka bola vytvorená, za účelom prezentácie ich projektov, cieľov, a taktiež ich blogu.",
+            "myworktitle":"Môj podiel na projekte",
+            "mywork":"Pracoval som na designe webu. Je jednoduchý a pozostáva len z dvoch stránok. Varianta vpravo dole nebola použitá (Spodná varianta na mobile), ide o staršiu verziu blogu.",
+            "softwaretitle":"Použitý software"
+        },
+        "realizmusnaorave":{
+            "tperiod":"Od Júna do Augusta 2023",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.2.2024</span>",
+            "abouttitle":"O projekte",
+            "about":"Realizmus na Orave je jednoduchá progresívna webová aplikácia, ktorá vás vie previesť významými pamiatkami z obdobia Realizmu v Oravskom regióne Slovenska.<div style=\"height: 12px;\"></div>Projekt/aplikácia nie je momentálne dostupná, pretože nikdy nebola verejne spustená. Väčšina funkcií aplikácie bola však dokončená a je pripravená na použitie.",
+            "myworktitle":"Môj podiel na projekte",
+            "mywork":"Pracoval som na designe prostredia aplikácie, úvodnej obrazovke a na ikonách. Tiež som poskytol niektoré z fotiek, ktoré boli použité v aplikácii, ostatné pochádzajú z iných zdrojov.",
+            "softwaretitle":"Použitý software"
+        },
+        "unageo":{
+            "dvariable":"Variabliný",
+            "dstatic":"Statický",
+            "desc":"Unageo je moderný, open-source, sans-serif font, ktorý používa geometrické tvary a rovnomernú šírku tam keď je to možné, ale stále si zachováva dobrú čitatelnosť.<br>",
+            "desc2":"Unageo podporuje stovky jazykov v latinskej a gréckej abecede, a aj v cyrilike.",
+            "desc3":"+ Cyrilika a grécke písmo, nižšie zistíte viac!",
+            "lineheight":"Výška riadku",
+            "letterspace":"Rozostup znakov",
+            "fontsize":"Veľkosť",
+            "otlabel1":"Východná forma Cyriliky (к, ю, ж, в, з) \"ss01\"",
+            "otlabel2":"Východná forma Cyriliky (д) \"ss02\"",
+            "tryplaceholder":"Píšte sem a vyskúšajte si unageo a jeho variabilné funkcie.",
+            "cyrillictitle":"Cyrilika",
+            "cyrillic":"Unageo cyrilika bola robená v Bulharskom štýle. Používa viac zaoblené tvary a písmená majú väčšiu rozmanitosť vo výške, vďaka čomu sa ľahšie číta.",
+            "greektitle":"Grécke písmo",
+            "greek":"Grécke Unageo sa drží toho istého štýlu s dokonalou geometriou, ale dotvára ju plynulými ťahmi a pridáva viac geometrických čŕt, vďaka čomu je viac unikátne.",
+            "storytitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Ako vznikol font Unageo",
+            "story1":"Použil som už v minulosti veľa rôznych fontov v rôznych projektoch a občas som rozmýšľal, že môj vlastný font by sa viac zhodoval s mojim štýlom, do teraz som sa ale žiaden nepokúsil vytvoriť. Tento krát som sa rozhodol, že to skúsim, aj keď som o tvorbe fontov skoro nič nevedel. Vedel som iba to, že chcem aby môj font bol geometrický, pretože to je štýl, ktorý preferujem.",
+            "story2":"Rozhodol som sa pracovať s netradičným postupom. Vytvoril som znaky cez Inkscape, ktorý poznám celkom dobre, and potom som tieto znaky vložil do Fontforge, s ktorým som robil len prvý krát. Celý proces netrval až tak dlho ako som čakal, a za pár dní bol projekt hotový. Každý znak som spravil vo dvoch variantách podľa hrúbky, tak, aby sa medzi nimi dalo plynulo prechádzať a potom som nastavil rozmery a pridal kerning.",
+            "story3":"Samozrejme, počas práce som narazil aj na nejaké problémy a naučil som sa, že fonty sú komplikovanejšie ako vyzerajú. Keď som mal všetko hotové, tak som použil Fontmake na vygenerovanie variabliných fontov a Fonttools na statické varianty. Stále sa určite mám čo naučiť, hlavne ak by som sa rozhodol vytvoriť ďalší font, a ani tento určite nie je perfektný. Ak máte nápad na vylepšenie, určite ma neváhajte informovať na GitHube, a rád sa na váš nápad pozrem. Nižšie zistíte viac.",
+            "ot0":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>OpenType funkcie",
+            "ot1":"Východná forma Cyriliky",
+            "ot2":"Štylistický set 1 \"ss01\"",
+            "ot3":"Východná forma Cyriliky",
+            "ot4":"Štylistický set 2 \"ss02\"",
+            "followdevtitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Sledujte vývoj",
+            "ost":"<span style=\"font-size: 20px; font-weight: 600; color: #e6e6e6;\">Unageo je open source font vyvýjaný na platforme GitHub.</span><div style=\"height: 18px;\"></div>Ak máte nápad na vylepšenie, našli ste chybu alebo máte nejaký iný návrh, kľudne ma o tom informujte na GitHube.<div style=\"height: 14px;\"></div>Najnovšie vydanie a aj bleeding edge verzia je vždy dostupná na GitHube spolu so zdrojovými súbormi.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Font bol nedávno prijatý do Google Fonts a mal by byť dostupný v Q2 2026.",
+            "dvariable2":"Stiahnuť Variabliný",
+            "dstatic2":"Stiahnuť Statický",
+            "link1":"Navštíviť GitHub",
+            "link2":"Nahlásiť problém",
+            "link3":"Verzie/Aktualizácie"
+        },
+        "wordgrind":{
+            "tperiod":"Október 2024",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web App</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.10.2024</span>",
+            "abouttitle":"O projekte",
+            "about":"WordGrind (言葉作業ゲー) je jednoduchá webová aplikácia pre memorizáciu slov. Funguje tak, že vyberie náhodné slovo zo sady a bude si pýtať odpoveď. Okrem slov a ich odpovedí aplikácia ponúka aj \"zadné strany\" (urobené pre anglický význam slov s kanji) a nápovedy. Všetko z toho sa dá plne prispôsobiť. Projekt som vytvoril hlavne pre svoje vlastné použitie, ale ak by ste mali záujem, môžete si ho stiahnuť z Githubu a volne používať.",
+            "softwaretitle":"Použitý software",
+            "link":"Stiahnite si WordGrind na <u>GitHube</u>"
+        },
+        "opucestauprchlika":{
+            "tperiod":"Od Septembra do Decembra 2025",
+            "category":"Kategória:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Dátum pridania:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.1.2026</span>",
+            "abouttitle":"O projekte",
+            "about":"Cieľom projektu bolo previesť papierovú príbehovú hru organizácie OPU (Organizace pro pomoc uprchlíkům) o ceste ukrajinskej rodiny na úteku pred vojnou do digitálneho formátu. Jej hlavným účelom je vzdelávať o ťažkostiach, s ktorými sa tieto rodiny stretávajú, so zameraním na vzdelávanie študentov stredných škôl.<div style=\"height: 20px;\"></div><span class=\"project-element-header\" style=\"margin-left: 0px;\">Môj podiel na projekte</span><br><div style=\"height: 8px;\"></div>Bol som zodpovedný za návrh rozhrania hry a vývoj high-fidelity klikateľného prototypu pomocou Figmy v súlade s existujúcou vizuálnou identitou organizácie. Okrem toho som pracoval aj na skracovaní textov, aby bola hra atraktívnejšia pre cieľovú skupinu a aby sa zmestila na menšie obrazovky.",
+            "softwaretitle":"Použitý software"
+        },
+        "photography":{
+            "back":"Späť"
+        }
+   },
+   "cz":{
+        "sitewide":{
+            "lang":"cs",
+            "nav":{
+                "home":"Úvod",
+                "sec3d":"3D Grafika",
+                "sec2d":"2D Grafika",
+                "contact":"Kontakt"
+            },
+            "mobilenav":{
+                "home":"Úvod",
+                "sec3d":"3D Grafika",
+                "sec2d":"2D Grafika",
+                "contact":"Kontakt"
+            },
+            "footer":{
+                "home":"Úvod",
+                "sec3d":"3D Grafika",
+                "sec2d":"2D Grafika",
+                "contact":"Kontakt",
+                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Zpět na začátek",
+                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Informace o webu"
+            },
+            "search":{
+                "placeholder":"Píšte sem pre vyhľadávanie",
+                "resultPlaceholder":"Napište alespoň 2 znaky, pro zobrazení výsledků",
+                "clear":"smazat",
+                "navigate":"navigovat",
+                "close":"zavřít",
+                "tooShort":"Napište alespoň 2 znaky, pro zobrazení výsledků",
+                "noResults":"Nebyly nalezeny žádné výsledky pro"
+            },
+            "fullscreen":{
+                "scroll":"Scrollovaním přibližujete",
+                "clickDrag":"Kliknutim a potáhnutím posouváte",
+                "back":"Zpět"
+            }
+        },
+        "home":{
+            "intro":{
+                "greeting":"Ahoj, jmenuji se",
+                "name":"Richard Sepši",
+                "shortdesc":"Jsem student z Bratislavy a zajímám se o 3D grafiku a UI/UX design. Vždy se snažím vytvořit něco, co dobře vypadá a zároveň dobře funguje.",
+                "scroll":"Níže",
+                "scroll2":"zjistíte více"
+            },
+            "aboutme":{
+                "title":"O mně",
+                "s1title":"Jak jsem začínal",
+                "s1text1":"Své aktuální zájmy jsem začal rozvíjet, když mi bylo přibližně 9 let. Zvykl jsem hrát hry na svém mobilu a napadlo mě, že by bylo zajímavé zkusit si vytvořit vlastní, tak jsem se přihlásil na místní kurz programování. Vytvářeli jsme různé jednoduché hry v základních programovacích jazycích, jako jsou Dark Basic Pro a App Game Kit, později Python nebo C++, a pracovali jsme také na vizuální stránce hry.",
+                "s1text2":"Po nějaké době jsem si vyzkoušel i tvorbu 3D her, což mě docela bavilo, ale bylo to podstatně těžší, i když jsem pracoval na velmi jednoduché hře. Velkým problémem jednoduchých nástrojů a základních programovacích jazyků bylo, že neexistoval způsob, jak vizuálně upravovat herní prostředí, takže se vše muselo programovat ručně. Chtěl jsem lepší řešení. Poté, co jsem se poptal ve svém okolí a chvíli sám hledal, jsem našel Unreal Engine. Vypadal skvěle, a tak jsem ho hned šel vyzkoušet. Postupem času jsem se naučil mnoho o real-time 3D grafice používané ve hrách a o 3D grafice obecně.",
+                "s1text3":"Zatímco jsem pracoval na hrách jsem se také přihlásil na kurz tvorby webových stránek, který mě zaujal. Začali jsme s HTML a CSS, poté jsme pokračovali s JavaScriptem a vyzkoušel jsem si dokonce i PHP, React a SCSS. Zjistil jsem, že mě design webových stránek baví víc než programování, ale své dovednosti v programování jsem považoval za užitečné, a tak jsem na nich dál pracoval. Díky tomu jsem schopen vytvářet i vlastní funkční webové stránky, jako je například tato.",
+                "s2title":"Moje současná tvorba",
+                "s2text1":"Většina projektů, na kterých jsem v posledních letech pracoval, se zaměřovala hlavně na 3D grafiku a UX/UI design, a i svůj web jsem vytvářel s ohledem na to. Většina z nich však do těchto dvou kategorií úplně nezapadá. Každý z projektů má svou vlastní stránku s podrobnějšími informacemi. Projekty z oblasti programování zde momentálně nemají samostatnou kategorii a obvykle budou uvedeny mezi grafickými projekty. Ty, které nezahrnují grafiku, budou dostupné pouze na mém GitHubu. Existuje také samostatná stránka věnovaná fotografii, která je však zatím jen ve přípravě a je dostupná pouze prostřednictvím vyhledávání.",
+                "s2text2":"Kromě projektů pro skutečné klienty zahrnuje moje portfolio také mé osobní projekty, na kterých často pracuji ve volném čase. Jejich hlavním cílem je získávání nových znalostí, práce s novým softwarem a zdokonalování se v tom, co již ovládám.",
+                "s2text3":"Jelikož jsem zastáncem open source softwaru, rád ve svých projektech využívám takovéto nástroje a jako svůj hlavní operační systém používám Fedora Linux. Samozřejmě však nemám žádný problém používat standardní programy pro konkrétní odvětví, se kterými stejně pracuji většinu času.",
+                "s3title":"Co dál",
+                "s3text1":"V současné době se chci zaměřit hlavně na 3D grafiku a/nebo UX/UI design, ale rád bych se zdokonalil i ve všech ostatních oblastech, které zde ve svém portfoliu zmiňuji, včetně programování, fotografie a některých dalších souvisejících oborů. Uvědomuji si, že se zaměřuji na poměrně širokou škálu oblastí, ale pouze více zkušeností mi umožní učinit správné rozhodnutí o tom, na co se budu dále specializovat a kde nakonec budu pracovat. Navíc mě nic nenutí vzdát se svých ostatních zájmů, ať už se rozhodnu jakkoli.",
+                "s3text2":"Pokrok v digitálním světě je také rychlejší než kdykoli předtím, což má silný vliv na trh práce. Moje znalosti a portfolio se budou muset přizpůsobovat. Vždy mám zájem naučit se něco nového a rád rozšiřuji své dovednosti. Pokud se chcete dozvědět více o mně a mé tvorbě, neváhejte pokračovat dál a podívejte se také na stránky „3D grafika“ a „2D grafika“.",
+                "s4title":"AI in my work",
+                "s4text1":"In my opinion, AI can help increase skilled person's productivity. Having used many of the major AI tools, I believe I understand why and how it is used, however I also believe that to properly learn a skill, more is needed than just getting something done primarily with AI. That's why currently most of the projects on my portfolio, and all of my personal projects are done without the use of AI, exceptions for those being the use of AI for inspiration, occasionally for photo outpainting and text manipulation. If AI was used, it's use will be described on the project's page."
+            },
+            "skillsandsoftware":{
+                "title":"Zručnosti",
+                "title1p2":"Software",
+                "title2":" a ",
+                "skills3dg":"3D Grafika",
+                "alotmore":"A mnohem víc...",
+                "coding":"Programování",
+                "python":"Python (Základy)",
+                "skills2dg":"2D Grafika",
+                "other":"Ostatní"
+            },
+            "softwareusage":{
+                "blender":      "Použito v 2 projektech",
+                "c4d":          "Použito v 1 projektu",
+                "ue":           "",
+                "sdesigner":    "Použito v 1 projektu",
+                "spainter":     "Použito v 1 projektu",
+                "qmixer":       "Použito v 1 projektu",
+                "gaea":         "Použito v 1 projektu",
+                "rscan":        "",
+                "meshroom":     "",
+                "gimp":         "Použito ve 5 projektech",
+                "darktable":    "",
+                "figma":        "Použito ve 5 projektech",
+                "inkscape":     "Použito ve 8 projektech",
+                "fontforge":    "Použito v 1 projektu",
+                "lightroomc":   "",
+                "rawtherapee":  "Použito v 1 projektu"
+            },
+            "education":{
+                "title":"Vzdělání",
+                "i1tperiod":"Září 2017 - Červen 2025",
+                "i1location":"Bratislava, Slovensko",
+                "i2title":"Vysoká škola ekonomická v Praze - Multimédia v ekonomické praxi",
+                "i2tperiod":"Září 2025 - Leden 2029",
+                "i2location":"Praha, Česko"
+            }
+        },
+        "contact":{
+            "title":"Kontaktujte mě",
+            "thremail":"přes e-mail",
+            "copy":"Kliknutím skopírujete",
+            "thrsocial":"nebo sociální média",
+            "help":"Pomoc s webem",
+            "helptext1":"Tenhle web je open source a je vyvíjen na platformě GitHub",
+            "helptext2":"Pokud jste na webu našli nejakú chybu nebo máte nápad na zlepšení, neváhejte a informujte mě o tom na GitHubu.",
+            "githubvisit":"Navštívit GitHub",
+            "githubissue":"Nahlásit problém"
+        },
+        "p404":{
+            "main":"Stránka nenalezena"
+        },
+        "p403":{
+            "main":"Přístup zamítnut"
+        },
+        "metrostation":{
+            "tperiod":"Od Února do Června 2022",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Projekty</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">1.11.2023</span>",
+            "abouttitle":"O projektu",
+            "about":"Tenhle projekt je předělaná verze jednoho z mých prvních 3D projektů, na kterých jsem pracoval. Jedná se o novou hypotetickou stanici metra v Bratislavě.<div style=\"height: 12px;\"></div>Vše bylo vymodelováno v Cinemě 4D a vizualizováno v Blenderu. Všechny textury jsou mé vlastní, kromě dlažby, která pochází ze stránky AmbientCG.",
+            "softwaretitle":"Použitý software"
+        },
+        "seasidecliffs":{
+            "tperiod":"Od Listopadu 2023 do Října 2024",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Projekty</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">30.10.2024</span>",
+            "abouttitle":"O projektu",
+            "about":"Původně jsem na tomto projektu začal pracovat, aby později nahradil můj starý banner. Nejenže jsem mu chtěl dát nový vzhled, ale také jsem chtěl použít pouze mé vlastní assety a abych se při práci na něm něco naučil. Myslím, že tenhle účel projekt rozhodně splnil. Nápad na vzhled jsem dostal z fotky pláže Broken Beach na Bali, chtěl jsem vytvořit něco podobného. Začal jsem od blockoutem scény a pak už to bylo jen o vytváření assetů. Bohužel to trvalo celkem dlouho, protože jsem chtěl použít pouze své vlastní assety a neměl jsem čas na projektu stále pracovat. Také můj počítač nezvládal náročnost scény a málem jsem ani nemohl udělat finální render, kvůli nedostatku vram. I přes všechny problémy jsem rád, že jsem se do projektu pustil, protože jsem se hodně naučil a budu lépe vědět, jak k tvorbě podobných projektů přistupovat v budoucnu. Doufám, že vám projekt přijde zajímavý.",
+            "softwaretitle":"Použitý software"
+        },
+        "natart":{
+            "tperiod":"Jaro 2023",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">2.12.2023</span>",
+            "abouttitle":"Co je NatArt?",
+            "about":"NatArt je firma, která se od roku 2016 specializuje na výrobu různých suvenýrů s národní tematikou. Jejich název je kombinací slov National a Art, protože krása národů je základem jejich práce. V reakci na roustoucí zájem o jejich výrobky se nyní snaží rozšířit svou nabídku i online.",
+            "myworktitle":"Moje práce na NatArtu",
+            "mywork":"Pracoval jsem především na designu webu, jejich internetového obchodu, účtenek a jiných e-mailů.",
+            "softwaretitle":"Použitý software"
+        },
+        "zelenaskola":{
+            "tperiod":"Od Listopadu do Prosince 2023",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.12.2023</span>",
+            "abouttitle":"O projektu",
+            "about":"\"Projekty a blog zelenej školy\" je webová stránka týmu studentů ze střední školy, kde jsem studoval. Jejich cílem je pomoci škole, aby byla ekologičtější a zelenější, a to pomocí různých projektů.<div style=\"height: 12px;\"></div>Tehle web byl vytvořen za účelem prezentace jejich projektů, cílů a také jejich blogu.`",
+            "myworktitle":"Můj podíl na projektu",
+            "mywork":"Pracoval jsem na designu webu. Je jednoduchý a skládá se pouze ze dvou stránek. Varianta vpravo dole nebyla použita (spodní varianta na mobilu), jde o starší verzi blogu.",
+            "softwaretitle":"Použitý software"
+        },
+        "realizmusnaorave":{
+            "tperiod":"Od Června do Srpna 2023",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.2.2024</span>",
+            "abouttitle":"O projektu",
+            "about":"Realismus na Oravě je jednoduchá, progresivní webová aplikace, která vás provede významnými památkami období realismu v Oravskem regionu Slovenska.<div style=\"height: 12px;\"></div>Projekt/aplikace není v současné době k dispozici, protože nebyla nikdy zveřejněna. Většina funkcí aplikace však byla dokončena a je připravena k použití.",
+            "myworktitle":"Můj podíl na projektu",
+            "mywork":"Pracoval jsem na designu uživatelského prostředí aplikace, úvodní obrazovky a ikon. Také jsem poskytl některé z fotografií, které byly v aplikaci použity, ostatní pocházejí z jiných zdrojů.",
+            "softwaretitle":"Použitý software"
+        },
+        "unageo":{
+            "dvariable":"Variabilní",
+            "dstatic":"Statický",
+            "desc":"Unageo je moderní, open-source, sans-serif font, který používá geometrické tvary a jednotnou šířku tahu, kdykoli je to možné, ale přitom zachovává dobrou čitelnost.<br>",
+            "desc2":"Unageo podporuje stovky jazyků v latince, řečtině a cyrilici.",
+            "desc3":"+ Cyrilice a řecké písmo, více informací najdete níže!",
+            "lineheight":"Výška řádku",
+            "letterspace":"Rozestup znaků",
+            "fontsize":"Velikost",
+            "otlabel1":"Východná forma Cyriliky (к, ю, ж, в, з) \"ss01\"",
+            "otlabel2":"Východná forma Cyriliky (д) \"ss02\"",
+            "tryplaceholder":"Pište sem a vyzkoušejte si unageo a jeho variabilní funkce.",
+            "cyrillictitle":"Cyrilice",
+            "cyrillic":"Cyrilice Unageo byla vytvořena v bulharském stylu. Používá zaoblenější tvary a písmena mají větší výškovou rozmanitost, což usnadňuje jejich čtení.",
+            "greektitle":"Řecké písmo",
+            "greek":"Řecké Unageo se drží stejného stylu s dokonalými tvary, ale dotváří ho hladkými tahy a přidává další geometrické prvky, aby bylo jedinečnější.",
+            "storytitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Jak vznikl font Unageo",
+            "story1":"V různých projektech jsem už použil spoustu různých fontů a někdy jsem si říkal, že můj vlastní font by více odpovídal mému stylu, ale dosud jsem se nepokusil žádný vytvořit. Tentokrát jsem se rozhodl to zkusit, i když jsem o tvorbě písma nevěděl téměř nic. Věděl jsem jen, že chci, aby můj font byl geometrický, protože takový styl preferuji.",
+            "story2":"Rozhodl jsem se pracovat netradičním způsobem. Znaky jsem vytvořil v programu Inkscape, který docela dobře znám, a pak jsem je vložil do Fontforge, se kterým jsem pracoval poprvé. Celý proces netrval tak dlouho, jak jsem očekával, a za několik dní byl projekt hotový. Každý znak jsem vytvořil ve dvou variantách tloušťky, aby bylo možné mezi nimi plynule přecházet, a poté jsem nastavil rozměry a přidal kerning.",
+            "story3":"Samozřejmě jsem se při práci setkal i s nějakými problémy a zjistil jsem, že fonty jsou složitější, než vypadají. Když jsem měl vše připraveno, použil jsem Fontmake k vygenerování variabliního fontu a Fonttools pro statické varianty. Rozhodně se mám ještě co naučit, hlavně pokud se rozhodnu vytvořit další font, a ani tenhle jistě není dokonalý. Pokud máte nápad na zlepšení, určitě mě neváhejte informovat na GitHubu, rád se na váš nápad podívám. Níže zjistíte více.",
+            "ot0":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>OpenType funkce",
+            "ot1":"Východná forma Cyriliky",
+            "ot2":"Stylistický set 1 \"ss01\"",
+            "ot3":"Východná forma Cyriliky",
+            "ot4":"Stylistický set 2 \"ss02\"",
+            "followdevtitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Sledujte vývoj",
+            "ost":"<span style=\"font-size: 20px; font-weight: 600; color: #e6e6e6;\">Unageo je open source font vyvíjený na platformě GitHub.</span><div style=\"height: 18px;\"></div>Pokud máte nápad na vylepšení, našli jste chybu nebo máte jiný návrh, neváhejte mě informovat na GitHubu.<div style=\"height: 14px;\"></div>Nejnovější verze a taky bleeding edge verze jsou vždy k dispozici na GitHubu spolu se zdrojovými soubory.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Font byl nedávno přijat do Google Fonts a měl by být k dispozici ve Q2 2026.",
+            "dvariable2":"Stáhnout Variabilní",
+            "dstatic2":"Stáhnout Statický",
+            "link1":"Navštívit GitHub",
+            "link2":"Nahlásit problém",
+            "link3":"Verze/Aktualizace"
+        },
+        "wordgrind":{
+            "tperiod":"Říjen 2024",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web App</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.10.2024</span>",
+            "abouttitle":"O projektu",
+            "about":"WordGrind (言葉作業ゲー) je jednoduchá webová aplikace pro memorizaci slov. Funguje tak, že vybere náhodné slovo ze sady a zeptá se na odpověď. Kromě slov a jejich odpovědí aplikace nabízí také „zadní strany“ (vytvořené pro anglický význam slov s kanji) a nápovědy. To vše je plně přizpůsobitelné. Projekt jsem vytvořil hlavně pro vlastní použití, ale pokud byste měli zájem, můžete si ho stáhnout z Githubu a volně používat.",
+            "softwaretitle":"Použitý software",
+            "link":"Stáhněte si WordGrind na <u>GitHubu</u>"
+        },
+        "opucestauprchlika":{
+            "tperiod":"Od Září do Prosince 2025",
+            "category":"Kategorie:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Datum přidání:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.1.2026</span>",
+            "abouttitle":"O projektu",
+            "about":"Cílem projektu bylo převést papírovou příběhovou hru organizace OPU (Organizace pro pomoc uprchlíkům) o ukrajinské rodině prchající před válkou do digitálního formátu. Jejím hlavním účelem je informovat o těžkostech, kterým tyto rodiny čelí, se zaměřením na vzdělávání studentů středních škol.<div style=\"height: 20px;\"></div><span class=\"project-element-header\" style=\"margin-left: 0px;\">Můj podíl na projektu</span><br><div style=\"height: 8px;\"></div>Byl jsem zodpovědný za návrh rozhraní hry a vývoj high-fidelity klikatelného prototypu ve Figmě v souladu se stávající vizuální identitou organizace. Kromě toho jsem také pracoval na zkracování textů, aby byla hra atraktivnější pro cílovou skupinu a vešla se na menší obrazovky.",
+            "softwaretitle":"Použitý software"
+        },
+        "photography":{
+            "back":"Zpět"
+        }
+   },
+   "de":{
+        "sitewide":{
+            "lang":"de",
+            "nav":{
+                "home":"Startseite",
+                "sec3d":"3D Grafik",
+                "sec2d":"2D Grafik",
+                "contact":"Kontakt"
+            },
+            "mobilenav":{
+                "home":"Startseite",
+                "sec3d":"3D Grafik",
+                "sec2d":"2D Grafik",
+                "contact":"Kontakt"
+            },
+            "footer":{
+                "home":"Startseite",
+                "sec3d":"3D Grafik",
+                "sec2d":"2D Grafik",
+                "contact":"Kontakt",
+                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Zurück zum Anfang",
+                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">Website Informationen"
+            },
+            "search":{
+                "placeholder":"**Type here to search",
+                "resultPlaceholder":"**Enter at least 2 characters to get results",
+                "clear":"löschen",
+                "navigate":"zu navigieren",
+                "close":"schließen",
+                "tooShort":"**Enter at least 2 characters to get results",
+                "noResults":"Es gibt keine Ergebnisse für"
+            },
+            "fullscreen":{
+                "scroll":"**Scroll to zoom in and out",
+                "clickDrag":"**Click and drag to move",
+                "back":"Zurück"
+            }
+        },
+        "home":{
+            "intro":{
+                "greeting":"Hallo, Ich bin",
+                "name":"Richard Sepši",
+                "shortdesc":"Ich bin ein Student aus Bratislava, Slowakei, und Ich interessiere mich für 3D Grafik und UI/UX-Design. Ich versuche immer, etwas zu schaffen, das gut aussieht und auch gut funktioniert.",
+                "scroll":"Mehr finden",
+                "scroll2":"sie unten"
+            },
+            "aboutme":{
+                "title":"Über mich",
+                "s1title":"How I started",
+                "s1text1":"I first began to develop my current interests when I was about 9 years old. I used to play games on my phone, and I thought that it would be fun to try making my own, so I signed up for a local game programming course. We developed various simple games in basic programming languages like Dark Basic Pro and App Game Kit, later Python or C++, and we also worked on the games' visuals.",
+                "s1text2":"After some time, I also tried developing 3D games, which I quite enjoyed, but it was much more difficult than the 2D games I worked on previously, even if the game itself was really simple. A big problem with the simple tools and basic programming languages was that there was no way to edit the levels visually, so everything had to be coded manually. I wanted a better solution. After searching for something and asking around, I discovered Unreal Engine. It looked great, so I downloaded it and started experimenting with it. Over time, I learned a lot about real-time 3D visuals used in games, as well as 3D computer graphics in general.",
+                "s1text3":"While I worked on games, I also signed up for a web development course that caught my interest. Initially, we covered HTML and CSS, later we continued with JavaScript and I even tried PHP, React and SCSS. I realized that I enjoy designing websites more than coding, however, I found coding skills useful as well, and I kept working on them. It allowed me to make my own functional websites just like this one.",
+                "s2title":"My current work",
+                "s2text1":"Most of the projects I worked on over the recent years were primarily focused on 3D graphics and UX/UI Design, and I also built my portfolio website with that in mind. The majority of them do not perfectly fit under these two categories though. Each project has its own dedicated page containing more details. Coding projects currently do not have a separate category here and they will usually also be listed under graphics. Those that do not involve graphics will only be available on my GitHub. There is a separate photography page, which is currently work in progress and only accessible by search.",
+                "s2text2":"Besides projects for real clients, my portfolio also includes my personal projects that I often work on in my free time. Their primary purpose is learning new skills and software, while also improving in what I already know.",
+                "s2text3":"As a supporter of open source software, I often like to make use of such tools in my projects and I also use Fedora Linux as my primary system. However, I have no problem with using industry standard software as well, which I still work with most of the time.",
+                "s3title":"What's next",
+                "s3text1":"Currently I'm looking to focus mainly on 3D graphics and/or UX/UI design, but I'd also like to improve in all of the other areas I mention here on my portfolio, including programming, photography and some other related fields. I realize it's quite a broad range of skills to focus on, but only more experience can allow me to make the correct decision about what I'm going to specialize in and focus my career on. Moreover, making this decision deosn't force me to abandon my other interests.",
+                "s3text2":"Progress in the digital landscape is also as fast as it's ever been, which strongly influences the job market. My skills and portfolio will have to adapt. I'm always open to learning something new and expanding my skillset. If you'd like to find out more about me and my work, feel free to keep looking around and check out the 3D and 2D Graphics pages.",
+                "s4title":"AI in my work",
+                "s4text1":"In my opinion, AI can help increase skilled person's productivity. Having used many of the major AI tools, I believe I understand why and how it is used, however I also believe that to properly learn a skill, more is needed than just getting something done primarily with AI. That's why currently most of the projects on my portfolio, and all of my personal projects are done without the use of AI, exceptions for those being the use of AI for inspiration, occasionally for photo outpainting and text manipulation. If AI was used, it's use will be described on the project's page."
+            },
+            "skillsandsoftware":{
+                "title":"Zručnosti",
+                "title1p2":"Software",
+                "title2":" & ",
+                "skills3dg":"3D Graphics",
+                "alotmore":"And a lot more...",
+                "coding":"Coding",
+                "python":"Python (Basics)",
+                "skills2dg":"2D Graphics",
+                "other":"Other"
+            },
+            "softwareusage":{
+                "blender":      "In 2 Projekten verwendet",
+                "c4d":          "In 1 Projekt verwendet",
+                "ue":           "",
+                "sdesigner":    "In 1 Projekt verwendet",
+                "spainter":     "In 1 Projekt verwendet",
+                "qmixer":       "In 1 Projekt verwendet",
+                "gaea":         "In 1 Projekt verwendet",
+                "rscan":        "",
+                "meshroom":     "",
+                "gimp":         "In 5 Projekten verwendet",
+                "darktable":    "",
+                "figma":        "In 5 Projekten verwendet",
+                "inkscape":     "In 8 Projekten verwendet",
+                "fontforge":    "In 1 Projekt verwendet",
+                "lightroomc":   "",
+                "rawtherapee":  "In 1 Projekt verwendet"
+            },
+            "education":{
+                "title":"Education",
+                "title2":"Education",
+                "i1tperiod":"September 2017 - June 2025",
+                "i1location":"Bratislava, Slovakia",
+                "i2title":"Prague University of Economics and Business - Multimedia in economic practice",
+                "i2tperiod":"September 2025 - January 2029",
+                "i2location":"Prague, Czechia",
+                "2dg":"2D Graphics",
+                "coding":"Coding",
+                "other":"Other"
+            }
+        },
+        "contact":{
+            "title":"Contact me",
+            "thremail":"through e-mail",
+            "copy":"Click to copy",
+            "thrsocial":"or social media",
+            "help":"Website help",
+            "helptext1":"This website is open source and developed on GitHub.",
+            "helptext2":"If you have found a bug/error or you have an improvement suggestion, don't hesitate to submit a new issue on GitHub.",
+            "githubvisit":"Visit GitHub page",
+            "githubissue":"Submit a new issue"
+        },
+        "p404":{
+            "main":"Seite nicht gefunden"
+        },
+        "p403":{
+            "main":"Zugriff verweigert"
+        },
+        "metrostation":{
+            "tperiod":"From February to June 2022",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">1.11.2023</span>",
+            "abouttitle":"About the project",
+            "about":"This project is a remake of one of the first personal 3D projects that I worked on. It's supposed to be a newly built metro station in a hypothetical metro in Bratislava.<div style=\"height: 12px;\"></div>Everything was modeled in Cinema 4D then texured and rendered in Blender. All of the assets are my own except the floor material, which comes from AmbientCG.",
+            "softwaretitle":"Software used"
+        },
+        "seasidecliffs":{
+            "tperiod":"From November 2023 to October 2024",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">30.10.2024</span>",
+            "abouttitle":"About the project",
+            "about":"This is a project I originally started working on to be a replacement for my old banner. Not only did I want to give it a new look, but I also wanted to use only my own assets and learn some things along the way. I feel like it has definitely served that purpouse. I got the idea for the look from a photo of Broken Beach on Bali, I wanted to create something similar. I started with blocking out the scene and then it was just about creating the assets. It unfortunately took a pretty long time as I wanted each asset to be my own and I couldn't work on the project often. I also struggled with my computer not beeing able to keep up with the scene's complexity and I was barely able to make the final render because of my GPUs very limited vram. In spite of all the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future. I hope you find it interesting.",
+            "softwaretitle":"Software used"
+        },
+        "natart":{
+            "tperiod":"Spring 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">2.12.2023</span>",
+            "abouttitle":"What is NatArt?",
+            "about":"NatArt is a company that specializes in making various national-themed souvenirs since 2016. Their name combines the words National and Art, as the beauty of nations is the basis for their work. Now they are exapnding online in response to the increasing interest in their products.",
+            "myworktitle":"My work on NatArt",
+            "mywork":"I worked primarily on designing the online store as well as things like invoices and e-mails.",
+            "softwaretitle":"Software used"
+        },
+        "zelenaskola":{
+            "tperiod":"From November to December 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.12.2023</span>",
+            "abouttitle":"About the project",
+            "about":"\"Projekty a blog zelenej školy\" or \"Projects and blog of the green school\" is a website for a team of students from the high school that I attended. Their goal is to make the school more green through various projects.<div style=\"height: 12px;\"></div>This website is made to present their projects, highlight their goals, as well as to host their blog.",
+            "myworktitle":"My work on the project",
+            "mywork":"I worked on the website's design. It's simple, consisting of just two pages. The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.",
+            "softwaretitle":"Software used"
+        },
+        "realizmusnaorave":{
+            "tperiod":"From June to August 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.2.2024</span>",
+            "abouttitle":"About the project",
+            "about":"Realizmus na Orave is a simple audioguide progressive web app made to guide you through most of the major sights from the time of Realism in the Orava region of Slovakia.<div style=\"height: 12px;\"></div>The project/app is not currently available as it was never publicly released. However, most of the app's functionality was finished and is ready to be used.",
+            "myworktitle":"My work on the project",
+            "mywork":"I worked on the app's UI, the download screen and various other parts of the app including the icons. I also provided some of the photos used in the app, the rest came from different sources.",
+            "softwaretitle":"Software used"
+        },
+        "unageo":{
+            "dvariable":"Variable",
+            "dstatic":"Static",
+            "desc":"Unageo is a modern, open-source, sans-serif typeface that uses perfect geometry and uniform stroke width where possible, but still maintains great readability.<br>",
+            "desc2":"Unageo supports hundreds of languages in latin, cyrillic and greek scripts.",
+            "desc3":"+ Cyrillic and greek scripts, scroll down to find out more!",
+            "lineheight":"Line height",
+            "letterspace":"Letter space",
+            "fontsize":"Font size",
+            "otlabel1":"Eastern cyrillic forms (к, ю, ж, в, з) \"ss01\"",
+            "otlabel2":"Eastern cyrillic form (д) \"ss02\"",
+            "tryplaceholder":"Type here to try out unageo and it's variable features",
+            "cyrillictitle":"Cyrillic",
+            "cyrillic":"Unageo cyrillic was made in Bulgarian style. It uses more rounded geometric shapes and letters have more variety in their height, which makes reading easier.",
+            "greektitle":"Greek",
+            "greek":"Unageo greek follows the same style with perfect geometry, but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.",
+            "storytitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>How was unageo made",
+            "story1":"Over the years, I have used many different fonts for my projects and sometimes I thought that to better match my style, I could try to make my own typeface. I decided to give it a shot, even though I knew almost nothing about font creation itsef. I only knew that I would like my font to be geometric because that's my preferred style.",
+            "story2":"I decided to work on the typeface with an unusual workflow. I made the characters in Inkscape, which I'm familiar with. Then I imported the outlines into FontForge, which I only tried for the first time. The process didn't take as long as I expected, and everything was done in a few days. I made each glyph in light and Black variant, made sure they were interpolable and then I adjusted the metrics and added kerning.",
+            "story3":"Of course, I ran into some issues along the way and learned that fonts are more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to create static instances. There is still a lot I can learn, especially if I decide to make another font, and I'm sure this one isn't perfect either, so if you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it. See further down below.",
+            "ot0":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>OpenType features",
+            "ot1":"Eastern cyrillic forms",
+            "ot2":"Stylistic set 1 \"ss01\"",
+            "ot3":"Eastern cyrillic form",
+            "ot4":"Stylistic set 2 \"ss02\"",
+            "followdevtitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Follow the development",
+            "ost":"<span style=\"font-size: 21px; font-weight: 600; color: #e6e6e6;\">Unageo is an open source typeface developed on GitHub.</span><div style=\"height: 18px;\" id=\"resp-ug-space-1\"></div>If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Typeface was recently accepted into Google Fonts and should be available in 2026 Q2.",
+            "dvariable2":"Download Variable",
+            "dstatic2":"Download Static",
+            "link1":"Visit GitHub page",
+            "link2":"Submit a new issue",
+            "link3":"Releases/Changelog"
+        },
+        "wordgrind":{
+            "tperiod":"October 2024",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web App</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.10.2024</span>",
+            "abouttitle":"About the project",
+            "about":"WordGrind (言葉作業ゲー) is a simple web app for word memorization. It works by randomly picking a word from a deck and asking for the answer. Besides words and their answers it also features \"back sides\" (made for english meaning of kanji words) and hints, which can all be fully customized. It's a project that I primarily made for my personal use, however, you can also download it from GitHub and use it freely if you want.",
+            "softwaretitle":"Software used",
+            "link":"Get WordGrind on <u>GitHub</u>"
+        },
+        "opucestauprchlika":{
+            "tperiod":"From Spetember to December 2025",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.1.2026</span>",
+            "abouttitle":"About the project",
+            "about":"The goal of this project was to transform a paper-based story game by OPU (Organizace pro pomoc uprchlíkům) about the journey of an Ukrainian family fleeing the war into a digital format. Its main purpose is to educate about the challenges these families face, with a particular focus on educating middle school students.<div style=\"height: 20px;\"></div><span class=\"project-element-header\" style=\"margin-left: 0px;\">My Role in the Project</span><br><div style=\"height: 8px;\"></div>I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma, while following the organization's existing visual identity guidelines. In addition, I worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.",
+            "softwaretitle":"Software used"
+        },
+        "photography":{
+            "back":"Zurück"
+        }
+   },
+   "jp":{
+        "sitewide":{
+            "lang":"en",
+            "nav":{
+                "home":"ホーム",
+                "sec3d":"3D グラフィックス",
+                "sec2d":"2D グラフィックス",
+                "contact":"お問い合わせ"
+            },
+            "mobilenav":{
+                "home":"ホーム",
+                "sec3d":"3D グラフィックス",
+                "sec2d":"2D グラフィックス",
+                "contact":"お問い合わせ"
+            },
+            "footer":{
+                "home":"ホーム",
+                "sec3d":"3D グラフィックス",
+                "sec2d":"2D グラフィックス",
+                "contact":"お問い合わせ",
+                "scroll":"<img src=\"assets/arrow-up.svg\" style=\"margin-right: 14px;\" draggable=\"false\">トップに戻る",
+                "info":"<img src=\"assets/info.svg\" style=\"margin-right: 14px;\" draggable=\"false\">サイト情報"
+            },
+            "search":{
+                "placeholder":"Type here to search",
+                "resultPlaceholder":"Enter at least 2 characters to get results",
+                "clear":"to clear",
+                "navigate":"to navigate",
+                "close":"to close",
+                "tooShort":"Enter at least 2 characters to get results",
+                "noResults":"There are no results for"
+            },
+            "fullscreen":{
+                "scroll":"Scroll to zoom in and out",
+                "clickDrag":"Click and drag to move",
+                "back":"戻る"
+            }
+        },
+        "home":{
+            "intro":{
+                "greeting":"こんにちは",
+                "name":"Richard Sepši <span style=\"white-space: nowrap;\">です</span>",
+                "shortdesc":"I’m a student from Bratislava, Slovakia, interested in 3D graphics and UX/UI Design. I always do my best to create something that both looks nice and works well.",
+                "scroll":"Scroll down",
+                "scroll2":"to find out more"
+            },
+            "aboutme":{
+                "title":"About me",
+                "s1title":"How I started",
+                "s1text1":"I first began to develop my current interests when I was about 9 years old. I used to play games on my phone, and I thought that it would be fun to try making my own, so I signed up for a local game programming course. We developed various simple games in basic programming languages like Dark Basic Pro and App Game Kit, later Python or C++, and we also worked on the games' visuals.",
+                "s1text2":"After some time, I also tried developing 3D games, which I quite enjoyed, but it was much more difficult than the 2D games I worked on previously, even if the game itself was really simple. A big problem with the simple tools and basic programming languages was that there was no way to edit the levels visually, so everything had to be coded manually. I wanted a better solution. After searching for something and asking around, I discovered Unreal Engine. It looked great, so I downloaded it and started experimenting with it. Over time, I learned a lot about real-time 3D visuals used in games, as well as 3D computer graphics in general.",
+                "s1text3":"While I worked on games, I also signed up for a web development course that caught my interest. Initially, we covered HTML and CSS, later we continued with JavaScript and I even tried PHP, React and SCSS. I realized that I enjoy designing websites more than coding, however, I found coding skills useful as well, and I kept working on them. It allowed me to make my own functional websites just like this one.",
+                "s2title":"My current work",
+                "s2text1":"Most of the projects I worked on over the recent years were primarily focused on 3D graphics and UX/UI Design, and I also built my portfolio website with that in mind. The majority of them do not perfectly fit under these two categories though. Each project has its own dedicated page containing more details. Coding projects currently do not have a separate category here and they will usually also be listed under graphics. Those that do not involve graphics will only be available on my GitHub. There is a separate photography page, which is currently work in progress and only accessible by search.",
+                "s2text2":"Besides projects for real clients, my portfolio also includes my personal projects that I often work on in my free time. Their primary purpose is learning new skills and software, while also improving in what I already know.",
+                "s2text3":"As a supporter of open source software, I often like to make use of such tools in my projects and I also use Fedora Linux as my primary system. However, I have no problem with using industry standard software as well, which I still work with most of the time.",
+                "s3title":"What's next",
+                "s3text1":"Currently I'm looking to focus mainly on 3D graphics and/or UX/UI design, but I'd also like to improve in all of the other areas I mention here on my portfolio, including programming, photography and some other related fields. I realize it's quite a broad range of skills to focus on, but only more experience can allow me to make the correct decision about what I'm going to specialize in and focus my career on. Moreover, making this decision deosn't force me to abandon my other interests.",
+                "s3text2":"Progress in the digital landscape is also as fast as it's ever been, which strongly influences the job market. My skills and portfolio will have to adapt. I'm always open to learning something new and expanding my skillset. If you'd like to find out more about me and my work, feel free to keep looking around and check out the 3D and 2D Graphics pages.",
+                "s4title":"AI in my work",
+                "s4text1":"In my opinion, AI can help increase skilled person's productivity. Having used many of the major AI tools, I believe I understand why and how it is used, however I also believe that to properly learn a skill, more is needed than just getting something done primarily with AI. That's why currently most of the projects on my portfolio, and all of my personal projects are done without the use of AI, exceptions for those being the use of AI for inspiration, occasionally for photo outpainting and text manipulation. If AI was used, it's use will be described on the project's page."
+            },
+            "skillsandsoftware":{
+                "title":"Zručnosti",
+                "title1p2":"Software",
+                "title2":" & ",
+                "skills3dg":"3D Graphics",
+                "alotmore":"And a lot more...",
+                "coding":"Coding",
+                "python":"Python (Basics)",
+                "skills2dg":"2D Graphics",
+                "other":"Other"
+            },
+            "softwareusage":{
+                "blender":      "2プロジェクトで使いました",
+                "c4d":          "1プロジェクトで使いました",
+                "ue":           "",
+                "sdesigner":    "1プロジェクトで使いました",
+                "spainter":     "1プロジェクトで使いました",
+                "qmixer":       "1プロジェクトで使いました",
+                "gaea":         "1プロジェクトで使いましたs",
+                "rscan":        "",
+                "meshroom":     "",
+                "gimp":         "5プロジェクトで使いました",
+                "darktable":    "",
+                "figma":        "5プロジェクトで使いました",
+                "inkscape":     "8プロジェクトで使いました",
+                "fontforge":    "1プロジェクトで使いました",
+                "lightroomc":   "",
+                "rawtherapee":  "1プロジェクトで使いました"
+            },
+            "education":{
+                "title":"Education",
+                "title2":"Education",
+                "i1tperiod":"September 2017 - June 2025",
+                "i1location":"Bratislava, Slovakia",
+                "i2title":"Prague University of Economics and Business - Multimedia in economic practice",
+                "i2tperiod":"September 2025 - January 2029",
+                "i2location":"Prague, Czechia",
+                "2dg":"2D Graphics",
+                "coding":"Coding",
+                "other":"Other"
+            }
+        },
+        "contact":{
+            "title":"Contact me",
+            "thremail":"through e-mail",
+            "copy":"Click to copy",
+            "thrsocial":"or social media",
+            "help":"Website help",
+            "helptext1":"This website is open source and developed on GitHub.",
+            "helptext2":"If you have found a bug/error or you have an improvement suggestion, don't hesitate to submit a new issue on GitHub.",
+            "githubvisit":"Visit GitHub page",
+            "githubissue":"Submit a new issue"
+        },
+        "p404":{
+            "main":"Page not found"
+        },
+        "p403":{
+            "main":"Access Denied"
+        },
+        "metrostation":{
+            "tperiod":"From February to June 2022",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">1.11.2023</span>",
+            "abouttitle":"About the project",
+            "about":"This project is a remake of one of the first personal 3D projects that I worked on. It's supposed to be a newly built metro station in a hypothetical metro in Bratislava.<div style=\"height: 12px;\"></div>Everything was modeled in Cinema 4D then texured and rendered in Blender. All of the assets are my own except the floor material, which comes from AmbientCG.",
+            "softwaretitle":"Software used"
+        },
+        "seasidecliffs":{
+            "tperiod":"From November 2023 to October 2024",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">3D Project</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">30.10.2024</span>",
+            "abouttitle":"About the project",
+            "about":"This is a project I originally started working on to be a replacement for my old banner. Not only did I want to give it a new look, but I also wanted to use only my own assets and learn some things along the way. I feel like it has definitely served that purpouse. I got the idea for the look from a photo of Broken Beach on Bali, I wanted to create something similar. I started with blocking out the scene and then it was just about creating the assets. It unfortunately took a pretty long time as I wanted each asset to be my own and I couldn't work on the project often. I also struggled with my computer not beeing able to keep up with the scene's complexity and I was barely able to make the final render because of my GPUs very limited vram. In spite of all the struggles, I'm glad I made the project as was able to learn a lot and I'll know how to better approach creating such a project in the future. I hope you find it interesting.",
+            "softwaretitle":"Software used"
+        },
+        "natart":{
+            "tperiod":"Spring 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">2.12.2023</span>",
+            "abouttitle":"What is NatArt?",
+            "about":"NatArt is a company that specializes in making various national-themed souvenirs since 2016. Their name combines the words National and Art, as the beauty of nations is the basis for their work. Now they are exapnding online in response to the increasing interest in their products.",
+            "myworktitle":"My work on NatArt",
+            "mywork":"I worked primarily on designing the online store as well as things like invoices and e-mails.",
+            "softwaretitle":"Software used"
+        },
+        "zelenaskola":{
+            "tperiod":"From November to December 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.12.2023</span>",
+            "abouttitle":"About the project",
+            "about":"\"Projekty a blog zelenej školy\" or \"Projects and blog of the green school\" is a website for a team of students from the high school that I attended. Their goal is to make the school more green through various projects.<div style=\"height: 12px;\"></div>This website is made to present their projects, highlight their goals, as well as to host their blog.",
+            "myworktitle":"My work on the project",
+            "mywork":"I worked on the website's design. It's simple, consisting of just two pages. The bottom right variant was not used (bottom variant if you're on mobile), it's an older version of the blog page.",
+            "softwaretitle":"Software used"
+        },
+        "realizmusnaorave":{
+            "tperiod":"From June to August 2023",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.2.2024</span>",
+            "abouttitle":"About the project",
+            "about":"Realizmus na Orave is a simple audioguide progressive web app made to guide you through most of the major sights from the time of Realism in the Orava region of Slovakia.<div style=\"height: 12px;\"></div>The project/app is not currently available as it was never publicly released. However, most of the app's functionality was finished and is ready to be used.",
+            "myworktitle":"My work on the project",
+            "mywork":"I worked on the app's UI, the download screen and various other parts of the app including the icons. I also provided some of the photos used in the app, the rest came from different sources.",
+            "softwaretitle":"Software used"
+        },
+        "unageo":{
+            "dvariable":"Variable",
+            "dstatic":"Static",
+            "desc":"Unageo is a modern, open-source, sans-serif typeface that uses perfect geometry and uniform stroke width where possible, but still maintains great readability.<br>",
+            "desc2":"Unageo supports hundreds of languages in latin, cyrillic and greek scripts.",
+            "desc3":"+ Cyrillic and greek scripts, scroll down to find out more!",
+            "lineheight":"Line height",
+            "letterspace":"Letter space",
+            "fontsize":"Font size",
+            "otlabel1":"Eastern cyrillic forms (к, ю, ж, в, з) \"ss01\"",
+            "otlabel2":"Eastern cyrillic form (д) \"ss02\"",
+            "tryplaceholder":"Type here to try out unageo and it's variable features",
+            "cyrillictitle":"Cyrillic",
+            "cyrillic":"Unageo cyrillic was made in Bulgarian style. It uses more rounded geometric shapes and letters have more variety in their height, which makes reading easier.",
+            "greektitle":"Greek",
+            "greek":"Unageo greek follows the same style with perfect geometry, but completes it with smooth lines and adds extra geometric features to make it more unique and distinct.",
+            "storytitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>How was unageo made",
+            "story1":"Over the years, I have used many different fonts for my projects and sometimes I thought that to better match my style, I could try to make my own typeface. I decided to give it a shot, even though I knew almost nothing about font creation itsef. I only knew that I would like my font to be geometric because that's my preferred style.",
+            "story2":"I decided to work on the typeface with an unusual workflow. I made the characters in Inkscape, which I'm familiar with. Then I imported the outlines into FontForge, which I only tried for the first time. The process didn't take as long as I expected, and everything was done in a few days. I made each glyph in light and Black variant, made sure they were interpolable and then I adjusted the metrics and added kerning.",
+            "story3":"Of course, I ran into some issues along the way and learned that fonts are more complicated than they look like. After I had everything figured out, I used Fontmake to generate a variable fonts and Fonttools to create static instances. There is still a lot I can learn, especially if I decide to make another font, and I'm sure this one isn't perfect either, so if you have an idea for an improvement, don't hesitate to submit a new issue on GitHub, and I'll take a look at it. See further down below.",
+            "ot0":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>OpenType features",
+            "ot1":"Eastern cyrillic forms",
+            "ot2":"Stylistic set 1 \"ss01\"",
+            "ot3":"Eastern cyrillic form",
+            "ot4":"Stylistic set 2 \"ss02\"",
+            "followdevtitle":"<span style=\"font-weight: 500;color: #969696;margin-left: -20px;position: absolute;margin-top: -1px;\">› </span>Follow the development",
+            "ost":"<span style=\"font-size: 21px; font-weight: 600; color: #e6e6e6;\">Unageo is an open source typeface developed on GitHub.</span><div style=\"height: 18px;\" id=\"resp-ug-space-1\"></div>If you have an idea for an improvement, bug to report or any other comment/suggestion, feel free to submit a new issue on GitHub.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Latest relase as well as the bleeding edge version is always available on GitHub along with the source files.<div style=\"height: 14px;\" id=\"resp-ug-space-2\"></div>Typeface was recently accepted into Google Fonts and should be available in 2026 Q2.",
+            "dvariable2":"Download Variable",
+            "dstatic2":"Download Static",
+            "link1":"Visit GitHub page",
+            "link2":"Submit a new issue",
+            "link3":"Releases/Changelog"
+        },
+        "wordgrind":{
+            "tperiod":"October 2024",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">Web App</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.10.2024</span>",
+            "abouttitle":"About the project",
+            "about":"WordGrind (言葉作業ゲー) is a simple web app for word memorization. It works by randomly picking a word from a deck and asking for the answer. Besides words and their answers it also features \"back sides\" (made for english meaning of kanji words) and hints, which can all be fully customized. It's a project that I primarily made for my personal use, however, you can also download it from GitHub and use it freely if you want.",
+            "softwaretitle":"Software used",
+            "link":"Get WordGrind on <u>GitHub</u>"
+        },
+        "opucestauprchlika":{
+            "tperiod":"From Spetember to December 2025",
+            "category":"Category:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">UX/UI Design</span>",
+            "date":"Date added:<span class=\"project-element-subtext\" style=\"margin-left: 10px;\">9.1.2026</span>",
+            "abouttitle":"About the project",
+            "about":"The goal of this project was to transform a paper-based story game by OPU (Organizace pro pomoc uprchlíkům) about the journey of an Ukrainian family fleeing the war into a digital format. Its main purpose is to educate about the challenges these families face, with a particular focus on educating middle school students.<div style=\"height: 20px;\"></div><span class=\"project-element-header\" style=\"margin-left: 0px;\">My Role in the Project</span><br><div style=\"height: 8px;\"></div>I was responsible for designing the game's interface and developing a high-fidelity clickable prototype using Figma, while following the organization's existing visual identity guidelines. In addition, I worked on shortening the texts, to enhance the game's appeal and ensure it fits on smaller screens.",
+            "softwaretitle":"Software used"
+        },
+        "photography":{
+            "back":"戻る"
+        }
+   }
+}

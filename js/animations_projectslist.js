@@ -29,15 +29,18 @@ if (smalldvisibility == 1){
 }
 
 
-let anicounter = 0;
+function animateProjectTiles(){
+    let anicounter = 0;
 
-document.querySelectorAll(".project-thumb-container").forEach((prthco) => {
-    anime({
-        targets: prthco,
-        opacity: 1,
-        duration: 1000,
-        delay: anicounter,
-        easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
+    document.querySelectorAll(".project-thumb-container").forEach((prthco) => {
+        anime({
+            targets: prthco,
+            opacity: 1,
+            duration: 1000,
+            delay: anicounter,
+            easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
+        });
+        anicounter = anicounter + 100
     });
-    anicounter = anicounter + 100
-});
+}
+animateProjectTiles()

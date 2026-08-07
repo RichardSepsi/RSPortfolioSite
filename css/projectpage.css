@@ -32,7 +32,19 @@
     align-items: center;
     padding: 10px;
     overflow: hidden;
+    padding-top: 80px;
 }
+.standart-single-project-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+
 
 .project-slide-switcher{
     display: flex;
@@ -287,26 +299,22 @@
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 .project-fullscreen-menu{
-    width: 270px;
-    height: 83px;
     background-color: #212121;
     border-radius: 22px;
     position: absolute;
-    top: calc(100% - 105px);
-    left: calc(100% - 290px);
+    bottom: 22px;
+    right: 22px;
     display: flex;
     flex-direction: column;
 }
 .project-fullscreen-menu.two{
-    width: auto;
-    height: 76px;
-    top: calc(100% - 191px);
-    left: calc(100% - 193px);
+    width: fit-content;
+    bottom: 117px;
 }
 .project-fullscreen-menu-row{
     display: flex;
     flex-direction: row;
-    margin: 19px 20px;
+    margin: 19px 22px 19px 21px;
 }
 .p-f-m-r-column{
     display: flex;
@@ -314,7 +322,7 @@
     justify-content: center;
     margin-left: 10px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 21px;
     color: #969696;
 }
 .project-link-button-light{
@@ -339,6 +347,25 @@
 .project-link-button-light:hover .project-link-button-svg{
     stroke: #373737;
     transition-duration: 200ms;
+}
+
+.td-project-slide1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    transition-duration: 400ms;
+}
+.td-project-image-wrapper{
+    display: flex;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+}
+.td-project-image{
+    max-width: 100%;
+    max-height: calc(100% - 40px);
+    border-radius: 8px;
 }
 
 
@@ -401,7 +428,8 @@
         width: 100vw;
     }
     .project-image-content{
-        padding: 60px;
+        padding: 0px 60px;
+        padding-top: 80px;
     }
 }
 @media screen and (max-width: 1180px) {
@@ -416,6 +444,7 @@
     .project-slide-switcher{
         flex-direction: row;
         margin: 10px 20px;
+        margin-right: 0px;
         width: unset;
     }
     .project-slide-switcher-button.selected{
@@ -428,16 +457,8 @@
         margin-bottom: 0;
         margin-right: 12px;
     }
-}
-@media screen and (max-width: 760px) {
-    .project-image-content{
-        padding: 40px;
-    }
-    .project-fullscreen-menu.one{
-        display: none;
-    }
-    .project-fullscreen-menu.two{
-        top: calc(100% - 95px);
+    .td-project-image-wrapper {
+        height: calc(100vh - 80px - 98px);
     }
 }
 @media screen and (max-width: 630px) {

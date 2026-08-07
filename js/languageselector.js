@@ -61,7 +61,34 @@ function switchlang(newlang){
     
     document.cookie = "LANG="+newlang+"; expires=Thu, 18 Dec 2030 12:00:00 UTC";
     
-    langizeunversal()
-    location.reload() // TEMPORARY : Fix for languages not switching on live deployed version
-    
+    // inject new data after changing the language
+    injectI18n()
 }
+
+// function that injects the data from the json
+function injectI18n() {
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+        let dataNeeded = element.getAttribute("data-i18n")
+        let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
+        element.innerHTML = eval(`fetchedi18n.${currentLang}.${dataNeeded}`)
+    });
+    document.querySelectorAll("[placeholder-i18n]").forEach((element) => {
+        let dataNeeded = element.getAttribute("placeholder-i18n")
+        let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
+        element.setAttribute("placeholder", eval(`fetchedi18n.${currentLang}.${dataNeeded}`))
+    });
+    document.querySelectorAll("[lang-i18n]").forEach((element) => {
+        let dataNeeded = element.getAttribute("lang-i18n")
+        let currentLang = document.getElementById("current-lang").innerHTML.toLowerCase()
+        element.setAttribute("lang", eval(`fetchedi18n.${currentLang}.${dataNeeded}`))
+    });
+}
+
+// fetch i18n
+var fetchedi18n;
+fetch ("../datai18n.json")
+    .then(response => response.json())
+    .then(data => {
+        fetchedi18n = data
+        injectI18n()
+    })

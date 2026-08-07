@@ -1,11 +1,5 @@
 
-// Define the total number of projects in this category.  CHANGE WHEN ADDING ITEMS !
-
-let itemcount = 2
-
-
-
-// Define all project thumbnails that will be displayed   CHANGE WHEN ADDING ITEMS !
+// Define all project thumbnails that will be displayed
 // Items on the top of the list will be last on the website !
 
 let itemdatabase = [
@@ -29,49 +23,70 @@ let itemdatabase = [
 `
 ]
 
-document.getElementById("projects-column-1").innerHTML = ``
-document.getElementById("projects-column-2").innerHTML = ``
-if(itemcount > 2){
-    document.getElementById("projects-column-3").innerHTML = ``
-}
+let itemcount = itemdatabase.length
 
-let sorththreecounter = 1
 
-for(let i = 1; i <= itemcount; i++) {
-    if(window.innerWidth <= "1159" && window.innerWidth > "779" || itemcount <= 2 && window.innerWidth > "779"){
-        if(sorththreecounter <= 2) {
-            if(sorththreecounter == 1) {
-                document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
-            }
-            if(sorththreecounter == 2) {
-                document.getElementById("projects-column-2").innerHTML += itemdatabase[itemdatabase.length-i]
-            }
-            /*if(sorththreecounter == 3) {
-                document.getElementById("projects-column-3").innerHTML += itemdatabase[itemdatabase.length-i]
-            }*/
-        } else {
-            sorththreecounter = 1
-            document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
-        }
-        sorththreecounter = sorththreecounter + 1
-    } else if(window.innerWidth <= "779" || itemcount == 1) {
-        document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
-    } else {
-        if(sorththreecounter <= 3) {
-            if(sorththreecounter == 1) {
-                document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
-            }
-            if(sorththreecounter == 2) {
-                document.getElementById("projects-column-2").innerHTML += itemdatabase[itemdatabase.length-i]
-            }
-            if(sorththreecounter == 3) {
-                document.getElementById("projects-column-3").innerHTML += itemdatabase[itemdatabase.length-i]
-            }
-        } else {
-            sorththreecounter = 1
-            document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
-        }
-        sorththreecounter = sorththreecounter + 1
+
+function projectListSort3d(){
+    document.getElementById("projects-column-1").innerHTML = ``
+    document.getElementById("projects-column-2").innerHTML = ``
+    if(itemcount > 2){
+        document.getElementById("projects-column-3").innerHTML = ``
     }
-    
+
+    let sorththreecounter = 1
+
+    for(let i = 1; i <= itemcount; i++) {
+        if(window.innerWidth <= "1079" && window.innerWidth > "699" || itemcount <= 2 && window.innerWidth > "699"){
+            if(sorththreecounter <= 2) {
+                if(sorththreecounter == 1) {
+                    document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
+                }
+                if(sorththreecounter == 2) {
+                    document.getElementById("projects-column-2").innerHTML += itemdatabase[itemdatabase.length-i]
+                }
+                /*if(sorththreecounter == 3) {
+                    document.getElementById("projects-column-3").innerHTML += itemdatabase[itemdatabase.length-i]
+                }*/
+            } else {
+                sorththreecounter = 1
+                document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
+            }
+            sorththreecounter = sorththreecounter + 1
+        } else if(window.innerWidth <= "699" || itemcount == 1) {
+            document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
+        } else {
+            if(sorththreecounter <= 3) {
+                if(sorththreecounter == 1) {
+                    document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
+                }
+                if(sorththreecounter == 2) {
+                    document.getElementById("projects-column-2").innerHTML += itemdatabase[itemdatabase.length-i]
+                }
+                if(sorththreecounter == 3) {
+                    document.getElementById("projects-column-3").innerHTML += itemdatabase[itemdatabase.length-i]
+                }
+            } else {
+                sorththreecounter = 1
+                document.getElementById("projects-column-1").innerHTML += itemdatabase[itemdatabase.length-i]
+            }
+            sorththreecounter = sorththreecounter + 1
+        }
+        
+    }
 }
+projectListSort3d()
+
+
+
+/*   Media queries   */
+
+window.matchMedia("(max-width: 1079px)").addEventListener("change", () => {
+    projectListSort3d()
+    animateProjectTiles()
+});
+
+window.matchMedia("(max-width: 699px)").addEventListener("change", () => {
+    projectListSort3d()
+    animateProjectTiles()
+});

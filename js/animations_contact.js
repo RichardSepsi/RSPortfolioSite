@@ -33,14 +33,14 @@ if (smalldvisibility == 1){
 
 
 anime({
-    targets: '.contact-title',
+    targets: '.contact-title-container',
     opacity: 1,
     duration: 1000,
     delay: 0,
     easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'
 });
 anime({
-    targets: '.contact-title',
+    targets: '.contact-title-container',
     translateY: [-30, 0],
     duration: 700,
     easing: 'cubicBezier(0.000, 0.000, 0.400, 1.000)'

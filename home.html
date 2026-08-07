@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" lang-i18n="sitewide.lang">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -14,8 +14,6 @@
     <script defer src="libraries/overlayscrollbars.js"></script>
     <script defer src="js/script.js"></script>
     <script defer src="js/languageselector.js"></script>
-    <script defer src="jslangadata/langdata_universal.js"></script>
-    <script defer src="jslangadata/langdata_home.js"></script>
     <script defer src="js/animations.js"></script>
     <script defer src="js/animations_home.js"></script>
     <script defer src="js/search.js"></script>
@@ -33,38 +31,10 @@
         </svg>
 
         <div class="nav-links">
-            <a class="nav-link" id="home.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-fix-1">
-                    <mask id="gradient-contact-mask-1"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-home"></text></mask>
-                    <linearGradient id="paint0_linear_3_10" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_10)" mask="url(#gradient-contact-mask-1)" id="svg-wdth-fix-1-2"/>
-                </svg>
-            </div></a>
-            <a class="nav-link" id="3d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                <svg width="96" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-fix-2">
-                    <mask id="gradient-contact-mask-2"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-3d"></text></mask>
-                    <linearGradient id="paint0_linear_3_11" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="96" height="24" class="n-l-color" fill="url(#paint0_linear_3_11)" mask="url(#gradient-contact-mask-2)" id="svg-wdth-fix-2-2"/>
-                </svg>
-            </div></a>
-            <a class="nav-link" id="2d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                <svg width="96" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-fix-3">
-                    <mask id="gradient-contact-mask-3"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-2d"></text></mask>
-                    <linearGradient id="paint0_linear_3_12" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="96" height="24" class="n-l-color" fill="url(#paint0_linear_3_12)" mask="url(#gradient-contact-mask-3)" id="svg-wdth-fix-3-2"/>
-                </svg>
-            </div></a>
-            <a class="nav-link" id="contact.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                <svg width="64" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-fix-4">
-                    <mask id="gradient-contact-mask-4"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-nav-contact"></text></mask>
-                    <linearGradient id="paint0_linear_3_13" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_13)" mask="url(#gradient-contact-mask-4)" id="svg-wdth-fix-4-2"/>
-                </svg>
-            </div></a>
+            <a class="nav-link" id="home.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.home"></span></a>
+            <a class="nav-link" id="3d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.sec3d"></span></a>
+            <a class="nav-link" id="2d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.sec2d"></span></a>
+            <a class="nav-link" id="contact.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.contact"></span></a>
             
             <div style="margin-left: 20px; position: relative; width: 28px; height: 28px;" class="nav-mobile-menu" onclick="openmobilenavmenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#E6E6E6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="navmenuicon">
@@ -78,7 +48,7 @@
             </div>
 
             <div style="margin-left: 20px; position: relative; width: 28px; height: 28px;">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#E6E6E6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="searchicon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="#E6E6E6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="searchicon" id="searchicon-main">
                     <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="28" height="28" viewBox="0 0 24 24" stroke="url(#paint0_linear_131_18)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="searchicon-colored">
@@ -90,38 +60,10 @@
         </div>
 
         <div class="nav-mobile-container">
-            <a class="nav-link-mobile" id="home.html" onclick="fadeout(this.id)"><div class="n-l-c">
-                <svg width="46" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-mob-fix-1">
-                    <mask id="gradient-contact-mask-13"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-mnav-home"></text></mask>
-                    <linearGradient id="paint0_linear_3_103" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_103)" mask="url(#gradient-contact-mask-13)" id="svg-wdth-mob-fix-1-2"/>
-                </svg>
-            </div></a>
-            <a class="nav-link-mobile" id="3d.html" onclick="fadeout(this.id)"><div class="n-l-c">
-                <svg width="96" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-mob-fix-2">
-                    <mask id="gradient-contact-mask-23"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-mnav-3d"></text></mask>
-                    <linearGradient id="paint0_linear_3_113" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="96" height="24" class="n-l-color" fill="url(#paint0_linear_3_113)" mask="url(#gradient-contact-mask-23)" id="svg-wdth-mob-fix-2-2"/>
-                </svg>
-            </div></a>
-            <a class="nav-link-mobile" id="2d.html" onclick="fadeout(this.id)"><div class="n-l-c">
-                <svg width="96" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-mob-fix-3">
-                    <mask id="gradient-contact-mask-33"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-mnav-2d"></text></mask>
-                    <linearGradient id="paint0_linear_3_123" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="96" height="24" class="n-l-color" fill="url(#paint0_linear_3_123)" mask="url(#gradient-contact-mask-33)" id="svg-wdth-mob-fix-3-2"/>
-                </svg>
-            </div></a>
-            <a class="nav-link-mobile" id="contact.html" onclick="fadeout(this.id)"><div class="n-l-c">
-                <svg width="64" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg-wdth-mob-fix-4">
-                    <mask id="gradient-contact-mask-43"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="600" font-size="16px" id="langs-mnav-contact"></text></mask>
-                    <linearGradient id="paint0_linear_3_133" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                    <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                    <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_133)" mask="url(#gradient-contact-mask-43)" id="svg-wdth-mob-fix-4-2"/>
-                </svg>
-            </div></a>
+            <a class="nav-link-mobile" id="home.html" onclick="fadeout(this.id)"><span class="nav-link-text" data-i18n="sitewide.nav.home"></span></a>
+            <a class="nav-link-mobile" id="3d.html" onclick="fadeout(this.id)"><span class="nav-link-text" data-i18n="sitewide.nav.sec3d"></span></a>
+            <a class="nav-link-mobile" id="2d.html" onclick="fadeout(this.id)"><span class="nav-link-text" data-i18n="sitewide.nav.sec2d"></span></a>
+            <a class="nav-link-mobile" id="contact.html" onclick="fadeout(this.id)"><span class="nav-link-text" data-i18n="sitewide.nav.contact"></span></a>
         </div>
 
         <div class="language-selector" id="language-selector">
@@ -156,8 +98,8 @@
     <div class="content-container" id="content-container">
         <div class="main-screen">
             <div class="scroll-down-container">
-                <span class="scroll-down-anime-1"><span class="scroll-down-text" id="langs-text-sroll"></span>
-                <span class="scroll-down-text" id="langs-text-sroll2"></span></span>
+                <span class="scroll-down-anime-1"><span class="scroll-down-text" data-i18n="home.intro.scroll"></span>
+                <span class="scroll-down-text" data-i18n="home.intro.scroll2"></span></span>
                 <img src="assets/scroll-down.svg" class="scroll-down-anime-2" draggable="false">
             </div>
             <div class="home-left">
@@ -175,15 +117,15 @@
             </div>
             <div class="home-right">
                 <div class="title-content">
-                    <span class="header title-anime-1" id="langs-text-greeting"></span>
-                    <span class="title-name title-anime-2" id="langs-main-name">Richard Sepši</span>
+                    <span class="header title-anime-1" data-i18n="home.intro.greeting"></span>
+                    <div class="home-name-wrapper title-anime-2"><div class="home-name-container"><span class="title-name2" data-i18n="home.intro.name"></span><span class="title-name" data-i18n="home.intro.name"></span></div></div>
                     <div class="title-social-container title-anime-3">
                         <a href="https://www.artstation.com/richardsepsi" draggable="false"><img src="assets/social/artstation.svg" width="26px" draggable="false" class="social-button-hover"></a>
                         <a href="https://dribbble.com/RichardSepsi/" draggable="false"><img src="assets/social/dribbble.svg" width="26px" draggable="false" class="social-button-hover"></a>
                         <a href="https://github.com/RichardSepsi" draggable="false"><img src="assets/social/github.svg" width="26px" draggable="false" class="social-button-hover"></a>
                         <a href="https://www.linkedin.com/in/richard-sep%C5%A1i-43b247144/" draggable="false"><img src="assets/social/linkedin.svg" width="26px" draggable="false" class="social-button-hover"></a>
                     </div>
-                    <span class="title-text title-anime-4" id="langs-text-shortdesc">
+                    <span class="title-text title-anime-4" data-i18n="home.intro.shortdesc">
                     </span>
                 </div>
             </div>
@@ -191,51 +133,54 @@
         <div class="home-content-container">
             <div class="about-me-container">
                 <div style="position: absolute; top: 0; left: 0; height: 100%; width: 0%; background-color: #1C1C1C;" class="aboutme-anime-1"></div>
-                <svg width="151px" height="39px" style="margin-top: 25px; margin-right: 90px; opacity: 0; transform: translateY(-20px);" class="aboutme-anime-svg" id="langs-size-aboutme">
-                    <text x="50%" y="70%" text-anchor="middle" fill="#4D4D4D" font-weight="600" font-size="32px" stroke="#4D4D4D" stroke-width="1.8" id="langs-text-aboutme"></text>
-                    <text x="50%" y="70%" text-anchor="middle" fill="url(#paint0_linear_217_2)" font-weight="600" font-size="32px" id="langs-text-aboutme2"></text>
-                    <defs><linearGradient id="paint0_linear_217_2" x1="77.5" y1="40" x2="89" y2="-25" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#0CC5F7"/><stop offset="1" stop-color="#035AE1"/></linearGradient></defs>
-                </svg>
+                <div class="section-header-wrapper aboutme-anime-svg" style="opacity: 0; transform: translateY(-20px);">
+                    <div class="section-header-container">
+                        <div class="title-part-wrapper"><span class="section-header-text2" data-i18n="home.aboutme.title"></span></div>
+                        <div class="title-part-wrapper title-gradient-selector"><span class="section-header-text" data-i18n="home.aboutme.title"></span></div>
+                    </div>
+                </div>
                 <div class="section-content-wrapper aboutme-anime-2" style="opacity: 0; transform: translateX(-20px);">
-                    <div style="height: 24px;"></div>
-                    <span class="about-me-title aboutme-anime-text-1" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetitle1"></span>
+                    <span class="about-me-title aboutme-anime-text-1" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s1title"></span>
                     <div class="ats-separation aboutme-anime-text-1" style="opacity: 0; transform: translateX(-20px);"></div>
-                    <div class="about-me-text aboutme-anime-text-2" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext1"></div>
-                    <div class="about-me-text aboutme-anime-text-3" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext2"></div>
-                    <div class="about-me-text aboutme-anime-text-4" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext3"></div>
+                    <div class="about-me-text aboutme-anime-text-2" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s1text1"></div>
+                    <div class="about-me-text aboutme-anime-text-3" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s1text2"></div>
+                    <div class="about-me-text aboutme-anime-text-4" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s1text3"></div>
                     <div style="height: 32px;"></div>
-                    <span class="about-me-title aboutme-anime-text-5" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetitle2"></span>
+                    <span class="about-me-title aboutme-anime-text-5" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s2title"></span>
                     <div class="ats-separation aboutme-anime-text-5" style="opacity: 0; transform: translateX(-20px);"></div>
-                    <div class="about-me-text aboutme-anime-text-6" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext4"></div>
-                    <div class="about-me-text aboutme-anime-text-7" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext4-2"></div>
-                    <div class="about-me-text aboutme-anime-text-8" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext4-3"></div>
+                    <div class="about-me-text aboutme-anime-text-6" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s2text1"></div>
+                    <div class="about-me-text aboutme-anime-text-7" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s2text2"></div>
+                    <div class="about-me-text aboutme-anime-text-8" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s2text3"></div>
                     <div style="height: 32px;"></div>
-                    <span class="about-me-title aboutme-anime-text-9" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetitle3"></span>
+                    <span class="about-me-title aboutme-anime-text-9" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s3title"></span>
                     <div class="ats-separation aboutme-anime-text-9" style="opacity: 0; transform: translateX(-20px);"></div>
-                    <div class="about-me-text aboutme-anime-text-10" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext5"></div>
-                    <div class="about-me-text aboutme-anime-text-11" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetext5-2"></div>
-                    <div style="height: 32px;"></div>
-                    <span class="about-me-title aboutme-anime-text-12" style="opacity: 0; transform: translateX(-20px);" id="langs-text-aboutmetitle4" style="display: none;"></span>
+                    <div class="about-me-text aboutme-anime-text-10" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s3text1"></div>
+                    <div class="about-me-text aboutme-anime-text-11" style="opacity: 0; transform: translateX(-20px);" data-i18n="home.aboutme.s3text2"></div>
+                    <!--<div style="height: 32px;"></div>
+                    <span class="about-me-title aboutme-anime-text-12" style="opacity: 0; transform: translateX(-20px);" style="display: none;" data-i18n="home.aboutme.s4title"></span>
                     <div class="ats-separation aboutme-anime-text-12" style="display: none;"></div>
-                    <div class="about-me-text aboutme-anime-text-13" id="langs-text-aboutmetext6" style="display: none;"></div>
+                    <div class="about-me-text aboutme-anime-text-13" style="display: none;"  data-i18n="home.aboutme.s4text1"></div>-->
                 </div>
                 <div style="width: 120px;"></div>
             </div>
             <div class="skills-container">
-                <svg width="151px" height="78px" style="margin-right: 90px; transform: translateY(-20px); opacity: 0;" class="skills-anime-1" id="langs-text-skilsoftwaresvg">
-                    <text x="0%" y="32" text-anchor="right" fill="#4D4D4D" font-weight="600" font-size="32px" stroke="#4D4D4D" stroke-width="1.8" id="langs-text-skillsandsoftware"></text>
-                    <text x="90" y="32" text-anchor="right" fill="#373737" font-weight="600" font-size="32px" stroke="#373737" stroke-width="1.8" id="langs-text-skillsandsoftware2"></text>
-                    <text x="90" y="32" text-anchor="right" fill="#4D4D4D" font-weight="600" font-size="32px" id="langs-text-skillsandsoftware3"></text>
-                    <text x="0%" y="32" text-anchor="right" fill="url(#paint0_linear_217_2)" font-weight="600" font-size="32px" id="langs-text-skillsandsoftware5"></text>
-                    <text x="0%" y="32" dy="1.2em" text-anchor="right" fill="#4D4D4D" font-weight="600" font-size="32px" stroke="#4D4D4D" stroke-width="1.8" id="resp-home1">Software</text>
-                    <text x="0%" y="32" dy="1.2em" text-anchor="right" fill="url(#paint0_linear_217_2)" font-weight="600" font-size="32px" id="resp-home2">Software</text>
-                    <defs><linearGradient id="paint0_linear_217_2" x1="77.5" y1="40" x2="89" y2="-25" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#0CC5F7"/><stop offset="1" stop-color="#035AE1"/></linearGradient></defs>
-                </svg>
+                <div class="section-header-wrapper skills-anime-1" style="opacity: 0; transform: translateY(-20px);">
+                    <div class="section-header-container">
+                        <div class="title-part-wrapper">
+                            <span class="section-header-text2" data-i18n="home.skillsandsoftware.title"></span>
+                            <span class="section-header-lessertext2" data-i18n="home.skillsandsoftware.title2"></span>
+                            <span class="section-header-text2" data-i18n="home.skillsandsoftware.title1p2"></span>
+                        </div>
+                        <div class="title-part-wrapper title-gradient-selector">
+                            <span class="section-header-text" data-i18n="home.skillsandsoftware.title"></span>
+                            <span class="section-header-lessertext" data-i18n="home.skillsandsoftware.title2"></span>
+                            <span class="section-header-text" data-i18n="home.skillsandsoftware.title1p2"></span>
+                        </div>
+                    </div>
+                </div>
                 <div class="section-content-wrapper row sas-c-wrapper">
                     <div style="display: flex; flex-direction: row;" class="resp-home3"><div class="skill-category">
-                        <span class="skill-category-name skills-anime-2" style="opacity: 0; transform: translateY(-10px);" id="langs-text-skillsfotware1m"></span>
+                        <span class="skill-category-name skills-anime-2" style="opacity: 0; transform: translateY(-10px);" data-i18n="home.skillsandsoftware.skills3dg"></span>
                         <div class="scn-separation"></div>
                         <div class="skill-tags skills-anime-6" style="opacity: 0;">
                             <div class="skill-tag">Modeling</div>
@@ -244,10 +189,10 @@
                             <div class="skill-tag">Rendering</div>
                             <div class="skill-tag">Post-processing</div>
                         </div>
-                        <div class="fake-skill-tag skills-anime-6" style="opacity: 0;" id="langs-text-skillsfotwaresub1"></div>
+                        <div class="fake-skill-tag skills-anime-6" style="opacity: 0;" data-i18n="home.skillsandsoftware.alotmore"></div>
                     </div>
                     <div class="skill-category">
-                        <span class="skill-category-name skills-anime-3" style="opacity: 0; transform: translateY(-10px);" id="langs-text-skillsfotware0"></span>
+                        <span class="skill-category-name skills-anime-3" style="opacity: 0; transform: translateY(-10px);" data-i18n="home.skillsandsoftware.skills2dg"></span>
                         <div class="scn-separation"></div>
                         <div class="skill-tags skills-anime-7" style="opacity: 0;">
                             <div class="skill-tag">Web design</div>
@@ -258,7 +203,7 @@
                         </div>
                     </div></div>
                     <div style="display: flex; flex-direction: row;" class="resp-home4"><div class="skill-category">
-                        <span class="skill-category-name skills-anime-4" style="opacity: 0; transform: translateY(-10px);" id="langs-text-skillsfotware1"></span>
+                        <span class="skill-category-name skills-anime-4" style="opacity: 0; transform: translateY(-10px);" data-i18n="home.skillsandsoftware.coding"></span>
                         <div class="scn-separation"></div>
                         <div class="skill-tags skills-anime-8" style="opacity: 0;">
                             <div class="skill-tag">HTML</div>
@@ -266,11 +211,11 @@
                             <div class="skill-tag-empty"></div>
                             <div class="skill-tag">JavaScript</div>
                             <div class="skill-tag-empty"></div>
-                            <div class="skill-tag" id="langs-text-skillsfotwaresub2"></div>
+                            <div class="skill-tag" data-i18n="home.skillsandsoftware.python"></div>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <span class="skill-category-name skills-anime-5" style="opacity: 0; transform: translateY(-10px);" id="langs-text-skillsfotware2"></span>
+                        <span class="skill-category-name skills-anime-5" style="opacity: 0; transform: translateY(-10px);" data-i18n="home.skillsandsoftware.other"></span>
                         <div class="scn-separation"></div>
                         <div class="skill-tags skills-anime-9" style="opacity: 0;">
                             <div class="skill-tag">Photogrammetry</div>
@@ -284,16 +229,78 @@
             </div>
             <div class="software-container">
                 <div class="section-content-wrapper row">
-                    <div class="software-category-container software-anime-1" style="height: 0px; opacity: 0;">
+                    <div class="software-blocks-container">
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/blender.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Blender</span><span class="software-tooltip-text" data-i18n="home.softwareusage.blender"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/c4d.png" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Cinema 4D (R19)</span><span class="software-tooltip-text" data-i18n="home.softwareusage.c4d"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/ue.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Unreal Engine</span><span class="software-tooltip-text" data-i18n="home.softwareusage.ue"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/fedora.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Fedora Linux</span><span class="software-tooltip-text" id=""></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/windows.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Windows 10 & 11</span><span class="software-tooltip-text" id=""></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/designer.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Substance Designer</span><span class="software-tooltip-text" data-i18n="home.softwareusage.sdesigner"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/painter.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Substance Painter</span><span class="software-tooltip-text" data-i18n="home.softwareusage.spainter"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/mixer.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Quixel Mixer</span><span class="software-tooltip-text" data-i18n="home.softwareusage.qmixer"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/gaea.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Gaea</span><span class="software-tooltip-text" data-i18n="home.softwareusage.gaea"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/codium.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">VScodium / VSCode</span><span class="software-tooltip-text" id=""></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/realityscan.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Reality Scan</span><span class="software-tooltip-text" data-i18n="home.softwareusage.rscan"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/realitycapture.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Reality Capture (discontinued)</span><span class="software-tooltip-text" id=""></span></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/meshroom.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Meshroom</span><span class="software-tooltip-text" data-i18n="home.softwareusage.meshroom"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/gimp.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Gimp</span><span class="software-tooltip-text" data-i18n="home.softwareusage.gimp"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/rawtherapee.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">RawTherapee / ART</span><span class="software-tooltip-text" data-i18n="home.softwareusage.rawtherapee"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/darktable.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Darktable</span><span class="software-tooltip-text" data-i18n="home.softwareusage.darktable"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/lightroomclassic.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Lightroom Classic</span><span class="software-tooltip-text" data-i18n="home.softwareusage.lightroomc"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/figma.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Figma</span><span class="software-tooltip-text" data-i18n="home.softwareusage.figma"></span></div></div>
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/inkscape.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Inkscape</span><span class="software-tooltip-text" data-i18n="home.softwareusage.inkscape"></span></div></div>
+                        </div>
+                        <div class="software-block">
+                            <div class="software-tooltip-container"><img class="software-icon" src="assets/software/fontforge.svg" draggable="false">
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">FontForge</span><span class="software-tooltip-text" data-i18n="home.softwareusage.fontforge"></span></div></div>
+                        </div>
+                    </div>
+                    <!--<div class="software-category-container software-anime-1" style="height: 0px; opacity: 0;">
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/blender.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Blender</span><span class="software-tooltip-text" id="langs-softwaretooltip2m"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Blender</span><span class="software-tooltip-text" data-i18n="home.softwareusage.blender"></span></div></div>
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/c4d.png" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Cinema 4D (R19)</span><span class="software-tooltip-text" id="langs-softwaretooltip1m"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Cinema 4D (R19)</span><span class="software-tooltip-text" data-i18n="home.softwareusage.c4d"></span></div></div>
                     </div>
                     <div style="display: flex; flex-direction: column; opacity: 0; height: 395.72px;" class="software-anime-7">
                         <div class="software-category-container software-anime-2" style="height: 0px; opacity: 0;">
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/ue.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Unreal Engine</span><span class="software-tooltip-text" id="langs-softwaretooltip0"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Unreal Engine</span><span class="software-tooltip-text" data-i18n="home.softwareusage.ue"></span></div></div>
                         </div>
                         <div style="height: 31px;"></div>
                         <div class="software-category-container last software-anime-8" style="height: 0px;">
@@ -305,16 +312,16 @@
                     </div>
                     <div class="software-category-container software-anime-3" style="height: 0px; opacity: 0;">
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/designer.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Substance Designer</span><span class="software-tooltip-text" id="langs-softwaretooltip1"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Substance Designer</span><span class="software-tooltip-text" data-i18n="home.softwareusage.sdesigner"></span></div></div>
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/painter.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Substance Painter</span><span class="software-tooltip-text" id="langs-softwaretooltip2"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Substance Painter</span><span class="software-tooltip-text" data-i18n="home.softwareusage.spainter"></span></div></div>
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/mixer.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Quixel Mixer</span><span class="software-tooltip-text" id="langs-softwaretooltip3"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Quixel Mixer</span><span class="software-tooltip-text" data-i18n="home.softwareusage.qmixer"></span></div></div>
                     </div>
                     <div style="display: flex; flex-direction: column; opacity: 0; height: 324.72px;" class="software-anime-7">
                         <div class="software-category-container software-anime-4" style="height: 0px; opacity: 0;">
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/gaea.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Gaea</span><span class="software-tooltip-text" id="langs-softwaretooltip4"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Gaea</span><span class="software-tooltip-text" data-i18n="home.softwareusage.gaea"></span></div></div>
                         </div>
                         <div style="height: 31px;"></div>
                         <div class="software-category-container software-anime-9" style="height: 0px;">
@@ -324,48 +331,48 @@
                     </div>
                     <div class="software-category-container software-anime-5" style="height: 0px; opacity: 0;">
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/realityscan.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Reality Scan</span><span class="software-tooltip-text" id="langs-softwaretooltip5"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Reality Scan</span><span class="software-tooltip-text" data-i18n="home.softwareusage.rscan"></span></div></div>
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/realitycapture.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Reality Capture (discontinued)</span><span class="software-tooltip-text" id=""><!--id="langs-softwaretooltip6"--></span></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Reality Capture (discontinued)</span><span class="software-tooltip-text" id=""></span></span></div></div>
                         <div class="software-tooltip-container"><img class="software-icon" src="assets/software/meshroom.svg" draggable="false">
-                        <div class="software-tooltip-window"><span class="software-tooltip-title">Meshroom</span><span class="software-tooltip-text" id="langs-softwaretooltip7"></span></div></div>
+                        <div class="software-tooltip-window"><span class="software-tooltip-title">Meshroom</span><span class="software-tooltip-text" data-i18n="home.softwareusage.meshroom"></span></div></div>
                     </div>
                     <div style="display: flex; flex-direction: column; opacity: 0; /*height: 352.72px;*/" class="software-anime-7">
                         <div class="software-category-container software-anime-6" style="height: 0px; opacity: 0;">
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/gimp.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Gimp</span><span class="software-tooltip-text" id="langs-softwaretooltip8"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Gimp</span><span class="software-tooltip-text" data-i18n="home.softwareusage.gimp"></span></div></div>
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/rawtherapee.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">RawTherapee / ART</span><span class="software-tooltip-text" id="langs-softwaretooltip14"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">RawTherapee / ART</span><span class="software-tooltip-text" data-i18n="home.softwareusage.rawtherapee"></span></div></div>
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/darktable.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Darktable</span><span class="software-tooltip-text" id="langs-softwaretooltip9"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Darktable</span><span class="software-tooltip-text" data-i18n="home.softwareusage.darktable"></span></div></div>
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/lightroomclassic.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Lightroom Classic</span><span class="software-tooltip-text" id="langs-softwaretooltip13"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Lightroom Classic</span><span class="software-tooltip-text" data-i18n="home.softwareusage.lightroomc"></span></div></div>
                         </div>
                     </div>
                     <div style="display: flex; flex-direction: column; opacity: 0; height: 395.72px;" class="software-anime-7">
                         <div class="software-category-container last software-anime-8" style="height: 0px;">
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/figma.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Figma</span><span class="software-tooltip-text" id="langs-softwaretooltip10"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Figma</span><span class="software-tooltip-text" data-i18n="home.softwareusage.figma"></span></div></div>
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/inkscape.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">Inkscape</span><span class="software-tooltip-text" id="langs-softwaretooltip11"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">Inkscape</span><span class="software-tooltip-text" data-i18n="home.softwareusage.inkscape"></span></div></div>
                         </div>
                         <div style="height: 31px;"></div>
                         <div class="software-category-container last software-anime-9" style="height: 0px;">
                             <div class="software-tooltip-container"><img class="software-icon" src="assets/software/fontforge.svg" draggable="false">
-                            <div class="software-tooltip-window"><span class="software-tooltip-title">FontForge</span><span class="software-tooltip-text" id="langs-softwaretooltip12"></span></div></div>
+                            <div class="software-tooltip-window"><span class="software-tooltip-title">FontForge</span><span class="software-tooltip-text" data-i18n="home.softwareusage.fontforge"></span></div></div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
         <div class="education-container">
             <div style="position: absolute; top: 0; left: 0; height: 100%; width: 0%; background-color: #1C1C1C;" class="education-anime-1"></div>
-            <svg width="156px" height="78px" style="margin-right: 85px; transform: translateY(-25px); opacity: 0;" class="education-anime-svg" id="langs-text-skilsoftwaresvg">
-                <text x="0%" y="32" text-anchor="right" fill="#4D4D4D" font-weight="600" font-size="32px" stroke="#4D4D4D" stroke-width="1.8" id="langs-text-education"></text>
-                <text x="0%" y="32" text-anchor="right" fill="url(#paint0_linear_217_2)" font-weight="600" font-size="32px" id="langs-text-education2"></text>
-                <defs><linearGradient id="paint0_linear_217_2" x1="77.5" y1="40" x2="89" y2="-25" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#0CC5F7"/><stop offset="1" stop-color="#035AE1"/></linearGradient></defs>
-            </svg>
+            <div class="section-header-wrapper education-anime-svg" style="opacity: 0; transform: translateY(-20px);">
+                <div class="section-header-container">
+                    <div class="title-part-wrapper"><span class="section-header-text2" data-i18n="home.education.title"></span></div>
+                    <div class="title-part-wrapper title-gradient-selector"><span class="section-header-text" data-i18n="home.education.title"></span></div>
+                </div>
+            </div>
             <div class="section-content-wrapper education-anime-2 education-content-wrapper" style="opacity: 0; transform: translateX(-20px);">
                 <div class="education-timeline">
                     <div class="education-timeline-years">
@@ -386,10 +393,10 @@
                             <span style="color: #e6e6e6; font-size: 20px; font-weight: 600;" class="education-entry-name">Spojená škola Svätej Rodiny - gymnázium</span>
                             <div style="margin-top: 6px; display: flex; flex-direction: row; flex-wrap: wrap; gap: 6px;">
                                 <div style="display: flex; align-items: center;"><img src="assets/clock.svg">
-                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-normal" id="langs-text-education-longdate1"></span>
-                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-short">Sep. 2017 - Jun. 2025</span></div>
+                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-normal" data-i18n="home.education.i1tperiod"></span>
+                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-short">09.2017 - 06.2025</span></div>
                                 <div style="display: flex; align-items: center;" class="education-entry-location"><img src="assets/map-pin.svg">
-                                <span style="font-weight: 500; color: #969696; margin-left: 11px;" class="education-location" id="langs-text-education-location-ba"></span></div>
+                                <span style="font-weight: 500; color: #969696; margin-left: 11px;" class="education-location" data-i18n="home.education.i1location"></span></div>
                             </div>
                         </div>
                     </div>
@@ -397,13 +404,13 @@
                     <div class="education-entry-container">
                         <img src="assets/vse.svg" width="auto" height="100%" draggable="false" style="max-height: 62px;" class="education-entry-logo">
                         <div style="margin-left: 26px; display: flex; flex-direction: column;" class="education-entry-text-wrapper">
-                            <span style="color: #e6e6e6; font-size: 20px; font-weight: 600;" class="education-entry-name" id="langs-text-education-name2"></span>
+                            <span style="color: #e6e6e6; font-size: 20px; font-weight: 600;" class="education-entry-name" data-i18n="home.education.i2title"></span>
                             <div style="margin-top: 6px; display: flex; flex-direction: row; flex-wrap: wrap; gap: 6px;">
                                 <div style="display: flex; align-items: center;"><img src="assets/clock.svg">
-                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-normal" id="langs-text-education-longdate2"></span>
-                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-short">Sep. 2025 - Jan. 2029</span></div>
+                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-normal" data-i18n="home.education.i2tperiod"></span>
+                                <span style="font-weight: 500; color: #969696; margin-left: 11px; margin-right: 14px;" class="education-date-short">09.2025 - 01.2029</span></div>
                                 <div style="display: flex; align-items: center;" class="education-entry-location"><img src="assets/map-pin.svg">
-                                <span style="font-weight: 500; color: #969696; margin-left: 11px;" class="education-location" id="langs-text-education-location-pg"></span></div>
+                                <span style="font-weight: 500; color: #969696; margin-left: 11px;" class="education-location" data-i18n="home.education.i2location"></span></div>
                             </div>
                         </div>
                     </div>
@@ -427,45 +434,17 @@
                     <a href="https://www.linkedin.com/in/richard-sep%C5%A1i-43b247144/" draggable="false"><img src="assets/social/linkedin.svg" width="26px" draggable="false" class="social-button-hover"></a>
                 </div>
                 <div class="footer-action-line">
-                    <a class="footer-action-link" onclick="scrolltothetop()" id="langs-foot-scroll"></a>
+                    <a class="footer-action-link" onclick="scrolltothetop()" data-i18n="sitewide.footer.scroll"></a>
                 </div>
                 <div class="footer-action-line">
-                    <a href="https://github.com/RichardSepsi/RSPortfolioSite/blob/main/README.md" draggable="false" class="footer-action-link" id="langs-foot-info"></a>
+                    <a href="https://github.com/RichardSepsi/RSPortfolioSite/blob/main/README.md" draggable="false" class="footer-action-link" data-i18n="sitewide.footer.info"></a>
                 </div>
             </div>
             <div class="footer-nav">
-                <a class="nav-link footer" id="home.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                    <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="gradient-contact-mask-12"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-home"></text></mask>
-                        <linearGradient id="paint0_linear_3_102" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                        <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                        <rect width="46" height="24" class="n-l-color" fill="url(#paint0_linear_3_102)" mask="url(#gradient-contact-mask-12)"/>
-                    </svg>
-                </div></a>
-                <a class="nav-link footer" id="3d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                    <svg width="96" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-3dfix">
-                        <mask id="gradient-contact-mask-22"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-3d"></text></mask>
-                        <linearGradient id="paint0_linear_3_112" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                        <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                        <rect width="96" height="24" class="n-l-color" fill="url(#paint0_linear_3_112)" mask="url(#gradient-contact-mask-22)" id="langs-foot-3dfix-2"/>
-                    </svg>
-                </div></a>
-                <a class="nav-link footer" id="2d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                    <svg width="96" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-2dfix">
-                        <mask id="gradient-contact-mask-32"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-2d"></text></mask>
-                        <linearGradient id="paint0_linear_3_122" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                        <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                        <rect width="96" height="24" class="n-l-color" fill="url(#paint0_linear_3_122)" mask="url(#gradient-contact-mask-32)" id="langs-foot-2dfix-2"/>
-                    </svg>
-                </div></a>
-                <a class="nav-link footer" id="contact.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><div class="n-l-c">
-                    <svg width="64" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" id="langs-foot-contactfix">
-                        <mask id="gradient-contact-mask-42"><text x="50%" y="70%" text-anchor="middle" fill="#ffffff" font-weight="500" font-size="16px" id="langs-foot-contact"></text></mask>
-                        <linearGradient id="paint0_linear_3_132" x1="34.5" y1="-17.5" x2="29" y2="22" gradientUnits="userSpaceOnUse">
-                        <stop class="n-g-s"/><stop offset="1" class="n-g-e"/></linearGradient>
-                        <rect width="64" height="24" class="n-l-color" fill="url(#paint0_linear_3_132)" mask="url(#gradient-contact-mask-42)" id="langs-foot-contactfix-2"/>
-                    </svg>
-                </div></a>
+                <a class="nav-link footer" id="home.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.home"></a>
+                <a class="nav-link footer" id="3d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.sec3d"></a>
+                <a class="nav-link footer" id="2d.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.sec2d"></a>
+                <a class="nav-link footer" id="contact.html" onclick="fadeout(this.id)" onauxclick="middleclicklink(this.id, event)"><span class="nav-link-text" data-i18n="sitewide.nav.contact"></a>
             </div>
         </div>
     </div>
