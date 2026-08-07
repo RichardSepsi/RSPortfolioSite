@@ -335,6 +335,12 @@
 }
 
 
+
+#photography-folder-nav-container{
+    width: 100%;
+}
+
+
 /* responsivity */
 
 .grid-column:empty{
@@ -363,19 +369,24 @@
         max-width: 580px;
     }
 }
-@media screen and (max-width: 797px) {
+@media screen and (max-width: 879px) {
     #photography-album-name{
         margin: 0 46px;
     }
-    .photography-nav-grid-3{
-        padding-left: 0px;
+}
+@media screen and (max-width: 789px) {
+    #photography-album-name{
+        margin: 0 35px;
     }
 }
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 739px) {
     #photography-album-date{
         display: none;
     }
     .project-link-button-label{
+        display: none;
+    }
+    .photography-nav-grid-3{
         display: none;
     }
 }
@@ -384,78 +395,32 @@
         padding: 95px 10px 0 10px;
     }
 }
-@media screen and (max-width: 554px) {
+@media screen and (max-width: 599px) {
     #photography-album-name{
-        margin: 0 34px;
-    }
-}
-@media screen and (max-width: 489px) {
-    #photography-album-name{
-        margin: 0 28px;
-    }
-}
-@media screen and (max-width: 440px) {
-    .photography-nav-grid-3{
-        display: none;
-    }
-    #photography-folder-nav-container{
-        margin-left: 24px !important;
-        width: stretch;
-        width: -moz-available;
-        width: -webkit-fill-available;
-    }
-    .photography-folder-nav-container{
-        grid-template-columns: 1fr auto 0fr;
-    }
-}
-@media screen and (max-width: 420px) {
-    .photography-nav-grid-2{
-        display: none;
-    }
-    .project-link-button-label{
-        display: block;
-    }
-    #photography-folder-nav-container{
-        margin-left: 34px !important;
-        margin-right: 0px;
-    }
-}
-@media screen and (max-width: 399px) {
-    .photography-nav-grid-2{
-        display: flex;
-    }
-    #photography-album-name {
         margin: 0 24px;
     }
-    .project-link-button-label{
-        display: none;
-    }
-    .photography-album-name-g1{
-        text-wrap: wrap;
-        line-height: 22px;
-    }
-    #photography-folder-nav-container{
-        margin-left: 14px !important;
+    .photography-folder-nav-container{
+        margin-left: -36px;
     }
 }
-@media screen and (max-width: 380px) {
-    #photography-folder-nav-container{
-        margin-left: 0px !important;
-        margin-right: 0px;
-        width: stretch;
-        width: -moz-available;
-        width: -webkit-fill-available;
-        display: flex;
-        justify-content: center;
-    }
-    .photography-album-name-g1{
-        text-align: start;
-    }
-    #photography-album-name{
-        margin-right: 0px;
-        margin-left: 12px;
-    }
+@media screen and (max-width: 554px) {
     #fotobr1{
         display: block !important;
+    }
+    .photography-folder-nav-container{
+        margin-left: -24px;
+    }
+}
+@media screen and (max-width: 389px) {
+    .photography-folder-nav-container{
+        margin-left: -12px;
+    }
+    #photography-album-name{
+        margin: 0 18px;
+    }
+}
+@media screen and (max-width: 369px) {
+    .photography-folder-nav-container{
+        margin-left: 0px;
     }
 }

@@ -1,4 +1,5 @@
 let defaultid = 1
+let currentimgnum
 
 function changeimgdef(clickid) {
     defaultid = clickid.replace(/sw-img/gi, "")
@@ -10,8 +11,9 @@ function selectimage(imgid) {
     let swvh = 100
     let swpx = 80
     let swaddpx = 20
+    currentimgnum = imagenum
 
-    document.getElementById("td-project-slide1").style.transform = "translateY(calc(-"+swvh*imagenum+"vh + "+swpx*imagenum+"px + "+swaddpx*imagenum+"px))"
+    document.getElementById("td-project-slide1").style.transform = "translateY("+(document.getElementById("td-project-slide1").clientHeight / document.getElementById("td-project-slide1").childElementCount * imagenum * (-1))+"px)"
     document.querySelectorAll(".project-slide-switcher-button").forEach(swbtn => {
         swbtn.classList.remove("selected")
     });
@@ -22,6 +24,15 @@ function selectimage(imgid) {
     
 }
 
+// auto slide rezise
+let resizeTimeout1;
+window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout1);
+  
+    resizeTimeout1 = setTimeout(() => {
+        document.getElementById("td-project-slide1").style.transform = "translateY("+(document.getElementById("td-project-slide1").clientHeight / document.getElementById("td-project-slide1").childElementCount * currentimgnum * (-1))+"px)"
+    }, 10);
+});
 
 var scrollingDirection = 0;
 var lastScroll = 9999;

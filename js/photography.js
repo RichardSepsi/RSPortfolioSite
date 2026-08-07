@@ -82,7 +82,8 @@ function fadeoutphotography (nhref) {
     injectI18n()
 
     let navbackupmargin = document.getElementById("photography-folder-nav-container").style.marginLeft
-    document.getElementById("photography-folder-nav-container").style.marginLeft = '54px'
+    document.getElementById("photography-folder-nav-container").style.marginRight = '-54px'
+    document.getElementById("photography-folder-nav-container").style.marginLeft = '0px'
 
         anime({
             targets: '#photography-grid-container',
@@ -140,6 +141,7 @@ function photography_back() {
         /*document.getElementById("photography-grid-container").innerHTML = photolanding*/
         document.getElementById("photography-folder-nav-container").innerHTML = navbackup
         document.getElementById("photography-folder-nav-container").style.marginLeft = navbackupmargin
+        document.getElementById("photography-folder-nav-container").style.marginRight = 'unset'
         injectI18n()
         photoaddcolumns()
         photographysort()
